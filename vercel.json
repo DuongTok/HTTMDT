@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin/index.html" },
+    { "source": "/admin/:path*", "destination": "/admin/:path*" },
+    { "source": "/user/:path*", "destination": "/user/:path*" },
+    { "source": "/user", "destination": "/user/index.html" },
+    { "source": "/styles.css", "destination": "/user/styles.css" },
+    { "source": "/data.js", "destination": "/user/data.js" },
+    { "source": "/app.js", "destination": "/user/app.js" },
+    { "source": "/", "destination": "/user/index.html" }
+  ]
+}
