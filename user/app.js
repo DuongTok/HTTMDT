@@ -1,5 +1,5 @@
 /* ==========================================================================
-   DINGDANGVIETNAM — EXACT REPLICA APPLICATION LOGIC (app.js)
+   NÉT DUYÊN — GIỮ NÉT VIỆT, TRỌN NÉT DUYÊN (app.js)
    ========================================================================== */
 
 const STORAGE_KEYS = {
@@ -92,7 +92,7 @@ function getCartSubtotal() {
 }
 
 function addToCart(productId, variantId, qty = 1, openDrawer = true) {
-  const product = DINGDANG_PRODUCTS.find(p => String(p.id) === String(productId));
+  const product = NETDUYEN_PRODUCTS.find(p => String(p.id) === String(productId));
   if (!product) return;
 
   const variant = (variantId && product.variants.find(v => String(v.id) === String(variantId))) || product.variants[0];
@@ -254,8 +254,8 @@ function handlePredictiveSearch(query) {
   const q = (query || "").trim().toLowerCase();
 
   const matches = q
-    ? DINGDANG_PRODUCTS.filter(p => p.title.toLowerCase().includes(q) || (p.product_type && p.product_type.toLowerCase().includes(q)))
-    : DINGDANG_PRODUCTS.slice(0, 5);
+    ? NETDUYEN_PRODUCTS.filter(p => p.title.toLowerCase().includes(q) || (p.product_type && p.product_type.toLowerCase().includes(q)))
+    : NETDUYEN_PRODUCTS.slice(0, 5);
 
   const displayList = matches.slice(0, 5);
   if (displayList.length === 0) {
@@ -327,7 +327,7 @@ function renderProductCardHTML(product, isCompact = false) {
         <div class="bls__product-details">
           ${product.isOriginal && !isCompact ? `
             <div class="product-card-tags">
-              <span>DINGDANG ORIGINAL</span>
+              <span>NÉT DUYÊN ORIGINAL</span>
             </div>
           ` : ""}
           <h3 class="bls__product-name">
@@ -353,11 +353,11 @@ function renderProductCardHTML(product, isCompact = false) {
    ========================================================================== */
 function getFilteredAndSortedProducts(slug) {
   let list = slug === "all"
-    ? [...DINGDANG_PRODUCTS]
-    : DINGDANG_PRODUCTS.filter(p => p.collections && p.collections.includes(slug));
+    ? [...NETDUYEN_PRODUCTS]
+    : NETDUYEN_PRODUCTS.filter(p => p.collections && p.collections.includes(slug));
 
   if (list.length === 0) {
-    list = [...DINGDANG_PRODUCTS];
+    list = [...NETDUYEN_PRODUCTS];
   }
 
   switch (state.sortBy) {
@@ -388,8 +388,8 @@ function getFilteredAndSortedProducts(slug) {
 
 function renderCollectionView(slug) {
   state.collectionSlug = slug || "ao-dai";
-  const colMeta = DINGDANG_COLLECTIONS[state.collectionSlug] || { title: state.collectionSlug.toUpperCase(), desc: "" };
-  document.title = `${colMeta.title} – DINGDANGVIETNAM`;
+  const colMeta = NETDUYEN_COLLECTIONS[state.collectionSlug] || { title: state.collectionSlug.toUpperCase(), desc: "" };
+  document.title = `${colMeta.title} – NÉT DUYÊN | Giữ nét Việt, trọn nét duyên.`;
 
   const allItems = getFilteredAndSortedProducts(state.collectionSlug);
   const totalPages = Math.max(1, Math.ceil(allItems.length / state.perPage));
@@ -524,9 +524,9 @@ function changeCollectionPage(page) {
    VIEW 2: HOMEPAGE (#home — Exact replica of dingdangvietnam.com/)
    ========================================================================== */
 function renderHomeView() {
-  document.title = "DINGDANGVIETNAM – Official Online Store";
-  const hotItems = DINGDANG_PRODUCTS.slice(0, 8);
-  const specialDeals = DINGDANG_PRODUCTS.filter(p => p.collections.includes("special-deals")).slice(0, 8);
+  document.title = "NÉT DUYÊN – Giữ nét Việt, trọn nét duyên.";
+  const hotItems = NETDUYEN_PRODUCTS.slice(0, 8);
+  const specialDeals = NETDUYEN_PRODUCTS.filter(p => p.collections.includes("special-deals")).slice(0, 8);
 
   const museImages = [
     "https://dingdangvietnam.com/cdn/shop/files/1789725324926_2068560641793806717_2068560641793806717_f11991394279088b902607028da9f4dd.jpg?v=1789726461&width=533",
@@ -545,7 +545,11 @@ function renderHomeView() {
   main.innerHTML = `
     <!-- 1. Hero Banner -->
     <div class="hero-slideshow" onclick="location.hash='#collections/ao-dai'">
-      <img src="https://dingdangvietnam.com/cdn/shop/files/banner_web_1.jpg?v=1790934586&width=2400" alt="DINGDANGVIETNAM" />
+      <img src="https://dingdangvietnam.com/cdn/shop/files/banner_web_1.jpg?v=1790934586&width=2400" alt="NÉT DUYÊN – Giữ nét Việt, trọn nét duyên." />
+      <div class="hero-banner-floating-badge">
+        <span class="badge-brand">NÉT DUYÊN</span>
+        <span class="badge-slogan">Giữ nét Việt, trọn nét duyên.</span>
+      </div>
     </div>
 
     <!-- 2. YOUR NEXT FAVOURITE -->
@@ -581,17 +585,17 @@ function renderHomeView() {
       <div class="container-fluid">
         <div class="dual-banner-grid">
           <div class="editorial-banner-item" onclick="location.hash='#collections/ao-dai'">
-            <img src="https://dingdangvietnam.com/cdn/shop/files/1792233332721_2307592614049898190_2307592614049898190_b2e14dd148b494a70c29e764820001c2.jpg?v=1792233508&width=900" alt="DINGDANG FOR A LITTLE MOMENT" />
+            <img src="https://dingdangvietnam.com/cdn/shop/files/1792233332721_2307592614049898190_2307592614049898190_b2e14dd148b494a70c29e764820001c2.jpg?v=1792233508&width=900" alt="NÉT DUYÊN FOR A LITTLE MOMENT" />
             <div class="editorial-banner-overlay">
-              <h3>DINGDANG FOR A LITTLE MOMENT</h3>
+              <h3>NÉT DUYÊN FOR A LITTLE MOMENT</h3>
               <p>When you feel a little extra</p>
               <span class="btn-banner">Khám phá ngay</span>
             </div>
           </div>
           <div class="editorial-banner-item" onclick="location.hash='#collections/ao-1'">
-            <img src="https://dingdangvietnam.com/cdn/shop/files/DD_ATELIER0362_copy_5_e9693423-997b-42f8-808e-02b0cbc8c8f3.jpg?v=1789648384&width=900" alt="DINGDANG FOR EVERYDAY" />
+            <img src="https://dingdangvietnam.com/cdn/shop/files/DD_ATELIER0362_copy_5_e9693423-997b-42f8-808e-02b0cbc8c8f3.jpg?v=1789648384&width=900" alt="NÉT DUYÊN FOR EVERYDAY" />
             <div class="editorial-banner-overlay">
-              <h3>DINGDANG FOR EVERYDAY</h3>
+              <h3>NÉT DUYÊN FOR EVERYDAY</h3>
               <p>Made to be worn your way</p>
               <span class="btn-banner">Khám phá ngay</span>
             </div>
@@ -654,17 +658,17 @@ function renderHomeView() {
       <div class="container-fluid">
         <div class="dual-banner-grid">
           <div class="editorial-banner-item" onclick="location.hash='#collections/dam-1'">
-            <img src="https://dingdangvietnam.com/cdn/shop/files/DINGDANG_AODAI_0107264238_copy_2_6a98c871-40cc-46d3-a186-dbf0cd96c3f7.jpg?v=1789648384&width=900" alt="DINGDANG FOR A DATE" />
+            <img src="https://dingdangvietnam.com/cdn/shop/files/DINGDANG_AODAI_0107264238_copy_2_6a98c871-40cc-46d3-a186-dbf0cd96c3f7.jpg?v=1789648384&width=900" alt="NÉT DUYÊN FOR A DATE" />
             <div class="editorial-banner-overlay">
-              <h3>DINGDANG FOR A DATE</h3>
+              <h3>NÉT DUYÊN FOR A DATE</h3>
               <p>Something soft for the two of you</p>
               <span class="btn-banner">Khám phá ngay</span>
             </div>
           </div>
           <div class="editorial-banner-item" onclick="location.hash='#collections/dong-dao'">
-            <img src="https://dingdangvietnam.com/cdn/shop/files/1792234510320_2307592614049898190_2307592614049898190_436e973ff7d1e936e85328a1e42d7e79.jpg?v=1792235299&width=900" alt="DINGDANG FOR A SPECIAL DAY" />
+            <img src="https://dingdangvietnam.com/cdn/shop/files/1792234510320_2307592614049898190_2307592614049898190_436e973ff7d1e936e85328a1e42d7e79.jpg?v=1792235299&width=900" alt="NÉT DUYÊN FOR A SPECIAL DAY" />
             <div class="editorial-banner-overlay">
-              <h3>DINGDANG FOR A SPECIAL DAY</h3>
+              <h3>NÉT DUYÊN FOR A SPECIAL DAY</h3>
               <p>Go all out and make it memorable</p>
               <span class="btn-banner">Khám phá ngay</span>
             </div>
@@ -701,16 +705,16 @@ function renderHomeView() {
       </div>
     </section>
 
-    <!-- 9. MUSE OF DINGDANG -->
+    <!-- 9. MUSE OF NÉT DUYÊN -->
     <section class="bls__section">
       <div class="container-fluid">
         <div class="bls__section-header">
-          <h2 class="bls__section-heading">MUSE OF DINGDANG</h2>
+          <h2 class="bls__section-heading">MUSE OF NÉT DUYÊN</h2>
         </div>
         <div class="muse-gallery-grid">
           ${museImages.map(src => `
             <div class="muse-gallery-item">
-              <img src="${src}" alt="MUSE OF DINGDANG" loading="lazy" />
+              <img src="${src}" alt="MUSE OF NÉT DUYÊN" loading="lazy" />
             </div>
           `).join("")}
         </div>
@@ -723,20 +727,20 @@ function renderHomeView() {
    VIEW 3: PRODUCT DETAIL PAGE (#products/:handle)
    ========================================================================== */
 function renderProductDetailView(handle) {
-  const idx = DINGDANG_PRODUCTS.findIndex(p => p.handle === handle || String(p.id) === String(handle));
-  const product = idx !== -1 ? DINGDANG_PRODUCTS[idx] : DINGDANG_PRODUCTS[0];
+  const idx = NETDUYEN_PRODUCTS.findIndex(p => p.handle === handle || String(p.id) === String(handle));
+  const product = idx !== -1 ? NETDUYEN_PRODUCTS[idx] : NETDUYEN_PRODUCTS[0];
   if (!product) return;
 
-  document.title = `${product.title} – DINGDANGVIETNAM`;
+  document.title = `${product.title} – NÉT DUYÊN`;
   state.pdpQty = 1;
   state.pdpSelectedOptions = {};
   (product.options || []).forEach((opt, i) => {
     state.pdpSelectedOptions[i] = opt.values[0] || "S";
   });
 
-  const prevProd = DINGDANG_PRODUCTS[(idx - 1 + DINGDANG_PRODUCTS.length) % DINGDANG_PRODUCTS.length];
-  const nextProd = DINGDANG_PRODUCTS[(idx + 1) % DINGDANG_PRODUCTS.length];
-  const related = DINGDANG_PRODUCTS.filter(p => p.id !== product.id && p.collections.some(c => product.collections.includes(c))).slice(0, 4);
+  const prevProd = NETDUYEN_PRODUCTS[(idx - 1 + NETDUYEN_PRODUCTS.length) % NETDUYEN_PRODUCTS.length];
+  const nextProd = NETDUYEN_PRODUCTS[(idx + 1) % NETDUYEN_PRODUCTS.length];
+  const related = NETDUYEN_PRODUCTS.filter(p => p.id !== product.id && p.collections.some(c => product.collections.includes(c))).slice(0, 4);
 
   const selectedVariant = getMatchingVariant(product);
   const price = selectedVariant ? selectedVariant.price : product.price;
@@ -788,6 +792,7 @@ function renderProductDetailView(handle) {
 
         <!-- Right Sticky Information -->
         <div class="pdp-right-info">
+          <div class="pdp-vendor-tag">THIẾT KẾ ĐỘC QUYỀN • NÉT DUYÊN</div>
           <h1 class="bls__product-title">${product.title}</h1>
 
           <!-- Member Price Status Box -->
@@ -795,7 +800,7 @@ function renderProductDetailView(handle) {
             <div class="member-price-status is-member">
               <span>✓</span>
               <div>
-                <div style="font-weight:700;">Ưu đãi Hội viên DINGDANG đã kích hoạt</div>
+                <div style="font-weight:700;">Ưu đãi Hội viên NÉT DUYÊN đã kích hoạt</div>
                 <div style="font-size:12px;">Tài khoản ${state.user.name} được giảm thêm 5% khi thanh toán.</div>
               </div>
             </div>
@@ -804,7 +809,7 @@ function renderProductDetailView(handle) {
               <span>🔒</span>
               <div>
                 <div class="member-price-title">Ưu đãi dành riêng cho Hội viên</div>
-                <div style="font-size:12px;color:#495057;">Đăng nhập tài khoản hội viên DINGDANG để nhận mức giá ưu đãi đặc quyền.</div>
+                <div style="font-size:12px;color:#495057;">Đăng nhập tài khoản hội viên NÉT DUYÊN để nhận mức giá ưu đãi đặc quyền.</div>
                 <a href="#account" class="member-login-button">Đăng nhập ngay</a>
               </div>
             </div>
@@ -915,10 +920,10 @@ function renderProductDetailView(handle) {
         </div>
       </div>
 
-      <!-- Product Recommendations: DINGDANG GỢI Ý CHO BẠN -->
+      <!-- Product Recommendations: NÉT DUYÊN GỢI Ý CHO BẠN -->
       <section class="bls__section" style="padding-top:10px;">
         <div class="bls__section-header">
-          <h2 class="bls__section-heading" style="font-size:22px;">DINGDANG GỢI Ý CHO BẠN</h2>
+          <h2 class="bls__section-heading" style="font-size:22px;">NÉT DUYÊN GỢI Ý CHO BẠN</h2>
         </div>
         <div class="bls__grid">
           ${related.map(p => renderProductCardHTML(p)).join("")}
@@ -968,7 +973,7 @@ function getMatchingVariant(product) {
 }
 
 function selectPdpOption(productId, optIdx, val) {
-  const product = DINGDANG_PRODUCTS.find(p => String(p.id) === String(productId));
+  const product = NETDUYEN_PRODUCTS.find(p => String(p.id) === String(productId));
   if (!product) return;
   state.pdpSelectedOptions[optIdx] = val;
 
@@ -1015,7 +1020,7 @@ function selectPdpOption(productId, optIdx, val) {
 }
 
 function handleStickyVariantChange(productId, variantId) {
-  const product = DINGDANG_PRODUCTS.find(p => String(p.id) === String(productId));
+  const product = NETDUYEN_PRODUCTS.find(p => String(p.id) === String(productId));
   if (!product) return;
   const v = product.variants.find(item => String(item.id) === String(variantId));
   if (!v) return;
@@ -1031,7 +1036,7 @@ function changePdpQty(delta) {
 }
 
 function handlePdpAddToCart(productId, buyNow = false) {
-  const product = DINGDANG_PRODUCTS.find(p => String(p.id) === String(productId));
+  const product = NETDUYEN_PRODUCTS.find(p => String(p.id) === String(productId));
   if (!product) return;
   const variant = getMatchingVariant(product);
   addToCart(product.id, variant ? variant.id : null, state.pdpQty || 1, !buyNow);
@@ -1110,7 +1115,7 @@ function closeDdModal() {
    VIEW 4: FULL CART PAGE (#cart) & CHECKOUT PAGE (#checkout)
    ========================================================================== */
 function renderCartPage() {
-  document.title = "Giỏ hàng của bạn – DINGDANGVIETNAM";
+  document.title = "Giỏ hàng của bạn – NÉT DUYÊN";
   const main = document.getElementById("MainContent");
 
   if (state.cart.length === 0) {
@@ -1183,7 +1188,7 @@ function renderCartPage() {
 }
 
 function renderCheckoutPage() {
-  document.title = "Thanh toán – DINGDANGVIETNAM";
+  document.title = "Thanh toán – NÉT DUYÊN";
   const main = document.getElementById("MainContent");
   if (state.cart.length === 0) {
     location.hash = "#collections/ao-dai";
@@ -1290,7 +1295,7 @@ function handleCheckoutSubmit(e) {
    VIEW 5: CUSTOMER ACCOUNT & LOGIN / REGISTER (#account)
    ========================================================================== */
 function renderAccountView() {
-  document.title = "Tài khoản – DINGDANGVIETNAM";
+  document.title = "Tài khoản – NÉT DUYÊN";
   const main = document.getElementById("MainContent");
 
   if (!state.user) {
@@ -1301,7 +1306,7 @@ function renderAccountView() {
           <form onsubmit="handleAuthLogin(event)">
             <div class="form-group">
               <label>Email *</label>
-              <input type="email" id="loginEmail" class="form-input" required placeholder="Nhập địa chỉ email" value="khachhang@dingdangvietnam.com" />
+              <input type="email" id="loginEmail" class="form-input" required placeholder="Nhập địa chỉ email" value="khachhang@netduyen.vn" />
             </div>
             <div class="form-group">
               <label>Mật khẩu *</label>
@@ -1414,7 +1419,7 @@ function handleAuthRegister(e) {
     email: document.getElementById("regEmail").value.trim()
   };
   saveUser();
-  showToast("Cảm ơn bạn đã đăng ký hội viên DINGDANG!");
+  showToast("Cảm ơn bạn đã đăng ký hội viên NÉT DUYÊN!");
   renderAccountView();
 }
 
@@ -1430,8 +1435,8 @@ function handleLogout() {
    ========================================================================== */
 function renderSearchView(query) {
   const q = decodeURIComponent(query || "").trim();
-  document.title = `Tìm kiếm: "${q}" – DINGDANGVIETNAM`;
-  const results = DINGDANG_PRODUCTS.filter(p => p.title.toLowerCase().includes(q.toLowerCase()));
+  document.title = `Tìm kiếm: "${q}" – NÉT DUYÊN`;
+  const results = NETDUYEN_PRODUCTS.filter(p => p.title.toLowerCase().includes(q.toLowerCase()));
 
   const main = document.getElementById("MainContent");
   main.innerHTML = `
@@ -1453,7 +1458,7 @@ function renderSearchView(query) {
 }
 
 function renderBlogsView() {
-  document.title = "BLOG – DINGDANGVIETNAM";
+  document.title = "BLOG – NÉT DUYÊN";
   const main = document.getElementById("MainContent");
   main.innerHTML = `
     <div class="page-heading">
@@ -1469,7 +1474,7 @@ function renderBlogsView() {
     </div>
     <div class="container" style="padding-bottom:70px;">
       <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;">
-        ${DINGDANG_BLOGS.map(b => `
+        ${NETDUYEN_BLOGS.map(b => `
           <div style="border:1px solid #ebebeb;border-radius:8px;overflow:hidden;">
             <div style="aspect-ratio:4/3;overflow:hidden;">
               <img src="${b.image}" alt="${b.title}" style="width:100%;height:100%;object-fit:cover;" />
@@ -1487,8 +1492,8 @@ function renderBlogsView() {
 }
 
 function renderPolicyView(slug) {
-  const pol = DINGDANG_POLICIES[slug] || DINGDANG_POLICIES["privacy-policy"];
-  document.title = `${pol.title} – DINGDANGVIETNAM`;
+  const pol = NETDUYEN_POLICIES[slug] || NETDUYEN_POLICIES["privacy-policy"];
+  document.title = `${pol.title} – NÉT DUYÊN`;
   const main = document.getElementById("MainContent");
   main.innerHTML = `
     <div class="page-heading">
@@ -1525,7 +1530,7 @@ function handleOmegaChatSend(e) {
   setTimeout(() => {
     msgBox.innerHTML += `
       <div style="background:#ffffff;padding:10px 14px;border-radius:8px;border:1px solid #ebebeb;margin-bottom:10px;">
-        Cảm ơn bạn đã nhắn tin cho DINGDANG VIETNAM! Chuyên viên tư vấn sẽ phản hồi ngay hoặc bạn có thể liên hệ Hotline <strong>0363 860 055</strong>.
+        Cảm ơn bạn đã nhắn tin cho NÉT DUYÊN! Chuyên viên tư vấn sẽ phản hồi ngay hoặc bạn có thể liên hệ Hotline <strong>0363 860 055</strong> (Giữ nét Việt, trọn nét duyên).
       </div>
     `;
     msgBox.scrollTop = msgBox.scrollHeight;
