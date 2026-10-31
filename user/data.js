@@ -1,5 +1,5 @@
 // Dữ liệu gốc 100% từ https://dingdangvietnam.com
-const NETDUYEN_PRODUCTS = [
+let NETDUYEN_PRODUCTS = [
   {
     "id": 7806520393795,
     "handle": "ao-dai-tien-sa",

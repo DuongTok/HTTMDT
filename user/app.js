@@ -5,8 +5,25 @@
 const STORAGE_KEYS = {
   CART: "ddvn_cart_v1",
   USER: "ddvn_user_v1",
-  ORDERS: "ddvn_orders_v1"
+  ORDERS: "ddvn_orders_v1",
+  CUSTOM_PRODUCTS: "netduyen_custom_products_v1"
 };
+
+// Đồng bộ sản phẩm từ phân hệ Admin (nếu Admin có cập nhật sản phẩm trong localStorage)
+(function syncAdminProducts() {
+  try {
+    const custom = localStorage.getItem(STORAGE_KEYS.CUSTOM_PRODUCTS);
+    if (custom) {
+      const parsed = JSON.parse(custom);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        NETDUYEN_PRODUCTS = parsed;
+        if (typeof DINGDANG_PRODUCTS !== "undefined") DINGDANG_PRODUCTS = parsed;
+      }
+    }
+  } catch (e) {
+    console.warn("Lỗi đọc dữ liệu đồng bộ Admin:", e);
+  }
+})();
 
 let state = {
   cart: JSON.parse(localStorage.getItem(STORAGE_KEYS.CART) || "[]"),
