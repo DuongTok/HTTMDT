@@ -1,5 +1,1563 @@
-// Dữ liệu gốc 100% từ https://dingdangvietnam.com
+// ==========================================================================
+// CƠ SỞ DỮ LIỆU SẢN PHẨM CHO THUÊ — NÉT DUYÊN (data.js)
+// Slogan: "Giữ nét Việt, trọn nét duyên."
+// Đa dạng nguồn: Dingdang, La Hang Design, Quyên Nguyễn Bridal, Cổ Phục Cung Đình, Phụ kiện
+// ==========================================================================
+
 let NETDUYEN_PRODUCTS = [
+  {
+    "id": 9300000001,
+    "handle": "set-ao-cuoi-cap-song-hy-long-phung",
+    "title": "SET ÁO CƯỚI CẶP ĐÔI LONG PHỤNG SUM VẦY (2 ÁO)",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 850000,
+    "deposit": 1800000,
+    "price": 5800000,
+    "compare_at_price": 6800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size Cô Dâu",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Size Chú Rể",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 930001,
+        "title": "Cô dâu S / Chú rể L",
+        "price": 850000,
+        "available": true
+      },
+      {
+        "id": 930002,
+        "title": "Cô dâu M / Chú rể XL",
+        "price": 850000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Bộ đôi áo dài cưới cô dâu & chú rể thêu tay rồng phượng đồng điệu. Cô dâu dáng suông tà kép lộng lẫy, chú rể phom đứng kiên nghị uy dũng.</p>"
+  },
+  {
+    "id": 9300000002,
+    "handle": "set-ao-cuoi-cap-bach-ngoc-hoang-gia",
+    "title": "SET ÁO DÀI CẶP BẠCH NGỌC HOÀNG GIA (2 ÁO KÈM MẤN)",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 780000,
+    "deposit": 1600000,
+    "price": 5200000,
+    "compare_at_price": 6200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/AodaiBachNgocHoaPhung_aokhoacAnhMai_3.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/AodaiBachNgocHoaPhung_aokhoacAnhMai_1.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size Cô Dâu",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Size Chú Rể",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 930003,
+        "title": "Cô dâu S / Chú rể L",
+        "price": 780000,
+        "available": true
+      },
+      {
+        "id": 930004,
+        "title": "Cô dâu M / Chú rể L",
+        "price": 780000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Sắc trắng kem tinh khiết điểm xuyết họa tiết hoa phụng ánh mai hoàng gia, trọn vẹn nét thanh tú hiện đại cho ngày chung đôi.</p>"
+  },
+  {
+    "id": 9500000000,
+    "handle": "thue-lua-phan-khoac-mau-don-phuong-long-va-doan-phan-khoac-don-long-phuong",
+    "title": "ÁO DÀI CƯỚI LỤA PHẤN & KHOÁC MẪU ĐƠN PHƯỢNG LONG VÀ ĐOẠN PHẤN & KHOÁC ĐƠN LONG PHƯỢNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 450000,
+    "deposit": 900000,
+    "price": 3200000,
+    "compare_at_price": 3800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05626.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05629.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05631.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05666copy.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05829.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05820.jpg?v=1792811196",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05823.jpg?v=1792811196",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05824.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05815.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500001,
+        "title": "S",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500002,
+        "title": "M",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500003,
+        "title": "L",
+        "price": 450000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Lụa Phấn & khoác Mẫu Đơn Phượng Long và Đoạn Phấn & khoác Đơn Long Phượng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000001,
+    "handle": "thue-hong-ngan-khoac-chau-dao",
+    "title": "ÁO DÀI CƯỚI HỒNG NGÂN & KHOÁC CHÂU ĐÀO",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 510000,
+    "deposit": 1020000,
+    "price": 3600000,
+    "compare_at_price": 4200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06328_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06316_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06320_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06330_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06330_2__1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06330_2.jpg?v=1792810711",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06331_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06333_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06335_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06335.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06335_1__1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06340_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06342_1.jpg?v=1792810710",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06384_1.jpg?v=1792810710"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500011,
+        "title": "S",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500012,
+        "title": "M",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500013,
+        "title": "L",
+        "price": 510000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hồng Ngân & Khoác Châu Đào</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000002,
+    "handle": "thue-mau-don-tram-hoa-khoac-hong-hy",
+    "title": "ÁO DÀI CƯỚI MẪU ĐƠN TRĂM HOA &  KHOÁC HỒNG HỶ",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 570000,
+    "deposit": 1140000,
+    "price": 4000000,
+    "compare_at_price": 4600000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08451_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08427_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08430_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08432_1.jpg?v=1792810142",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08436_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08439_1.jpg?v=1792810142",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08441_1.jpg?v=1792810142",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08478_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08454_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08456_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08459_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08462_1.jpg?v=1792810142",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08463_1.jpg?v=1792810141",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08465_1.jpg?v=1792810142",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08496_1.jpg?v=1792810141"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500021,
+        "title": "S",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500022,
+        "title": "M",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500023,
+        "title": "L",
+        "price": 570000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Mẫu Đơn Trăm Hoa &  Khoác Hồng Hỷ</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000003,
+    "handle": "thue-tuong-oanh-khoac-mau-don-phuong-long",
+    "title": "ÁO DÀI CƯỚI TƯỜNG OANH & KHOÁC MẪU ĐƠN PHUỢNG LONG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 630000,
+    "deposit": 1260000,
+    "price": 4400000,
+    "compare_at_price": 5000000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08114_1.jpg?v=1792809777",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08117_1.jpg?v=1792809777",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08119_1.jpg?v=1792809777",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08120_1.jpg?v=1792809777",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08121_1.jpg?v=1792809777",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08137_1.jpg?v=1792809777",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08145_1.jpg?v=1792809777"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500031,
+        "title": "S",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500032,
+        "title": "M",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500033,
+        "title": "L",
+        "price": 630000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Tường Oanh & Khoác Mẫu Đơn Phuợng Long</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000004,
+    "handle": "thue-hong-diep-khoac-thuy-tinh",
+    "title": "ÁO DÀI CƯỚI HỒNG ĐIỆP & KHOÁC THUỶ TINH",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 690000,
+    "deposit": 1380000,
+    "price": 3200000,
+    "compare_at_price": 3800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08070_1.jpg?v=1792809304",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08013_1.jpg?v=1792809305",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08016_1.jpg?v=1792809305",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08018_1.jpg?v=1792809304",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08022_1.jpg?v=1792809304",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08072_1.jpg?v=1792809304",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08074_1.jpg?v=1792809304",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08078_1.jpg?v=1792809304",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08081_1.jpg?v=1792809304",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC08106_1.jpg?v=1792809304"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500041,
+        "title": "S",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500042,
+        "title": "M",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500043,
+        "title": "L",
+        "price": 690000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hồng Điệp & Khoác Thuỷ Tinh</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000005,
+    "handle": "thue-but-tram-khoac-dao-anh",
+    "title": "ÁO DÀI CƯỚI BỤT TRẦM & KHOÁC ĐÀO ÁNH",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 450000,
+    "deposit": 900000,
+    "price": 3600000,
+    "compare_at_price": 4200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07523_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07512_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07514_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07515_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07518_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07521_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07536_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07528_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07531_1.jpg?v=1792808706",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07561_1.jpg?v=1792808707"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500051,
+        "title": "S",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500052,
+        "title": "M",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500053,
+        "title": "L",
+        "price": 450000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Bụt Trầm & Khoác Đào Ánh</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000006,
+    "handle": "thue-hoa-thu-tinh-ao-khoac-anh-mai",
+    "title": "ÁO DÀI CƯỚI HOA THUỶ TINH & KHOÁC ÁNH MAI",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 510000,
+    "deposit": 1020000,
+    "price": 4000000,
+    "compare_at_price": 4600000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07383_1.jpg?v=1792808276",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07376_1.jpg?v=1792808275",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07378_1.jpg?v=1792808275",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07380_1.jpg?v=1792808275",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07391_1.jpg?v=1792808275",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07405_1.jpg?v=1792808275",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07387_1.jpg?v=1792808275",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07389_1.jpg?v=1792808275"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500061,
+        "title": "S",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500062,
+        "title": "M",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500063,
+        "title": "L",
+        "price": 510000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hoa Thuỷ Tinh & Khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000007,
+    "handle": "thue-ao-dai-lua-phan-ao-khoac-hanh-sa-ao-khoac-anh-mai",
+    "title": "ÁO DÀI CƯỚI ÁO DÀI LỤA PHẤN & ÁO KHOÁC HẠNH SA & ÁO KHOÁC ÁNH MAI",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 570000,
+    "deposit": 1140000,
+    "price": 4400000,
+    "compare_at_price": 5000000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06660_1.jpg?v=1792807452",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06650_1.jpg?v=1792807452",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06651_1.jpg?v=1792807451",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06653_1.jpg?v=1792807451",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06655_1.jpg?v=1792807451",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06656_1.jpg?v=1792807451",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06662_1.jpg?v=1792807451",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06665_1.jpg?v=1792807451",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06668_1.jpg?v=1792807452",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06717_1.jpg?v=1792807452"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500071,
+        "title": "S",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500072,
+        "title": "M",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500073,
+        "title": "L",
+        "price": 570000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Lụa Phấn & Áo khoác Hạnh Sa & Áo khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000008,
+    "handle": "thue-phu-dung-hoa-ly",
+    "title": "ÁO DÀI CƯỚI PHÙ DUNG HOA LY",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 630000,
+    "deposit": 1260000,
+    "price": 3200000,
+    "compare_at_price": 3800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/PINE6083Large.jpg?v=1790673135",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/PINE6087Large.jpg?v=1790673135",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/THUY0982Large.jpg?v=1790673135",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/THUY0991Large.jpg?v=1790673135",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/THUY1003Large.jpg?v=1790673135"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500081,
+        "title": "S",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500082,
+        "title": "M",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500083,
+        "title": "L",
+        "price": 630000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Phù Dung Hoa Ly</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000009,
+    "handle": "thue-hoa-doan-vien",
+    "title": "ÁO DÀI CƯỚI HOA ĐOÀN VIÊN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 690000,
+    "deposit": 1380000,
+    "price": 3600000,
+    "compare_at_price": 4200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NINOT_H-12Large.jpg?v=1790672280",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NINOT_H-306Large.jpg?v=1790672280",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NINOT_H-18.jpg?v=1790672244",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NINOT_H-331.jpg?v=1790672244"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500091,
+        "title": "S",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500092,
+        "title": "M",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500093,
+        "title": "L",
+        "price": 690000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hoa Đoàn Viên</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000010,
+    "handle": "thue-cuc-rong",
+    "title": "ÁO DÀI CƯỚI CÚC RỒNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 450000,
+    "deposit": 900000,
+    "price": 4000000,
+    "compare_at_price": 4600000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NINOT_H-149.jpg?v=1790671904",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NINOT_H-149_1.jpg?v=1790671904",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NINOT_H-326Large.jpg?v=1790671930"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500101,
+        "title": "S",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500102,
+        "title": "M",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500103,
+        "title": "L",
+        "price": 450000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Cúc Rồng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000011,
+    "handle": "thue-nhu-anh-kim-vang",
+    "title": "ÁO DÀI CƯỚI NHŨ ÁNH KIM VÀNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 510000,
+    "deposit": 1020000,
+    "price": 4400000,
+    "compare_at_price": 5000000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NKT_9316Large.jpg?v=1790670662",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NKT_9277Large.jpg?v=1790670663",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NKT_9300.jpg?v=1790670607",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/NKT_9307.jpg?v=1790670607"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500111,
+        "title": "S",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500112,
+        "title": "M",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500113,
+        "title": "L",
+        "price": 510000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Nhũ Ánh Kim Vàng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000012,
+    "handle": "thue-vy-dau",
+    "title": "ÁO DÀI CƯỚI VỸ DẬU",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 570000,
+    "deposit": 1140000,
+    "price": 3200000,
+    "compare_at_price": 3800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DA59.jpg?v=1790670063",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DA60.jpg?v=1790670063",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DA_GMT237.jpg?v=1790670063",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DA_GMT27Medium.jpg?v=1790673598"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500121,
+        "title": "S",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500122,
+        "title": "M",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500123,
+        "title": "L",
+        "price": 570000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Vỹ Dậu</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000013,
+    "handle": "thue-truc-nhan",
+    "title": "ÁO DÀI CƯỚI TRÚC NHẠN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 630000,
+    "deposit": 1260000,
+    "price": 3600000,
+    "compare_at_price": 4200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DA_GMT411Medium.jpg?v=1790669761",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DA_GMT416Medium.jpg?v=1790669761"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500131,
+        "title": "S",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500132,
+        "title": "M",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500133,
+        "title": "L",
+        "price": 630000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Trúc Nhạn</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000014,
+    "handle": "thue-suon-xam-linh-san",
+    "title": "ÁO DÀI CƯỚI SƯỜN XÁM LINH SAN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 690000,
+    "deposit": 1380000,
+    "price": 4000000,
+    "compare_at_price": 4600000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05711Large.jpg?v=1790669135",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05683Large.jpg?v=1790669136",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05685Large.jpg?v=1790669136",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05687Large.jpg?v=1790669135",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05688Large.jpg?v=1790669135",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05726Large.jpg?v=1790669135"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500141,
+        "title": "S",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500142,
+        "title": "M",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500143,
+        "title": "L",
+        "price": 690000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Sườn xám Linh San</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000015,
+    "handle": "thue-ao-dai-bach-linh-ao-khoac-bach-nhat",
+    "title": "ÁO DÀI CƯỚI ÁO DÀI BẠCH LINH & ÁO KHOÁC BẠCH NHẬT",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 450000,
+    "deposit": 900000,
+    "price": 4400000,
+    "compare_at_price": 5000000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06870Large.jpg?v=1790668905",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06862Large.jpg?v=1790668905",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06863Large.jpg?v=1790668905",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06865Large.jpg?v=1790668905",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06873Large.jpg?v=1790668905",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06874Large.jpg?v=1790668905",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07023Large.jpg?v=1790668905",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC07098Large.jpg?v=1790668905"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500151,
+        "title": "S",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500152,
+        "title": "M",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 9500153,
+        "title": "L",
+        "price": 450000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Linh & áo khoác Bạch Nhật</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000016,
+    "handle": "thue-ao-dai-y-vy-ao-khoac-thu-nguyet",
+    "title": "ÁO DÀI CƯỚI ÁO DÀI Ý VY & ÁO KHOÁC THƯ NGUYỆT",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 510000,
+    "deposit": 1020000,
+    "price": 3200000,
+    "compare_at_price": 3800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06823Large.jpg?v=1790667509",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06825Large.jpg?v=1790667509",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06826Large.jpg?v=1790667509",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06827Large.jpg?v=1790667509",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06828Large.jpg?v=1790667509",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06829Large.jpg?v=1790667509",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06830Large.jpg?v=1790667509",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC06831Large.jpg?v=1790667509"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500161,
+        "title": "S",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500162,
+        "title": "M",
+        "price": 510000,
+        "available": true
+      },
+      {
+        "id": 9500163,
+        "title": "L",
+        "price": 510000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Ý Vy & áo khoác Thư Nguyệt</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000017,
+    "handle": "thue-ao-dai-hy-vien-ao-khoac-hac-hong-hy",
+    "title": "ÁO DÀI CƯỚI ÁO DÀI HỶ VIÊN & ÁO KHOÁC HẠC HỒNG HỶ",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 570000,
+    "deposit": 1140000,
+    "price": 3600000,
+    "compare_at_price": 4200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05004Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/CopyofDSC03125Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/CopyofDSC03135Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/CopyofDSC03139Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/CopyofDSC03144Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05009Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05011Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05012Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05015Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05025Large.jpg?v=1790667152",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05080Large.jpg?v=1790667152"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500171,
+        "title": "S",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500172,
+        "title": "M",
+        "price": 570000,
+        "available": true
+      },
+      {
+        "id": 9500173,
+        "title": "L",
+        "price": 570000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Hỷ Viên & áo khoác Hạc Hồng Hỷ</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000018,
+    "handle": "thue-ao-dai-bach-khang",
+    "title": "ÁO DÀI CƯỚI ÁO DÀI BẠCH KHANG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 630000,
+    "deposit": 1260000,
+    "price": 4000000,
+    "compare_at_price": 4600000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05158_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05169_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05089_1_5c80cfd5-87ae-429b-8cdf-df9823e23bea.jpg?v=1790847539"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500181,
+        "title": "S",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500182,
+        "title": "M",
+        "price": 630000,
+        "available": true
+      },
+      {
+        "id": 9500183,
+        "title": "L",
+        "price": 630000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Khang</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9500000019,
+    "handle": "thue-ao-dai-bach-ngoc-hoa-phung-ao-khoac-anh-mai",
+    "title": "ÁO DÀI CƯỚI ÁO DÀI BẠCH NGỌC HOA PHỤNG & ÁO KHOÁC ÁNH MAI",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 690000,
+    "deposit": 1380000,
+    "price": 4400000,
+    "compare_at_price": 5000000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05407_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05089_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05111_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05103_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05123_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05131_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05133_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05158_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05169_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05200_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05265_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05437_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05444_1.jpg?v=1790847238",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05454_1.jpg?v=1790847238"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 9500191,
+        "title": "S",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500192,
+        "title": "M",
+        "price": 690000,
+        "available": true
+      },
+      {
+        "id": 9500193,
+        "title": "L",
+        "price": 690000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Ngọc Hoa Phụng & áo khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+  },
+  {
+    "id": 9100000001,
+    "handle": "ao-dai-nam-long-van-gam-den",
+    "title": "ÁO DÀI NAM LONG VÂN GẤM ĐEN HOÀNG GIA",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 350000,
+    "deposit": 700000,
+    "price": 2450000,
+    "compare_at_price": 2800000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/11_MRL08716-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910001,
+        "title": "M",
+        "price": 350000,
+        "available": true
+      },
+      {
+        "id": 910002,
+        "title": "L",
+        "price": 350000,
+        "available": true
+      },
+      {
+        "id": 910003,
+        "title": "XL",
+        "price": 350000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "all"
+    ],
+    "body_html": "<p>Áo Dài Nam cách tân dệt gấm họa tiết Long Vân quyền quý, form đứng nam tính, tôn dáng vai rộng. Thích hợp cho chú rể, chụp ảnh Tết và sự kiện trọng đại.</p>"
+  },
+  {
+    "id": 9100000002,
+    "handle": "ao-dai-nam-ngu-than-xanh-thien-thanh",
+    "title": "ÁO DÀI NAM NGŨ THÂN XANH THIÊN THANH",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 380000,
+    "deposit": 800000,
+    "price": 2600000,
+    "compare_at_price": 3000000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/10_MRL08522-logo-900x1350.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/9_MRL08394-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910004,
+        "title": "M",
+        "price": 380000,
+        "available": true
+      },
+      {
+        "id": 910005,
+        "title": "L",
+        "price": 380000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Thiết kế Ngũ Thân lập lĩnh truyền thống dành cho nam, chất liệu lụa dệt nổi thoáng mát, cổ cao trang nghiêm đĩnh đạc.</p>"
+  },
+  {
+    "id": 9100000003,
+    "handle": "ao-dai-nam-chu-re-song-hy-do",
+    "title": "ÁO DÀI NAM CHÚ RỂ ĐỎ SONG HỶ THÊU TAY",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 420000,
+    "deposit": 900000,
+    "price": 2950000,
+    "compare_at_price": 3400000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/8_MRL08309-logo-900x1350.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/7_MRL08235-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910006,
+        "title": "M",
+        "price": 420000,
+        "available": true
+      },
+      {
+        "id": 910007,
+        "title": "L",
+        "price": 420000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Sắc đỏ may mắn cho ngày cưới hỏi, họa tiết Song Hỷ và Phụng Lân thêu chỉ kim tuyến thủ công sắc sảo.</p>"
+  },
+  {
+    "id": 9100000004,
+    "handle": "ao-dai-nam-gam-trang-bach-hac",
+    "title": "ÁO DÀI NAM GẤM TRẮNG BẠCH HẠC THANH CAO",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 360000,
+    "deposit": 700000,
+    "price": 2350000,
+    "compare_at_price": 2700000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/01/ao-dai-quyen-nguyen-logo-1.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910008,
+        "title": "M",
+        "price": 360000,
+        "available": true
+      },
+      {
+        "id": 910009,
+        "title": "L",
+        "price": 360000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Gam màu trắng kem nhã nhặn, chất liệu gấm taffeta cao cấp dệt họa tiết hạc ngậm sen thanh tao lịch lãm.</p>"
+  },
+  {
+    "id": 9200000001,
+    "handle": "co-phuc-nhat-binh-cung-dinh-hoa-phuong",
+    "title": "CỔ PHỤC ÁO NHẬT BÌNH CUNG ĐÌNH HUẾ THÊU PHƯỢNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Cổ Phục",
+    "rent_price": 550000,
+    "deposit": 1200000,
+    "price": 3800000,
+    "compare_at_price": 4500000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "Freesize (S-L)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 920001,
+        "title": "Freesize",
+        "price": 550000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "co-phuc",
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Tái hiện trang phục Nhật Bình thời Nguyễn lộng lẫy với hoa văn ngũ phúc, cổ yếm thêu phượng hoàng và ngũ sắc cát tường. Phù hợp lễ cưới truyền thống, chụp ảnh nghệ thuật và ngoại cảnh cung đình.</p>"
+  },
+  {
+    "id": 9200000002,
+    "handle": "co-phuc-ao-tac-tay-thung-hong-hy",
+    "title": "ÁO TẤC TAY THỤNG CỔ PHỤC SẮC HỒNG HỶ",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Cổ Phục",
+    "rent_price": 480000,
+    "deposit": 1000000,
+    "price": 3200000,
+    "compare_at_price": 3700000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/M_u_on_Tr_m_Hoa___Kho_c_H_ng_H_2.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/M_u_on_Tr_m_Hoa___Kho_c_H_ng_H_1.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 920002,
+        "title": "S",
+        "price": 480000,
+        "available": true
+      },
+      {
+        "id": 920003,
+        "title": "M",
+        "price": 480000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Áo Tấc tay thụng bồng bềnh, chất liệu lụa sa cát phối tơ sống mềm nhẹ, bay bổng trong từng bước chuyển động.</p>"
+  },
+  {
+    "id": 9200000003,
+    "handle": "co-phuc-ao-dai-ngu-than-tay-chenh-vang-dong",
+    "title": "ÁO DÀI NGŨ THÂN TAY CHẼN VÀNG ÁNH KIM",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Cổ Phục",
+    "rent_price": 450000,
+    "deposit": 900000,
+    "price": 2900000,
+    "compare_at_price": 3300000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05856.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05858.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 920004,
+        "title": "S",
+        "price": 450000,
+        "available": true
+      },
+      {
+        "id": 920005,
+        "title": "M",
+        "price": 450000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Phom dáng Ngũ Thân tay chẽn quý phái, chất gấm dệt hoa văn thời Nguyễn sang trọng và uy nghi.</p>"
+  },
   {
     "id": 7806520393795,
     "handle": "ao-dai-tien-sa",
@@ -8,7 +1566,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T16:48:55+07:00",
     "published_at": "2026-09-09T18:38:50+07:00",
-    "price": 2950000,
+    "price": 300000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315",
@@ -37,7 +1595,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-AD95-PK-S",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -47,7 +1605,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-AD95-PK-M",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -57,7 +1615,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-AD95-PK-L",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       }
@@ -66,10 +1624,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p><span>CHI TIẾT ÁO DÀI<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>"
+    "body_html": "<p><span>CHI TIẾT ÁO DÀI<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
+    "rent_price": 300000,
+    "deposit": 700000,
+    "buy_price": 2950000
   },
   {
     "id": 7806504894531,
@@ -79,7 +1641,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T16:41:47+07:00",
     "published_at": "2026-09-09T18:38:48+07:00",
-    "price": 2350000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844",
@@ -111,7 +1673,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DD-AD90-V2-BLU-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -121,7 +1683,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DD-AD90-V2-BLU-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -131,7 +1693,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DD-AD90-V2-BLU-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -141,7 +1703,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DD-DR319-NUD-S",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -151,7 +1713,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DD-DR319-NUD-M",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -161,7 +1723,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DD-DR319-NUD-L",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
@@ -171,10 +1733,14 @@ let NETDUYEN_PRODUCTS = [
       "dam-1",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT LỚP TRONG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n"
+    "body_html": "<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT LỚP TRONG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2350000
   },
   {
     "id": 7806488707139,
@@ -184,7 +1750,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T16:34:31+07:00",
     "published_at": "2026-09-09T18:38:45+07:00",
-    "price": 1350000,
+    "price": 140000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265779copy3.jpg?v=1787217874",
@@ -210,7 +1776,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-TS47-PK-S",
-        "price": 1350000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -220,7 +1786,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-TS47-PK-M",
-        "price": 1350000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -230,7 +1796,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-TS47-PK-L",
-        "price": 1350000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       }
@@ -240,10 +1806,14 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>"
+    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
+    "rent_price": 140000,
+    "deposit": 500000,
+    "buy_price": 1350000
   },
   {
     "id": 7806470717507,
@@ -253,7 +1823,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T16:27:17+07:00",
     "published_at": "2026-09-09T18:38:45+07:00",
-    "price": 2350000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265820copy3.jpg?v=1787217874",
@@ -287,7 +1857,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-PK-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -297,7 +1867,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong",
         "sku": "DD-AD90-V1-GRN-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -307,7 +1877,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong Cùng",
         "sku": "DD-DR319-NUD-S",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -317,7 +1887,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-PK-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -327,7 +1897,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong",
         "sku": "DD-AD90-V1-GRN-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -337,7 +1907,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong Cùng",
         "sku": "DD-DR319-NUD-M",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -347,7 +1917,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-PK-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -357,7 +1927,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong",
         "sku": "DD-AD90-V1-GRN-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -367,7 +1937,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong Cùng",
         "sku": "DD-DR319-NUD-L",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
@@ -377,10 +1947,14 @@ let NETDUYEN_PRODUCTS = [
       "dam-1",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO DÀI LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT LỚP TRONG CÙNG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO DÀI LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT LỚP TRONG CÙNG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2350000
   },
   {
     "id": 7806383882307,
@@ -390,7 +1964,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T16:04:40+07:00",
     "published_at": "2026-09-09T18:38:42+07:00",
-    "price": 2350000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265701copy4.jpg?v=1787216608",
@@ -424,7 +1998,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-GRN-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -434,7 +2008,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong",
         "sku": "DD-DR319-NUD-S",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -444,7 +2018,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-GRN-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -454,7 +2028,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong",
         "sku": "DD-DR319-NUD-M",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -464,7 +2038,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-GRN-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -474,7 +2048,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong",
         "sku": "DD-DR319-NUD-L",
-        "price": 1350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
@@ -484,10 +2058,14 @@ let NETDUYEN_PRODUCTS = [
       "dam-1",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "\n<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT LỚP TRONG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n"
+    "body_html": "\n<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT LỚP TRONG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2350000
   },
   {
     "id": 7806340333635,
@@ -497,7 +2075,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:55:59+07:00",
     "published_at": "2026-09-09T18:38:41+07:00",
-    "price": 2350000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265652copy4.jpg?v=1787216092",
@@ -534,7 +2112,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-ORG-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -544,7 +2122,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong",
         "sku": "DD-AD90-V1D-BR-S",
-        "price": 2950000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -554,7 +2132,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong Cùng",
         "sku": "DD-SH450-NUD-S",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -564,7 +2142,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-ORG-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -574,7 +2152,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong",
         "sku": "DD-AD90-V1D-BR-M",
-        "price": 2950000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -584,7 +2162,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong Cùng",
         "sku": "DD-SH450-NUD-M",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -594,7 +2172,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-ORG-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -604,7 +2182,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong",
         "sku": "DD-AD90-V1D-BR-L",
-        "price": 2950000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -614,7 +2192,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong Cùng",
         "sku": "DD-SH450-NUD-L",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
@@ -623,10 +2201,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT ÁO LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Ren đắp: 100% Polyester<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG CÙNG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT ÁO LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Ren đắp: 100% Polyester<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG CÙNG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2350000
   },
   {
     "id": 7806300061763,
@@ -636,7 +2218,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:47:35+07:00",
     "published_at": "2026-09-09T18:38:39+07:00",
-    "price": 2950000,
+    "price": 300000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265537copy4.jpg?v=1787215547",
@@ -672,7 +2254,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1D-BR-S",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -682,7 +2264,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-S",
-        "price": 1150000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -692,7 +2274,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1D-BR-M",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -702,7 +2284,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-M",
-        "price": 1150000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -712,7 +2294,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1D-BR-L",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -722,17 +2304,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-L",
-        "price": 1150000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "\n<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Ren đắp: 100% Polyester<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n"
+    "body_html": "\n<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Ren đắp: 100% Polyester<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n",
+    "rent_price": 300000,
+    "deposit": 700000,
+    "buy_price": 2950000
   },
   {
     "id": 7806239080515,
@@ -742,7 +2328,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:31:42+07:00",
     "published_at": "2026-09-09T18:38:36+07:00",
-    "price": 1750000,
+    "price": 180000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265289copy5.jpg?v=1787214349",
@@ -771,7 +2357,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-TS47-WHT-S",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -781,7 +2367,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-TS47-WHT-M",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -791,7 +2377,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-TS47-WHT-L",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       }
@@ -801,10 +2387,14 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>"
+    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
+    "rent_price": 180000,
+    "deposit": 500000,
+    "buy_price": 1750000
   },
   {
     "id": 7806232199235,
@@ -814,7 +2404,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:30:16+07:00",
     "published_at": "2026-09-09T18:38:35+07:00",
-    "price": 1090000,
+    "price": 110000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265344copy5.jpg?v=1787214349",
@@ -843,7 +2433,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-SH454-BR-S",
-        "price": 1090000,
+        "price": 110000,
         "compare_at_price": null,
         "available": true
       },
@@ -853,7 +2443,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-SH454-BR-M",
-        "price": 1090000,
+        "price": 110000,
         "compare_at_price": null,
         "available": true
       },
@@ -863,7 +2453,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-SH454-BR-L",
-        "price": 1090000,
+        "price": 110000,
         "compare_at_price": null,
         "available": true
       }
@@ -872,10 +2462,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "dong-dao",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span>CHI TIẾT<br>- Chất liệu: 85%Acetate, 15%Nylon<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>"
+    "body_html": "<p><span>CHI TIẾT<br>- Chất liệu: 85%Acetate, 15%Nylon<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
+    "rent_price": 110000,
+    "deposit": 500000,
+    "buy_price": 1090000
   },
   {
     "id": 7806221877315,
@@ -885,7 +2479,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:27:23+07:00",
     "published_at": "2026-09-09T18:38:34+07:00",
-    "price": 2350000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265344copy5.jpg?v=1787214349",
@@ -921,7 +2515,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-NUD-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -931,7 +2525,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-S",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -941,7 +2535,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-NUD-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -951,7 +2545,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-M",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -961,7 +2555,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-NUD-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -971,7 +2565,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-L",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
@@ -980,10 +2574,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>"
+    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2350000
   },
   {
     "id": 7806210244675,
@@ -993,7 +2591,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:24:16+07:00",
     "published_at": "2026-09-09T18:38:34+07:00",
-    "price": 1750000,
+    "price": 180000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265217copy3.jpg?v=1787214025",
@@ -1022,7 +2620,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-TS47-WHT-S",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -1032,7 +2630,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-TS47-WHT-M",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -1042,7 +2640,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-TS47-WHT-L",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       }
@@ -1052,10 +2650,14 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>"
+    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
+    "rent_price": 180000,
+    "deposit": 500000,
+    "buy_price": 1750000
   },
   {
     "id": 7806197989443,
@@ -1065,7 +2667,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:21:48+07:00",
     "published_at": "2026-09-09T18:38:33+07:00",
-    "price": 2350000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265198copy3.jpg?v=1787214025",
@@ -1101,7 +2703,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-NUD-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1111,7 +2713,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-S",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1121,7 +2723,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-NUD-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1131,7 +2733,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-M",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1141,7 +2743,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V1-NUD-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1151,7 +2753,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong",
         "sku": "DD-SH450-NUD-L",
-        "price": 1150000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
@@ -1160,10 +2762,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2350000
   },
   {
     "id": 7806164566083,
@@ -1173,7 +2779,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-20T15:12:13+07:00",
     "published_at": "2026-09-09T18:38:30+07:00",
-    "price": 2350000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265068copy3.jpg?v=1787213270",
@@ -1209,7 +2815,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-CRM-S",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1219,7 +2825,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Lớp Trong",
         "sku": "DD-AD95-WHT-S",
-        "price": 2950000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1229,7 +2835,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-CRM-M",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1239,7 +2845,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Lớp Trong",
         "sku": "DD-AD95-WHT-M",
-        "price": 2950000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1249,7 +2855,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Ngoài",
         "sku": "DD-AD90-V2-CRM-L",
-        "price": 2350000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -1259,7 +2865,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Lớp Trong",
         "sku": "DD-AD95-WHT-L",
-        "price": 2950000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
@@ -1268,10 +2874,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO DÀI LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO DÀI LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2350000
   },
   {
     "id": 7804929704003,
@@ -1281,7 +2891,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-08-19T17:53:20+07:00",
     "published_at": "2026-09-09T18:38:28+07:00",
-    "price": 2950000,
+    "price": 300000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107264882copy3.jpg?v=1787136749",
@@ -1310,7 +2920,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-AD95-WHT-S",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -1320,7 +2930,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-AD95-WHT-M",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       },
@@ -1330,7 +2940,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-AD95-WHT-L",
-        "price": 2950000,
+        "price": 300000,
         "compare_at_price": null,
         "available": true
       }
@@ -1339,10 +2949,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "phien-van",
       "van-anh",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span>CHI TIẾT ÁO DÀI<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>"
+    "body_html": "<p><span>CHI TIẾT ÁO DÀI<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
+    "rent_price": 300000,
+    "deposit": 700000,
+    "buy_price": 2950000
   },
   {
     "id": 7568386588739,
@@ -1352,7 +2966,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-08T10:37:27+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0144.jpg?v=1767843482",
@@ -1386,7 +3000,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD88-HONGNHAT-XS",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -1396,7 +3010,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD88-HONGNHAT-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -1406,7 +3020,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD88-HONGNHAT-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -1416,7 +3030,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD88-HONGNHAT-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -1426,7 +3040,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD86-CAM-XS",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -1436,7 +3050,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD86-CAM-S",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -1446,7 +3060,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD86-CAM-M",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -1456,17 +3070,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD86-CAM-L",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7568172122179,
@@ -1476,7 +3094,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-08T10:12:09+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/092_70290991-cc0e-4e8f-9487-5c27e2c55e22.jpg?v=1767842006",
@@ -1509,7 +3127,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD90-XANHDUONG-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1519,7 +3137,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD90-XANHDUONG-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1529,7 +3147,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD90-XANHDUONG-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1539,7 +3157,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD86-KEM-S",
-        "price": 3100000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1549,7 +3167,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD86-KEM-M",
-        "price": 3100000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1559,17 +3177,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD86-KEM-L",
-        "price": 3100000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7568170352707,
@@ -1579,7 +3201,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-08T10:12:01+07:00",
     "published_at": "2026-01-08T14:43:48+07:00",
-    "price": 5500000,
+    "price": 550000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0133.jpg?v=1767859673",
@@ -1611,7 +3233,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD85-HONG-S",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1621,7 +3243,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD85-HONG-M",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1631,7 +3253,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD85-HONG-L",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1641,7 +3263,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD86-CAM-S",
-        "price": 3100000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1651,7 +3273,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD86-CAM-M",
-        "price": 3100000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1661,17 +3283,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD86-CAM-L",
-        "price": 3100000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ tròn<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ Nhật<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu nhẹ, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ tròn<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ Nhật<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu nhẹ, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 550000,
+    "deposit": 1400000,
+    "buy_price": 5500000
   },
   {
     "id": 7568168058947,
@@ -1681,7 +3307,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-08T10:08:16+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
-    "price": 5500000,
+    "price": 550000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/087_1fd57989-3f27-43ef-97b9-4fc67c855f3d.jpg?v=1767841805",
@@ -1713,7 +3339,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD85-REU-S",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1723,7 +3349,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD85-REU-M",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1733,7 +3359,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD85-REU-L",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1743,7 +3369,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD86-KEM-S",
-        "price": 3100000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1753,7 +3379,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD86-KEM-M",
-        "price": 3100000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1763,17 +3389,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD86-KEM-L",
-        "price": 3100000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT ÁO DÀI LỚP NGOÀI</span></span></span></span></h4>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Kiểu áo sơ mi  </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Cổ tròn </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có cúc đóng phía trước </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo một lớp</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Tơ Nhật </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ co giãn: Co ít </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ nhiều dặm: Vải có độ thoải mái, khách hàng nên thêm sản phẩm hỗ trợ</span></span></span></span></p>\n<h4><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT ÁO DÀI TRỌNG</span></span></span></span></h4>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Kiểu áo sơ mi  </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Cổ trụ </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có cúc đóng phía trước </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo một lớp</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Lụa lông công </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ co giãn: Co ít </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ nhiều Phúc: Vải không xuyên Phúc</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ diệt khô </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ nén hơi nước</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span></span></span></p>"
+    "body_html": "<h4><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT ÁO DÀI LỚP NGOÀI</span></span></span></span></h4>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Kiểu áo sơ mi  </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Cổ tròn </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có cúc đóng phía trước </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo một lớp</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Tơ Nhật </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ co giãn: Co ít </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ nhiều dặm: Vải có độ thoải mái, khách hàng nên thêm sản phẩm hỗ trợ</span></span></span></span></p>\n<h4><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT ÁO DÀI TRỌNG</span></span></span></span></h4>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Kiểu áo sơ mi  </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Cổ trụ </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có cúc đóng phía trước </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo một lớp</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Lụa lông công </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ co giãn: Co ít </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ nhiều Phúc: Vải không xuyên Phúc</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ diệt khô </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ nén hơi nước</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span></span></span></p>",
+    "rent_price": 550000,
+    "deposit": 1400000,
+    "buy_price": 5500000
   },
   {
     "id": 7568167567427,
@@ -1783,7 +3413,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-08T10:07:16+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
-    "price": 5500000,
+    "price": 550000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/075_190e841c-291d-48ae-bda3-f888478d200a.jpg?v=1767841121",
@@ -1816,7 +3446,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD85-XANHNGOC-S",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1826,7 +3456,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD85-XANHNGOC-M",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": false
       },
@@ -1836,7 +3466,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD85-XANHNGOC-L",
-        "price": 5500000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1846,7 +3476,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-XANHTHAN-S",
-        "price": 1950000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1856,7 +3486,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-XANHTHAN-M",
-        "price": 1950000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       },
@@ -1866,17 +3496,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-XANHTHAN-L",
-        "price": 1950000,
+        "price": 550000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ tròn<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ Nhật<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ tròn<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ Nhật<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 550000,
+    "deposit": 1400000,
+    "buy_price": 5500000
   },
   {
     "id": 7567749840963,
@@ -1886,7 +3520,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T19:34:08+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/069_2899c3b2-a233-4eea-bf32-23b4fa7dfb64.jpg?v=1767788723",
@@ -1919,7 +3553,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD90-NAU-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1929,7 +3563,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD90-NAU-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1939,7 +3573,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD90-NAU-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1949,7 +3583,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD86-NAU-S",
-        "price": 3100000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1959,7 +3593,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD86-NAU-M",
-        "price": 3100000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -1969,7 +3603,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD86-NAU-L",
-        "price": 3100000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       }
@@ -1978,10 +3612,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "set-mien-y",
       "ma-may",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7567748333635,
@@ -1991,7 +3629,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T19:23:22+07:00",
     "published_at": "2026-01-08T14:43:44+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/060_4d1ed487-63cc-4b9d-a754-99abde056db8.jpg?v=1767788172",
@@ -2026,7 +3664,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD90-NAU-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2036,7 +3674,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD90-NAU-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2046,7 +3684,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD90-NAU-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2056,7 +3694,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-XANHLA-S",
-        "price": 1950000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2066,7 +3704,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-XANHLA-M",
-        "price": 1950000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2076,7 +3714,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-XANHLA-L",
-        "price": 1950000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2086,7 +3724,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "S",
         "sku": "DDV257-VANGCOM-S",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2096,7 +3734,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "M",
         "sku": "DDV257-VANGCOM-M",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -2106,17 +3744,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "L",
         "sku": "DDV257-VANGCOM-L",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>Thiết kế bao gồm 3 sản phẩm:</h3>\n<p>Áo dài ren kim sa lớp ngoài<br>Áo dài tơ lớp trong <br>Váy lót hai dây <br> <br>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu vàng cốm – xanh lá - nâu</p>\n<p>CHẤT LIỆU<br>- Áo dài lớp ngoài: Ren kim sa<br>- Áo dài lớp trong: Tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>"
+    "body_html": "<h3>Thiết kế bao gồm 3 sản phẩm:</h3>\n<p>Áo dài ren kim sa lớp ngoài<br>Áo dài tơ lớp trong <br>Váy lót hai dây <br> <br>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu vàng cốm – xanh lá - nâu</p>\n<p>CHẤT LIỆU<br>- Áo dài lớp ngoài: Ren kim sa<br>- Áo dài lớp trong: Tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7567744729155,
@@ -2126,7 +3768,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T19:05:14+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/043_058336cd-0c0b-41f5-ba04-ebb78437dd52.jpg?v=1767787586",
@@ -2160,7 +3802,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD88-XANHNGOC-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2170,7 +3812,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD88-XANHNGOC-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2180,7 +3822,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD88-XANHNGOC-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2190,7 +3832,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-HONGSEN-S",
-        "price": 1950000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2200,7 +3842,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-HONGSEN-M",
-        "price": 1950000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2210,7 +3852,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-HONGSEN-L",
-        "price": 1950000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2220,7 +3862,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-KEM-S",
-        "price": 1890000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2230,7 +3872,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-KEM-M",
-        "price": 1890000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2240,17 +3882,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-KEM-L",
-        "price": 1890000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4>Thiết kế bao gồm 3 sản phẩm:</h4>\n<p>Áo dài tơ lớp ngoài cùng <br>Áo dài tơ lớp trong <br>Váy trong hai dây </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br></p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>"
+    "body_html": "<h4>Thiết kế bao gồm 3 sản phẩm:</h4>\n<p>Áo dài tơ lớp ngoài cùng <br>Áo dài tơ lớp trong <br>Váy trong hai dây </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br></p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7567743647811,
@@ -2260,7 +3906,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T18:57:43+07:00",
     "published_at": "2026-01-08T14:43:48+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0137.jpg?v=1767787152",
@@ -2293,7 +3939,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD88-TIM-XS",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2303,7 +3949,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD88-TIM-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2313,7 +3959,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD88-TIM-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2323,7 +3969,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD88-TIM-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2333,7 +3979,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lơp Trong",
         "option2": "XS",
         "sku": "DD-7567743647811-Lơp Trong / XS",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2343,7 +3989,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lơp Trong",
         "option2": "S",
         "sku": "DDAD86-CAM-S",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2353,7 +3999,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lơp Trong",
         "option2": "M",
         "sku": "DDAD86-CAM-M",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2363,17 +4009,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lơp Trong",
         "option2": "L",
         "sku": "DDAD86-CAM-L",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7567743352899,
@@ -2383,7 +4033,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T18:55:54+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/037_3e86c143-f02f-45db-aa6a-4b5ee292ed61.jpg?v=1767860369",
@@ -2417,7 +4067,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD88-XANHTHAN-XS",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2427,7 +4077,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD88-XANHTHAN-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2437,7 +4087,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD88-XANHTHAN-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2447,7 +4097,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD88-XANHTHAN-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2457,7 +4107,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DD-7567743352899-Lớp Trong / XS",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -2467,7 +4117,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD86-NAU-S",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2477,7 +4127,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD86-NAU-M",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -2487,7 +4137,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD86-NAU-L",
-        "price": 3100000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       }
@@ -2496,10 +4146,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "set-mien-y",
       "ma-may",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng\"</p>"
+    "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng\"</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7567740108867,
@@ -2509,7 +4163,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T18:47:05+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
-    "price": 2850000,
+    "price": 290000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/030_67342720-6a33-4e45-a1b7-681a5a04f766.jpg?v=1767785234",
@@ -2542,7 +4196,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD89-XANHTRONG-S",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": true
       },
@@ -2552,7 +4206,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD89-XANHTRONG-M",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": true
       },
@@ -2562,7 +4216,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD89-XANHTRONG-L",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": true
       },
@@ -2572,7 +4226,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD91-XANHTONEN-S",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": true
       },
@@ -2582,7 +4236,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD91-XANHTONEN-M",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": true
       },
@@ -2592,17 +4246,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD91-XANHTONEN-L",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Áo dài lớp trong </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Thiết kế in họa tiết độc bản NÉT DUYÊN</p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Tơ mềm<br>- Áo dài lớp trong: Tơ <br>Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Áo dài lớp trong </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Thiết kế in họa tiết độc bản NÉT DUYÊN</p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Tơ mềm<br>- Áo dài lớp trong: Tơ <br>Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 290000,
+    "deposit": 700000,
+    "buy_price": 2850000
   },
   {
     "id": 7567729852483,
@@ -2612,7 +4270,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T18:27:27+07:00",
     "published_at": "2026-01-08T14:43:48+07:00",
-    "price": 5900000,
+    "price": 590000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/021_9ccb70c4-08bc-4e93-89b0-e0e800742f8e.jpg?v=1767785605",
@@ -2646,7 +4304,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "S",
         "sku": "DDAD87-CAM-S",
-        "price": 5900000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2656,7 +4314,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "M",
         "sku": "DDAD87-CAM-M",
-        "price": 5900000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2666,7 +4324,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "L",
         "sku": "DDAD87-CAM-L",
-        "price": 5900000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2676,7 +4334,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "S",
         "sku": "DDV257.01-DO-S",
-        "price": 1890000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2686,7 +4344,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "M",
         "sku": "DDV257.01-DO-M",
-        "price": 1890000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2696,17 +4354,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "L",
         "sku": "DDV257.01-DO-L",
-        "price": 1890000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Váy lót hai dây</p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT SẢN PHẨM </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế 2 lớp phối hợp tinh tế </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Đường áo ngug, cổ trụ </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có hàng cúc đóng phía trước </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế nút thắt một bên tạo điểm nhấn mềm mại </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Màu sắc tổng thể: phối màu đỏ - cam</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo lớp ngoài: lụa lông công </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Váy lót: lụa </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">độ xuyên nhiều: vải tương đối xuyên nhiều, cần phân kèm váy lót </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ tẩy khô </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ ủi hơi nước</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span></p>\n<p> </p>"
+    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Váy lót hai dây</p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT SẢN PHẨM </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế 2 lớp phối hợp tinh tế </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Đường áo ngug, cổ trụ </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có hàng cúc đóng phía trước </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế nút thắt một bên tạo điểm nhấn mềm mại </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Màu sắc tổng thể: phối màu đỏ - cam</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo lớp ngoài: lụa lông công </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Váy lót: lụa </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">độ xuyên nhiều: vải tương đối xuyên nhiều, cần phân kèm váy lót </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ tẩy khô </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ ủi hơi nước</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span></p>\n<p> </p>",
+    "rent_price": 590000,
+    "deposit": 1500000,
+    "buy_price": 5900000
   },
   {
     "id": 7567729197123,
@@ -2716,7 +4378,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T18:22:58+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
-    "price": 5900000,
+    "price": 590000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/06_2ea0bf10-9281-44f3-82d7-458db8b9cd49.jpg?v=1767784653",
@@ -2752,7 +4414,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "S",
         "sku": "DDAD87-DO-S",
-        "price": 5900000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2762,7 +4424,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "M",
         "sku": "DDAD87-DO-M",
-        "price": 5900000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2772,7 +4434,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "L",
         "sku": "DDAD87-DO-L",
-        "price": 5900000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2782,7 +4444,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "S",
         "sku": "DDV257-KEM-S",
-        "price": 1890000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2792,7 +4454,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "M",
         "sku": "DDV257-KEM-M",
-        "price": 1890000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       },
@@ -2802,17 +4464,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Lót",
         "option2": "L",
         "sku": "DDV257-KEM-L",
-        "price": 1890000,
+        "price": 590000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Váy lót hai dây</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Thiết kế nút thắt một bên tạo điểm nhấn mềm mại<br>- Màu sắc tổng thể: phối màu kem – đỏ</p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Lụa lông công<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>"
+    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Váy lót hai dây</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Thiết kế nút thắt một bên tạo điểm nhấn mềm mại<br>- Màu sắc tổng thể: phối màu kem – đỏ</p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Lụa lông công<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
+    "rent_price": 590000,
+    "deposit": 1500000,
+    "buy_price": 5900000
   },
   {
     "id": 7567724019779,
@@ -2822,7 +4488,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T18:14:13+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
-    "price": 3100000,
+    "price": 310000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0125.jpg?v=1767784527",
@@ -2847,7 +4513,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD86-CAM-S",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -2857,7 +4523,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD86-CAM-M",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -2867,17 +4533,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD86-CAM-L",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>",
+    "rent_price": 310000,
+    "deposit": 800000,
+    "buy_price": 3100000
   },
   {
     "id": 7567719071811,
@@ -2887,7 +4557,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T17:30:26+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
-    "price": 3100000,
+    "price": 310000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/081_0c04f5cf-6744-4f39-aa79-0029ad1b52f3.jpg?v=1767784276",
@@ -2912,7 +4582,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD86-KEM-S",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -2922,7 +4592,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD86-KEM-M",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -2932,17 +4602,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD86-KEM-L",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>",
+    "rent_price": 310000,
+    "deposit": 800000,
+    "buy_price": 3100000
   },
   {
     "id": 7567718940739,
@@ -2952,7 +4626,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-01-07T17:29:40+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
-    "price": 3100000,
+    "price": 310000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/02_90b0944f-83d6-4f8c-b571-1b845b23b0e2.jpg?v=1767780827",
@@ -2985,7 +4659,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "S",
         "sku": "DDAD86-DO-S",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -2995,7 +4669,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "M",
         "sku": "DDAD86-DO-M",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -3005,7 +4679,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Áo Dài",
         "option2": "L",
         "sku": "DDAD86-DO-L",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -3015,7 +4689,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDAD86-KEM-S",
-        "price": 1890000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -3025,7 +4699,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDAD86-KEM-M",
-        "price": 1890000,
+        "price": 310000,
         "compare_at_price": null,
         "available": false
       },
@@ -3035,17 +4709,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDAD86-KEM-L",
-        "price": 1890000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p><br>Áo dài lớp ngoài<br>Váy lót hai dây </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu kem – </p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Ren kim sa<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p><br>Áo dài lớp ngoài<br>Váy lót hai dây </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu kem – </p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Ren kim sa<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 310000,
+    "deposit": 800000,
+    "buy_price": 3100000
   },
   {
     "id": 7539346309187,
@@ -3055,7 +4733,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-12-04T15:56:36+07:00",
     "published_at": "2025-12-04T21:11:38+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8617_32badd60-f550-4018-aabd-3f9bc97e932f.jpg?v=1764862285",
@@ -3080,7 +4758,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD82-XANHDAM-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3090,7 +4768,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD82-XANHDAM-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3100,17 +4778,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD82-XANHDAM-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7539345784899,
@@ -3120,7 +4802,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-12-04T15:54:51+07:00",
     "published_at": "2025-12-04T21:11:38+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK7125_ac57d6ed-8258-4fd2-a61d-20579741d77e.jpg?v=1764906205",
@@ -3156,7 +4838,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Xanh lá",
         "sku": "DDAD82-XANHLA-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3166,7 +4848,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Đen",
         "sku": "DD-7539345784899-S / Đen",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3176,7 +4858,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Trắng",
         "sku": "DD-7539345784899-S / Trắng",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3186,7 +4868,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Hồng",
         "sku": "DD-7539345784899-S / Hồng",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3196,7 +4878,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Xanh",
         "sku": "DD-7539345784899-S / Xanh",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3206,7 +4888,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Đỏ",
         "sku": "DD-7539345784899-S / Đỏ",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3216,7 +4898,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Xanh lá",
         "sku": "DDAD82-XANHLA-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3226,7 +4908,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Đen",
         "sku": "DD-7539345784899-M / Đen",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3236,7 +4918,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Trắng",
         "sku": "DD-7539345784899-M / Trắng",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3246,7 +4928,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Hồng",
         "sku": "DD-7539345784899-M / Hồng",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3256,7 +4938,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Xanh",
         "sku": "DD-7539345784899-M / Xanh",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3266,7 +4948,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Đỏ",
         "sku": "DD-7539345784899-M / Đỏ",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3276,7 +4958,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Xanh lá",
         "sku": "DDAD82-XANHLA-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3286,7 +4968,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Đen",
         "sku": "DD-7539345784899-L / Đen",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3296,7 +4978,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Trắng",
         "sku": "DD-7539345784899-L / Trắng",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3306,7 +4988,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Hồng",
         "sku": "DD-7539345784899-L / Hồng",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3316,7 +4998,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Xanh",
         "sku": "DD-7539345784899-L / Xanh",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3326,17 +5008,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Đỏ",
         "sku": "DD-7539345784899-L / Đỏ",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7539344900163,
@@ -3346,7 +5032,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-12-04T15:49:37+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK6198_e75057da-27a3-4d80-b96a-f61b8eeab12a.jpg?v=1764862213",
@@ -3378,7 +5064,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Hồng",
         "sku": "DDAD82-HONG-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3388,7 +5074,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Hồng",
         "sku": "DDAD82-HONG-M",
-        "price": 735000,
+        "price": 250000,
         "compare_at_price": 2450000,
         "available": false
       },
@@ -3398,17 +5084,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Hồng",
         "sku": "DDAD82-HONG-L",
-        "price": 735000,
+        "price": 250000,
         "compare_at_price": 2450000,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7539344801859,
@@ -3418,7 +5108,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-12-04T15:48:15+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK7992_d6b8cd51-5606-409a-8fd6-7b94ce636626.jpg?v=1764862177",
@@ -3443,7 +5133,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD82-TRANG-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3453,7 +5143,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD82-TRANG-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3463,17 +5153,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD82-TRANG-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7539344703555,
@@ -3483,7 +5177,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-12-04T15:47:01+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK7554_ebd174e5-adde-4113-9c62-ce5a48f27a7d.jpg?v=1764906307",
@@ -3508,7 +5202,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD82-DEN-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3518,7 +5212,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD82-DEN-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3528,17 +5222,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD82-DEN-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7539344605251,
@@ -3548,7 +5246,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-12-04T15:46:40+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK6926_f07ab6a5-31f8-425f-bb22-851f818e2108.jpg?v=1764906237",
@@ -3574,7 +5272,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD82-DO-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -3584,7 +5282,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD82-DO-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -3594,17 +5292,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD82-DO-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7521758281795,
@@ -3614,7 +5316,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T14:00:22+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
-    "price": 4500000,
+    "price": 450000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT114851copy3.jpg?v=1762844540",
@@ -3642,7 +5344,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD83-NAU-XS",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3652,7 +5354,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD83-NAU-S",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3662,7 +5364,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD83-NAU-M",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3672,17 +5374,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD83-NAU-L",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 450000,
+    "deposit": 1100000,
+    "buy_price": 4500000
   },
   {
     "id": 7521758085187,
@@ -3692,7 +5398,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T13:58:36+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
-    "price": 4500000,
+    "price": 450000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT114338copy3.jpg?v=1762844379",
@@ -3718,7 +5424,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD80-NAU-XS",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3728,7 +5434,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD80-NAU-S",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3738,7 +5444,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD80-NAU-M",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3748,17 +5454,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD80-NAU-L",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 450000,
+    "deposit": 1100000,
+    "buy_price": 4500000
   },
   {
     "id": 7521758019651,
@@ -3768,7 +5478,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T13:57:09+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
-    "price": 4500000,
+    "price": 450000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT114259copy3_5b176567-53d3-4c2d-a997-2d02b9a7d907.jpg?v=1762941693",
@@ -3796,7 +5506,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD80-HONGCAM-XS",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3806,7 +5516,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD80-HONGCAM-S",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3816,7 +5526,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD80-HONGCAM-M",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3826,17 +5536,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD80-HONGCAM-L",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 450000,
+    "deposit": 1100000,
+    "buy_price": 4500000
   },
   {
     "id": 7521757921347,
@@ -3846,7 +5560,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T13:55:34+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
-    "price": 4500000,
+    "price": 450000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT113795copy3.jpg?v=1762844183",
@@ -3873,7 +5587,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD80-HONGNHAT-XS",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3883,7 +5597,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD80-HONGNHAT-S",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3893,7 +5607,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD80-HONGNHAT-M",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -3903,17 +5617,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD80-HONGNHAT-L",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 450000,
+    "deposit": 1100000,
+    "buy_price": 4500000
   },
   {
     "id": 7521703985219,
@@ -3923,7 +5641,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:54:21+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT114572copy3.jpg?v=1762836926",
@@ -3952,7 +5670,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD78-XANHTHAN-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -3962,7 +5680,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD78-XANHTHAN-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -3972,7 +5690,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD78-XANHTHAN-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -3982,17 +5700,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD78-XANHTHAN-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7521701167171,
@@ -4002,7 +5724,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:51:17+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT115071copy3.jpg?v=1762836423",
@@ -4029,7 +5751,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD78-HONGHOATO-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4039,7 +5761,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD78-HONGHOATO-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4049,7 +5771,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD78-HONGHOATO-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4059,17 +5781,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD78-HONGHOATO-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7521696383043,
@@ -4079,7 +5805,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:48:11+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT115179copy3.jpg?v=1762836758",
@@ -4106,7 +5832,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD78-XANHNGOC-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4116,7 +5842,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD78-XANHNGOC-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4126,7 +5852,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD78-XANHNGOC-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4136,17 +5862,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD78-XANHNGOC-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7521695989827,
@@ -4156,7 +5886,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:47:48+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT114880copy4_cd9a2236-dd6d-42d7-b138-2c615fc49209.jpg?v=1762941572",
@@ -4183,7 +5913,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD78-KEM-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4193,7 +5923,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD78-KEM-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4203,7 +5933,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD78-KEM-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4213,17 +5943,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD78-KEM-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7521694908483,
@@ -4233,7 +5967,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:45:48+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT115016copy3.jpg?v=1762836227",
@@ -4259,7 +5993,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD78-HONGNHAT-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4269,7 +6003,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD78-HONGNHAT-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4279,7 +6013,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD78-HONGNHAT-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4289,17 +6023,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD78-HONGNHAT-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ��ng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ��ng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7521693663299,
@@ -4309,7 +6047,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:42:32+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
-    "price": 2900000,
+    "price": 290000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT115330copy4.jpg?v=1762836008",
@@ -4337,7 +6075,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD66.01-HONG-XS",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -4347,7 +6085,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD66.01-HONG-S",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -4357,7 +6095,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD66.01-HONG-M",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -4367,17 +6105,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD66.01-HONG-L",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót tơ óng</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót tơ óng</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 290000,
+    "deposit": 700000,
+    "buy_price": 2900000
   },
   {
     "id": 7521692123203,
@@ -4387,7 +6129,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:39:10+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
-    "price": 2900000,
+    "price": 290000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT113603copy3.jpg?v=1762835833",
@@ -4413,7 +6155,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD66.01-XANH-XS",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -4423,7 +6165,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD66.01-XANH-S",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -4433,7 +6175,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD66.01-XANH-M",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -4443,17 +6185,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD66.01-XANH-L",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 290000,
+    "deposit": 700000,
+    "buy_price": 2900000
   },
   {
     "id": 7521690517571,
@@ -4463,7 +6209,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-11-11T11:36:47+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
-    "price": 4500000,
+    "price": 450000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGT113293copy4_4df15c77-a276-471f-88a1-19bd7427bc05.jpg?v=1762941341",
@@ -4490,7 +6236,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD80-TIM-XS",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -4500,7 +6246,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD80-TIM-S",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": true
       },
@@ -4510,7 +6256,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD80-TIM-M",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -4520,17 +6266,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD80-TIM-L",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 450000,
+    "deposit": 1100000,
+    "buy_price": 4500000
   },
   {
     "id": 7487277826115,
@@ -4540,7 +6290,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-12T21:56:21+07:00",
     "published_at": "2025-09-12T22:01:55+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_2496copy.jpg?v=1757579786",
@@ -4572,7 +6322,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-XANHDUONG-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4582,7 +6332,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-XANHDUONG-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4592,7 +6342,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-XANHDUONG-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4602,7 +6352,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-XANHDUONG-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4612,7 +6362,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "XS",
         "sku": "DDV257-KEM-XS",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4622,7 +6372,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "S",
         "sku": "DDV257-KEM-S",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4632,7 +6382,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "M",
         "sku": "DDV257-KEM-M",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4642,17 +6392,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "L",
         "sku": "DDV257-KEM-L",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ dập nổi màu xanh dương<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh dương </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ dập nổi màu xanh dương<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh dương </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7486080286787,
@@ -4662,7 +6416,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-10T14:37:42+07:00",
     "published_at": "2025-09-10T14:37:57+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092596544copy4.jpg?v=1757489725",
@@ -4696,7 +6450,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-TIMNHAT-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -4706,7 +6460,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-TIMNHAT-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -4716,7 +6470,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-TIMNHAT-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -4726,7 +6480,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-TIMNHAT-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -4736,7 +6490,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD68-XANHTHAN-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -4746,7 +6500,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-XANHTHAN-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -4756,7 +6510,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-XANHTHAN-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -4766,7 +6520,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-XANHTHAN-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -4776,7 +6530,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-KEM-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -4786,7 +6540,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-KEM-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -4796,7 +6550,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-KEM-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -4806,17 +6560,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-KEM-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu xanh than<br>Áo dài tơ lớp ngoài cùng màu tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh than – tím nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu xanh than<br>Áo dài tơ lớp ngoài cùng màu tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh than – tím nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7485607280707,
@@ -4826,7 +6584,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:49:11+07:00",
     "published_at": "2025-09-10T14:05:10+07:00",
-    "price": 2490000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092597723copy3_02789734-6611-4c1b-85bf-85be35ed7c3d.jpg?v=1757470691",
@@ -4853,7 +6611,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD67-KEM-XS",
-        "price": 2490000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -4863,7 +6621,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD67-KEM-S",
-        "price": 2490000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -4873,7 +6631,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD67-KEM-M",
-        "price": 2490000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -4883,17 +6641,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD67-KEM-L",
-        "price": 2490000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ áo tròn<br>- Không có tay <br>- Có cúc đóng phía sau<br>- Áo hai lớp<br>- Lớp lót latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br>CHĂM SÓC</span></p>"
+    "body_html": "<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ áo tròn<br>- Không có tay <br>- Có cúc đóng phía sau<br>- Áo hai lớp<br>- Lớp lót latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br>CHĂM SÓC</span></p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2490000
   },
   {
     "id": 7485607247939,
@@ -4903,7 +6665,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:46:20+07:00",
     "published_at": "2025-09-10T14:05:10+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092597264copy3_8094a31b-61e6-4ac2-8f98-04a43b7a3ab1.jpg?v=1757471122",
@@ -4930,7 +6692,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD66-HONGCAM-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4940,7 +6702,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD66-HONGCAM-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4950,7 +6712,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD66-HONGCAM-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -4960,17 +6722,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD66-HONGCAM-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7485607116867,
@@ -4980,7 +6746,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:43:26+07:00",
     "published_at": "2025-09-10T14:05:10+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092596873copy4_3723dac3-2c6d-4886-91aa-28e60d698a71.jpg?v=1757470963",
@@ -5008,7 +6774,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD66-XANHDUONG-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5018,7 +6784,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD66-XANHDUONG-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5028,7 +6794,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD66-XANHDUONG-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5038,17 +6804,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD66-XANHDUONG-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7485606035523,
@@ -5058,7 +6828,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:27:52+07:00",
     "published_at": "2025-09-10T14:05:11+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092597583copy4.jpg?v=1757391737",
@@ -5094,7 +6864,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-TIMNHAT-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5104,7 +6874,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-TIMNHAT-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5114,7 +6884,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-TIMNHAT-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5124,7 +6894,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-TIMNHAT-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5134,7 +6904,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD64.01-TIMNHAT-XS",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5144,7 +6914,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD64.01-TIMNHAT-S",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5154,7 +6924,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD64.01-TIMNHAT-M",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5164,7 +6934,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD64.01-TIMNHAT-L",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5174,7 +6944,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "XS",
         "sku": "DDV257-XANHCOVIT-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5184,7 +6954,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "S",
         "sku": "DDV257-XANHCOVIT-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5194,7 +6964,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "M",
         "sku": "DDV257-XANHCOVIT-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5204,17 +6974,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "L",
         "sku": "DDV257-XANHCOVIT-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây xanh cổ vịt<br>Áo dài tơ dập nổi lớp trong tím nhạt<br>Áo dài tơ lớp ngoài tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – xanh lá</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây xanh cổ vịt<br>Áo dài tơ dập nổi lớp trong tím nhạt<br>Áo dài tơ lớp ngoài tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – xanh lá</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7485606002755,
@@ -5224,7 +6998,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:27:36+07:00",
     "published_at": "2025-09-10T14:05:12+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092597409copy4.jpg?v=1757391979",
@@ -5257,7 +7031,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD64.01-TIMNHAT-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5267,7 +7041,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD64.01-TIMNHAT-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5277,7 +7051,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD64.01-TIMNHAT-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5287,7 +7061,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD64.01-TIMNHAT-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5297,7 +7071,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-XANHCOVIT-XS",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5307,7 +7081,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-XANHCOVIT-S",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5317,7 +7091,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-XANHCOVIT-M",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -5327,17 +7101,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-XANHCOVIT-L",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu xanh cổ vị<br>Áo dài tơ dập nổi lớp ngoài cùng màu tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh than – tím nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài: tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu xanh cổ vị<br>Áo dài tơ dập nổi lớp ngoài cùng màu tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh than – tím nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài: tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7485604855875,
@@ -5347,7 +7125,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:19:35+07:00",
     "published_at": "2025-09-10T14:05:12+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092596114copy3_7d032d57-bd31-432e-b582-e78d5778008b.jpg?v=1762938073",
@@ -5382,7 +7160,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-XANHDUONG-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5392,7 +7170,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-XANHDUONG-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5402,7 +7180,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-XANHDUONG-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5412,7 +7190,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-XANHDUONG-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5422,7 +7200,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD68-HONGNHAT-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5432,7 +7210,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-HONGNHAT-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5442,7 +7220,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-HONGNHAT-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5452,7 +7230,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-HONGNHAT-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5462,7 +7240,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-KEM-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5472,7 +7250,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-KEM-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5482,7 +7260,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-KEM-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5492,17 +7270,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-KEM-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h4>Thiết kế bao gồm 3 sản phẩm:</h4>\n<p>Áo dài tơ lớp ngoài cùng màu xanh dương<br>Áo dài tơ lớp trong màu hồng nhạt<br>Váy trong hai dây màu kem</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng nhạt – xanh dương</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>"
+    "body_html": "<h4>Thiết kế bao gồm 3 sản phẩm:</h4>\n<p>Áo dài tơ lớp ngoài cùng màu xanh dương<br>Áo dài tơ lớp trong màu hồng nhạt<br>Váy trong hai dây màu kem</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng nhạt – xanh dương</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7485604429891,
@@ -5512,7 +7294,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:14:28+07:00",
     "published_at": "2025-09-10T14:05:12+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_03092595812_copy_3.jpg?v=1757391173",
@@ -5547,7 +7329,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-XANHLA-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5557,7 +7339,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-XANHLA-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5567,7 +7349,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-XANHLA-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5577,7 +7359,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-XANHLA-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5587,7 +7369,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD68-HONGSEN-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5597,7 +7379,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-HONGSEN-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5607,7 +7389,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-HONGSEN-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5617,7 +7399,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-HONGSEN-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5627,7 +7409,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "XS",
         "sku": "DDV257-KEM-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5637,7 +7419,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "S",
         "sku": "DDV257-KEM-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5647,7 +7429,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "M",
         "sku": "DDV257-KEM-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5657,17 +7439,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "L",
         "sku": "DDV257-KEM-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu hồng sen<br>Áo dài tơ lớp ngoài màu xanh lá</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – xanh lá</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp;amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu hồng sen<br>Áo dài tơ lớp ngoài màu xanh lá</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – xanh lá</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp;amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7485604036675,
@@ -5677,7 +7463,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:11:56+07:00",
     "published_at": "2025-09-10T14:05:15+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG03092595418copy5_82cb584d-2bb6-4377-88b9-ffc71b7d0202.jpg?v=1757470750",
@@ -5711,7 +7497,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-HONGNHAT-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5721,7 +7507,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-HONGNHAT-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5731,7 +7517,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-HONGNHAT-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5741,7 +7527,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-HONGNHAT-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5751,7 +7537,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD68-HONGSEN-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5761,7 +7547,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-HONGSEN-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5771,7 +7557,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-HONGSEN-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5781,7 +7567,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-HONGSEN-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5791,7 +7577,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-KEM-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5801,7 +7587,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-KEM-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5811,7 +7597,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-KEM-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5821,17 +7607,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-KEM-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu hồng sen<br>Áo dài tơ lớp ngoài cùng màu hồng nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – hồng nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu hồng sen<br>Áo dài tơ lớp ngoài cùng màu hồng nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – hồng nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7485603708995,
@@ -5841,7 +7631,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-09T11:07:53+07:00",
     "published_at": "2025-09-10T14:05:16+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_03092595064_copy_5.jpg?v=1762938730",
@@ -5876,7 +7666,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD68-XANHTHAN-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5886,7 +7676,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD68-XANHTHAN-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5896,7 +7686,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD68-XANHTHAN-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -5906,7 +7696,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD68-XANHTHAN-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5916,7 +7706,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-XANHTHAN-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5926,7 +7716,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-XANHTHAN-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5936,7 +7726,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-XANHTHAN-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5946,7 +7736,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-XANHTHAN-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5956,7 +7746,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "XS",
         "sku": "DDV257-XANHCOVIT-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5966,7 +7756,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "S",
         "sku": "DDV257-XANHCOVIT-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5976,7 +7766,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "M",
         "sku": "DDV257-XANHCOVIT-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -5986,17 +7776,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy hai dây",
         "option2": "L",
         "sku": "DDV257-XANHCOVIT-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu xanh cổ vịt<br>Áo dài tơ lớp trong xanh cổ vịt<br>Áo dài tơ lớp ngoài cùng màu xanh than</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối xanh cổ vịt – xanh cổ vịt – xanh than</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu xanh cổ vịt<br>Áo dài tơ lớp trong xanh cổ vịt<br>Áo dài tơ lớp ngoài cùng màu xanh than</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối xanh cổ vịt – xanh cổ vịt – xanh than</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7482982694979,
@@ -6006,7 +7800,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:51:14+07:00",
     "published_at": "2025-09-04T12:52:31+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_1088copy.jpg?v=1756962170",
@@ -6033,7 +7827,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD66-HONGNHAT-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6043,7 +7837,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD66-HONGNHAT-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6053,7 +7847,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD66-HONGNHAT-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6063,17 +7857,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD66-HONGNHAT-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7482943111235,
@@ -6083,7 +7881,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:45:22+07:00",
     "published_at": "2025-09-04T12:45:38+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_3706copy.jpg?v=1756964614",
@@ -6116,7 +7914,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD64.01-VANG-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6126,7 +7924,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD64.01-VANG-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6136,7 +7934,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD64.01-VANG-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6146,7 +7944,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD64.01-VANG-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6156,7 +7954,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-VANGCOM-XS",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6166,7 +7964,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-VANGCOM-S",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6176,7 +7974,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-VANGCOM-M",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6186,17 +7984,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-VANGCOM-L",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi lớp ngoài cùng màu vàng<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – vàng </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi lớp ngoài cùng màu vàng<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – vàng </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7482931478595,
@@ -6206,7 +8008,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:40:29+07:00",
     "published_at": "2025-09-04T12:42:04+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_3890copy_73c6be39-6031-4d7c-a120-c96b121d51ec.jpg?v=1757581106",
@@ -6239,7 +8041,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-XANHDUONG-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6249,7 +8051,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-XANHDUONG-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6259,7 +8061,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-XANHDUONG-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6269,7 +8071,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-XANHDUONG-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6279,7 +8081,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD66-XANHDUONG-XS",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6289,7 +8091,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD66-XANHDUONG-S",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6299,7 +8101,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD66-XANHDUONG-M",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6309,17 +8111,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD66-XANHDUONG-L",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3><br></h3>\n<h3>Thiết kế bao gồm 2 sản phẩm:</h3>\n<p>Áo dài lụa dập nổi màu xanh dương<br>Áo dài tơ trong lớp ngoài cùng màu tím nhạt<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối xanh dương – tím nhạt </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3><br></h3>\n<h3>Thiết kế bao gồm 2 sản phẩm:</h3>\n<p>Áo dài lụa dập nổi màu xanh dương<br>Áo dài tơ trong lớp ngoài cùng màu tím nhạt<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối xanh dương – tím nhạt </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7482918731843,
@@ -6329,7 +8135,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:35:34+07:00",
     "published_at": "2025-09-04T12:39:10+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_3626copy.jpg?v=1756964351",
@@ -6364,7 +8170,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-XANHDUONG-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6374,7 +8180,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-XANHDUONG-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6384,7 +8190,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-XANHDUONG-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6394,7 +8200,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-XANHDUONG-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6404,7 +8210,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD64.01-VANG-XS",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6414,7 +8220,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD64.01-VANG-S",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6424,7 +8230,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD64.01-VANG-M",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6434,7 +8240,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD64.01-VANG-L",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6444,7 +8250,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-VANGCOM-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6454,7 +8260,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-VANGCOM-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6464,7 +8270,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-VANGCOM-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6474,17 +8280,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-VANGCOM-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>Thiết kế bao gồm 3 sản phẩm:</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi màu vàng<br>Áo dài tơ lớp ngoài cùng màu xanh dương</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – vàng – xanh dương</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3>Thiết kế bao gồm 3 sản phẩm:</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi màu vàng<br>Áo dài tơ lớp ngoài cùng màu xanh dương</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – vàng – xanh dương</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7482916307011,
@@ -6494,7 +8304,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:34:38+07:00",
     "published_at": "2025-09-04T12:36:32+07:00",
-    "price": 4500000,
+    "price": 450000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_3178copy.jpg?v=1756963990",
@@ -6522,7 +8332,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD65-NAU-XS",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -6532,7 +8342,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD65-NAU-S",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -6542,7 +8352,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD65-NAU-M",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       },
@@ -6552,17 +8362,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD65-NAU-L",
-        "price": 4500000,
+        "price": 450000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa phối lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa phối lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 450000,
+    "deposit": 1100000,
+    "buy_price": 4500000
   },
   {
     "id": 7482902184003,
@@ -6572,7 +8386,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:29:05+07:00",
     "published_at": "2025-09-04T12:29:25+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_2739_copy_0a3c8860-e4d0-46ca-9da3-c9ab4e835117.jpg?v=1757579786",
@@ -6604,7 +8418,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-TIMNHAT-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -6614,7 +8428,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-TIMNHAT-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6624,7 +8438,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-TIMNHAT-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6634,7 +8448,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-TIMNHAT-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6644,7 +8458,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD64.01-XANHDUONG-XS",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6654,7 +8468,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD64.01-XANHDUONG-S",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6664,7 +8478,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD64.01-XANHDUONG-M",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6674,7 +8488,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD64.01-XANHDUONG-L",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6684,7 +8498,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "XS",
         "sku": "DDV257-DO-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6694,7 +8508,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "S",
         "sku": "DDV257-DO-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6704,7 +8518,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "M",
         "sku": "DDV257-DO-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6714,17 +8528,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai dây",
         "option2": "L",
         "sku": "DDV257-DO-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Thiết kế bao gồm 3 sản phẩm:</span></span></h3>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Váy trong hai dây màu đỏ </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Áo dài tơ dập nổi màu xanh dương </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Áo dài tơ lớp ngoài Áo cùng màu xanh dương</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT SẢN PHẨM </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế 3 lớp phân phối tinh tế </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Đường áo tàog, cổ trụ, áo dài </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có hàng cúc đóng phía trước </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Màu sắc tổng thể: phối màu đỏ – xanh dương – xanh dương</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Váy lót: Tơ óng </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Độ xuyên nhiều: vải tương đối xuyên cắt, cần phối kèm váy lót </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ sạch khô </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ hơi nước nước</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span><span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Thiết kế bao gồm 3 sản phẩm:</span></span></h3>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Váy trong hai dây màu đỏ </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Áo dài tơ dập nổi màu xanh dương </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Áo dài tơ lớp ngoài Áo cùng màu xanh dương</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT SẢN PHẨM </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế 3 lớp phân phối tinh tế </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Đường áo tàog, cổ trụ, áo dài </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có hàng cúc đóng phía trước </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Màu sắc tổng thể: phối màu đỏ – xanh dương – xanh dương</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Váy lót: Tơ óng </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Độ xuyên nhiều: vải tương đối xuyên cắt, cần phối kèm váy lót </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ sạch khô </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ hơi nước nước</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span><span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7482890059843,
@@ -6734,7 +8552,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:24:02+07:00",
     "published_at": "2025-09-04T12:24:09+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_1947copy.jpg?v=1756963354",
@@ -6770,7 +8588,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-XANHLA-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -6780,7 +8598,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-XANHLA-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -6790,7 +8608,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-XANHLA-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -6800,7 +8618,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-XANHLA-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6810,7 +8628,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD64.01-XANHLA-XS",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6820,7 +8638,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD64.01-XANHLA-S",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6830,7 +8648,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD64.01-XANHLA-M",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6840,7 +8658,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD64.01-XANHLA-L",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6850,7 +8668,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-VANGCOM-XS",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6860,7 +8678,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-VANGCOM-S",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -6870,7 +8688,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-VANGCOM-M",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -6880,17 +8698,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-VANGCOM-L",
-        "price": 1890000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi màu xanh lá<br>Áo dài tơ lớp ngoài cùng màu xanh lá</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – xanh lá – xanh lá</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi màu xanh lá<br>Áo dài tơ lớp ngoài cùng màu xanh lá</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – xanh lá – xanh lá</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7482889437251,
@@ -6900,7 +8722,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:23:40+07:00",
     "published_at": "2025-09-04T12:23:47+07:00",
-    "price": 3500000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_1698copy.jpg?v=1757043935",
@@ -6934,7 +8756,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD64.01-XANHLA-XS",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6944,7 +8766,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD64.01-XANHLA-S",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6954,7 +8776,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD64.01-XANHLA-M",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6964,7 +8786,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD64.01-XANHLA-L",
-        "price": 3500000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6974,7 +8796,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "XS",
         "sku": "DDV257-VANGCOM-XS",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -6984,7 +8806,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "S",
         "sku": "DDV257-VANGCOM-S",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": true
       },
@@ -6994,7 +8816,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "M",
         "sku": "DDV257-VANGCOM-M",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -7004,17 +8826,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Váy Hai Dây",
         "option2": "L",
         "sku": "DDV257-VANGCOM-L",
-        "price": 1890000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi lớp ngoài cùng màu xanh lá<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – xanh lá </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi lớp ngoài cùng màu xanh lá<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – xanh lá </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3500000
   },
   {
     "id": 7482869416003,
@@ -7024,7 +8850,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-09-04T12:15:13+07:00",
     "published_at": "2025-09-04T12:15:24+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_1463copy.jpg?v=1756962660",
@@ -7058,7 +8884,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "XS",
         "sku": "DDAD68-HONGSEN-XS",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -7068,7 +8894,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "S",
         "sku": "DDAD68-HONGSEN-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -7078,7 +8904,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "M",
         "sku": "DDAD68-HONGSEN-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -7088,7 +8914,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Ngoài",
         "option2": "L",
         "sku": "DDAD68-HONGSEN-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -7098,7 +8924,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "XS",
         "sku": "DDAD66-HONGNHAT-XS",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -7108,7 +8934,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "S",
         "sku": "DDAD66-HONGNHAT-S",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -7118,7 +8944,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "M",
         "sku": "DDAD66-HONGNHAT-M",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -7128,17 +8954,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Lớp Trong",
         "option2": "L",
         "sku": "DDAD66-HONGNHAT-L",
-        "price": 3500000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Áo dài lụa dập nổi màu hồng nhạt<br>Áo dài tơ trong lớp ngoài cùng màu hồng sen<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối hồng nhạt – hồng sen </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>"
+    "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Áo dài lụa dập nổi màu hồng nhạt<br>Áo dài tơ trong lớp ngoài cùng màu hồng sen<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối hồng nhạt – hồng sen </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7399358398531,
@@ -7148,7 +8978,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-04-05T14:14:10+07:00",
     "published_at": "2025-04-05T14:14:10+07:00",
-    "price": 1790000,
+    "price": 180000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/482326131_1073286974841511_8847253494513683600_n.jpg?v=1743837215",
@@ -7175,7 +9005,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD12-ĐỎ-XS",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -7185,7 +9015,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD12-ĐỎ-S",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -7195,7 +9025,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD12-ĐỎ-M",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -7205,17 +9035,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD12-ĐỎ-L",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>"
+    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
+    "rent_price": 180000,
+    "deposit": 500000,
+    "buy_price": 1790000
   },
   {
     "id": 7396512104515,
@@ -7225,7 +9059,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-04-03T12:08:24+07:00",
     "published_at": "2025-04-03T12:08:24+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/483987270_1076301294540079_1412820525295938815_n_1.jpg?v=1743656807",
@@ -7251,7 +9085,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD23-HONG-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -7261,7 +9095,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD23-HONG-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -7271,17 +9105,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD23-HONG-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>"
+    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7396511285315,
@@ -7291,7 +9129,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-04-03T11:57:38+07:00",
     "published_at": "2025-04-03T11:57:38+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/483686943_1075656004604608_8119859135027927585_n.jpg?v=1743656090",
@@ -7317,7 +9155,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD18-DEN-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -7327,7 +9165,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD18-DEN-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -7337,17 +9175,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD18-DEN-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>ÁO DÀI KHÔNG BAO GỒM QUẦN</p>"
+    "body_html": "<p>ÁO DÀI KHÔNG BAO GỒM QUẦN</p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7396508500035,
@@ -7357,7 +9199,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-04-03T11:30:39+07:00",
     "published_at": "2025-04-03T11:30:38+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/482346715_1075655617937980_542020139376833726_n.jpg?v=1743654548",
@@ -7384,7 +9226,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD05.02-KEM-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -7394,7 +9236,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD05.02-KEM-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -7404,17 +9246,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD05.02-KEM-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>"
+    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7396163027011,
@@ -7424,7 +9270,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-04-02T16:25:07+07:00",
     "published_at": "2025-04-02T16:25:07+07:00",
-    "price": 3300000,
+    "price": 330000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/483839066_1079055100931365_4891982009124797843_n.jpg?v=1743585605",
@@ -7450,7 +9296,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD12.01-HONG-S",
-        "price": 3300000,
+        "price": 330000,
         "compare_at_price": null,
         "available": false
       },
@@ -7460,7 +9306,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD12.01-HONG-M",
-        "price": 3300000,
+        "price": 330000,
         "compare_at_price": null,
         "available": false
       },
@@ -7470,17 +9316,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD12.01-HONG-L",
-        "price": 3300000,
+        "price": 330000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>"
+    "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
+    "rent_price": 330000,
+    "deposit": 800000,
+    "buy_price": 3300000
   },
   {
     "id": 7374736425027,
@@ -7490,7 +9340,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-02-18T10:54:19+07:00",
     "published_at": "2025-03-03T14:46:17+07:00",
-    "price": 2850000,
+    "price": 290000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG08012435026.jpg?v=1739850519",
@@ -7518,7 +9368,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD39.01-DO-S",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -7528,7 +9378,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD39.01-DO-M",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -7538,17 +9388,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD39.01-DO-L",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG KÈM ÁO NGOÀI VÀ QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG KÈM ÁO NGOÀI VÀ QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
+    "rent_price": 290000,
+    "deposit": 700000,
+    "buy_price": 2850000
   },
   {
     "id": 7374736130115,
@@ -7558,7 +9412,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-02-18T10:47:47+07:00",
     "published_at": "2025-03-03T14:46:26+07:00",
-    "price": 2850000,
+    "price": 290000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG08012434921.jpg?v=1739850323",
@@ -7587,7 +9441,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD39.01-XANHCOVIT-S",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -7597,7 +9451,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD39.01-XANHCOVIT-M",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -7607,17 +9461,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD39.01-XANHCOVIT-L",
-        "price": 2850000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG KÈM ÁO NGOÀI VÀ QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG KÈM ÁO NGOÀI VÀ QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
+    "rent_price": 290000,
+    "deposit": 700000,
+    "buy_price": 2850000
   },
   {
     "id": 7374735474755,
@@ -7627,7 +9485,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-02-18T10:41:00+07:00",
     "published_at": "2025-03-03T14:46:37+07:00",
-    "price": 3550000,
+    "price": 360000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/092.jpg?v=1739849951",
@@ -7654,7 +9512,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD39-HONG-S",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       },
@@ -7664,7 +9522,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD39-HONG-M",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       },
@@ -7674,17 +9532,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD39-HONG-L",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>"
+    "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>",
+    "rent_price": 360000,
+    "deposit": 900000,
+    "buy_price": 3550000
   },
   {
     "id": 7374735343683,
@@ -7694,7 +9556,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-02-18T10:39:38+07:00",
     "published_at": "2025-03-03T14:46:48+07:00",
-    "price": 3550000,
+    "price": 360000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/088.jpg?v=1739849900",
@@ -7721,7 +9583,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DD-7374735343683-XS",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       },
@@ -7731,7 +9593,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD39-TRANGKEM-S",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       },
@@ -7741,7 +9603,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD39-TRANGKEM-M",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       },
@@ -7751,17 +9613,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD39-TRANGKEM-L",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>"
+    "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>",
+    "rent_price": 360000,
+    "deposit": 900000,
+    "buy_price": 3550000
   },
   {
     "id": 7374735212611,
@@ -7771,7 +9637,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-02-18T10:38:02+07:00",
     "published_at": "2025-03-03T14:46:57+07:00",
-    "price": 3550000,
+    "price": 360000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/079_9e31ddad-18ed-44b8-a600-585be113ef3b.jpg?v=1739849801",
@@ -7800,7 +9666,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD39-DOCAMDAT-S",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       },
@@ -7810,7 +9676,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD39-DOCAMDAT-M",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       },
@@ -7820,17 +9686,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD39-DOCAMDAT-L",
-        "price": 3550000,
+        "price": 360000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>"
+    "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>",
+    "rent_price": 360000,
+    "deposit": 900000,
+    "buy_price": 3550000
   },
   {
     "id": 7361070202947,
@@ -7840,7 +9710,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-01-20T11:51:44+07:00",
     "published_at": "2025-01-20T15:37:08+07:00",
-    "price": 3450000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG20251183copy1.jpg?v=1737348676",
@@ -7867,7 +9737,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD62-DO-S",
-        "price": 3450000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -7877,7 +9747,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD62-DO-M",
-        "price": 3450000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -7887,17 +9757,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD62-DO-L",
-        "price": 3450000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM PRE-ORDER </p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Lưới hạt cườm phối ruby<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>SẢN PHẨM PRE-ORDER </p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Lưới hạt cườm phối ruby<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3450000
   },
   {
     "id": 7360575930435,
@@ -7907,7 +9781,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-01-18T16:45:09+07:00",
     "published_at": "2025-01-20T15:31:52+07:00",
-    "price": 3250000,
+    "price": 330000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG20250509copy.jpg?v=1737193440",
@@ -7935,7 +9809,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD64-XANH-S",
-        "price": 3250000,
+        "price": 330000,
         "compare_at_price": null,
         "available": false
       },
@@ -7945,7 +9819,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD64-XANH-M",
-        "price": 3250000,
+        "price": 330000,
         "compare_at_price": null,
         "available": false
       },
@@ -7955,17 +9829,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD64-XANH-L",
-        "price": 3250000,
+        "price": 330000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><br></p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo hai lớp<br>- Lớp lót lụa latin đen</p>\n<p>CHẤT LIỆU<br>- Tơ nến in họa tiết độc bản phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p><br></p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo hai lớp<br>- Lớp lót lụa latin đen</p>\n<p>CHẤT LIỆU<br>- Tơ nến in họa tiết độc bản phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 330000,
+    "deposit": 800000,
+    "buy_price": 3250000
   },
   {
     "id": 7360574423107,
@@ -7975,7 +9853,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-01-18T16:10:57+07:00",
     "published_at": "2025-01-20T15:25:09+07:00",
-    "price": 3450000,
+    "price": 350000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG20250069copy.jpg?v=1737191408",
@@ -8002,7 +9880,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD62-KEM-S",
-        "price": 3450000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -8012,7 +9890,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD62-KEM-M",
-        "price": 3450000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       },
@@ -8022,17 +9900,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD62-KEM-L",
-        "price": 3450000,
+        "price": 350000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM PRE-ORDER </p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Voan đính kết hạt cườm phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>SẢN PHẨM PRE-ORDER </p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Voan đính kết hạt cườm phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 350000,
+    "deposit": 900000,
+    "buy_price": 3450000
   },
   {
     "id": 7354196295747,
@@ -8042,7 +9924,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-30T11:41:28+07:00",
     "published_at": "2024-12-30T11:41:28+07:00",
-    "price": 1690000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8332_7ecead9a-240d-4d20-9ec4-c627de25141d.jpg?v=1738854776",
@@ -8068,7 +9950,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25.01-HONGNHAT-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8078,7 +9960,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25.01-HONGNHAT-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8088,17 +9970,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25.01-HONGNHAT-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p> </p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p> </p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1690000
   },
   {
     "id": 7354196131907,
@@ -8108,7 +9994,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-30T11:35:21+07:00",
     "published_at": "2024-12-30T11:35:21+07:00",
-    "price": 2150000,
+    "price": 220000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8779_3ecba779-00ff-4ba9-8674-7d0d1e06e81e.jpg?v=1735533222",
@@ -8134,7 +10020,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DD-7354196131907-XS",
-        "price": 2150000,
+        "price": 220000,
         "compare_at_price": null,
         "available": false
       },
@@ -8144,7 +10030,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD60.01-HONG-S",
-        "price": 2150000,
+        "price": 220000,
         "compare_at_price": null,
         "available": false
       },
@@ -8154,7 +10040,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD60.01-HONG-M",
-        "price": 2150000,
+        "price": 220000,
         "compare_at_price": null,
         "available": false
       },
@@ -8164,17 +10050,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD60.01-HONG-L",
-        "price": 2150000,
+        "price": 220000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin </p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết bướm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin </p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết bướm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
+    "rent_price": 220000,
+    "deposit": 500000,
+    "buy_price": 2150000
   },
   {
     "id": 7354195902531,
@@ -8184,7 +10074,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-30T11:30:18+07:00",
     "published_at": "2024-12-30T11:30:18+07:00",
-    "price": 1690000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/tr.jpg?v=1735532766",
@@ -8210,7 +10100,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DD-7354195902531-XS",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8220,7 +10110,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25.01-TRANG-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8230,7 +10120,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25.01-TRANG-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8240,17 +10130,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25.01-TRANG-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1690000
   },
   {
     "id": 7341632421955,
@@ -8260,7 +10154,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-02T14:54:05+07:00",
     "published_at": "2024-12-02T17:14:06+07:00",
-    "price": 2150000,
+    "price": 220000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8939.jpg?v=1735533365",
@@ -8285,7 +10179,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD59-HONG-S",
-        "price": 2150000,
+        "price": 220000,
         "compare_at_price": null,
         "available": false
       },
@@ -8295,7 +10189,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD59-HONG-M",
-        "price": 2150000,
+        "price": 220000,
         "compare_at_price": null,
         "available": false
       },
@@ -8305,17 +10199,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD59-HONG-L",
-        "price": 2150000,
+        "price": 220000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin </p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin </p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
+    "rent_price": 220000,
+    "deposit": 500000,
+    "buy_price": 2150000
   },
   {
     "id": 7341631897667,
@@ -8325,7 +10223,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-02T14:48:15+07:00",
     "published_at": "2024-12-02T17:15:16+07:00",
-    "price": 1690000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8068.jpg?v=1733218166",
@@ -8354,7 +10252,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25.01-XANHNGOC-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": true
       },
@@ -8364,7 +10262,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25.01-XANHNGOC-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8374,17 +10272,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25.01-XANHNGOC-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1690000
   },
   {
     "id": 7341631242307,
@@ -8394,7 +10296,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-02T14:45:19+07:00",
     "published_at": "2024-12-02T17:14:48+07:00",
-    "price": 1690000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK7073.jpg?v=1738828733",
@@ -8420,7 +10322,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25.01-HONGTIM-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8430,7 +10332,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25.01-HONGTIM-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8440,17 +10342,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25.01-HONGTIM-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1690000
   },
   {
     "id": 7341631111235,
@@ -8460,7 +10366,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-02T14:44:41+07:00",
     "published_at": "2024-12-02T17:17:17+07:00",
-    "price": 1690000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK7678.jpg?v=1744709848",
@@ -8486,7 +10392,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25.01-DO-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8496,7 +10402,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25.01-DO-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8506,17 +10412,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25.01-DO-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1690000
   },
   {
     "id": 7341630849091,
@@ -8526,7 +10436,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-02T14:42:03+07:00",
     "published_at": "2024-12-02T17:17:00+07:00",
-    "price": 1690000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK6733.jpg?v=1733125309",
@@ -8551,7 +10461,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25.01-DEN-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8561,7 +10471,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25.01-DEN-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -8571,17 +10481,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25.01-DEN-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1690000
   },
   {
     "id": 7341629997123,
@@ -8591,7 +10505,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-12-02T14:35:15+07:00",
     "published_at": "2024-12-02T17:16:39+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK4791_d24f8c40-96cb-47ba-b3aa-cda369523b77.jpg?v=1733210127",
@@ -8629,7 +10543,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": "Vàng Kem",
         "sku": "DD-7341629997123-XS / Vàng Kem",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8639,7 +10553,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": "Trắng Xanh",
         "sku": "DD-7341629997123-XS / Trắng Xanh",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8649,7 +10563,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": "Trắng Hồng",
         "sku": "DD-7341629997123-XS / Trắng Hồng",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8659,7 +10573,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Vàng Kem",
         "sku": "DDAD60-VANGKEM-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8669,7 +10583,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Trắng Xanh",
         "sku": "DDAD60-TRANGXANH-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8679,7 +10593,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Trắng Hồng",
         "sku": "DDAD60-TRANGHONG-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8689,7 +10603,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Vàng Kem",
         "sku": "DDAD60-VANGKEM-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8699,7 +10613,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Trắng Xanh",
         "sku": "DDAD60-TRANGXANH-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8709,7 +10623,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Trắng Hồng",
         "sku": "DDAD60-TRANGHONG-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8719,7 +10633,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Vàng Kem",
         "sku": "DDAD60-VANGKEM-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8729,7 +10643,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Trắng Xanh",
         "sku": "DDAD60-TRANGXANH-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -8739,17 +10653,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Trắng Hồng",
         "sku": "DDAD60-TRANGHONG-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7336647000131,
@@ -8759,7 +10677,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-20T15:28:02+07:00",
     "published_at": "2024-11-20T15:28:02+07:00",
-    "price": 4250000,
+    "price": 430000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8972.jpg?v=1733217323",
@@ -8785,7 +10703,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD38-KEM-S",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       },
@@ -8795,7 +10713,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD38-KEM-M",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       },
@@ -8805,17 +10723,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD38-KEM-L",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông <br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông <br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
+    "rent_price": 430000,
+    "deposit": 1100000,
+    "buy_price": 4250000
   },
   {
     "id": 7336640938051,
@@ -8825,7 +10747,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-20T15:10:01+07:00",
     "published_at": "2024-11-20T15:10:01+07:00",
-    "price": 4250000,
+    "price": 430000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8586.jpg?v=1732090153",
@@ -8853,7 +10775,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD38-DEN-S",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       },
@@ -8863,7 +10785,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD38-DEN-M",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       },
@@ -8873,17 +10795,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD38-DEN-L",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông rộng<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông rộng<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
+    "rent_price": 430000,
+    "deposit": 1100000,
+    "buy_price": 4250000
   },
   {
     "id": 7336637235267,
@@ -8893,7 +10819,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-20T14:58:54+07:00",
     "published_at": "2024-11-20T14:58:54+07:00",
-    "price": 1850000,
+    "price": 190000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK1701.jpg?v=1732089344",
@@ -8919,7 +10845,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD38-DEN-S",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       },
@@ -8929,7 +10855,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD38-DEN-M",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       },
@@ -8939,17 +10865,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD38-DEN-L",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông nhẹ<br>- Cổ áo chéo<br>- Tay áo dài<br>- Có hàng nơ buộc,cúc cài, cúc đóng phía trước<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông nhẹ<br>- Cổ áo chéo<br>- Tay áo dài<br>- Có hàng nơ buộc,cúc cài, cúc đóng phía trước<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở</p>\n<p><br></p>",
+    "rent_price": 190000,
+    "deposit": 500000,
+    "buy_price": 1850000
   },
   {
     "id": 7336634155075,
@@ -8959,7 +10889,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-20T14:50:13+07:00",
     "published_at": "2024-11-20T14:50:13+07:00",
-    "price": 1850000,
+    "price": 190000,
     "compare_at_price": 1850000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK1459.jpg?v=1732088894",
@@ -8986,7 +10916,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD37-VANG-S",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": 1850000,
         "available": false
       },
@@ -8996,7 +10926,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD37-VANG-M",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": 1850000,
         "available": false
       },
@@ -9006,17 +10936,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD37-VANG-L",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": 1850000,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Không có tay<br>- Có khóa kéo sau lưng<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Không có tay<br>- Có khóa kéo sau lưng<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
+    "rent_price": 190000,
+    "deposit": 500000,
+    "buy_price": 1850000
   },
   {
     "id": 7336633172035,
@@ -9026,7 +10960,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-20T14:46:55+07:00",
     "published_at": "2024-11-20T14:46:55+07:00",
-    "price": 2900000,
+    "price": 290000,
     "compare_at_price": 2900000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK1098.jpg?v=1733217041",
@@ -9053,7 +10987,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD21.01-TIM-S",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": 2900000,
         "available": false
       },
@@ -9063,7 +10997,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD21.01-TIM-M",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": 2900000,
         "available": false
       },
@@ -9073,17 +11007,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD21.01-TIM-L",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": 2900000,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ yếm buộc dây sau<br>- Không có tay<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ, tránh bị hở</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ yếm buộc dây sau<br>- Không có tay<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ, tránh bị hở</p>\n<p><br></p>",
+    "rent_price": 290000,
+    "deposit": 700000,
+    "buy_price": 2900000
   },
   {
     "id": 7336627699779,
@@ -9093,7 +11031,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-20T14:29:35+07:00",
     "published_at": "2024-11-20T14:29:35+07:00",
-    "price": 4450000,
+    "price": 450000,
     "compare_at_price": 4450000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK0198.jpg?v=1733217375",
@@ -9119,7 +11057,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD41-HONG-S",
-        "price": 4450000,
+        "price": 450000,
         "compare_at_price": 4450000,
         "available": false
       },
@@ -9129,7 +11067,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD41-HONG-M",
-        "price": 4450000,
+        "price": 450000,
         "compare_at_price": 4450000,
         "available": false
       },
@@ -9139,17 +11077,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD41-HONG-L",
-        "price": 4450000,
+        "price": 450000,
         "compare_at_price": 4450000,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông <br>- Cổ tàu<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông <br>- Cổ tàu<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
+    "rent_price": 450000,
+    "deposit": 1100000,
+    "buy_price": 4450000
   },
   {
     "id": 7331266625603,
@@ -9159,7 +11101,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T16:37:07+07:00",
     "published_at": "2024-11-08T16:37:07+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/55.jpg?v=1731432445",
@@ -9184,7 +11126,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD09.01-XANHCOVIT-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -9194,7 +11136,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD09.01-XANHCOVIT-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -9204,17 +11146,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD09.01-XANHCOVIT-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tròn<br>- Không có tay <br>- Có cúc đóng sau lưng<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tròn<br>- Không có tay <br>- Có cúc đóng sau lưng<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7331264069699,
@@ -9224,7 +11170,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T16:19:29+07:00",
     "published_at": "2024-11-08T16:19:29+07:00",
-    "price": 1550000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_6250.jpg?v=1731432116",
@@ -9250,7 +11196,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DD-7331264069699-XS",
-        "price": 1550000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -9260,7 +11206,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD22.01-HONG-S",
-        "price": 1550000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -9270,7 +11216,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD22.01-HONG-M",
-        "price": 1550000,
+        "price": 160000,
         "compare_at_price": null,
         "available": true
       },
@@ -9280,17 +11226,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD22.01-HONG-L",
-        "price": 1550000,
+        "price": 160000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Váy ôm body<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>"
+    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Váy ôm body<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1550000
   },
   {
     "id": 7331263709251,
@@ -9300,7 +11250,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T16:15:49+07:00",
     "published_at": "2024-11-08T16:15:49+07:00",
-    "price": 1650000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_4820.jpg?v=1738830346",
@@ -9326,7 +11276,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD05.05-HONGSEN-S",
-        "price": 1650000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -9336,7 +11286,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD05.05-HONGSEN-M",
-        "price": 1650000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       },
@@ -9346,17 +11296,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD05.05-HONGSEN-L",
-        "price": 1650000,
+        "price": 170000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đóng, móc cài phía trước<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br>CHĂM SÓC<br></span></p>"
+    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đóng, móc cài phía trước<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br>CHĂM SÓC<br></span></p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1650000
   },
   {
     "id": 7331262824515,
@@ -9366,7 +11320,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T16:12:04+07:00",
     "published_at": "2024-11-08T16:12:04+07:00",
-    "price": 2900000,
+    "price": 290000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/3.jpg?v=1731383018",
@@ -9391,7 +11345,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD21.01-HONG-S",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -9401,7 +11355,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD21.01-HONG-M",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": false
       },
@@ -9411,17 +11365,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD21.01-HONG-L",
-        "price": 2900000,
+        "price": 290000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span>Áo </span><span class=\"html-span xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1hl2dhg x16tdsg8 x1vvkbs\"><a class=\"html-a xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1hl2dhg x16tdsg8 x1vvkbs\" tabindex=\"-1\"></a></span><span>dài được tạo nên từ những thước vải tơ vân hạc ẩn hiện trong từng nếp áo bay. Cổ áo được cách điệu tựa dải yếm thương nhớ năm xưa, tôn nên cần cổ cao thon nhỏ. Lớp vải xếp nhún bay bổng tựa dải lụa vắt ngang trời xanh sáng ngời và rực rỡ.</span></p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ yếm buộc dây sau<br>- Không có tay<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ, tránh bị hở<br><br> </span></p>"
+    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span>Áo </span><span class=\"html-span xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1hl2dhg x16tdsg8 x1vvkbs\"><a class=\"html-a xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1hl2dhg x16tdsg8 x1vvkbs\" tabindex=\"-1\"></a></span><span>dài được tạo nên từ những thước vải tơ vân hạc ẩn hiện trong từng nếp áo bay. Cổ áo được cách điệu tựa dải yếm thương nhớ năm xưa, tôn nên cần cổ cao thon nhỏ. Lớp vải xếp nhún bay bổng tựa dải lụa vắt ngang trời xanh sáng ngời và rực rỡ.</span></p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ yếm buộc dây sau<br>- Không có tay<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ, tránh bị hở<br><br> </span></p>",
+    "rent_price": 290000,
+    "deposit": 700000,
+    "buy_price": 2900000
   },
   {
     "id": 7331258957891,
@@ -9431,7 +11389,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T16:02:57+07:00",
     "published_at": "2024-11-08T16:02:57+07:00",
-    "price": 4250000,
+    "price": 430000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/17.jpg?v=1733217269",
@@ -9457,7 +11415,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD38-DEN-S",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       },
@@ -9467,7 +11425,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD38-DEN-M",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       },
@@ -9477,17 +11435,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD38-DEN-L",
-        "price": 4250000,
+        "price": 430000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\"><span>Áo dài truyền thống duyên dáng với những chi tiết truyền thống tinh tế, từ cổ áo cao e ấp đến đường chiết eo nhẹ nhàng tôn lên vẻ đẹp yêu kiều, hài hòa với tay áo mềm mại phất phơ trong gió thu, vừa tạo nét uyển chuyển, vừa giúp che đi những khuyết điểm nhỏ trên cơ thể.</span></span></p>\n<p><span data-sheets-root=\"1\"><span>SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dạng áo suông rộng<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>"
+    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\"><span>Áo dài truyền thống duyên dáng với những chi tiết truyền thống tinh tế, từ cổ áo cao e ấp đến đường chiết eo nhẹ nhàng tôn lên vẻ đẹp yêu kiều, hài hòa với tay áo mềm mại phất phơ trong gió thu, vừa tạo nét uyển chuyển, vừa giúp che đi những khuyết điểm nhỏ trên cơ thể.</span></span></p>\n<p><span data-sheets-root=\"1\"><span>SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dạng áo suông rộng<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
+    "rent_price": 430000,
+    "deposit": 1100000,
+    "buy_price": 4250000
   },
   {
     "id": 7331258105923,
@@ -9497,7 +11459,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T15:59:56+07:00",
     "published_at": "2024-11-08T15:59:56+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5078.jpg?v=1731430271",
@@ -9523,7 +11485,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD09-KEM-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -9533,7 +11495,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD09-KEM-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -9543,17 +11505,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD09-KEM-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tròn<br>- Không có tay <br>- Cúc đóng sau lưng<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br></span></p>"
+    "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tròn<br>- Không có tay <br>- Cúc đóng sau lưng<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br></span></p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7331253747779,
@@ -9563,7 +11529,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T15:50:28+07:00",
     "published_at": "2024-11-08T15:50:28+07:00",
-    "price": 1850000,
+    "price": 190000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/48.jpg?v=1731431444",
@@ -9588,7 +11554,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD32-XANHCOVIT-S",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": true
       },
@@ -9598,7 +11564,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD32-XANHCOVIT-M",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       },
@@ -9608,17 +11574,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD32-XANHCOVIT-L",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Áo dáng suông nhẹ<br>- Cổ áo chéo<br>- Tay áo dài<br>- Có hàng nơ buộc,cúc cài, cúc đóng phía trước<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở<br></span></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Áo dáng suông nhẹ<br>- Cổ áo chéo<br>- Tay áo dài<br>- Có hàng nơ buộc,cúc cài, cúc đóng phía trước<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở<br></span></p>",
+    "rent_price": 190000,
+    "deposit": 500000,
+    "buy_price": 1850000
   },
   {
     "id": 7331249356867,
@@ -9628,7 +11598,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T15:36:01+07:00",
     "published_at": "2024-11-08T15:36:01+07:00",
-    "price": 1850000,
+    "price": 190000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_7826.jpg?v=1731430587",
@@ -9653,7 +11623,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD37-VANG-S",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       },
@@ -9663,7 +11633,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD37-VANG-M",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       },
@@ -9673,17 +11643,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD37-VANG-L",
-        "price": 1850000,
+        "price": 190000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Không có tay<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>"
+    "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Không có tay<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
+    "rent_price": 190000,
+    "deposit": 500000,
+    "buy_price": 1850000
   },
   {
     "id": 7331248111683,
@@ -9693,7 +11667,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2024-11-08T15:31:15+07:00",
     "published_at": "2024-11-08T15:31:15+07:00",
-    "price": 2050000,
+    "price": 210000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_6880.jpg?v=1731431334",
@@ -9725,7 +11699,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Hồng Đậm",
         "sku": "DDAD26.02-HONGSEN-S",
-        "price": 2050000,
+        "price": 210000,
         "compare_at_price": null,
         "available": false
       },
@@ -9735,7 +11709,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Hồng Đậm",
         "sku": "DDAD26.02-HONGSEN-M",
-        "price": 2050000,
+        "price": 210000,
         "compare_at_price": null,
         "available": true
       },
@@ -9745,27 +11719,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Hồng Đậm",
         "sku": "DDAD26.02-HONGSEN-L",
-        "price": 2050000,
+        "price": 210000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p><span>Áo dài ĐING ĐANG đem tới một sắc hồng dịu dàng, như một cánh hoa thanh tao, dịu nhẹ mà vẫn đậm sức cuốn hút. Được tạo nên từ chất liệu tơ lạnh cao cấp, từng đường nét trên tà áo dài khéo léo tôn lên nét thanh thoát, mềm mại của giai nhân, tựa như hơi thở mùa xuân lướt qua phố phường hiện đại mà vẫn phảng phất nét hoài cổ.</span></p>\n<p><span>SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Áo dài dáng suông<br>- Cổ tàu<br>- Tay áo dài<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ lạnh<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở<br></span></p>"
+    "body_html": "<p><span>Áo dài ĐING ĐANG đem tới một sắc hồng dịu dàng, như một cánh hoa thanh tao, dịu nhẹ mà vẫn đậm sức cuốn hút. Được tạo nên từ chất liệu tơ lạnh cao cấp, từng đường nét trên tà áo dài khéo léo tôn lên nét thanh thoát, mềm mại của giai nhân, tựa như hơi thở mùa xuân lướt qua phố phường hiện đại mà vẫn phảng phất nét hoài cổ.</span></p>\n<p><span>SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Áo dài dáng suông<br>- Cổ tàu<br>- Tay áo dài<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ lạnh<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở<br></span></p>",
+    "rent_price": 210000,
+    "deposit": 500000,
+    "buy_price": 2050000
   },
   {
     "id": 7297968111683,
     "handle": "ao-dai-ddad26-2",
     "title": "ÁO DÀI  DDAD26.01",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-09-01T16:23:31+07:00",
     "published_at": "2024-09-01T16:23:31+07:00",
-    "price": 2790000,
+    "price": 280000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK1419copy_Newsize1.webp?v=1733216637",
@@ -9794,7 +11772,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD26.01-HONGSEN-S",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       },
@@ -9804,7 +11782,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD26.01-HONGSEN-M",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       },
@@ -9814,27 +11792,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD26.01-HONGSEN-L",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>"
+    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>",
+    "rent_price": 280000,
+    "deposit": 700000,
+    "buy_price": 2790000
   },
   {
     "id": 7297968013379,
     "handle": "ao-dai-ddad26-1",
     "title": "ÁO DÀI DDAD26.01",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-09-01T16:17:44+07:00",
     "published_at": "2024-09-01T16:17:44+07:00",
-    "price": 2790000,
+    "price": 280000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK9049copy2_Newsize1.webp?v=1733217102",
@@ -9860,7 +11842,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD26.01-COM-S",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       },
@@ -9870,7 +11852,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD26.01-COM-M",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       },
@@ -9880,27 +11862,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD26.01-COM-L",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>KHÔNG KÈM QUẦN</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>"
+    "body_html": "<p>KHÔNG KÈM QUẦN</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>",
+    "rent_price": 280000,
+    "deposit": 700000,
+    "buy_price": 2790000
   },
   {
     "id": 7297966571587,
     "handle": "ao-dai-ddad26-01",
     "title": "ÁO DÀI DDAD26.01",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-09-01T15:43:18+07:00",
     "published_at": "2024-09-01T15:43:18+07:00",
-    "price": 2790000,
+    "price": 280000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK4709copy_Newsize1.webp?v=1733216523",
@@ -9928,7 +11914,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD26.01-HONG-S",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       },
@@ -9938,7 +11924,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD26.01-HONG-M",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       },
@@ -9948,27 +11934,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD26.01-HONG-L",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>KHÔNG KÈM QUẦN</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>"
+    "body_html": "<p>KHÔNG KÈM QUẦN</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>",
+    "rent_price": 280000,
+    "deposit": 700000,
+    "buy_price": 2790000
   },
   {
     "id": 7297722744899,
     "handle": "ao-dai-thuy-tien",
     "title": "ÁO DÀI THÙY TIÊN",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-31T23:50:06+07:00",
     "published_at": "2024-08-31T23:50:06+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK9485_Newsize1.webp?v=1725122912",
@@ -9991,7 +11981,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD22-KEM-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -10001,7 +11991,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD22-KEM-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -10011,27 +12001,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD22-KEM-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Áo ôm boddy</li>\n<li>Có khóa kéo sau lưng</li>\n<li>Lụa</li>\n</ul>"
+    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Áo ôm boddy</li>\n<li>Có khóa kéo sau lưng</li>\n<li>Lụa</li>\n</ul>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7296969080899,
     "handle": "ao-dai-vinh-hoa-6",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:31:00+07:00",
     "published_at": "2024-08-30T16:31:00+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8520_Newsize1.webp?v=1733218004",
@@ -10057,7 +12051,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-COM-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10067,7 +12061,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-COM-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10077,27 +12071,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-COM-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296968392771,
     "handle": "ao-dai-vinh-hoa-5",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:29:42+07:00",
     "published_at": "2024-08-30T16:29:42+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK8308_Newsize1.webp?v=1733217920",
@@ -10123,7 +12121,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-KEM-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10133,7 +12131,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-KEM-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10143,27 +12141,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-KEM-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296967639107,
     "handle": "ao-dai-vinh-hoa-4",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:28:04+07:00",
     "published_at": "2024-08-30T16:28:04+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK7342_Newsize1.webp?v=1725010107",
@@ -10191,7 +12193,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-XANH-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10201,7 +12203,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-XANH-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10211,27 +12213,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-XANH-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p> </p>\n<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p> </p>\n<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296966852675,
     "handle": "ao-dai-vinh-hoa-3",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:26:22+07:00",
     "published_at": "2024-08-30T16:26:22+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK6875_Newsize1.webp?v=1733217872",
@@ -10259,7 +12265,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-DO-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10269,7 +12275,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-DO-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10279,27 +12285,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-DO-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296966033475,
     "handle": "ao-dai-vinh-hoa-2",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:24:36+07:00",
     "published_at": "2024-08-30T16:24:36+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK6073_Newsize1.webp?v=1725009897",
@@ -10325,7 +12335,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-TIM-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10335,7 +12345,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-TIM-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10345,27 +12355,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-TIM-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296965115971,
     "handle": "ao-dai-vinh-hoa-1",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:23:02+07:00",
     "published_at": "2024-08-30T16:23:02+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK5886_Newsize1.webp?v=1733217818",
@@ -10391,7 +12405,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-DEN-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10401,7 +12415,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-DEN-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10411,27 +12425,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-DEN-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296964952131,
     "handle": "ao-dai-vinh-hoa",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:22:45+07:00",
     "published_at": "2024-08-30T16:22:45+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK5142_Newsize1.webp?v=1733217727",
@@ -10457,7 +12475,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-HONGDAM-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10467,7 +12485,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-HONGDAM-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10477,27 +12495,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-HONGDAM-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296963838019,
     "handle": "ao-dai-ngu-phuc-1",
     "title": "ÁO DÀI NGŨ PHÚC",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:20:40+07:00",
     "published_at": "2024-08-30T16:20:40+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK4299_Newsize1.webp?v=1725009576",
@@ -10524,7 +12546,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD23-XANH-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10534,7 +12556,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD23-XANH-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10544,27 +12566,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD23-XANH-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tròn</li>\n<li>Tay áo dài</li>\n<li>Phom áo suông nhẹ</li>\n<li>Tơ in học tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tròn</li>\n<li>Tay áo dài</li>\n<li>Phom áo suông nhẹ</li>\n<li>Tơ in học tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296952729667,
     "handle": "ao-dai-ngu-phuc",
     "title": "ÁO DÀI VINH HOA",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T16:02:58+07:00",
     "published_at": "2024-08-30T16:02:58+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK4203_Newsize1.webp?v=1733217782",
@@ -10591,7 +12617,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD25-HONG-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10601,7 +12627,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD25-HONG-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -10611,27 +12637,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD25-HONG-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7296842661955,
     "handle": "ao-dai-thược-dược",
     "title": "ÁO DÀI THƯỢC DƯỢC",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T13:16:44+07:00",
     "published_at": "2024-08-30T13:16:44+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DTT_5515_Newsize1.webp?v=1724994413",
@@ -10659,7 +12689,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-7296842661955-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -10669,7 +12699,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-7296842661955-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -10679,27 +12709,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-7296842661955-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Phom áo dài dáng ngũ thân </span></li>\n<li><span>Dáng áo suông rộng </span></li>\n<li><span>Phối cùng áo 2 dây lụa </span></li>\n<li><span>Tơ in họa tiết độc bản</span></li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Phom áo dài dáng ngũ thân </span></li>\n<li><span>Dáng áo suông rộng </span></li>\n<li><span>Phối cùng áo 2 dây lụa </span></li>\n<li><span>Tơ in họa tiết độc bản</span></li>\n</ul>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7296753827907,
     "handle": "ao-dai-tử-linh-lan",
     "title": "ÁO DÀI TỬ LINH LAN",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T12:06:20+07:00",
     "published_at": "2024-08-30T12:06:20+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DTT_9512_Newsize1.webp?v=1724994270",
@@ -10726,7 +12760,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-7296753827907-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -10736,7 +12770,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-7296753827907-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -10746,27 +12780,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-7296753827907-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Cổ tàu</span></li>\n<li><span>Phom dáng xuông rộng </span></li>\n<li><span>Chất liệu gấm mặc mềm mại thoải mái</span></li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Cổ tàu</span></li>\n<li><span>Phom dáng xuông rộng </span></li>\n<li><span>Chất liệu gấm mặc mềm mại thoải mái</span></li>\n</ul>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 7296726499395,
     "handle": "ao-dai-tầm-xuan-3",
     "title": "ÁO DÀI TẦM XUÂN",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T11:42:26+07:00",
     "published_at": "2024-08-30T11:42:26+07:00",
-    "price": 3950000,
+    "price": 400000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DTT_8890_Newsize1.webp?v=1733217582",
@@ -10795,7 +12833,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD10.05-TIM-S",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": true
       },
@@ -10805,7 +12843,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD10.05-TIM-M",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": true
       },
@@ -10815,27 +12853,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD10.05-TIM-L",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
+    "rent_price": 400000,
+    "deposit": 1000000,
+    "buy_price": 3950000
   },
   {
     "id": 7296724500547,
     "handle": "ao-dai-tầm-xuan-2",
     "title": "ÁO DÀI TẦM XUÂN",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T11:40:56+07:00",
     "published_at": "2024-08-30T11:40:56+07:00",
-    "price": 3950000,
+    "price": 400000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DTT_8614_Newsize1.webp?v=1724992719",
@@ -10861,7 +12903,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD10.05-HONG-S",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       },
@@ -10871,7 +12913,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD10.05-HONG-M",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       },
@@ -10881,27 +12923,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD10.05-HONG-L",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>"
+    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
+    "rent_price": 400000,
+    "deposit": 1000000,
+    "buy_price": 3950000
   },
   {
     "id": 7296721092675,
     "handle": "ao-dai-tầm-xuan-1",
     "title": "ÁO DÀI TẦM XUÂN",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T11:37:59+07:00",
     "published_at": "2024-08-30T11:37:59+07:00",
-    "price": 3950000,
+    "price": 400000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DTT_5050_Newsize1.webp?v=1724992269",
@@ -10929,7 +12975,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD10.05-HONGSEN-S",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       },
@@ -10939,7 +12985,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD10.05-HONGSEN-M",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       },
@@ -10949,27 +12995,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD10.05-HONGSEN-L",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>"
+    "body_html": "<p>KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
+    "rent_price": 400000,
+    "deposit": 1000000,
+    "buy_price": 3950000
   },
   {
     "id": 7296710672451,
     "handle": "ao-dai-tầm-xuan",
     "title": "ÁO DÀI TẦM XUÂN",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-30T11:30:05+07:00",
     "published_at": "2024-08-30T11:30:05+07:00",
-    "price": 3950000,
+    "price": 400000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DTT_6437_Newsize1.webp?v=1743587916",
@@ -10996,7 +13046,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD10.05-XANH-S",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       },
@@ -11006,7 +13056,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD10.05-XANH-M",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       },
@@ -11016,27 +13066,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD10.05-XANH-L",
-        "price": 3950000,
+        "price": 400000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
+    "rent_price": 400000,
+    "deposit": 1000000,
+    "buy_price": 3950000
   },
   {
     "id": 7292976955459,
     "handle": "ao-dai-xuan-thi",
     "title": "ÁO DÀI XUÂN THÌ",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-27T23:13:57+07:00",
     "published_at": "2024-08-27T23:13:57+07:00",
-    "price": 1790000,
+    "price": 180000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK2666_result.jpg?v=1733218216",
@@ -11065,7 +13119,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD12-HONG-S",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": false
       },
@@ -11075,7 +13129,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD12-HONG-M",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": false
       },
@@ -11085,7 +13139,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD12-HONG-L",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": false
       },
@@ -11095,27 +13149,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "XS",
         "option2": null,
         "sku": "DDAD12-HONG-XS",
-        "price": 1790000,
+        "price": 180000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>"
+    "body_html": "<p>(KHÔNG KÈM QUẦN)</p>",
+    "rent_price": 180000,
+    "deposit": 500000,
+    "buy_price": 1790000
   },
   {
     "id": 7292976365635,
     "handle": "ao-dai-lấm-tấm-copy",
     "title": "ÁO DÀI LẤM TẤM",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-27T23:09:13+07:00",
     "published_at": "2024-08-27T23:09:12+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK2972_result.jpg?v=1724774981",
@@ -11142,7 +13200,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD10-XANH-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -11152,7 +13210,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD10-XANH-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -11162,27 +13220,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD10-XANH-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>"
+    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7292976267331,
     "handle": "ao-dai-lấm-tấm",
     "title": "ÁO DÀI LẤM TẤM",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-27T23:08:25+07:00",
     "published_at": "2024-08-27T23:08:25+07:00",
-    "price": 1590000,
+    "price": 160000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK1029_result.jpg?v=1724774817",
@@ -11209,7 +13271,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD10-HONG-S",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -11219,7 +13281,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD10-HONG-M",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       },
@@ -11229,27 +13291,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD10-HONG-L",
-        "price": 1590000,
+        "price": 160000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>"
+    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>",
+    "rent_price": 160000,
+    "deposit": 500000,
+    "buy_price": 1590000
   },
   {
     "id": 7290929053763,
     "handle": "ao-dai-bach-dản",
     "title": "ÁO DÀI BÁCH ĐẢN",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-26T00:14:26+07:00",
     "published_at": "2024-08-26T00:14:26+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/10.webp?v=1733216820",
@@ -11274,7 +13340,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD28-XANH-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -11284,7 +13350,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD28-XANH-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       },
@@ -11294,27 +13360,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD28-XANH-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay chẽn</li>\n<li>Áo dài ngũ thân</li>\n<li>Tơ in họa tiết độc bản</li>\n<li><span>Độ co giãn: Co giãn ít </span></li>\n<li><span>Độ xuyên thấu: Vải không xuyên thấu</span></li>\n</ul>"
+    "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay chẽn</li>\n<li>Áo dài ngũ thân</li>\n<li>Tơ in họa tiết độc bản</li>\n<li><span>Độ co giãn: Co giãn ít </span></li>\n<li><span>Độ xuyên thấu: Vải không xuyên thấu</span></li>\n</ul>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 7290923417667,
     "handle": "ao-dai-thien-chương",
     "title": "ÁO DÀI THIÊN CHƯƠNG",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-25T23:52:12+07:00",
     "published_at": "2024-08-25T23:52:12+07:00",
-    "price": 4150000,
+    "price": 420000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/1_bdb3df9b-8e96-47db-9ce3-fa76bd10471e.webp?v=1724604689",
@@ -11341,7 +13411,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD21-XANHDUONG-S",
-        "price": 4150000,
+        "price": 420000,
         "compare_at_price": null,
         "available": false
       },
@@ -11351,7 +13421,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD21-XANHDUONG-M",
-        "price": 4150000,
+        "price": 420000,
         "compare_at_price": null,
         "available": false
       },
@@ -11361,27 +13431,31 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD21-XANHDUONG-L",
-        "price": 4150000,
+        "price": 420000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\" data-mce-style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">SIZE</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">S/M/L</span></li>\n</ul>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">CHẤT LIỆU</span></p>\n<ul>\n<li>Cổ yếm</li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Lớp vải xếp nhún phía trước</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Độ co giãn: Co giãn ít</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Độ xuyên thấy: Không xuyên thấu</span></li>\n</ul>"
+    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\" data-mce-style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">SIZE</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">S/M/L</span></li>\n</ul>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">CHẤT LIỆU</span></p>\n<ul>\n<li>Cổ yếm</li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Lớp vải xếp nhún phía trước</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Độ co giãn: Co giãn ít</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Độ xuyên thấy: Không xuyên thấu</span></li>\n</ul>",
+    "rent_price": 420000,
+    "deposit": 1000000,
+    "buy_price": 4150000
   },
   {
     "id": 7290922532931,
     "handle": "ao-dai-lưỡng-long",
     "title": "ÁO DÀI LƯỠNG LONG",
-    "vendor": "My Store",
+    "vendor": "NÉT DUYÊN",
     "product_type": "",
     "created_at": "2024-08-25T23:48:38+07:00",
     "published_at": "2024-08-25T23:48:38+07:00",
-    "price": 3100000,
+    "price": 310000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/1_5e963b1e-39a2-4463-8e43-0cafd376e500.webp?v=1724604287",
@@ -11408,7 +13482,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDAD24-DO-S",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": false
       },
@@ -11418,7 +13492,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDAD24-DO-M",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": false
       },
@@ -11428,17 +13502,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDAD24-DO-L",
-        "price": 3100000,
+        "price": 310000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-dai",
-      "dong-dao"
+      "dong-dao",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\" data-mce-style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">SIZE</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">S/M/L</span></li>\n</ul>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">CHẤT LIỆU</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Áo hai dây</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span>Độ co giãn: Co giãn ít </span></span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span>Độ xuyên thấu: Vải không xuyên thấu</span></span></li>\n</ul>"
+    "body_html": "<p><span style=\"color: rgb(255, 42, 0);\" data-mce-style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">SIZE</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">S/M/L</span></li>\n</ul>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">CHẤT LIỆU</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Áo hai dây</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span>Độ co giãn: Co giãn ít </span></span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span>Độ xuyên thấu: Vải không xuyên thấu</span></span></li>\n</ul>",
+    "rent_price": 310000,
+    "deposit": 800000,
+    "buy_price": 3100000
   },
   {
     "id": 15426489942083,
@@ -11448,7 +13526,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Pants",
     "created_at": "2026-10-20T17:07:40+07:00",
     "published_at": "2026-10-20T19:18:43+07:00",
-    "price": 1290000,
+    "price": 130000,
     "compare_at_price": 1290000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5671.jpg?v=1792490882",
@@ -11485,7 +13563,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-TS87-V1-TL-S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11495,7 +13573,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-TS87-V1-TL-M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11505,7 +13583,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-TS87-V1-TL-L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11515,7 +13593,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426489942083-Tím / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11525,7 +13603,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426489942083-Tím / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11535,7 +13613,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426489942083-Tím / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11545,7 +13623,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426489942083-Xanh Mint / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11555,7 +13633,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426489942083-Xanh Mint / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11565,7 +13643,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426489942083-Xanh Mint / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11575,7 +13653,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426489942083-Hồng nhạt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11585,7 +13663,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426489942083-Hồng nhạt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11595,7 +13673,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426489942083-Hồng nhạt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11605,7 +13683,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426489942083-Hồng Đậm / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11615,7 +13693,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426489942083-Hồng Đậm / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11625,7 +13703,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426489942083-Hồng Đậm / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       }
@@ -11633,10 +13711,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "quan",
       "set-mien-y",
-      "ma-may"
+      "ma-may",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải </p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải </p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 130000,
+    "deposit": 500000,
+    "buy_price": 1290000
   },
   {
     "id": 15426485321795,
@@ -11646,7 +13728,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Pants",
     "created_at": "2026-10-20T17:04:32+07:00",
     "published_at": "2026-10-20T19:18:42+07:00",
-    "price": 1290000,
+    "price": 130000,
     "compare_at_price": 1290000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5683.jpg?v=1792490715",
@@ -11683,7 +13765,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-TS87-V1-PU-S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11693,7 +13775,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-TS87-V1-PU-M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11703,7 +13785,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-TS87-V1-PU-L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11713,7 +13795,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426485321795-Xanh Mint / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11723,7 +13805,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426485321795-Xanh Mint / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11733,7 +13815,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426485321795-Xanh Mint / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11743,7 +13825,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426485321795-Hồng nhạt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11753,7 +13835,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426485321795-Hồng nhạt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11763,7 +13845,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426485321795-Hồng nhạt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11773,7 +13855,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426485321795-Hồng Đậm / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11783,7 +13865,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426485321795-Hồng Đậm / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11793,7 +13875,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426485321795-Hồng Đậm / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11803,7 +13885,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426485321795-Xanh cổ vịt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11813,7 +13895,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426485321795-Xanh cổ vịt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11823,7 +13905,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426485321795-Xanh cổ vịt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       }
@@ -11831,10 +13913,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "quan",
       "set-mien-y",
-      "ma-may"
+      "ma-may",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 130000,
+    "deposit": 500000,
+    "buy_price": 1290000
   },
   {
     "id": 15426480832579,
@@ -11844,7 +13930,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Pants",
     "created_at": "2026-10-20T17:02:48+07:00",
     "published_at": "2026-10-20T19:18:41+07:00",
-    "price": 1290000,
+    "price": 130000,
     "compare_at_price": 1290000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5677.jpg?v=1792490618",
@@ -11881,7 +13967,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-TS87-V1-MNT-S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11891,7 +13977,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-TS87-V1-MNT-M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11901,7 +13987,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-TS87-V1-MNT-L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11911,7 +13997,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426480832579-Hồng nhạt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11921,7 +14007,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426480832579-Hồng nhạt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11931,7 +14017,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426480832579-Hồng nhạt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11941,7 +14027,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426480832579-Hồng Đậm / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11951,7 +14037,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426480832579-Hồng Đậm / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11961,7 +14047,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426480832579-Hồng Đậm / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11971,7 +14057,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426480832579-Xanh cổ vịt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11981,7 +14067,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426480832579-Xanh cổ vịt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -11991,7 +14077,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426480832579-Xanh cổ vịt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12001,7 +14087,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426480832579-Tím / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12011,7 +14097,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426480832579-Tím / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12021,7 +14107,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426480832579-Tím / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       }
@@ -12029,10 +14115,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "quan",
       "set-mien-y",
-      "ma-may"
+      "ma-may",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải </p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải </p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 130000,
+    "deposit": 500000,
+    "buy_price": 1290000
   },
   {
     "id": 15426473525315,
@@ -12042,7 +14132,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Pants",
     "created_at": "2026-10-20T17:00:30+07:00",
     "published_at": "2026-10-20T19:18:41+07:00",
-    "price": 1290000,
+    "price": 130000,
     "compare_at_price": 1290000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5665.jpg?v=1792490455",
@@ -12079,7 +14169,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-TS87-V1-PK-S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12089,7 +14179,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-TS87-V1-PK-M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12099,7 +14189,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-TS87-V1-PK-L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12109,7 +14199,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426473525315-Hồng Đậm / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12119,7 +14209,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426473525315-Hồng Đậm / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12129,7 +14219,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426473525315-Hồng Đậm / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12139,7 +14229,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426473525315-Xanh cổ vịt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12149,7 +14239,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426473525315-Xanh cổ vịt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12159,7 +14249,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426473525315-Xanh cổ vịt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12169,7 +14259,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426473525315-Tím / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12179,7 +14269,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426473525315-Tím / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12189,7 +14279,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426473525315-Tím / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12199,7 +14289,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426473525315-Xanh Mint / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12209,7 +14299,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426473525315-Xanh Mint / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12219,7 +14309,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426473525315-Xanh Mint / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       }
@@ -12227,10 +14317,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "quan",
       "set-mien-y",
-      "ma-may"
+      "ma-may",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 130000,
+    "deposit": 500000,
+    "buy_price": 1290000
   },
   {
     "id": 15426448719939,
@@ -12240,7 +14334,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Pants",
     "created_at": "2026-10-20T16:52:27+07:00",
     "published_at": "2026-10-20T19:18:40+07:00",
-    "price": 1290000,
+    "price": 130000,
     "compare_at_price": 1290000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5689.jpg?v=1792490062",
@@ -12277,7 +14371,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-TS87-V1-DP-S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12287,7 +14381,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-TS87-V1-DP-M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12297,7 +14391,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-TS87-V1-DP-L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12307,7 +14401,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426448719939-Xanh cổ vịt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12317,7 +14411,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426448719939-Xanh cổ vịt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12327,7 +14421,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426448719939-Xanh cổ vịt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12337,7 +14431,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426448719939-Tím / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12347,7 +14441,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426448719939-Tím / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12357,7 +14451,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426448719939-Tím / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12367,7 +14461,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426448719939-Xanh Mint / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12377,7 +14471,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426448719939-Xanh Mint / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12387,7 +14481,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426448719939-Xanh Mint / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12397,7 +14491,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426448719939-Hồng nhạt / S",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12407,7 +14501,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426448719939-Hồng nhạt / M",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       },
@@ -12417,7 +14511,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426448719939-Hồng nhạt / L",
-        "price": 1290000,
+        "price": 130000,
         "compare_at_price": 1290000,
         "available": true
       }
@@ -12425,10 +14519,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "quan",
       "set-mien-y",
-      "ma-may"
+      "ma-may",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 130000,
+    "deposit": 500000,
+    "buy_price": 1290000
   },
   {
     "id": 15426438987843,
@@ -12438,7 +14536,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-20T16:48:45+07:00",
     "published_at": "2026-10-20T19:18:39+07:00",
-    "price": 1390000,
+    "price": 140000,
     "compare_at_price": 1390000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5696.jpg?v=1792489747",
@@ -12474,7 +14572,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-SH511-TL-S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12484,7 +14582,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-SH511-TL-M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12494,7 +14592,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-SH511-TL-L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12504,7 +14602,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426438987843-Tím / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12514,7 +14612,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426438987843-Tím / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12524,7 +14622,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426438987843-Tím / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12534,7 +14632,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426438987843-Xanh Mint / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12544,7 +14642,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426438987843-Xanh Mint / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12554,7 +14652,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426438987843-Xanh Mint / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12564,7 +14662,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426438987843-Hồng nhạt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12574,7 +14672,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426438987843-Hồng nhạt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12584,7 +14682,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426438987843-Hồng nhạt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12594,7 +14692,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426438987843-Hồng Đậm / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12604,7 +14702,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426438987843-Hồng Đậm / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12614,16 +14712,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426438987843-Hồng Đậm / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 140000,
+    "deposit": 500000,
+    "buy_price": 1390000
   },
   {
     "id": 15426415820867,
@@ -12633,7 +14735,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-20T16:42:23+07:00",
     "published_at": "2026-10-20T19:18:38+07:00",
-    "price": 1390000,
+    "price": 140000,
     "compare_at_price": 1390000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5729.jpg?v=1792489387",
@@ -12669,7 +14771,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-SH511-PU-S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12679,7 +14781,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-SH511-PU-M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12689,7 +14791,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-SH511-PU-L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12699,7 +14801,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426415820867-Xanh Mint / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12709,7 +14811,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426415820867-Xanh Mint / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12719,7 +14821,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426415820867-Xanh Mint / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12729,7 +14831,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426415820867-Hồng nhạt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12739,7 +14841,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426415820867-Hồng nhạt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12749,7 +14851,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426415820867-Hồng nhạt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12759,7 +14861,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426415820867-Hồng Đậm / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12769,7 +14871,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426415820867-Hồng Đậm / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12779,7 +14881,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426415820867-Hồng Đậm / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12789,7 +14891,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426415820867-Xanh cổ vịt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12799,7 +14901,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426415820867-Xanh cổ vịt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12809,16 +14911,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426415820867-Xanh cổ vịt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 140000,
+    "deposit": 500000,
+    "buy_price": 1390000
   },
   {
     "id": 15426406613059,
@@ -12828,7 +14934,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-20T16:40:00+07:00",
     "published_at": "2026-10-20T19:18:37+07:00",
-    "price": 1390000,
+    "price": 140000,
     "compare_at_price": 1390000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5719.jpg?v=1792489239",
@@ -12864,7 +14970,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-SH511-MNT-S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12874,7 +14980,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-SH511-MNT-M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12884,7 +14990,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-SH511-MNT-L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12894,7 +15000,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426406613059-Hồng nhạt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12904,7 +15010,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426406613059-Hồng nhạt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12914,7 +15020,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426406613059-Hồng nhạt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12924,7 +15030,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426406613059-Hồng Đậm / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12934,7 +15040,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426406613059-Hồng Đậm / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12944,7 +15050,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426406613059-Hồng Đậm / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12954,7 +15060,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426406613059-Tím / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12964,7 +15070,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426406613059-Tím / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12974,7 +15080,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426406613059-Tím / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12984,7 +15090,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426406613059-Xanh cổ vịt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -12994,7 +15100,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426406613059-Xanh cổ vịt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13004,16 +15110,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426406613059-Xanh cổ vịt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 140000,
+    "deposit": 500000,
+    "buy_price": 1390000
   },
   {
     "id": 15426398388291,
@@ -13023,7 +15133,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-20T16:37:27+07:00",
     "published_at": "2026-10-20T19:18:36+07:00",
-    "price": 1390000,
+    "price": 140000,
     "compare_at_price": 1390000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5707.jpg?v=1792489076",
@@ -13059,7 +15169,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-SH511-PK-S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13069,7 +15179,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-SH511-PK-M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13079,7 +15189,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-SH511-PK-L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13089,7 +15199,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-15426398388291-Hồng Đậm / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13099,7 +15209,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-15426398388291-Hồng Đậm / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13109,7 +15219,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-15426398388291-Hồng Đậm / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13119,7 +15229,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426398388291-Xanh Mint / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13129,7 +15239,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426398388291-Xanh Mint / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13139,7 +15249,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426398388291-Xanh Mint / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13149,7 +15259,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426398388291-Tím / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13159,7 +15269,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426398388291-Tím / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13169,7 +15279,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426398388291-Tím / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13179,7 +15289,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426398388291-Xanh cổ vịt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13189,7 +15299,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426398388291-Xanh cổ vịt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       },
@@ -13199,16 +15309,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426398388291-Xanh cổ vịt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": 1390000,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 140000,
+    "deposit": 500000,
+    "buy_price": 1390000
   },
   {
     "id": 15426362540099,
@@ -13218,7 +15332,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-20T16:30:06+07:00",
     "published_at": "2026-10-20T19:18:35+07:00",
-    "price": 1390000,
+    "price": 140000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5743.jpg?v=1792488654",
@@ -13254,7 +15368,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "S",
         "sku": "DD-SH511-DP-S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13264,7 +15378,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "M",
         "sku": "DD-SH511-DP-M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13274,7 +15388,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng Đậm",
         "option2": "L",
         "sku": "DD-SH511-DP-L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13284,7 +15398,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "S",
         "sku": "DD-15426362540099-Hồng nhạt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13294,7 +15408,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "M",
         "sku": "DD-15426362540099-Hồng nhạt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13304,7 +15418,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": "L",
         "sku": "DD-15426362540099-Hồng nhạt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13314,7 +15428,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "S",
         "sku": "DD-15426362540099-Xanh Mint / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13324,7 +15438,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "M",
         "sku": "DD-15426362540099-Xanh Mint / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13334,7 +15448,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Mint",
         "option2": "L",
         "sku": "DD-15426362540099-Xanh Mint / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13344,7 +15458,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "S",
         "sku": "DD-15426362540099-Tím / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13354,7 +15468,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "M",
         "sku": "DD-15426362540099-Tím / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13364,7 +15478,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Tím",
         "option2": "L",
         "sku": "DD-15426362540099-Tím / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13374,7 +15488,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "S",
         "sku": "DD-15426362540099-Xanh cổ vịt / S",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13384,7 +15498,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "M",
         "sku": "DD-15426362540099-Xanh cổ vịt / M",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -13394,16 +15508,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh cổ vịt",
         "option2": "L",
         "sku": "DD-15426362540099-Xanh cổ vịt / L",
-        "price": 1390000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>"
+    "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
+    "rent_price": 140000,
+    "deposit": 500000,
+    "buy_price": 1390000
   },
   {
     "id": 7359907299395,
@@ -13413,7 +15531,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2025-01-16T10:38:26+07:00",
     "published_at": "2026-10-20T18:35:07+07:00",
-    "price": 1950000,
+    "price": 200000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK3187_aa96a88b-5562-481f-a66e-3276b761a0b7.jpg?v=1736998641",
@@ -13440,7 +15558,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DDCV47-HONG-S",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       },
@@ -13450,7 +15568,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DDCV47-HONG-M",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": true
       },
@@ -13460,17 +15578,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DDCV47-HONG-L",
-        "price": 1950000,
+        "price": 200000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "dam-1",
-      "chan-vay"
+      "chan-vay",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Yếm ôm nhẹ vào thân<br>- Cổ yếm xếp nhún<br>- Có khóa kéo và dây thắt phía sau<br>- Yếm hai lớp, <br>- Lót tafta</p>\n<p>CHẤT LIỆU<br>- Tơ thêu họa iết phối tafta<br>- Độ co giãn: co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Yếm ôm nhẹ vào thân<br>- Cổ yếm xếp nhún<br>- Có khóa kéo và dây thắt phía sau<br>- Yếm hai lớp, <br>- Lót tafta</p>\n<p>CHẤT LIỆU<br>- Tơ thêu họa iết phối tafta<br>- Độ co giãn: co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 200000,
+    "deposit": 500000,
+    "buy_price": 1950000
   },
   {
     "id": 15418716258371,
@@ -13480,7 +15602,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-15T17:26:44+07:00",
     "published_at": "2026-10-15T17:43:23+07:00",
-    "price": 690000,
+    "price": 70000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_3087.jpg?v=1792060184",
@@ -13504,7 +15626,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": null,
         "sku": "BATLUA2026-XANH",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": null,
         "available": true
       },
@@ -13514,7 +15636,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đỏ",
         "option2": null,
         "sku": "DD-15418716258371-Đỏ",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": null,
         "available": false
       },
@@ -13524,17 +15646,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": null,
         "sku": "DD-15418716258371-Đen",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>Mô tả: </p>\n<p>Bật lửa xăng<br>Chất liệu chính: Da bò thật và hợp kim<br>Kích thước: 5 x 3.8 x 1.2cm </p>\n<p>Sản phẩm bật lửa khi nhận sẽ bao gồm 7 viên đá lửa, 1 dây bấc, 1 hộp, 1 bật lửa đã chọn.<br>Lưu ý:</p>\n<p>Khi vận chuyển sản phẩm bật lửa sẽ không được để xăng, vui lòng sử dụng xăng thơm ( xăng Zippo ) để refill và tránh giảm tuổi thọ của sản phẩm, <br></p>"
+    "body_html": "<p>Mô tả: </p>\n<p>Bật lửa xăng<br>Chất liệu chính: Da bò thật và hợp kim<br>Kích thước: 5 x 3.8 x 1.2cm </p>\n<p>Sản phẩm bật lửa khi nhận sẽ bao gồm 7 viên đá lửa, 1 dây bấc, 1 hộp, 1 bật lửa đã chọn.<br>Lưu ý:</p>\n<p>Khi vận chuyển sản phẩm bật lửa sẽ không được để xăng, vui lòng sử dụng xăng thơm ( xăng Zippo ) để refill và tránh giảm tuổi thọ của sản phẩm, <br></p>",
+    "rent_price": 70000,
+    "deposit": 500000,
+    "buy_price": 690000
   },
   {
     "id": 15418715799619,
@@ -13544,7 +15670,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-15T17:26:33+07:00",
     "published_at": "2026-10-15T17:40:49+07:00",
-    "price": 690000,
+    "price": 70000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_3056.jpg?v=1792060183",
@@ -13568,7 +15694,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đỏ",
         "option2": null,
         "sku": "BATLUA2026-DO",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": null,
         "available": true
       },
@@ -13578,7 +15704,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": null,
         "sku": "DD-15418715799619-Xanh",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": null,
         "available": false
       },
@@ -13588,17 +15714,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": null,
         "sku": "DD-15418715799619-Đen",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>Mô tả: </p>\n<p>Bật lửa xăng<br>Chất liệu chính: Da bò thật và hợp kim<br>Kích thước: 5 x 3.8 x 1.2cm </p>\n<p>Sản phẩm bật lửa khi nhận sẽ bao gồm 7 viên đá lửa, 1 dây bấc, 1 hộp, 1 bật lửa đã chọn.<br>Lưu ý:</p>\n<p>Khi vận chuyển sản phẩm bật lửa sẽ không được để xăng, vui lòng sử dụng xăng thơm ( xăng Zippo ) để refill và tránh giảm tuổi thọ của sản phẩm, <br></p>"
+    "body_html": "<p>Mô tả: </p>\n<p>Bật lửa xăng<br>Chất liệu chính: Da bò thật và hợp kim<br>Kích thước: 5 x 3.8 x 1.2cm </p>\n<p>Sản phẩm bật lửa khi nhận sẽ bao gồm 7 viên đá lửa, 1 dây bấc, 1 hộp, 1 bật lửa đã chọn.<br>Lưu ý:</p>\n<p>Khi vận chuyển sản phẩm bật lửa sẽ không được để xăng, vui lòng sử dụng xăng thơm ( xăng Zippo ) để refill và tránh giảm tuổi thọ của sản phẩm, <br></p>",
+    "rent_price": 70000,
+    "deposit": 500000,
+    "buy_price": 690000
   },
   {
     "id": 15415234691139,
@@ -13608,7 +15738,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Hair clip",
     "created_at": "2026-10-13T19:06:19+07:00",
     "published_at": "2026-10-13T19:07:37+07:00",
-    "price": 205000,
+    "price": 20000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5352_ab3c4221-6f8c-4dab-b7aa-b6bff199e707.jpg?v=1791893191",
@@ -13636,7 +15766,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Dương",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHDUONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13646,7 +15776,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": null,
         "sku": "HC - LAMDUYEN-HONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13656,7 +15786,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Cốm",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHLA",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13666,7 +15796,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đỏ",
         "option2": null,
         "sku": "HC - LAMDUYEN-DO",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13676,7 +15806,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": null,
         "sku": "HC - LAMDUYEN-TRANG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       }
@@ -13684,10 +15814,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "accessories",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>"
+    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
+    "rent_price": 20000,
+    "deposit": 500000,
+    "buy_price": 205000
   },
   {
     "id": 15415226499139,
@@ -13697,7 +15831,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Hair clip",
     "created_at": "2026-10-13T19:04:11+07:00",
     "published_at": "2026-10-13T19:06:08+07:00",
-    "price": 205000,
+    "price": 20000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5356pink_8e07b93d-a762-437d-b9c7-0a0dd8cfbbb6.jpg?v=1791893064",
@@ -13727,7 +15861,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": null,
         "sku": "HC - LAMDUYEN-HONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13737,7 +15871,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Cốm",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHLA",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13747,7 +15881,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đỏ",
         "option2": null,
         "sku": "HC - LAMDUYEN-DO",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13757,7 +15891,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": null,
         "sku": "HC - LAMDUYEN-TRANG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13767,7 +15901,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Dương",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHDUONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       }
@@ -13775,10 +15909,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "accessories",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>"
+    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
+    "rent_price": 20000,
+    "deposit": 500000,
+    "buy_price": 205000
   },
   {
     "id": 15415212376131,
@@ -13788,7 +15926,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Hair clip",
     "created_at": "2026-10-13T19:00:34+07:00",
     "published_at": "2026-10-13T19:02:50+07:00",
-    "price": 205000,
+    "price": 20000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5347_6bd16b1e-3fd8-4915-8008-2e5ea0665bc8.jpg?v=1791892868",
@@ -13818,7 +15956,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Cốm",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHLA",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13828,7 +15966,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đỏ",
         "option2": null,
         "sku": "HC - LAMDUYEN-DO",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13838,7 +15976,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": null,
         "sku": "HC - LAMDUYEN-TRANG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13848,7 +15986,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Dương",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHDUONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13858,7 +15996,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": null,
         "sku": "HC - LAMDUYEN-HONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       }
@@ -13866,10 +16004,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "accessories",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>"
+    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
+    "rent_price": 20000,
+    "deposit": 500000,
+    "buy_price": 205000
   },
   {
     "id": 15415178952771,
@@ -13879,7 +16021,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Hair clip",
     "created_at": "2026-10-13T18:52:28+07:00",
     "published_at": "2026-10-13T18:54:49+07:00",
-    "price": 205000,
+    "price": 20000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5320_a0afaf80-e27c-480b-a432-565718941654.jpg?v=1791892375",
@@ -13910,7 +16052,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đỏ",
         "option2": null,
         "sku": "HC - LAMDUYEN-DO",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13920,7 +16062,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": null,
         "sku": "HC - LAMDUYEN-TRANG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13930,7 +16072,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Cốm",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHLA",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13940,7 +16082,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Dương",
         "option2": null,
         "sku": "HC - LAMDUYEN-XANHDUONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       },
@@ -13950,7 +16092,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng nhạt",
         "option2": null,
         "sku": "HC - LAMDUYEN-HONG",
-        "price": 205000,
+        "price": 20000,
         "compare_at_price": null,
         "available": true
       }
@@ -13958,10 +16100,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "accessories",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>"
+    "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
+    "rent_price": 20000,
+    "deposit": 500000,
+    "buy_price": 205000
   },
   {
     "id": 15413821276227,
@@ -13971,7 +16117,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "dress",
     "created_at": "2026-10-13T11:16:34+07:00",
     "published_at": "2026-10-13T11:19:33+07:00",
-    "price": 2790000,
+    "price": 280000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_2290_copy_3-565.jpg?v=1790062553",
@@ -14007,7 +16153,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Cam",
         "option2": "S",
         "sku": "DD-15413821276227-Cam / S",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": true
       },
@@ -14017,7 +16163,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Cam",
         "option2": "M",
         "sku": "DD-15413821276227-Cam / M",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": true
       },
@@ -14027,7 +16173,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Cam",
         "option2": "L",
         "sku": "DD-15413821276227-Cam / L",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": true
       },
@@ -14037,7 +16183,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nude",
         "option2": "S",
         "sku": "DD-DR311-NUD-S",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": true
       },
@@ -14047,7 +16193,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nude",
         "option2": "M",
         "sku": "DD-DR311-NUD-M",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": true
       },
@@ -14057,16 +16203,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nude",
         "option2": "L",
         "sku": "DD-DR311-NUD-L",
-        "price": 2790000,
+        "price": 280000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "dam-1"
+      "dam-1",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Đầm cổ tàu, tay ngắn <br>- Dáng ôm thân trên, chiết eo <br>- 2 bên hông sử dụng thêm lớp vải tạo độ phồng và bồng bềnh<br>- Phần chân váy xoè rộng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Đầm cổ tàu, tay ngắn <br>- Dáng ôm thân trên, chiết eo <br>- 2 bên hông sử dụng thêm lớp vải tạo độ phồng và bồng bềnh<br>- Phần chân váy xoè rộng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 280000,
+    "deposit": 700000,
+    "buy_price": 2790000
   },
   {
     "id": 15413714190403,
@@ -14076,7 +16226,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "dress",
     "created_at": "2026-10-13T11:08:35+07:00",
     "published_at": "2026-10-13T11:10:20+07:00",
-    "price": 2290000,
+    "price": 230000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_1027_copy_3-661_d971b0ca-da8f-4952-877d-4dbaa9023a21.jpg?v=1790221421",
@@ -14112,7 +16262,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Trắng",
         "option2": "S",
         "sku": "DD-DR320-WHT-S",
-        "price": 2290000,
+        "price": 230000,
         "compare_at_price": null,
         "available": true
       },
@@ -14122,7 +16272,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Trắng",
         "option2": "M",
         "sku": "DD-DR320-WHT-M",
-        "price": 2290000,
+        "price": 230000,
         "compare_at_price": null,
         "available": true
       },
@@ -14132,7 +16282,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Trắng",
         "option2": "L",
         "sku": "DD-DR320-WHT-L",
-        "price": 2290000,
+        "price": 230000,
         "compare_at_price": null,
         "available": true
       },
@@ -14142,7 +16292,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "S",
         "sku": "DD-15413714190403-Hồng / S",
-        "price": 2290000,
+        "price": 230000,
         "compare_at_price": null,
         "available": true
       },
@@ -14152,7 +16302,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "M",
         "sku": "DD-15413714190403-Hồng / M",
-        "price": 2290000,
+        "price": 230000,
         "compare_at_price": null,
         "available": true
       },
@@ -14162,7 +16312,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "L",
         "sku": "DD-15413714190403-Hồng / L",
-        "price": 2290000,
+        "price": 230000,
         "compare_at_price": null,
         "available": true
       }
@@ -14170,10 +16320,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "dam-1",
       "set-mien-y",
-      "ma-may"
+      "ma-may",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Không kèm hoa đính tại cổ <br>- Đầm cổ tàu, tay ngắn<br>- Dáng ôm thân trên, chiết eo<br>- Phần chân váy xoè chữ A<br>- Khoá kéo dọc sau lưng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị\"</p>"
+    "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Không kèm hoa đính tại cổ <br>- Đầm cổ tàu, tay ngắn<br>- Dáng ôm thân trên, chiết eo<br>- Phần chân váy xoè chữ A<br>- Khoá kéo dọc sau lưng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị\"</p>",
+    "rent_price": 230000,
+    "deposit": 600000,
+    "buy_price": 2290000
   },
   {
     "id": 15408151199811,
@@ -14183,7 +16337,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Candle",
     "created_at": "2026-10-08T19:26:44+07:00",
     "published_at": "2026-10-12T19:31:26+07:00",
-    "price": 690000,
+    "price": 70000,
     "compare_at_price": 790000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5375.jpg?v=1791462021",
@@ -14212,7 +16366,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM CHICHANH",
         "option2": null,
         "sku": "DD-SC-003",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": true
       },
@@ -14222,7 +16376,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM NUNA",
         "option2": null,
         "sku": "DD-15408151199811-NẾN THƠM NUNA",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14232,7 +16386,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM ZUNGZANG",
         "option2": null,
         "sku": "DD-15408151199811-NẾN THƠM ZUNGZANG",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14242,7 +16396,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM BAYLA",
         "option2": null,
         "sku": "DD-15408151199811-NẾN THƠM BAYLA",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14252,7 +16406,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM TATAVON",
         "option2": null,
         "sku": "DD-15408151199811-NẾN THƠM TATAVON",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       }
@@ -14260,10 +16414,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>THÀNH PHẦN MÙI: <br>- 1. Oolong Tea - Hương trà thanh dịu, hơi rang nhẹ, ấm và sâu.<br>- 2. White Tea - Trong trẻo, mềm mại, thanh sạch và tinh tế.<br>- 3. Neroli - Hương hoa cam xanh, tươi sáng, hơi the nhẹ và thanh tao.<br>- 4. Orange Blossom - Hoa cam ngọt dịu, mềm mại, tươi mát và nữ tính.<br>- 5. Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và lưu hương.</p>\n<p>*Tổng thể: Thanh trà · Hoa cam · Gỗ ấm</p>\n<p><strong>ChiChanh - \"Chi chi chành chành\"</strong></p>\n<p>\"Chi chi chành chành\" luôn mang cái duyên của những khoảnh khắc chợt mở rồi chợt khép, <br>từng đã nằm trong tay mà thoắt cái đã hóa thành xa vắng. <br>Cái bắt rơi đất đôi khi thấy ấy, khi soi vào đời người, lại thành một nỗi cảm hoài về bao lần đổi khác. <br>Cành cũ xa vắng, người quen thành lạ, một lần ngoảnh bước cũng đủ khiến lỗi xưa rẽ ngả. <br>Mỗi điều cũ đến rồi đi, mong manh như mộng ảnh, nhưng mỗi lần biến chuyển lại âm thầm để lại một nét hằn trong ký ức.</p>\n<p>ChiChanh không níu giữ vẻ nguyên vẹn của thuở ban đầu, mà nâng niu nét đẹp được bồi nền sau những lần chao nghiêng, được mất. <br>Có những điều phải đi qua xa cách mới biết từng quý giá, <br>có những nếp nghĩ phải trải qua và va vấp mới trở nên sâu sắc.<br> Sau bao phen đổi dời, lòng người dần biết điều gì đáng giữ lại, điều gì nên nhẹ bớt trôi đi, <br>để giữ muôn lớp vật đổi sao dời, vẫn còn một dáng riêng âm thầm ở lại, <br>được năm tháng dung dưỡng mà càng trở nên đằm sâu, khó thể phai mờ.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI: <br>- 1. Oolong Tea - Hương trà thanh dịu, hơi rang nhẹ, ấm và sâu.<br>- 2. White Tea - Trong trẻo, mềm mại, thanh sạch và tinh tế.<br>- 3. Neroli - Hương hoa cam xanh, tươi sáng, hơi the nhẹ và thanh tao.<br>- 4. Orange Blossom - Hoa cam ngọt dịu, mềm mại, tươi mát và nữ tính.<br>- 5. Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và lưu hương.</p>\n<p>*Tổng thể: Thanh trà · Hoa cam · Gỗ ấm</p>\n<p><strong>ChiChanh - \"Chi chi chành chành\"</strong></p>\n<p>\"Chi chi chành chành\" luôn mang cái duyên của những khoảnh khắc chợt mở rồi chợt khép, <br>từng đã nằm trong tay mà thoắt cái đã hóa thành xa vắng. <br>Cái bắt rơi đất đôi khi thấy ấy, khi soi vào đời người, lại thành một nỗi cảm hoài về bao lần đổi khác. <br>Cành cũ xa vắng, người quen thành lạ, một lần ngoảnh bước cũng đủ khiến lỗi xưa rẽ ngả. <br>Mỗi điều cũ đến rồi đi, mong manh như mộng ảnh, nhưng mỗi lần biến chuyển lại âm thầm để lại một nét hằn trong ký ức.</p>\n<p>ChiChanh không níu giữ vẻ nguyên vẹn của thuở ban đầu, mà nâng niu nét đẹp được bồi nền sau những lần chao nghiêng, được mất. <br>Có những điều phải đi qua xa cách mới biết từng quý giá, <br>có những nếp nghĩ phải trải qua và va vấp mới trở nên sâu sắc.<br> Sau bao phen đổi dời, lòng người dần biết điều gì đáng giữ lại, điều gì nên nhẹ bớt trôi đi, <br>để giữ muôn lớp vật đổi sao dời, vẫn còn một dáng riêng âm thầm ở lại, <br>được năm tháng dung dưỡng mà càng trở nên đằm sâu, khó thể phai mờ.</p>",
+    "rent_price": 70000,
+    "deposit": 500000,
+    "buy_price": 690000
   },
   {
     "id": 15408147595331,
@@ -14273,7 +16431,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Candle",
     "created_at": "2026-10-08T19:24:37+07:00",
     "published_at": "2026-10-12T19:31:25+07:00",
-    "price": 690000,
+    "price": 70000,
     "compare_at_price": 790000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5382.jpg?v=1791462308",
@@ -14302,7 +16460,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM TATAVON",
         "option2": null,
         "sku": "DD-15408147595331-NẾN THƠM TATAVON",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14312,7 +16470,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM NUNA",
         "option2": null,
         "sku": "DD-SC-005",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": true
       },
@@ -14322,7 +16480,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM ZUNGZANG",
         "option2": null,
         "sku": "DD-15408147595331-NẾN THƠM ZUNGZANG",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14332,7 +16490,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM BAYLA",
         "option2": null,
         "sku": "DD-15408147595331-NẾN THƠM BAYLA",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14342,7 +16500,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM CHICHANH",
         "option2": null,
         "sku": "DD-15408147595331-NẾN THƠM CHICHANH",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       }
@@ -14350,10 +16508,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>THÀNH PHẦN MÙI:</p>\n<p>- Pink Pepper — Tiêu hồng cay nhẹ, tươi sáng, tạo điểm nhấn thanh và hơi nồng.<br>- Orange — Cam mọng nước, tươi mát, mang sắc citrus sáng và ngọt dịu.<br>- Musk — Xạ hương mềm, sạch và mịn, tạo cảm giác gần gũi trên da.<br>- Metallic — Sắc kim loại lạnh, sạch và hiện đại, tạo hiệu ứng sắc nét, độc đáo.<br>- Vanilla — Vanilla ngọt ấm, béo mịn, làm tổng thể trở nên mềm mại và quyến rũ hơn.<br>- Sandalwood — Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Citrus tươi · Cay nhẹ · Kim loại lạnh · Vanilla ấm · Gỗ mượt</p>\n<p><strong>TATAVON - \"Tập tâm vòng, tay không tay có\"</strong></p>\n<p>Nhớ về “Tập tâm vòng, tay không tay có” là nhớ về bàn tay khum kín một điều bé nhỏ, càng chưa tò càng khiến lòng người thêm nôn nao. <br>Cái duyên của trò chơi xưa nằm ở chính khoảng chờ mong ấy, <br>một vật nhỏ nhòa mà hóa thành điều đáng quý, một khoảnh khắc trao qua mà gieo xuống miền nhớ cả một đời rất lâu. <br>Bởi người đi qua bao phen đầy vơi, càng trân trọng những tháng tháng rơi rụng gìn giữ lại từng trải những bàn tay âm thầm thấm sâu, <br>nhẹ nhàng mà khó thể phai nhòa.</p>\n<p>TataVon gom nhặt những dư ảnh tưởng đã xa, để từng mảnh thương nhớ lắng lại trong vẻ hương thơm, <br>nơi những mảnh ký ức đã xa bỗng hiện về lấp lánh. <br>Một lời ru cũ, một nếp nhà quen, vạt nắng bên thềm, làn khói bếp chiều hay bóng người từng ngồi yên trong một buổi rất xa. <br>Tất cả mang manh như một mảnh nhớ đã từng mong manh, lặng lẽ dung dưỡng nên phần sâu kín nhất của mỗi người. <br>Để rồi khi mọi xao động dần lắng xuống, điều còn lại sau cùng vẫn là những gì đã thầm vào lòng quá đỗi tự nhiên. <br>Chẳng cần gọi tên, chẳng cần phô bày, mà vẫn đủ sức giữ nguyên một vùng ký ức ấm áp qua năm tháng.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI:</p>\n<p>- Pink Pepper — Tiêu hồng cay nhẹ, tươi sáng, tạo điểm nhấn thanh và hơi nồng.<br>- Orange — Cam mọng nước, tươi mát, mang sắc citrus sáng và ngọt dịu.<br>- Musk — Xạ hương mềm, sạch và mịn, tạo cảm giác gần gũi trên da.<br>- Metallic — Sắc kim loại lạnh, sạch và hiện đại, tạo hiệu ứng sắc nét, độc đáo.<br>- Vanilla — Vanilla ngọt ấm, béo mịn, làm tổng thể trở nên mềm mại và quyến rũ hơn.<br>- Sandalwood — Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Citrus tươi · Cay nhẹ · Kim loại lạnh · Vanilla ấm · Gỗ mượt</p>\n<p><strong>TATAVON - \"Tập tâm vòng, tay không tay có\"</strong></p>\n<p>Nhớ về “Tập tâm vòng, tay không tay có” là nhớ về bàn tay khum kín một điều bé nhỏ, càng chưa tò càng khiến lòng người thêm nôn nao. <br>Cái duyên của trò chơi xưa nằm ở chính khoảng chờ mong ấy, <br>một vật nhỏ nhòa mà hóa thành điều đáng quý, một khoảnh khắc trao qua mà gieo xuống miền nhớ cả một đời rất lâu. <br>Bởi người đi qua bao phen đầy vơi, càng trân trọng những tháng tháng rơi rụng gìn giữ lại từng trải những bàn tay âm thầm thấm sâu, <br>nhẹ nhàng mà khó thể phai nhòa.</p>\n<p>TataVon gom nhặt những dư ảnh tưởng đã xa, để từng mảnh thương nhớ lắng lại trong vẻ hương thơm, <br>nơi những mảnh ký ức đã xa bỗng hiện về lấp lánh. <br>Một lời ru cũ, một nếp nhà quen, vạt nắng bên thềm, làn khói bếp chiều hay bóng người từng ngồi yên trong một buổi rất xa. <br>Tất cả mang manh như một mảnh nhớ đã từng mong manh, lặng lẽ dung dưỡng nên phần sâu kín nhất của mỗi người. <br>Để rồi khi mọi xao động dần lắng xuống, điều còn lại sau cùng vẫn là những gì đã thầm vào lòng quá đỗi tự nhiên. <br>Chẳng cần gọi tên, chẳng cần phô bày, mà vẫn đủ sức giữ nguyên một vùng ký ức ấm áp qua năm tháng.</p>",
+    "rent_price": 70000,
+    "deposit": 500000,
+    "buy_price": 690000
   },
   {
     "id": 15408144154691,
@@ -14363,7 +16525,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Candle",
     "created_at": "2026-10-08T19:22:44+07:00",
     "published_at": "2026-10-12T19:31:24+07:00",
-    "price": 690000,
+    "price": 70000,
     "compare_at_price": 790000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5372.jpg?v=1791462205",
@@ -14392,7 +16554,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM BAYLA",
         "option2": null,
         "sku": "DD-SC-004",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": true
       },
@@ -14402,7 +16564,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM NUNA",
         "option2": null,
         "sku": "DD-15408144154691-NẾN THƠM NUNA",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14412,7 +16574,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM ZUNGZANG",
         "option2": null,
         "sku": "DD-15408144154691-NẾN THƠM ZUNGZANG",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14422,7 +16584,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM TATAVON",
         "option2": null,
         "sku": "DD-15408144154691-NẾN THƠM TATAVON",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14432,7 +16594,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM CHICHANH",
         "option2": null,
         "sku": "DD-15408144154691-NẾN THƠM CHICHANH",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       }
@@ -14440,10 +16602,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Bergamot — Cam bergamot tươi sáng, thanh mát, pha chút the nhẹ và xanh.<br>- Lily — Hoa huệ thanh sạch, mềm mại, mang sắc hoa nhẹ và tinh tế.<br>- Black Tea — Trà đen đậm, hơi khô, ấm và có chiều sâu.<br>- White Sage — Xô thơm trắng thanh sạch, khô nhẹ, thảo mộc và hơi xanh.<br>- Clove — Đinh hương cay ấm, nồng nhẹ, tạo điểm nhấn gia vị.<br>- Patchouli — Hoắc hương trầm, đất nhẹ, hơi khô và mang sắc thái cổ điển.<br>- Pinewood — Gỗ thông xanh, khô thoáng, mang cảm giác tự nhiên và trong lành.<br>- Sandalwood — Đàn hương ấm mượt, mềm và trầm, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Thanh citrus · Trà khô · Thảo mộc · Gia vị ấm · Gỗ trầm.</p>\n<p><strong>BAYLA - \"Con cò bay là bay la\"</strong></p>\n<p>“Con cò bay là bay la” gọi một cánh bay chao nghiêng giữa khoảng trời diệu vợi, <br>lúc thấp thoáng trên đồng, lúc khuất mờ nơi cuối gió, mềm mại mà chẳng lạc phương. <br>Cái dáng bay là lời nhủ chỉ nương theo chiều gió ấy, <br>ngẫm kỹ lại mang theo biết bao dư vị của một đời người đã đi qua nhiều phen đổi dời - Không còn khép tấp trước những ngã rẽ, <br>cũng chẳng mãi miết níu giữ điều đã qua, chỉ thong dong tìm lấy nhịp riêng giữa trời rộng đất dài, <br>để mỗi chuyển động đều mang theo một chút tình thơm trời đất.</p>\n<p>BAYLA chắt lấy cái ý vị phiêu diêu ấy để ươm vào một tầng hương, <br>nâng niu vẻ đẹp của quãng đời khi lòng người đã đủ sâu để biết thả mà không buông, nhẹ mà không hời hợt, tự do mà chẳng lạc mình. <br>Sau những tháng năm từng chao nghiêng vì được mất, con người dần học cách để lòng rộng hơn, bước chân khoan hơn, <br>và nhìn mỗi biến chuyển bằng một sự dịu dàng đã được nâng thành văn bồi. <br>Như cánh cò bay là giữa trời xa, càng đi qua nhiều đổi dời, càng thêm mềm dáng, <br>con người rồi cũng hiểu rằng tự tại chẳng phải là đời không còn vướng bận, mà là giữa muôn điều níu giữ, <br>vẫn biết cách giữ gìn cho lòng mình một khoảng không thanh thản.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Bergamot — Cam bergamot tươi sáng, thanh mát, pha chút the nhẹ và xanh.<br>- Lily — Hoa huệ thanh sạch, mềm mại, mang sắc hoa nhẹ và tinh tế.<br>- Black Tea — Trà đen đậm, hơi khô, ấm và có chiều sâu.<br>- White Sage — Xô thơm trắng thanh sạch, khô nhẹ, thảo mộc và hơi xanh.<br>- Clove — Đinh hương cay ấm, nồng nhẹ, tạo điểm nhấn gia vị.<br>- Patchouli — Hoắc hương trầm, đất nhẹ, hơi khô và mang sắc thái cổ điển.<br>- Pinewood — Gỗ thông xanh, khô thoáng, mang cảm giác tự nhiên và trong lành.<br>- Sandalwood — Đàn hương ấm mượt, mềm và trầm, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Thanh citrus · Trà khô · Thảo mộc · Gia vị ấm · Gỗ trầm.</p>\n<p><strong>BAYLA - \"Con cò bay là bay la\"</strong></p>\n<p>“Con cò bay là bay la” gọi một cánh bay chao nghiêng giữa khoảng trời diệu vợi, <br>lúc thấp thoáng trên đồng, lúc khuất mờ nơi cuối gió, mềm mại mà chẳng lạc phương. <br>Cái dáng bay là lời nhủ chỉ nương theo chiều gió ấy, <br>ngẫm kỹ lại mang theo biết bao dư vị của một đời người đã đi qua nhiều phen đổi dời - Không còn khép tấp trước những ngã rẽ, <br>cũng chẳng mãi miết níu giữ điều đã qua, chỉ thong dong tìm lấy nhịp riêng giữa trời rộng đất dài, <br>để mỗi chuyển động đều mang theo một chút tình thơm trời đất.</p>\n<p>BAYLA chắt lấy cái ý vị phiêu diêu ấy để ươm vào một tầng hương, <br>nâng niu vẻ đẹp của quãng đời khi lòng người đã đủ sâu để biết thả mà không buông, nhẹ mà không hời hợt, tự do mà chẳng lạc mình. <br>Sau những tháng năm từng chao nghiêng vì được mất, con người dần học cách để lòng rộng hơn, bước chân khoan hơn, <br>và nhìn mỗi biến chuyển bằng một sự dịu dàng đã được nâng thành văn bồi. <br>Như cánh cò bay là giữa trời xa, càng đi qua nhiều đổi dời, càng thêm mềm dáng, <br>con người rồi cũng hiểu rằng tự tại chẳng phải là đời không còn vướng bận, mà là giữa muôn điều níu giữ, <br>vẫn biết cách giữ gìn cho lòng mình một khoảng không thanh thản.</p>",
+    "rent_price": 70000,
+    "deposit": 500000,
+    "buy_price": 690000
   },
   {
     "id": 15408132620355,
@@ -14453,7 +16619,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Candle",
     "created_at": "2026-10-08T19:15:46+07:00",
     "published_at": "2026-10-12T19:31:24+07:00",
-    "price": 690000,
+    "price": 70000,
     "compare_at_price": 790000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5368.jpg?v=1791461786",
@@ -14482,7 +16648,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM ZUNGZANG",
         "option2": null,
         "sku": "DD-SC-002",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": true
       },
@@ -14492,7 +16658,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM NUNA",
         "option2": null,
         "sku": "DD-15408132620355-NẾN THƠM NUNA",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14502,7 +16668,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM BAYLA",
         "option2": null,
         "sku": "DD-15408132620355-NẾN THƠM BAYLA",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14512,7 +16678,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM TATAVON",
         "option2": null,
         "sku": "DD-15408132620355-NẾN THƠM TATAVON",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14522,7 +16688,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM CHICHANH",
         "option2": null,
         "sku": "DD-15408132620355-NẾN THƠM CHICHANH",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       }
@@ -14530,10 +16696,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>THÀNH PHẦN MÙI:<br>- Citrus - Sắc cam chanh tươi sáng, thanh mát, mở đầu đầy sức sống.<br>- Night Blooming Jasmine Tea - Hoa nhài nở đêm hòa cùng hương trà thanh dịu, mang nét tinh tế và thư thái.<br>- Lavender - Lavender mềm mại, sạch và nhẹ nhàng, cân bằng tầng hoa.<br>- Musk - Xạ hương mịn màng, tạo cảm giác sạch sẽ và gần gũi trên da.<br>- Melon - Dưa lưới mọng nước, mang sắc thái ngọt thanh và tươi mát.<br>- Sandalwood - Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho dư hương.</p>\n<p>*Tổng thể: Tươi mát · Hoa trà · Dịu sạch · Gỗ ấm</p>\n<p><strong>ZungZang - \"Dung dăng dung dẻ\"</strong></p>\n<p>\"Dung dăng dung dẻ, dắt trẻ đi chơi” vốn là câu hát của những bàn tay tìm đến nhau, <br>của bước chân trước nương bước chân sau mà nên một quãng đường có bạn. <br>Từ thuở còn thơ cho đến khi khôn lớn, đời người cũng được vun bồi bởi những lần tương ngộ như thế. <br>Có người ghé qua như một thoáng gió, có người ở lại thành mỗi thân quen, <br>có người chỉ sánh bước một đoạn mà dư âm vẫn vẩn vất trong lòng.</p>\n<p>ZungZang se lại cái tình của những lần tay nắm tay, để những cuộc gặp gỡ đã qua vẫn còn lưu một chút hơi ấm trong miền nhớ, <br>như muốn lưu lại bóng dáng của những lần gặp gỡ đã âm thầm bồi đắp nên mỗi người. <br>Một lời từng nghe, một nếp quen từng nhớ, một bóng hình từng thương đều có thể lắng lại thành miền ký ức dịu dàng. <br>Để sau bao lần gặp gỡ và chia xa, ta dần nên hình từ chính những điều đã từng trao gửi, từng đón nhận, từng lưu luyến trong nhau.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI:<br>- Citrus - Sắc cam chanh tươi sáng, thanh mát, mở đầu đầy sức sống.<br>- Night Blooming Jasmine Tea - Hoa nhài nở đêm hòa cùng hương trà thanh dịu, mang nét tinh tế và thư thái.<br>- Lavender - Lavender mềm mại, sạch và nhẹ nhàng, cân bằng tầng hoa.<br>- Musk - Xạ hương mịn màng, tạo cảm giác sạch sẽ và gần gũi trên da.<br>- Melon - Dưa lưới mọng nước, mang sắc thái ngọt thanh và tươi mát.<br>- Sandalwood - Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho dư hương.</p>\n<p>*Tổng thể: Tươi mát · Hoa trà · Dịu sạch · Gỗ ấm</p>\n<p><strong>ZungZang - \"Dung dăng dung dẻ\"</strong></p>\n<p>\"Dung dăng dung dẻ, dắt trẻ đi chơi” vốn là câu hát của những bàn tay tìm đến nhau, <br>của bước chân trước nương bước chân sau mà nên một quãng đường có bạn. <br>Từ thuở còn thơ cho đến khi khôn lớn, đời người cũng được vun bồi bởi những lần tương ngộ như thế. <br>Có người ghé qua như một thoáng gió, có người ở lại thành mỗi thân quen, <br>có người chỉ sánh bước một đoạn mà dư âm vẫn vẩn vất trong lòng.</p>\n<p>ZungZang se lại cái tình của những lần tay nắm tay, để những cuộc gặp gỡ đã qua vẫn còn lưu một chút hơi ấm trong miền nhớ, <br>như muốn lưu lại bóng dáng của những lần gặp gỡ đã âm thầm bồi đắp nên mỗi người. <br>Một lời từng nghe, một nếp quen từng nhớ, một bóng hình từng thương đều có thể lắng lại thành miền ký ức dịu dàng. <br>Để sau bao lần gặp gỡ và chia xa, ta dần nên hình từ chính những điều đã từng trao gửi, từng đón nhận, từng lưu luyến trong nhau.</p>",
+    "rent_price": 70000,
+    "deposit": 500000,
+    "buy_price": 690000
   },
   {
     "id": 15408126492739,
@@ -14543,7 +16713,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Candle",
     "created_at": "2026-10-08T19:11:37+07:00",
     "published_at": "2026-10-12T19:31:23+07:00",
-    "price": 690000,
+    "price": 70000,
     "compare_at_price": 790000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5379.jpg?v=1791461569",
@@ -14572,7 +16742,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM NUNA",
         "option2": null,
         "sku": "DD-SC-001",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": true
       },
@@ -14582,7 +16752,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM ZUNGZANG",
         "option2": null,
         "sku": "DD-15408126492739-NẾN THƠM ZUNGZANG",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14592,7 +16762,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM BAYLA",
         "option2": null,
         "sku": "DD-15408126492739-NẾN THƠM BAYLA",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14602,7 +16772,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM TATAVON",
         "option2": null,
         "sku": "DD-15408126492739-NẾN THƠM TATAVON",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       },
@@ -14612,7 +16782,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "NẾN THƠM CHICHANH",
         "option2": null,
         "sku": "DD-15408126492739-NẾN THƠM CHICHANH",
-        "price": 690000,
+        "price": 70000,
         "compare_at_price": 790000,
         "available": false
       }
@@ -14620,10 +16790,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Ylang Ylang - Hương Ngọc Lan Tây mềm mại, quyến rũ, phảng phất sắc thái kem mịn và ngọt dịu.<br>- Tibetan Rose - Hoa hồng thanh tao, trong trẻo, mang nét dịu dàng và tinh tế.<br>- Pear - Lê mọng nước, tươi sáng, thanh ngọt, tạo nên điểm mở đầu trẻ trung.<br>- Freesia Herbal Tea - Sắc hoa lan Nam Phi hòa quyện cùng hơi thở trà thảo mộc, thanh mát và nhẹ nhàng.<br>- Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và dư âm lưu luyến cho tổng thể.</p>\n<p>*Tổng thể: Thanh ngọt · Hoa mềm · Trà thảo mộc · Gỗ ấm</p>\n<p><strong>NuNa - \"Nu na nu nóng\"</strong></p>\n<p>Nhớ về “Na nu na nóng” là nhớ về một thuở đầu đời còn trong ngần, ngồi kề nhau mà ngẩn ngơ ca hát,  một nét nắng đầu hiên hay một tiếng chim gọi ngô ngơ cũng đủ làm lòng trẻ nhỏ xốn xao, vui sướng.  Những năm tháng ấy vốn nhẹ nhàng như sương mai, non tơ như lộc biếc, mọi điều vừa chạm mắt đều mang theo vẻ tươi rói,  ngọt lành của những lần đầu tiên.</p>\n<p>NuNa đem nỗi cảm hoài ấy ký thác vào một tầng hương, ủ giữ phần thơ dại chưa vướng chuyện được mất,  chưa biết giấu kín vui buồn, chỉ biết rộng lòng đón lấy muôn điều mới mẻ.  Dẫu mai sau có đi qua bao lớp nắng mưa, nét hồn nhiên thuở ấy vẫn lặng lẽ neo lại nơi sâu thẳm,  dung dưỡng một khoảng ký ức trong veo, để chỉ một thoáng hương khẽ chạm cũng đủ lay thức cả quãng đời son trẻ,  tưởng đã xa mà vẫn còn nguyên nét thương mến.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Ylang Ylang - Hương Ngọc Lan Tây mềm mại, quyến rũ, phảng phất sắc thái kem mịn và ngọt dịu.<br>- Tibetan Rose - Hoa hồng thanh tao, trong trẻo, mang nét dịu dàng và tinh tế.<br>- Pear - Lê mọng nước, tươi sáng, thanh ngọt, tạo nên điểm mở đầu trẻ trung.<br>- Freesia Herbal Tea - Sắc hoa lan Nam Phi hòa quyện cùng hơi thở trà thảo mộc, thanh mát và nhẹ nhàng.<br>- Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và dư âm lưu luyến cho tổng thể.</p>\n<p>*Tổng thể: Thanh ngọt · Hoa mềm · Trà thảo mộc · Gỗ ấm</p>\n<p><strong>NuNa - \"Nu na nu nóng\"</strong></p>\n<p>Nhớ về “Na nu na nóng” là nhớ về một thuở đầu đời còn trong ngần, ngồi kề nhau mà ngẩn ngơ ca hát,  một nét nắng đầu hiên hay một tiếng chim gọi ngô ngơ cũng đủ làm lòng trẻ nhỏ xốn xao, vui sướng.  Những năm tháng ấy vốn nhẹ nhàng như sương mai, non tơ như lộc biếc, mọi điều vừa chạm mắt đều mang theo vẻ tươi rói,  ngọt lành của những lần đầu tiên.</p>\n<p>NuNa đem nỗi cảm hoài ấy ký thác vào một tầng hương, ủ giữ phần thơ dại chưa vướng chuyện được mất,  chưa biết giấu kín vui buồn, chỉ biết rộng lòng đón lấy muôn điều mới mẻ.  Dẫu mai sau có đi qua bao lớp nắng mưa, nét hồn nhiên thuở ấy vẫn lặng lẽ neo lại nơi sâu thẳm,  dung dưỡng một khoảng ký ức trong veo, để chỉ một thoáng hương khẽ chạm cũng đủ lay thức cả quãng đời son trẻ,  tưởng đã xa mà vẫn còn nguyên nét thương mến.</p>",
+    "rent_price": 70000,
+    "deposit": 500000,
+    "buy_price": 690000
   },
   {
     "id": 15413185118275,
@@ -14633,7 +16807,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Waistcoat",
     "created_at": "2026-10-12T18:15:04+07:00",
     "published_at": "2026-10-12T18:26:21+07:00",
-    "price": 2555000,
+    "price": 260000,
     "compare_at_price": 2850000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5016.jpg?v=1791803720",
@@ -14656,7 +16830,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-SH376-F1-GRN-S",
-        "price": 2555000,
+        "price": 260000,
         "compare_at_price": 2850000,
         "available": true
       },
@@ -14666,7 +16840,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-SH376-F1-GRN-M",
-        "price": 2555000,
+        "price": 260000,
         "compare_at_price": 2850000,
         "available": true
       },
@@ -14676,7 +16850,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-SH376-F1-GRN-L",
-        "price": 2555000,
+        "price": 260000,
         "compare_at_price": 2850000,
         "available": false
       }
@@ -14684,10 +16858,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- Chất liệu: Tweed <br>- Áo gile dáng dài, cổ trụ<br>- Thiết kế vạt chéo với ba khuy tết. <br>- Hai bên eo có dây buộc tạo điểm nhấn <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>"
+    "body_html": "<p>- Chất liệu: Tweed <br>- Áo gile dáng dài, cổ trụ<br>- Thiết kế vạt chéo với ba khuy tết. <br>- Hai bên eo có dây buộc tạo điểm nhấn <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
+    "rent_price": 260000,
+    "deposit": 600000,
+    "buy_price": 2555000
   },
   {
     "id": 15413177155651,
@@ -14697,7 +16875,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Blazer",
     "created_at": "2026-10-12T18:12:22+07:00",
     "published_at": "2026-10-12T18:26:20+07:00",
-    "price": 6890000,
+    "price": 690000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5024.jpg?v=1791803572",
@@ -14720,7 +16898,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-VS11-F1-GRN-S",
-        "price": 6890000,
+        "price": 690000,
         "compare_at_price": null,
         "available": true
       },
@@ -14730,7 +16908,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-VS11-F1-GRN-M",
-        "price": 6890000,
+        "price": 690000,
         "compare_at_price": null,
         "available": true
       },
@@ -14740,17 +16918,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-VS11-F1-GRN-L",
-        "price": 6890000,
+        "price": 690000,
         "compare_at_price": null,
         "available": false
       }
     ],
     "collections": [
       "ao-1",
-      "ao-khoac"
+      "ao-khoac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- Chất liệu: Tweed <br>- Áo khoác cổ trụ, tay dài, chiết eo xoè nhé <br>- Dây nơ ren thắt tại eo<br>- Điểm nhấn khuy tết ở cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>"
+    "body_html": "<p>- Chất liệu: Tweed <br>- Áo khoác cổ trụ, tay dài, chiết eo xoè nhé <br>- Dây nơ ren thắt tại eo<br>- Điểm nhấn khuy tết ở cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
+    "rent_price": 690000,
+    "deposit": 1700000,
+    "buy_price": 6890000
   },
   {
     "id": 15413151727683,
@@ -14760,7 +16942,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Trousers",
     "created_at": "2026-10-12T18:03:18+07:00",
     "published_at": "2026-10-12T18:26:20+07:00",
-    "price": 2190000,
+    "price": 220000,
     "compare_at_price": 2500000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5004.jpg?v=1791803018",
@@ -14783,7 +16965,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-TS71-F3-NVY-S",
-        "price": 2190000,
+        "price": 220000,
         "compare_at_price": 2500000,
         "available": false
       },
@@ -14793,7 +16975,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-TS71-F3-NVY-M",
-        "price": 2190000,
+        "price": 220000,
         "compare_at_price": 2500000,
         "available": true
       },
@@ -14803,7 +16985,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-TS71-F3-NVY-L",
-        "price": 2190000,
+        "price": 220000,
         "compare_at_price": 2500000,
         "available": false
       }
@@ -14811,10 +16993,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "quan",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- Chất liệu: Tweed<br>- Quần cạp cao, ống rộng dáng cong<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>"
+    "body_html": "<p>- Chất liệu: Tweed<br>- Quần cạp cao, ống rộng dáng cong<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
+    "rent_price": 220000,
+    "deposit": 500000,
+    "buy_price": 2190000
   },
   {
     "id": 15413138915395,
@@ -14824,7 +17010,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Coat",
     "created_at": "2026-10-12T17:55:52+07:00",
     "published_at": "2026-10-12T18:26:19+07:00",
-    "price": 2550000,
+    "price": 260000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5008_7aa3defd-608d-47ac-af84-4f43acdf2a5b.jpg?v=1791802642",
@@ -14845,17 +17031,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Freesize",
         "option2": null,
         "sku": "DD-SH297-F1-NVY-FREESIZE",
-        "price": 2550000,
+        "price": 260000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "ao-1",
-      "ao-khoac"
+      "ao-khoac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- Chất liệu: Tweed<br>- Áo khoác cổ chữ V, hai vạt áo chéo chồng lên nhau<br>- Có dây thắt tại eo<br>- Tay rộng, cổ và tay áo viền ren<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>"
+    "body_html": "<p>- Chất liệu: Tweed<br>- Áo khoác cổ chữ V, hai vạt áo chéo chồng lên nhau<br>- Có dây thắt tại eo<br>- Tay rộng, cổ và tay áo viền ren<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
+    "rent_price": 260000,
+    "deposit": 600000,
+    "buy_price": 2550000
   },
   {
     "id": 15407964487747,
@@ -14865,7 +17055,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Essential Oil",
     "created_at": "2026-10-08T18:02:31+07:00",
     "published_at": "2026-10-12T16:45:17+07:00",
-    "price": 550000,
+    "price": 60000,
     "compare_at_price": 650000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5416.jpg?v=1791457552",
@@ -14890,7 +17080,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU NUNA",
         "option2": null,
         "sku": "DD-OIL-001",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": true
       },
@@ -14900,7 +17090,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU CHICHANH",
         "option2": null,
         "sku": "DD-OIL-003",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -14910,7 +17100,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU BAYLA",
         "option2": null,
         "sku": "DD-OIL-004",
-        "price": 490000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -14920,7 +17110,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU TATAVON",
         "option2": null,
         "sku": "DD-OIL-005",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -14930,7 +17120,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU ZUNGZANG",
         "option2": null,
         "sku": "DD-OIL-002",
-        "price": 490000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       }
@@ -14938,10 +17128,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Ylang Ylang - Hương Ngọc Lan Tây mềm mại, quyến rũ, phảng phất sắc thái kem mịn và ngọt dịu.<br>- Tibetan Rose - Hoa hồng thanh tao, trong trẻo, mang nét dịu dàng và tinh tế.<br>- Pear - Lê mọng nước, tươi sáng, thanh ngọt, tạo nên điểm mở đầu trẻ trung.<br>- Freesia Herbal Tea - Sắc hoa lan Nam Phi hòa quyện cùng hơi thở trà thảo mộc, thanh mát và nhẹ nhàng.<br>- Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và dư âm lưu luyến cho tổng thể.</p>\n<p>*Tổng thể: Thanh ngọt · Hoa mềm · Trà thảo mộc · Gỗ ấm</p>\n<p><strong>NuNa - \"Nu na nu nóng\"</strong></p>\n<p>Nhớ về “Na nu na nóng” là nhớ về một thuở đầu đời còn trong ngần, ngồi kề nhau mà ngẩn ngơ ca hát,  một nét nắng đầu hiên hay một tiếng chim gọi ngô ngơ cũng đủ làm lòng trẻ nhỏ xốn xao, vui sướng.  Những năm tháng ấy vốn nhẹ nhàng như sương mai, non tơ như lộc biếc, mọi điều vừa chạm mắt đều mang theo vẻ tươi rói,  ngọt lành của những lần đầu tiên.</p>\n<p>NuNa đem nỗi cảm hoài ấy ký thác vào một tầng hương, ủ giữ phần thơ dại chưa vướng chuyện được mất,  chưa biết giấu kín vui buồn, chỉ biết rộng lòng đón lấy muôn điều mới mẻ.  Dẫu mai sau có đi qua bao lớp nắng mưa, nét hồn nhiên thuở ấy vẫn lặng lẽ neo lại nơi sâu thẳm,  dung dưỡng một khoảng ký ức trong veo, để chỉ một thoáng hương khẽ chạm cũng đủ lay thức cả quãng đời son trẻ,  tưởng đã xa mà vẫn còn nguyên nét thương mến.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Ylang Ylang - Hương Ngọc Lan Tây mềm mại, quyến rũ, phảng phất sắc thái kem mịn và ngọt dịu.<br>- Tibetan Rose - Hoa hồng thanh tao, trong trẻo, mang nét dịu dàng và tinh tế.<br>- Pear - Lê mọng nước, tươi sáng, thanh ngọt, tạo nên điểm mở đầu trẻ trung.<br>- Freesia Herbal Tea - Sắc hoa lan Nam Phi hòa quyện cùng hơi thở trà thảo mộc, thanh mát và nhẹ nhàng.<br>- Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và dư âm lưu luyến cho tổng thể.</p>\n<p>*Tổng thể: Thanh ngọt · Hoa mềm · Trà thảo mộc · Gỗ ấm</p>\n<p><strong>NuNa - \"Nu na nu nóng\"</strong></p>\n<p>Nhớ về “Na nu na nóng” là nhớ về một thuở đầu đời còn trong ngần, ngồi kề nhau mà ngẩn ngơ ca hát,  một nét nắng đầu hiên hay một tiếng chim gọi ngô ngơ cũng đủ làm lòng trẻ nhỏ xốn xao, vui sướng.  Những năm tháng ấy vốn nhẹ nhàng như sương mai, non tơ như lộc biếc, mọi điều vừa chạm mắt đều mang theo vẻ tươi rói,  ngọt lành của những lần đầu tiên.</p>\n<p>NuNa đem nỗi cảm hoài ấy ký thác vào một tầng hương, ủ giữ phần thơ dại chưa vướng chuyện được mất,  chưa biết giấu kín vui buồn, chỉ biết rộng lòng đón lấy muôn điều mới mẻ.  Dẫu mai sau có đi qua bao lớp nắng mưa, nét hồn nhiên thuở ấy vẫn lặng lẽ neo lại nơi sâu thẳm,  dung dưỡng một khoảng ký ức trong veo, để chỉ một thoáng hương khẽ chạm cũng đủ lay thức cả quãng đời son trẻ,  tưởng đã xa mà vẫn còn nguyên nét thương mến.</p>",
+    "rent_price": 60000,
+    "deposit": 500000,
+    "buy_price": 550000
   },
   {
     "id": 15407992537155,
@@ -14951,7 +17145,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Essential Oil",
     "created_at": "2026-10-08T18:14:24+07:00",
     "published_at": "2026-10-12T16:45:12+07:00",
-    "price": 490000,
+    "price": 50000,
     "compare_at_price": 590000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5404.jpg?v=1791458603",
@@ -14976,7 +17170,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU ZUNGZANG",
         "option2": null,
         "sku": "DD-OIL-002",
-        "price": 490000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": true
       },
@@ -14986,7 +17180,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU NUNA",
         "option2": null,
         "sku": "DD-OIL-001",
-        "price": 550000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       },
@@ -14996,7 +17190,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU CHICHANH",
         "option2": null,
         "sku": "DD-OIL-003",
-        "price": 550000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       },
@@ -15006,7 +17200,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU BAYLA",
         "option2": null,
         "sku": "DD-OIL-004",
-        "price": 490000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       },
@@ -15016,7 +17210,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU TATAVON",
         "option2": null,
         "sku": "DD-OIL-005",
-        "price": 550000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       }
@@ -15024,10 +17218,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>THÀNH PHẦN MÙI:<br>- Citrus - Sắc cam chanh tươi sáng, thanh mát, mở đầu đầy sức sống.<br>- Night Blooming Jasmine Tea - Hoa nhài nở đêm hòa cùng hương trà thanh dịu, mang nét tinh tế và thư thái.<br>- Lavender - Lavender mềm mại, sạch và nhẹ nhàng, cân bằng tầng hoa.<br>- Musk - Xạ hương mịn màng, tạo cảm giác sạch sẽ và gần gũi trên da.<br>- Melon - Dưa lưới mọng nước, mang sắc thái ngọt thanh và tươi mát.<br>- Sandalwood - Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho dư hương.</p>\n<p>*Tổng thể: Tươi mát · Hoa trà · Dịu sạch · Gỗ ấm</p>\n<p><strong>ZungZang - \"Dung dăng dung dẻ\"</strong></p>\n<p>\"Dung dăng dung dẻ, dắt trẻ đi chơi” vốn là câu hát của những bàn tay tìm đến nhau, <br>của bước chân trước nương bước chân sau mà nên một quãng đường có bạn. <br>Từ thuở còn thơ cho đến khi khôn lớn, đời người cũng được vun bồi bởi những lần tương ngộ như thế. <br>Có người ghé qua như một thoáng gió, có người ở lại thành mỗi thân quen, <br>có người chỉ sánh bước một đoạn mà dư âm vẫn vẩn vất trong lòng.</p>\n<p>ZungZang se lại cái tình của những lần tay nắm tay, để những cuộc gặp gỡ đã qua vẫn còn lưu một chút hơi ấm trong miền nhớ, <br>như muốn lưu lại bóng dáng của những lần gặp gỡ đã âm thầm bồi đắp nên mỗi người. <br>Một lời từng nghe, một nếp quen từng nhớ, một bóng hình từng thương đều có thể lắng lại thành miền ký ức dịu dàng. <br>Để sau bao lần gặp gỡ và chia xa, ta dần nên hình từ chính những điều đã từng trao gửi, từng đón nhận, từng lưu luyến trong nhau.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI:<br>- Citrus - Sắc cam chanh tươi sáng, thanh mát, mở đầu đầy sức sống.<br>- Night Blooming Jasmine Tea - Hoa nhài nở đêm hòa cùng hương trà thanh dịu, mang nét tinh tế và thư thái.<br>- Lavender - Lavender mềm mại, sạch và nhẹ nhàng, cân bằng tầng hoa.<br>- Musk - Xạ hương mịn màng, tạo cảm giác sạch sẽ và gần gũi trên da.<br>- Melon - Dưa lưới mọng nước, mang sắc thái ngọt thanh và tươi mát.<br>- Sandalwood - Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho dư hương.</p>\n<p>*Tổng thể: Tươi mát · Hoa trà · Dịu sạch · Gỗ ấm</p>\n<p><strong>ZungZang - \"Dung dăng dung dẻ\"</strong></p>\n<p>\"Dung dăng dung dẻ, dắt trẻ đi chơi” vốn là câu hát của những bàn tay tìm đến nhau, <br>của bước chân trước nương bước chân sau mà nên một quãng đường có bạn. <br>Từ thuở còn thơ cho đến khi khôn lớn, đời người cũng được vun bồi bởi những lần tương ngộ như thế. <br>Có người ghé qua như một thoáng gió, có người ở lại thành mỗi thân quen, <br>có người chỉ sánh bước một đoạn mà dư âm vẫn vẩn vất trong lòng.</p>\n<p>ZungZang se lại cái tình của những lần tay nắm tay, để những cuộc gặp gỡ đã qua vẫn còn lưu một chút hơi ấm trong miền nhớ, <br>như muốn lưu lại bóng dáng của những lần gặp gỡ đã âm thầm bồi đắp nên mỗi người. <br>Một lời từng nghe, một nếp quen từng nhớ, một bóng hình từng thương đều có thể lắng lại thành miền ký ức dịu dàng. <br>Để sau bao lần gặp gỡ và chia xa, ta dần nên hình từ chính những điều đã từng trao gửi, từng đón nhận, từng lưu luyến trong nhau.</p>",
+    "rent_price": 50000,
+    "deposit": 500000,
+    "buy_price": 490000
   },
   {
     "id": 15408030711875,
@@ -15037,7 +17235,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Essential Oil",
     "created_at": "2026-10-08T18:26:23+07:00",
     "published_at": "2026-10-12T16:45:07+07:00",
-    "price": 550000,
+    "price": 60000,
     "compare_at_price": 650000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5409_ee131fa7-b649-4765-b528-2445a785ad72.jpg?v=1791462630",
@@ -15062,7 +17260,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU CHICHANH",
         "option2": null,
         "sku": "DD-OIL-004",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": true
       },
@@ -15072,7 +17270,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU NUNA",
         "option2": null,
         "sku": "DD-OIL-002",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -15082,7 +17280,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU BAYLA",
         "option2": null,
         "sku": "DD-OIL-004",
-        "price": 490000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -15092,7 +17290,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU TATAVON",
         "option2": null,
         "sku": "DD-OIL-005",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -15102,7 +17300,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU ZUNGZANG",
         "option2": null,
         "sku": "DD-OIL-002",
-        "price": 490000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       }
@@ -15110,10 +17308,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>THÀNH PHẦN MÙI: <br>- 1. Oolong Tea - Hương trà thanh dịu, hơi rang nhẹ, ấm và sâu.<br>- 2. White Tea - Trong trẻo, mềm mại, thanh sạch và tinh tế.<br>- 3. Neroli - Hương hoa cam xanh, tươi sáng, hơi the nhẹ và thanh tao.<br>- 4. Orange Blossom - Hoa cam ngọt dịu, mềm mại, tươi mát và nữ tính.<br>- 5. Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và lưu hương.</p>\n<p>*Tổng thể: Thanh trà · Hoa cam · Gỗ ấm</p>\n<p><strong>ChiChanh - \"Chi chi chành chành\"</strong></p>\n<p>\"Chi chi chành chành\" luôn mang cái duyên của những khoảnh khắc chợt mở rồi chợt khép, <br>từng đã nằm trong tay mà thoắt cái đã hóa thành xa vắng. <br>Cái bắt rơi đất đôi khi thấy ấy, khi soi vào đời người, lại thành một nỗi cảm hoài về bao lần đổi khác. <br>Cành cũ xa vắng, người quen thành lạ, một lần ngoảnh bước cũng đủ khiến lỗi xưa rẽ ngả. <br>Mỗi điều cũ đến rồi đi, mong manh như mộng ảnh, nhưng mỗi lần biến chuyển lại âm thầm để lại một nét hằn trong ký ức.</p>\n<p>ChiChanh không níu giữ vẻ nguyên vẹn của thuở ban đầu, mà nâng niu nét đẹp được bồi nền sau những lần chao nghiêng, được mất. <br>Có những điều phải đi qua xa cách mới biết từng quý giá, <br>có những nếp nghĩ phải trải qua và va vấp mới trở nên sâu sắc.<br> Sau bao phen đổi dời, lòng người dần biết điều gì đáng giữ lại, điều gì nên nhẹ bớt trôi đi, <br>để giữ muôn lớp vật đổi sao dời, vẫn còn một dáng riêng âm thầm ở lại, <br>được năm tháng dung dưỡng mà càng trở nên đằm sâu, khó thể phai mờ.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI: <br>- 1. Oolong Tea - Hương trà thanh dịu, hơi rang nhẹ, ấm và sâu.<br>- 2. White Tea - Trong trẻo, mềm mại, thanh sạch và tinh tế.<br>- 3. Neroli - Hương hoa cam xanh, tươi sáng, hơi the nhẹ và thanh tao.<br>- 4. Orange Blossom - Hoa cam ngọt dịu, mềm mại, tươi mát và nữ tính.<br>- 5. Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và lưu hương.</p>\n<p>*Tổng thể: Thanh trà · Hoa cam · Gỗ ấm</p>\n<p><strong>ChiChanh - \"Chi chi chành chành\"</strong></p>\n<p>\"Chi chi chành chành\" luôn mang cái duyên của những khoảnh khắc chợt mở rồi chợt khép, <br>từng đã nằm trong tay mà thoắt cái đã hóa thành xa vắng. <br>Cái bắt rơi đất đôi khi thấy ấy, khi soi vào đời người, lại thành một nỗi cảm hoài về bao lần đổi khác. <br>Cành cũ xa vắng, người quen thành lạ, một lần ngoảnh bước cũng đủ khiến lỗi xưa rẽ ngả. <br>Mỗi điều cũ đến rồi đi, mong manh như mộng ảnh, nhưng mỗi lần biến chuyển lại âm thầm để lại một nét hằn trong ký ức.</p>\n<p>ChiChanh không níu giữ vẻ nguyên vẹn của thuở ban đầu, mà nâng niu nét đẹp được bồi nền sau những lần chao nghiêng, được mất. <br>Có những điều phải đi qua xa cách mới biết từng quý giá, <br>có những nếp nghĩ phải trải qua và va vấp mới trở nên sâu sắc.<br> Sau bao phen đổi dời, lòng người dần biết điều gì đáng giữ lại, điều gì nên nhẹ bớt trôi đi, <br>để giữ muôn lớp vật đổi sao dời, vẫn còn một dáng riêng âm thầm ở lại, <br>được năm tháng dung dưỡng mà càng trở nên đằm sâu, khó thể phai mờ.</p>",
+    "rent_price": 60000,
+    "deposit": 500000,
+    "buy_price": 550000
   },
   {
     "id": 15408113680451,
@@ -15123,7 +17325,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Essential Oil",
     "created_at": "2026-10-08T19:02:53+07:00",
     "published_at": "2026-10-12T16:45:00+07:00",
-    "price": 490000,
+    "price": 50000,
     "compare_at_price": 590000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5406.jpg?v=1791461102",
@@ -15148,7 +17350,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU BAYLA",
         "option2": null,
         "sku": "DD-OIL-004",
-        "price": 490000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": true
       },
@@ -15158,7 +17360,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU NUNA",
         "option2": null,
         "sku": "DD-OIL-001",
-        "price": 550000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       },
@@ -15168,7 +17370,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU CHICHANH",
         "option2": null,
         "sku": "DD-OIL-003",
-        "price": 550000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       },
@@ -15178,7 +17380,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU TATAVON",
         "option2": null,
         "sku": "DD-OIL-005",
-        "price": 550000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       },
@@ -15188,7 +17390,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU ZUNGZANG",
         "option2": null,
         "sku": "DD-OIL-002",
-        "price": 490000,
+        "price": 50000,
         "compare_at_price": 590000,
         "available": false
       }
@@ -15196,10 +17398,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Bergamot — Cam bergamot tươi sáng, thanh mát, pha chút the nhẹ và xanh.<br>- Lily — Hoa huệ thanh sạch, mềm mại, mang sắc hoa nhẹ và tinh tế.<br>- Black Tea — Trà đen đậm, hơi khô, ấm và có chiều sâu.<br>- White Sage — Xô thơm trắng thanh sạch, khô nhẹ, thảo mộc và hơi xanh.<br>- Clove — Đinh hương cay ấm, nồng nhẹ, tạo điểm nhấn gia vị.<br>- Patchouli — Hoắc hương trầm, đất nhẹ, hơi khô và mang sắc thái cổ điển.<br>- Pinewood — Gỗ thông xanh, khô thoáng, mang cảm giác tự nhiên và trong lành.<br>- Sandalwood — Đàn hương ấm mượt, mềm và trầm, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Thanh citrus · Trà khô · Thảo mộc · Gia vị ấm · Gỗ trầm.</p>\n<p><strong>BAYLA - \"Con cò bay là bay la\"</strong></p>\n<p>“Con cò bay là bay la” gọi một cánh bay chao nghiêng giữa khoảng trời diệu vợi, <br>lúc thấp thoáng trên đồng, lúc khuất mờ nơi cuối gió, mềm mại mà chẳng lạc phương. <br>Cái dáng bay là lời nhủ chỉ nương theo chiều gió ấy, <br>ngẫm kỹ lại mang theo biết bao dư vị của một đời người đã đi qua nhiều phen đổi dời - Không còn khép tấp trước những ngã rẽ, <br>cũng chẳng mãi miết níu giữ điều đã qua, chỉ thong dong tìm lấy nhịp riêng giữa trời rộng đất dài, <br>để mỗi chuyển động đều mang theo một chút tình thơm trời đất.</p>\n<p>BAYLA chắt lấy cái ý vị phiêu diêu ấy để ươm vào một tầng hương, <br>nâng niu vẻ đẹp của quãng đời khi lòng người đã đủ sâu để biết thả mà không buông, nhẹ mà không hời hợt, tự do mà chẳng lạc mình. <br>Sau những tháng năm từng chao nghiêng vì được mất, con người dần học cách để lòng rộng hơn, bước chân khoan hơn, <br>và nhìn mỗi biến chuyển bằng một sự dịu dàng đã được nâng thành văn bồi. <br>Như cánh cò bay là giữa trời xa, càng đi qua nhiều đổi dời, càng thêm mềm dáng, <br>con người rồi cũng hiểu rằng tự tại chẳng phải là đời không còn vướng bận, mà là giữa muôn điều níu giữ, <br>vẫn biết cách giữ gìn cho lòng mình một khoảng không thanh thản.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI: <br>- Bergamot — Cam bergamot tươi sáng, thanh mát, pha chút the nhẹ và xanh.<br>- Lily — Hoa huệ thanh sạch, mềm mại, mang sắc hoa nhẹ và tinh tế.<br>- Black Tea — Trà đen đậm, hơi khô, ấm và có chiều sâu.<br>- White Sage — Xô thơm trắng thanh sạch, khô nhẹ, thảo mộc và hơi xanh.<br>- Clove — Đinh hương cay ấm, nồng nhẹ, tạo điểm nhấn gia vị.<br>- Patchouli — Hoắc hương trầm, đất nhẹ, hơi khô và mang sắc thái cổ điển.<br>- Pinewood — Gỗ thông xanh, khô thoáng, mang cảm giác tự nhiên và trong lành.<br>- Sandalwood — Đàn hương ấm mượt, mềm và trầm, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Thanh citrus · Trà khô · Thảo mộc · Gia vị ấm · Gỗ trầm.</p>\n<p><strong>BAYLA - \"Con cò bay là bay la\"</strong></p>\n<p>“Con cò bay là bay la” gọi một cánh bay chao nghiêng giữa khoảng trời diệu vợi, <br>lúc thấp thoáng trên đồng, lúc khuất mờ nơi cuối gió, mềm mại mà chẳng lạc phương. <br>Cái dáng bay là lời nhủ chỉ nương theo chiều gió ấy, <br>ngẫm kỹ lại mang theo biết bao dư vị của một đời người đã đi qua nhiều phen đổi dời - Không còn khép tấp trước những ngã rẽ, <br>cũng chẳng mãi miết níu giữ điều đã qua, chỉ thong dong tìm lấy nhịp riêng giữa trời rộng đất dài, <br>để mỗi chuyển động đều mang theo một chút tình thơm trời đất.</p>\n<p>BAYLA chắt lấy cái ý vị phiêu diêu ấy để ươm vào một tầng hương, <br>nâng niu vẻ đẹp của quãng đời khi lòng người đã đủ sâu để biết thả mà không buông, nhẹ mà không hời hợt, tự do mà chẳng lạc mình. <br>Sau những tháng năm từng chao nghiêng vì được mất, con người dần học cách để lòng rộng hơn, bước chân khoan hơn, <br>và nhìn mỗi biến chuyển bằng một sự dịu dàng đã được nâng thành văn bồi. <br>Như cánh cò bay là giữa trời xa, càng đi qua nhiều đổi dời, càng thêm mềm dáng, <br>con người rồi cũng hiểu rằng tự tại chẳng phải là đời không còn vướng bận, mà là giữa muôn điều níu giữ, <br>vẫn biết cách giữ gìn cho lòng mình một khoảng không thanh thản.</p>",
+    "rent_price": 50000,
+    "deposit": 500000,
+    "buy_price": 490000
   },
   {
     "id": 15408120594499,
@@ -15209,7 +17415,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Essential Oil",
     "created_at": "2026-10-08T19:07:27+07:00",
     "published_at": "2026-10-12T16:44:54+07:00",
-    "price": 550000,
+    "price": 60000,
     "compare_at_price": 650000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5412_2a60a8ee-b065-4ffd-b560-5b9bc30b85f5.jpg?v=1791461304",
@@ -15234,7 +17440,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU TATAVON",
         "option2": null,
         "sku": "DD-OIL-005",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": true
       },
@@ -15244,7 +17450,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU NUNA",
         "option2": null,
         "sku": "DD-OIL-001",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -15254,7 +17460,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU CHICHANH",
         "option2": null,
         "sku": "DD-OIL-003",
-        "price": 550000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -15264,7 +17470,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU BAYLA",
         "option2": null,
         "sku": "DD-OIL-004",
-        "price": 490000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       },
@@ -15274,7 +17480,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "TINH DẦU ZUNGZANG",
         "option2": null,
         "sku": "DD-OIL-002",
-        "price": 490000,
+        "price": 60000,
         "compare_at_price": 650000,
         "available": false
       }
@@ -15282,10 +17488,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "gifts",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>THÀNH PHẦN MÙI:</p>\n<p>- Pink Pepper — Tiêu hồng cay nhẹ, tươi sáng, tạo điểm nhấn thanh và hơi nồng.<br>- Orange — Cam mọng nước, tươi mát, mang sắc citrus sáng và ngọt dịu.<br>- Musk — Xạ hương mềm, sạch và mịn, tạo cảm giác gần gũi trên da.<br>- Metallic — Sắc kim loại lạnh, sạch và hiện đại, tạo hiệu ứng sắc nét, độc đáo.<br>- Vanilla — Vanilla ngọt ấm, béo mịn, làm tổng thể trở nên mềm mại và quyến rũ hơn.<br>- Sandalwood — Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Citrus tươi · Cay nhẹ · Kim loại lạnh · Vanilla ấm · Gỗ mượt</p>\n<p><strong>TATAVON - \"Tập tâm vòng, tay không tay có\"</strong></p>\n<p>Nhớ về “Tập tâm vòng, tay không tay có” là nhớ về bàn tay khum kín một điều bé nhỏ, càng chưa tò càng khiến lòng người thêm nôn nao. <br>Cái duyên của trò chơi xưa nằm ở chính khoảng chờ mong ấy, <br>một vật nhỏ nhòa mà hóa thành điều đáng quý, một khoảnh khắc trao qua mà gieo xuống miền nhớ cả một đời rất lâu. <br>Bởi người đi qua bao phen đầy vơi, càng trân trọng những tháng tháng rơi rụng gìn giữ lại từng trải những bàn tay âm thầm thấm sâu, <br>nhẹ nhàng mà khó thể phai nhòa.</p>\n<p>TataVon gom nhặt những dư ảnh tưởng đã xa, để từng mảnh thương nhớ lắng lại trong vẻ hương thơm, <br>nơi những mảnh ký ức đã xa bỗng hiện về lấp lánh. <br>Một lời ru cũ, một nếp nhà quen, vạt nắng bên thềm, làn khói bếp chiều hay bóng người từng ngồi yên trong một buổi rất xa. <br>Tất cả mang manh như một mảnh nhớ đã từng mong manh, lặng lẽ dung dưỡng nên phần sâu kín nhất của mỗi người. <br>Để rồi khi mọi xao động dần lắng xuống, điều còn lại sau cùng vẫn là những gì đã thầm vào lòng quá đỗi tự nhiên. <br>Chẳng cần gọi tên, chẳng cần phô bày, mà vẫn đủ sức giữ nguyên một vùng ký ức ấm áp qua năm tháng.</p>"
+    "body_html": "<p>THÀNH PHẦN MÙI:</p>\n<p>- Pink Pepper — Tiêu hồng cay nhẹ, tươi sáng, tạo điểm nhấn thanh và hơi nồng.<br>- Orange — Cam mọng nước, tươi mát, mang sắc citrus sáng và ngọt dịu.<br>- Musk — Xạ hương mềm, sạch và mịn, tạo cảm giác gần gũi trên da.<br>- Metallic — Sắc kim loại lạnh, sạch và hiện đại, tạo hiệu ứng sắc nét, độc đáo.<br>- Vanilla — Vanilla ngọt ấm, béo mịn, làm tổng thể trở nên mềm mại và quyến rũ hơn.<br>- Sandalwood — Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Citrus tươi · Cay nhẹ · Kim loại lạnh · Vanilla ấm · Gỗ mượt</p>\n<p><strong>TATAVON - \"Tập tâm vòng, tay không tay có\"</strong></p>\n<p>Nhớ về “Tập tâm vòng, tay không tay có” là nhớ về bàn tay khum kín một điều bé nhỏ, càng chưa tò càng khiến lòng người thêm nôn nao. <br>Cái duyên của trò chơi xưa nằm ở chính khoảng chờ mong ấy, <br>một vật nhỏ nhòa mà hóa thành điều đáng quý, một khoảnh khắc trao qua mà gieo xuống miền nhớ cả một đời rất lâu. <br>Bởi người đi qua bao phen đầy vơi, càng trân trọng những tháng tháng rơi rụng gìn giữ lại từng trải những bàn tay âm thầm thấm sâu, <br>nhẹ nhàng mà khó thể phai nhòa.</p>\n<p>TataVon gom nhặt những dư ảnh tưởng đã xa, để từng mảnh thương nhớ lắng lại trong vẻ hương thơm, <br>nơi những mảnh ký ức đã xa bỗng hiện về lấp lánh. <br>Một lời ru cũ, một nếp nhà quen, vạt nắng bên thềm, làn khói bếp chiều hay bóng người từng ngồi yên trong một buổi rất xa. <br>Tất cả mang manh như một mảnh nhớ đã từng mong manh, lặng lẽ dung dưỡng nên phần sâu kín nhất của mỗi người. <br>Để rồi khi mọi xao động dần lắng xuống, điều còn lại sau cùng vẫn là những gì đã thầm vào lòng quá đỗi tự nhiên. <br>Chẳng cần gọi tên, chẳng cần phô bày, mà vẫn đủ sức giữ nguyên một vùng ký ức ấm áp qua năm tháng.</p>",
+    "rent_price": 60000,
+    "deposit": 500000,
+    "buy_price": 550000
   },
   {
     "id": 15409609375811,
@@ -15295,7 +17505,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-09T16:49:58+07:00",
     "published_at": "2026-10-09T16:52:53+07:00",
-    "price": 2450000,
+    "price": 250000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/Quan_am_linh_3D.jpg?v=1791537297",
@@ -15318,7 +17528,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": null,
         "sku": "DD-TS82-BLK-S",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -15328,7 +17538,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": null,
         "sku": "DD-TS82-BLK-M",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       },
@@ -15338,16 +17548,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": null,
         "sku": "DD-TS82-BLK-L",
-        "price": 2450000,
+        "price": 250000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "quan"
+      "quan",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng, xếp ly <br>- Có khuy đóng cúc <br>- Ống quần bo nhẹ ở gấu<br><br>CHẤT LIỆU<br>- Tơ lông công: 100% tơ tằm<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>\n<p><br></p>"
+    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng, xếp ly <br>- Có khuy đóng cúc <br>- Ống quần bo nhẹ ở gấu<br><br>CHẤT LIỆU<br>- Tơ lông công: 100% tơ tằm<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>\n<p><br></p>",
+    "rent_price": 250000,
+    "deposit": 600000,
+    "buy_price": 2450000
   },
   {
     "id": 15409251319875,
@@ -15357,7 +17571,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-09T14:31:45+07:00",
     "published_at": "2026-10-09T14:33:10+07:00",
-    "price": 1350000,
+    "price": 140000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/1791529628088_2068560641793806717_2068560641793806717_de285b2765ea990100ffb1b1dfbc2799.jpg?v=1791529714"
@@ -15385,7 +17599,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Hồng Đất",
         "sku": "DDQ46-HONG-S",
-        "price": 1350000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -15395,7 +17609,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Hồng Đất",
         "sku": "DDQ46-HONG-M",
-        "price": 1350000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       },
@@ -15405,7 +17619,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Hồng Đất",
         "sku": "DDQ46-HONG-L",
-        "price": 1350000,
+        "price": 140000,
         "compare_at_price": null,
         "available": true
       }
@@ -15414,10 +17628,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "quan",
       "phien-van",
-      "van-anh"
+      "van-anh",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>\n<p><br></p>"
+    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>\n<p><br></p>",
+    "rent_price": 140000,
+    "deposit": 500000,
+    "buy_price": 1350000
   },
   {
     "id": 15409221730371,
@@ -15427,7 +17645,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-09T14:21:49+07:00",
     "published_at": "2026-10-09T14:23:29+07:00",
-    "price": 1750000,
+    "price": 180000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/1791529628090_2068560641793806717_2068560641793806717_45fa5604659aa6b33d615e82598485ed.jpg?v=1791529714"
@@ -15455,7 +17673,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "S",
         "option2": "Hồng",
         "sku": "DD-TS47-PK-S",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -15465,7 +17683,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "M",
         "option2": "Hồng",
         "sku": "DD-TS47-PK-M",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       },
@@ -15475,7 +17693,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "L",
         "option2": "Hồng",
         "sku": "DD-TS47-PK-L",
-        "price": 1750000,
+        "price": 180000,
         "compare_at_price": null,
         "available": true
       }
@@ -15484,10 +17702,14 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai",
       "quan",
       "phien-van",
-      "van-anh"
+      "van-anh",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>"
+    "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
+    "rent_price": 180000,
+    "deposit": 500000,
+    "buy_price": 1750000
   },
   {
     "id": 15408941891651,
@@ -15497,7 +17719,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-09T11:25:15+07:00",
     "published_at": "2026-10-09T11:26:39+07:00",
-    "price": 3050000,
+    "price": 310000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG2731copy3-539.jpg?v=1790071004",
@@ -15532,7 +17754,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO GIAO ẢNH",
         "option2": "S",
         "sku": "DD-SH482-F1-BR-S",
-        "price": 3050000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -15542,7 +17764,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO GIAO ẢNH",
         "option2": "M",
         "sku": "DD-SH482-F1-BR-M",
-        "price": 3050000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -15552,7 +17774,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO GIAO ẢNH",
         "option2": "L",
         "sku": "DD-SH482-F1-BR-L",
-        "price": 3050000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -15562,7 +17784,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO YÊN ẢNH",
         "option2": "S",
         "sku": "DD-SH482-PK-S",
-        "price": 3050000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -15572,7 +17794,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO YÊN ẢNH",
         "option2": "M",
         "sku": "DD-SH482-PK-M",
-        "price": 3050000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       },
@@ -15582,16 +17804,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO YÊN ẢNH",
         "option2": "L",
         "sku": "DD-SH482-PK-L",
-        "price": 3050000,
+        "price": 310000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>ÁO GIAO ẢNH <br>- 85% Acetate, 15% Nylon <br>- Áo cổ tàu, tay hến <br>- Có hàng nơ chéo <br>- Có thiết kế dúm tại eo, phần gấu xoè rộng <br>- Chất liệu có độ bóng nhẹ khi di chuyển</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>ÁO GIAO ẢNH <br>- 85% Acetate, 15% Nylon <br>- Áo cổ tàu, tay hến <br>- Có hàng nơ chéo <br>- Có thiết kế dúm tại eo, phần gấu xoè rộng <br>- Chất liệu có độ bóng nhẹ khi di chuyển</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 310000,
+    "deposit": 800000,
+    "buy_price": 3050000
   },
   {
     "id": 15408940515395,
@@ -15601,7 +17827,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Skirt",
     "created_at": "2026-10-09T11:14:19+07:00",
     "published_at": "2026-10-09T11:16:45+07:00",
-    "price": 3150000,
+    "price": 320000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_1727_copy_3-611_2601b2eb-cf37-4bee-ab83-0957eb44c29b.jpg?v=1790061557",
@@ -15632,7 +17858,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nâu",
         "option2": "S",
         "sku": "DD-SK128-BR-S",
-        "price": 3150000,
+        "price": 320000,
         "compare_at_price": null,
         "available": true
       },
@@ -15642,7 +17868,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nâu",
         "option2": "M",
         "sku": "DD-SK128-BR-M",
-        "price": 3150000,
+        "price": 320000,
         "compare_at_price": null,
         "available": true
       },
@@ -15652,7 +17878,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nâu",
         "option2": "L",
         "sku": "DD-SK128-BR-L",
-        "price": 3150000,
+        "price": 320000,
         "compare_at_price": null,
         "available": true
       },
@@ -15662,7 +17888,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh lá",
         "option2": "S",
         "sku": "DD-SK128-GRN-S",
-        "price": 3150000,
+        "price": 320000,
         "compare_at_price": null,
         "available": true
       },
@@ -15672,7 +17898,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh lá",
         "option2": "M",
         "sku": "DD-SK128-GRN-M",
-        "price": 3150000,
+        "price": 320000,
         "compare_at_price": null,
         "available": true
       },
@@ -15682,17 +17908,21 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh lá",
         "option2": "L",
         "sku": "DD-SK128-GRN-L",
-        "price": 3150000,
+        "price": 320000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
       "dam-1",
-      "chan-vay"
+      "chan-vay",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Chân váy xếp ly, xoè rộng, 4 lớp<br>- Khóa kéo sau lưng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Chân váy xếp ly, xoè rộng, 4 lớp<br>- Khóa kéo sau lưng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 320000,
+    "deposit": 800000,
+    "buy_price": 3150000
   },
   {
     "id": 15408917512259,
@@ -15702,7 +17932,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-09T10:28:20+07:00",
     "published_at": "2026-10-09T10:39:50+07:00",
-    "price": 900000,
+    "price": 90000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_1936_copy_4-592.jpg?v=1790071926",
@@ -15734,7 +17964,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "Freesize",
         "sku": "DD-SH491-CRM-FREESIZE",
-        "price": 900000,
+        "price": 90000,
         "compare_at_price": null,
         "available": true
       },
@@ -15744,7 +17974,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh Dương",
         "option2": "Freesize",
         "sku": "DD-SH491-BLU-FREESIZE",
-        "price": 900000,
+        "price": 90000,
         "compare_at_price": null,
         "available": true
       }
@@ -15752,10 +17982,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- 100% Tơ tằm<br>- Yếm có dây buộc cổ và buộc sau lưng <br>- Hoạ tiết in độc bản <br>- Phần vải hai bên sườn được cắt tỉa tạo độ bay, bồng bềnh<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>- 100% Tơ tằm<br>- Yếm có dây buộc cổ và buộc sau lưng <br>- Hoạ tiết in độc bản <br>- Phần vải hai bên sườn được cắt tỉa tạo độ bay, bồng bềnh<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 900000
   },
   {
     "id": 15408058499139,
@@ -15765,7 +17999,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-08T18:35:06+07:00",
     "published_at": "2026-10-08T18:35:59+07:00",
-    "price": 1250000,
+    "price": 130000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_1016_copy_4-663.jpg?v=1790067107",
@@ -15801,7 +18035,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": "S",
         "sku": "DD-SH483-BLK-S",
-        "price": 1250000,
+        "price": 130000,
         "compare_at_price": null,
         "available": true
       },
@@ -15811,7 +18045,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": "M",
         "sku": "DD-SH483-BLK-M",
-        "price": 1250000,
+        "price": 130000,
         "compare_at_price": null,
         "available": true
       },
@@ -15821,7 +18055,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": "L",
         "sku": "DD-SH483-BLK-L",
-        "price": 1250000,
+        "price": 130000,
         "compare_at_price": null,
         "available": true
       },
@@ -15831,7 +18065,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "S",
         "sku": "DD-SH483-IV-S",
-        "price": 1250000,
+        "price": 130000,
         "compare_at_price": null,
         "available": true
       },
@@ -15841,7 +18075,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "M",
         "sku": "DD-SH483-IV-M",
-        "price": 1250000,
+        "price": 130000,
         "compare_at_price": null,
         "available": true
       },
@@ -15851,16 +18085,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "L",
         "sku": "DD-SH483-IV-L",
-        "price": 1250000,
+        "price": 130000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- 100% Tơ tằm<br>- Áo yếm cổ tròn <br>- Hoa văn chìm<br>- Viền gấu áo cắt vạt chữ V, viền bản to <br>- Hàng khuy dọc sau lưng <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>- 100% Tơ tằm<br>- Áo yếm cổ tròn <br>- Hoa văn chìm<br>- Viền gấu áo cắt vạt chữ V, viền bản to <br>- Hàng khuy dọc sau lưng <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 130000,
+    "deposit": 500000,
+    "buy_price": 1250000
   },
   {
     "id": 15408045457475,
@@ -15870,7 +18108,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Pants",
     "created_at": "2026-10-08T18:30:16+07:00",
     "published_at": "2026-10-08T18:33:10+07:00",
-    "price": 2390000,
+    "price": 240000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG2021copy4-584.jpg?v=1790063376",
@@ -15905,7 +18143,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "S",
         "sku": "DD-TS86-IV-S",
-        "price": 2390000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -15915,7 +18153,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "M",
         "sku": "DD-TS86-IV-M",
-        "price": 2390000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -15925,7 +18163,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "L",
         "sku": "DD-TS86-IV-L",
-        "price": 2390000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -15935,7 +18173,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": "S",
         "sku": "DD-TS86-BLK-S",
-        "price": 2390000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -15945,7 +18183,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": "M",
         "sku": "DD-TS86-BLK-M",
-        "price": 2390000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       },
@@ -15955,16 +18193,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": "L",
         "sku": "DD-TS86-BLK-L",
-        "price": 2390000,
+        "price": 240000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "quan"
+      "quan",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>- 100% Polyester<br>- Quần ống rộng<br>- Hai dây tà ở một bên hông, có thể buộc lại hoặc thả tự do<br>- Khoá kéo bên sườn<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>- 100% Polyester<br>- Quần ống rộng<br>- Hai dây tà ở một bên hông, có thể buộc lại hoặc thả tự do<br>- Khoá kéo bên sườn<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 240000,
+    "deposit": 600000,
+    "buy_price": 2390000
   },
   {
     "id": 15407845441603,
@@ -15974,7 +18216,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-08T17:14:23+07:00",
     "published_at": "2026-10-08T17:18:59+07:00",
-    "price": 1690000,
+    "price": 170000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG2331copy3-563.jpg?v=1790220805",
@@ -16010,7 +18252,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nâu",
         "option2": "S",
         "sku": "DD-CR33-BR-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": true
       },
@@ -16020,7 +18262,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nâu",
         "option2": "M",
         "sku": "DD-CR33-BR-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": true
       },
@@ -16030,7 +18272,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "nâu",
         "option2": "L",
         "sku": "DD-CR33-BR-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": true
       },
@@ -16040,7 +18282,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Trắng",
         "option2": "S",
         "sku": "DD-CR33-WHT-S",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": true
       },
@@ -16050,7 +18292,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Trắng",
         "option2": "M",
         "sku": "DD-CR33-WHT-M",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": true
       },
@@ -16060,16 +18302,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Trắng",
         "option2": "L",
         "sku": "DD-CR33-WHT-L",
-        "price": 1690000,
+        "price": 170000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>- 100% Polyester<br>- Dáng áo quây, thân trên ôm, chiết eo<br>- Phần ngực áo được thiết kế có đường lượn kín đáo<br>- Hai tà bên xếp ly, rủ, tạo độ phồng<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>- 100% Polyester<br>- Dáng áo quây, thân trên ôm, chiết eo<br>- Phần ngực áo được thiết kế có đường lượn kín đáo<br>- Hai tà bên xếp ly, rủ, tạo độ phồng<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 170000,
+    "deposit": 500000,
+    "buy_price": 1690000
   },
   {
     "id": 15407544926275,
@@ -16079,7 +18325,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "Shirt",
     "created_at": "2026-10-08T15:04:04+07:00",
     "published_at": "2026-10-08T15:08:45+07:00",
-    "price": 1450000,
+    "price": 150000,
     "compare_at_price": null,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANG_3112_copy_3-527.jpg?v=1790069215",
@@ -16113,7 +18359,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO NGỌC ẢNH",
         "option2": "S",
         "sku": "DD-SH464-WHT-M",
-        "price": 1450000,
+        "price": 150000,
         "compare_at_price": null,
         "available": true
       },
@@ -16123,7 +18369,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO NGỌC ẢNH",
         "option2": "M",
         "sku": "DD-SH464-WHT-S",
-        "price": 1450000,
+        "price": 150000,
         "compare_at_price": null,
         "available": true
       },
@@ -16133,7 +18379,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO NGỌC ẢNH",
         "option2": "L",
         "sku": "DD-SH464-WHT-L",
-        "price": 1450000,
+        "price": 150000,
         "compare_at_price": null,
         "available": true
       },
@@ -16143,7 +18389,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO ĐÀO YÊN",
         "option2": "S",
         "sku": "DD-SH481-ORG-S",
-        "price": 1450000,
+        "price": 150000,
         "compare_at_price": null,
         "available": true
       },
@@ -16153,7 +18399,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO ĐÀO YÊN",
         "option2": "M",
         "sku": "DD-SH481-ORG-M",
-        "price": 1450000,
+        "price": 150000,
         "compare_at_price": null,
         "available": true
       },
@@ -16163,16 +18409,20 @@ let NETDUYEN_PRODUCTS = [
         "option1": "ÁO ĐÀO YÊN",
         "option2": "L",
         "sku": "DD-SH481-ORG-L",
-        "price": 1450000,
+        "price": 150000,
         "compare_at_price": null,
         "available": true
       }
     ],
     "collections": [
-      "ao-1"
+      "ao-1",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>ÁO NGỌC ẢNH (BÊN NGOÀI)<br>- 100% Polyester<br>- Áo quây chiết eo <br>- Hoạ tiết được thêu đính tỉ mỉ<br>- Từ eo xuống gấu xoè rộng tôn dáng <br>- Khoá kéo sau lưng <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>"
+    "body_html": "<p>ÁO NGỌC ẢNH (BÊN NGOÀI)<br>- 100% Polyester<br>- Áo quây chiết eo <br>- Hoạ tiết được thêu đính tỉ mỉ<br>- Từ eo xuống gấu xoè rộng tôn dáng <br>- Khoá kéo sau lưng <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
+    "rent_price": 150000,
+    "deposit": 500000,
+    "buy_price": 1450000
   },
   {
     "id": 15402408411203,
@@ -16182,7 +18432,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-06T10:35:19+07:00",
     "published_at": "2026-10-06T10:47:20+07:00",
-    "price": 890000,
+    "price": 90000,
     "compare_at_price": 1150000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/1792493097724_2068560641793806717_2068560641793806717_7181974886f2f0027dc7882c4eb0000a.jpg?v=1792493170",
@@ -16220,7 +18470,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "S",
         "sku": "DDSH418-F1-VANG-S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16230,7 +18480,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "M",
         "sku": "DDSH418-F1-VANG-M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16240,7 +18490,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "L",
         "sku": "DDSH418-F1-VANG-L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16250,7 +18500,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "S",
         "sku": "DD-15402408411203-Hồng / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16260,7 +18510,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "M",
         "sku": "DD-15402408411203-Hồng / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16270,7 +18520,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "L",
         "sku": "DD-15402408411203-Hồng / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16280,7 +18530,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "S",
         "sku": "DD-15402408411203-Xanh / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16290,7 +18540,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "M",
         "sku": "DD-15402408411203-Xanh / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16300,7 +18550,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "L",
         "sku": "DD-15402408411203-Xanh / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16310,7 +18560,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "S",
         "sku": "DD-15402408411203-Kem / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16320,7 +18570,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "M",
         "sku": "DD-15402408411203-Kem / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16330,7 +18580,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "L",
         "sku": "DD-15402408411203-Kem / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       }
@@ -16338,10 +18588,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 890000
   },
   {
     "id": 15402408181827,
@@ -16351,7 +18605,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-06T10:35:10+07:00",
     "published_at": "2026-10-06T10:47:19+07:00",
-    "price": 890000,
+    "price": 90000,
     "compare_at_price": 1150000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DD_ATELIER3663_copy_4_f2d95705-9bc1-42a1-a53f-b0318721cfdf.jpg?v=1791258177",
@@ -16389,7 +18643,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "S",
         "sku": "DDA418-KEM-S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16399,7 +18653,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "M",
         "sku": "DDA418-KEM-M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16409,7 +18663,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "L",
         "sku": "DDA418-KEM-L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16419,7 +18673,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "S",
         "sku": "DD-15402408181827-Vàng / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16429,7 +18683,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "M",
         "sku": "DD-15402408181827-Vàng / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16439,7 +18693,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "L",
         "sku": "DD-15402408181827-Vàng / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16449,7 +18703,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "S",
         "sku": "DD-15402408181827-Hồng / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16459,7 +18713,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "M",
         "sku": "DD-15402408181827-Hồng / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16469,7 +18723,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "L",
         "sku": "DD-15402408181827-Hồng / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16479,7 +18733,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "S",
         "sku": "DD-15402408181827-Xanh / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16489,7 +18743,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "M",
         "sku": "DD-15402408181827-Xanh / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16499,7 +18753,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "L",
         "sku": "DD-15402408181827-Xanh / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       }
@@ -16507,10 +18761,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 890000
   },
   {
     "id": 15402407886915,
@@ -16520,7 +18778,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-06T10:34:58+07:00",
     "published_at": "2026-10-06T10:47:18+07:00",
-    "price": 890000,
+    "price": 90000,
     "compare_at_price": 1150000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DD_ATELIER0085_copy_4.jpg?v=1789379124",
@@ -16556,7 +18814,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "S",
         "sku": "DDSH418-F1-XANH-S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16566,7 +18824,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "M",
         "sku": "DDSH418-F1-XANH-M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16576,7 +18834,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "L",
         "sku": "DDSH418-F1-XANH-L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16586,7 +18844,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "S",
         "sku": "DD-15402407886915-Vàng / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16596,7 +18854,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "M",
         "sku": "DD-15402407886915-Vàng / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16606,7 +18864,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "L",
         "sku": "DD-15402407886915-Vàng / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16616,7 +18874,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "S",
         "sku": "DD-15402407886915-Hồng / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16626,7 +18884,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "M",
         "sku": "DD-15402407886915-Hồng / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16636,7 +18894,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "L",
         "sku": "DD-15402407886915-Hồng / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16646,7 +18904,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "S",
         "sku": "DD-15402407886915-Kem / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16656,7 +18914,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "M",
         "sku": "DD-15402407886915-Kem / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16666,7 +18924,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "L",
         "sku": "DD-15402407886915-Kem / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       }
@@ -16674,10 +18932,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 890000
   },
   {
     "id": 15402402709571,
@@ -16687,7 +18949,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-06T10:30:53+07:00",
     "published_at": "2026-10-06T10:47:17+07:00",
-    "price": 890000,
+    "price": 90000,
     "compare_at_price": 1150000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DD_ATELIER0855_copy_6.jpg?v=1789379125",
@@ -16725,7 +18987,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "S",
         "sku": "DDSH418-F1-HONG-S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16735,7 +18997,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "M",
         "sku": "DDSH418-F1-HONG-M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16745,7 +19007,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": "L",
         "sku": "DDSH418-F1-HONG-L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16755,7 +19017,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "S",
         "sku": "DD-15402402709571-Vàng / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16765,7 +19027,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "M",
         "sku": "DD-15402402709571-Vàng / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16775,7 +19037,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Vàng",
         "option2": "L",
         "sku": "DD-15402402709571-Vàng / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16785,7 +19047,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "S",
         "sku": "DD-15402402709571-Xanh / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16795,7 +19057,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "M",
         "sku": "DD-15402402709571-Xanh / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16805,7 +19067,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Xanh",
         "option2": "L",
         "sku": "DD-15402402709571-Xanh / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16815,7 +19077,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "S",
         "sku": "DD-15402402709571-Kem / S",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16825,7 +19087,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "M",
         "sku": "DD-15402402709571-Kem / M",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16835,7 +19097,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": "L",
         "sku": "DD-15402402709571-Kem / L",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       }
@@ -16843,10 +19105,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 890000
   },
   {
     "id": 15402384064579,
@@ -16856,7 +19122,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-06T10:05:18+07:00",
     "published_at": "2026-10-06T10:19:31+07:00",
-    "price": 890000,
+    "price": 90000,
     "compare_at_price": 1150000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DD_ATELIER0760_copy_4.jpg?v=1789379857",
@@ -16884,7 +19150,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": null,
         "sku": "DDSH419-F1-ĐEN-FREESIZE",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16894,7 +19160,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": null,
         "sku": "DD-15402384064579-Kem",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16904,7 +19170,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": null,
         "sku": "DD-15402384064579-Hồng",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       }
@@ -16912,10 +19178,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 890000
   },
   {
     "id": 15402382917699,
@@ -16925,7 +19195,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-06T09:59:41+07:00",
     "published_at": "2026-10-06T10:19:30+07:00",
-    "price": 890000,
+    "price": 90000,
     "compare_at_price": 1150000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DD_ATELIER0802_copy_4.jpg?v=1789379857",
@@ -16953,7 +19223,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": null,
         "sku": "DDSH419-F1-HỒNG-FREESIZE",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -16963,7 +19233,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": null,
         "sku": "DD-15402382917699-Kem",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -16973,7 +19243,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": null,
         "sku": "DD-15402382917699-Đen",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       }
@@ -16981,10 +19251,14 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": false,
-    "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 890000
   },
   {
     "id": 15402382426179,
@@ -16994,7 +19268,7 @@ let NETDUYEN_PRODUCTS = [
     "product_type": "",
     "created_at": "2026-10-06T09:59:01+07:00",
     "published_at": "2026-10-06T10:19:29+07:00",
-    "price": 890000,
+    "price": 90000,
     "compare_at_price": 1150000,
     "images": [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DD_ATELIER3532_copy_4.jpg?v=1789379857",
@@ -17023,7 +19297,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Kem",
         "option2": null,
         "sku": "DDSH419-F1-KEM-FREESIZE",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": true
       },
@@ -17033,7 +19307,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Hồng",
         "option2": null,
         "sku": "DD-15402382426179-Hồng",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       },
@@ -17043,7 +19317,7 @@ let NETDUYEN_PRODUCTS = [
         "option1": "Đen",
         "option2": null,
         "sku": "DD-15402382426179-Đen",
-        "price": 890000,
+        "price": 90000,
         "compare_at_price": 1150000,
         "available": false
       }
@@ -17051,85 +19325,691 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-1",
       "special-deals",
-      "du-sac"
+      "du-sac",
+      "ao-dai-nu"
     ],
     "isOriginal": true,
-    "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>"
+    "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
+    "rent_price": 90000,
+    "deposit": 500000,
+    "buy_price": 890000
+  },
+  {
+    "id": 9400000001,
+    "handle": "man-nhung-dinh-ngoc-trai-hoang-gia",
+    "title": "MẤN NHUNG ĐÍNH NGỌC TRAI THỦ CÔNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ Kiện",
+    "rent_price": 50000,
+    "deposit": 150000,
+    "price": 350000,
+    "compare_at_price": 450000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315"
+    ],
+    "options": [
+      {
+        "name": "Màu",
+        "values": [
+          "Đỏ",
+          "Hồng Phấn",
+          "Kem Vàng",
+          "Trắng"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940001,
+        "title": "Đỏ",
+        "price": 50000,
+        "available": true
+      },
+      {
+        "id": 940002,
+        "title": "Hồng Phấn",
+        "price": 50000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "accessories",
+      "all"
+    ],
+    "body_html": "<p>Mấn đội đầu bọc vải nhung cao cấp đính kết ngọc trai tỉ mỉ, tôn trọn vẹn gương mặt thanh tú của người mặc áo dài.</p>"
+  },
+  {
+    "id": 9400000002,
+    "handle": "quat-lua-tron-tranh-thuy-mac-chup-anh",
+    "title": "QUẠT LỤA TRÒN THÊU TRANH THỦY MẶC VÀ HOA SEN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ Kiện",
+    "rent_price": 40000,
+    "deposit": 100000,
+    "price": 250000,
+    "compare_at_price": 320000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGDEC73723copy.webp?v=1789725583"
+    ],
+    "options": [
+      {
+        "name": "Mẫu",
+        "values": [
+          "Hoa Sen",
+          "Chim Hạc",
+          "Mẫu Đơn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940003,
+        "title": "Hoa Sen",
+        "price": 40000,
+        "available": true
+      },
+      {
+        "id": 940004,
+        "title": "Chim Hạc",
+        "price": 40000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "accessories",
+      "all"
+    ],
+    "body_html": "<p>Quạt lụa tròn cán gỗ điêu khắc, phụ kiện check-in và chụp ảnh kỷ yếu, lễ Tết không thể thiếu.</p>"
+  },
+  {
+    "id": 9400000003,
+    "handle": "guoc-moc-truyen-thong-quai-nhung",
+    "title": "GUỐC MỘC TRUYỀN THỐNG QUAI NHUNG ĐỎ",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ Kiện",
+    "rent_price": 45000,
+    "deposit": 120000,
+    "price": 280000,
+    "compare_at_price": 350000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/haichau2_8e93c2ec-75fd-4592-9647-c9b6b29bcf1a.webp?v=1789725583"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "36",
+          "37",
+          "38",
+          "39"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940005,
+        "title": "36",
+        "price": 45000,
+        "available": true
+      },
+      {
+        "id": 940006,
+        "title": "37",
+        "price": 45000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "accessories",
+      "all"
+    ],
+    "body_html": "<p>Guốc mộc đế gỗ xoan gọt dáng thanh thoát, lót êm chân cùng quai nhung mềm mại cổ điển.</p>"
+  },
+  {
+    "id": 9100000005,
+    "handle": "ao-dai-nam-cach-tan-xanh-ngoc-hoang-gia",
+    "title": "ÁO DÀI NAM CÁCH TÂN XANH NGỌC HOÀNG GIA",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 360000,
+    "deposit": 700000,
+    "price": 2400000,
+    "compare_at_price": 2800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05856.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05858.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910010,
+        "title": "M",
+        "price": 360000,
+        "available": true
+      },
+      {
+        "id": 910011,
+        "title": "L",
+        "price": 360000,
+        "available": true
+      },
+      {
+        "id": 910012,
+        "title": "XL",
+        "price": 360000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "all"
+    ],
+    "body_html": "<p>Phom dáng cách tân đĩnh đạc, chất liệu lụa gấm dệt vân chìm màu xanh ngọc tôn da và toát lên phong thái lịch thiệp của quý ông Việt.</p>"
+  },
+  {
+    "id": 9100000006,
+    "handle": "ao-dai-nam-gam-vang-hoang-trieu",
+    "title": "ÁO DÀI NAM GẤM VÀNG HOÀNG TRIỀU THÊU TAY",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 390000,
+    "deposit": 800000,
+    "price": 2600000,
+    "compare_at_price": 3100000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05829.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05820.jpg?v=1792811196"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910013,
+        "title": "M",
+        "price": 390000,
+        "available": true
+      },
+      {
+        "id": 910014,
+        "title": "L",
+        "price": 390000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Lấy cảm hứng từ sắc vàng hoàng gia triều đình Huế, dệt gấm nổi tinh xảo với họa tiết vân mây và rồng cuộn cát tường.</p>"
+  },
+  {
+    "id": 9100000007,
+    "handle": "ao-dai-nam-cach-tan-hac-vu-bach-kim",
+    "title": "ÁO DÀI NAM CÁCH TÂN HẠC VŨ BẠCH KIM",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 370000,
+    "deposit": 750000,
+    "price": 2500000,
+    "compare_at_price": 2900000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/01/ao-dai-quyen-nguyen-logo-1.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910015,
+        "title": "M",
+        "price": 370000,
+        "available": true
+      },
+      {
+        "id": 910016,
+        "title": "L",
+        "price": 370000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Thiết kế tinh giản hiện đại với họa tiết chim hạc sải cánh trên nền vải taffeta nhập khẩu cao cấp, tôn vinh vẻ đẹp nho nhã.</p>"
+  },
+  {
+    "id": 9100000008,
+    "handle": "ao-dai-nam-gam-do-song-long-hy-su",
+    "title": "ÁO DÀI NAM GẤM ĐỎ SONG LONG HỶ SỰ (CHÚ RỂ)",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 430000,
+    "deposit": 900000,
+    "price": 2900000,
+    "compare_at_price": 3400000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05626.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05629.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910017,
+        "title": "M",
+        "price": 430000,
+        "available": true
+      },
+      {
+        "id": 910018,
+        "title": "L",
+        "price": 430000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Chiếc áo dài cưới hoàn hảo dành riêng cho chú rể trong ngày vu quy. Sắc đỏ gấm hoàng kim mang lời chúc phúc viên mãn lứa đôi.</p>"
+  },
+  {
+    "id": 9100000009,
+    "handle": "ao-dai-nam-ngu-than-tay-chenh-reu-phong",
+    "title": "ÁO DÀI NAM NGŨ THÂN TAY CHẼN RÊU PHONG CỔ ĐIỂN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 380000,
+    "deposit": 800000,
+    "price": 2550000,
+    "compare_at_price": 3000000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/10_MRL08522-logo-900x1350.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/9_MRL08394-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910019,
+        "title": "M",
+        "price": 380000,
+        "available": true
+      },
+      {
+        "id": 910020,
+        "title": "L",
+        "price": 380000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Phom dáng áo dài ngũ thân lập lĩnh 5 khuy cài kim loại cổ, sắc xanh rêu cổ điển thanh lịch, tái hiện trọn vẹn phong độ đấng trượng phu.</p>"
+  },
+  {
+    "id": 9100000010,
+    "handle": "ao-dai-nam-truyen-thong-gam-den-chi-vang",
+    "title": "ÁO DÀI NAM TRUYỀN THỐNG GẤM ĐEN CHỈ VÀNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 350000,
+    "deposit": 700000,
+    "price": 2300000,
+    "compare_at_price": 2700000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/11_MRL08716-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910021,
+        "title": "M",
+        "price": 350000,
+        "available": true
+      },
+      {
+        "id": 910022,
+        "title": "L",
+        "price": 350000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "all"
+    ],
+    "body_html": "<p>Chất gấm dệt hoa văn chữ Thọ chỉ vàng óng ánh trên nền đen tuyền sang trọng, thích hợp mặc trong các nghi lễ gia tiên và tiệc tùng.</p>"
+  },
+  {
+    "id": 9400000004,
+    "handle": "kieng-bac-cham-khac-hoa-mai-co-truyen",
+    "title": "KIỀNG BẠC CHẠM KHẮC HOA MAI CỔ TRUYỀN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ kiện",
+    "rent_price": 70000,
+    "deposit": 250000,
+    "price": 650000,
+    "compare_at_price": 800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/AodaiBachNgocHoaPhung_aokhoacAnhMai_3.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/AodaiBachNgocHoaPhung_aokhoacAnhMai_1.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Kích thước",
+        "values": [
+          "Tiêu chuẩn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940004,
+        "title": "Tiêu chuẩn",
+        "price": 70000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "all"
+    ],
+    "body_html": "<p>Kiềng cổ bạc trạm trổ hoa mai truyền thống tinh xảo, phụ kiện không thể thiếu khi diện cùng áo dài cưới hoặc cổ phục Việt Nam.</p>"
+  },
+  {
+    "id": 9400000005,
+    "handle": "tram-cai-toc-co-phong-dinh-ngoc",
+    "title": "TRÂM CÀI TÓC CỔ PHONG ĐÍNH NGỌC TRAI TỰ NHIÊN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ kiện",
+    "rent_price": 45000,
+    "deposit": 150000,
+    "price": 380000,
+    "compare_at_price": 480000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05824.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05815.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Kích thước",
+        "values": [
+          "Tiêu chuẩn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940005,
+        "title": "Tiêu chuẩn",
+        "price": 45000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "all"
+    ],
+    "body_html": "<p>Trâm cài tóc hợp kim mạ vàng đính hạt ngọc trai tự nhiên và tua rua rủ nhẹ, tạo điểm nhấn kiêu sa cho mái tóc búi cô dâu.</p>"
+  },
+  {
+    "id": 9400000006,
+    "handle": "tui-theu-hoa-sen-lua-gam-net-duyen",
+    "title": "TÚI XÁCH THÊU HOA SEN LỤA GẤM NÉT DUYÊN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ kiện",
+    "rent_price": 55000,
+    "deposit": 180000,
+    "price": 450000,
+    "compare_at_price": 550000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05666copy.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05631.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Màu sắc",
+        "values": [
+          "Kem ngọc",
+          "Hồng phấn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940006,
+        "title": "Kem ngọc",
+        "price": 55000,
+        "available": true
+      },
+      {
+        "id": 940007,
+        "title": "Hồng phấn",
+        "price": 55000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "all"
+    ],
+    "body_html": "<p>Túi xách cầm tay dáng tròn thêu hoa sen lụa gấm thủ công, quai ngọc cầm tay trang nhã hoàn hảo phối cùng áo dài.</p>"
+  },
+  {
+    "id": 9400000007,
+    "handle": "hai-theu-hoa-cung-dinh-nu",
+    "title": "HÀI THÊU HOA CUNG ĐÌNH NỮ ĐẾ MỀM",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ kiện",
+    "rent_price": 60000,
+    "deposit": 200000,
+    "price": 520000,
+    "compare_at_price": 620000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05629.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05626.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Size Giày",
+        "values": [
+          "36",
+          "37",
+          "38",
+          "39"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940008,
+        "title": "36",
+        "price": 60000,
+        "available": true
+      },
+      {
+        "id": 940009,
+        "title": "37",
+        "price": 60000,
+        "available": true
+      },
+      {
+        "id": 940010,
+        "title": "38",
+        "price": 60000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Hài thêu hoa cổ truyền mũi cong nhẹ êm chân, phù hợp đi cùng áo Nhật Bình, Áo Tấc và áo dài cưới truyền thống.</p>"
   }
 ];
 
 const NETDUYEN_COLLECTIONS = {
-  "ao-dai": { title: "ÁO DÀI", desc: "" },
-  "dam-1": { title: "ĐẦM", desc: "" },
-  "ao-1": { title: "ÁO", desc: "" },
-  "quan": { title: "QUẦN", desc: "" },
-  "chan-vay": { title: "CHÂN VÁY", desc: "" },
-  "ao-khoac": { title: "ÁO KHOÁC", desc: "" },
-  "van-anh": { title: "VẠN ẢNH", desc: "Bộ sưu tập Vạn Ảnh – Nét giao thoa giữa ánh sáng và chất liệu truyền thống." },
-  "set-mien-y": { title: "SET MIÊN Y", desc: "Thiết kế Miên Y thanh tao, mềm mại trong từng chuyển động." },
-  "phien-van": { title: "PHIẾN VÂN", desc: "Moment With NÉT DUYÊN — Phiến Vân" },
-  "ma-may": { title: "MÃ MÂY", desc: "Moment With NÉT DUYÊN — Mã Mây" },
-  "dong-dao": { title: "ĐỒNG DAO", desc: "Moment With NÉT DUYÊN — Đồng Dao" },
-  "du-sac": { title: "DƯ SẮC", desc: "Ưu đãi độc quyền trên website NÉT DUYÊN" },
-  "special-deals": { title: "SPECIAL DEALS", desc: "Ưu đãi giới hạn lên đến 50% OFF" },
-  "gifts": { title: "GIFTS", desc: "Thoughtful pieces for every occasion" },
-  "accessories": { title: "ACCESSORIES", desc: "The finishing touches to your look." },
-  "all": { title: "TẤT CẢ SẢN PHẨM", desc: "" }
+  "all": {
+    "title": "TẤT CẢ TRANG PHỤC CHO THUÊ",
+    "desc": "Kho hơn 220+ mẫu Áo Dài Nam, Nữ, Cưới Cặp & Cổ Phục sẵn sàng cho thuê với lịch linh hoạt."
+  },
+  "ao-dai-nu": {
+    "title": "ÁO DÀI NỮ CHO THUÊ",
+    "desc": "Mẫu Áo Dài Nữ thiết kế cao cấp, lụa tơ sống, dáng suông, chiết eo 4 tà mềm mại."
+  },
+  "ao-dai-nam": {
+    "title": "ÁO DÀI NAM CHO THUÊ",
+    "desc": "Bộ sưu tập Áo Dài Nam cách tân gấm dệt, ngũ thân nam, áo dài chú rể lịch lãm."
+  },
+  "ao-cuoi-cap": {
+    "title": "ÁO CƯỚI CẶP ĐÔI (CÔ DÂU & CHÚ RỂ)",
+    "desc": "Trang phục cưới cặp Long Phụng, Song Hỷ thêu tay đồng điệu cho ngày trọng đại."
+  },
+  "co-phuc": {
+    "title": "CỔ PHỤC VIỆT NAM (NHẬT BÌNH & ÁO TẤC)",
+    "desc": "Nét đẹp di sản triều Nguyễn: Áo Nhật Bình cung đình, Áo Tấc tay thụng quý tộc."
+  },
+  "phu-kien": {
+    "title": "PHỤ KIỆN ĐI KÈM CHO THUÊ",
+    "desc": "Mấn nhung ngọc trai, quạt lụa tròn, guốc mộc, kiềng bạc chụp ảnh."
+  },
+  "ao-dai": {
+    "title": "BỘ SƯU TẬP ÁO DÀI",
+    "desc": "Trang phục Áo Dài Nét Duyên giữ trọn cốt cách di sản Việt."
+  },
+  "special-deals": {
+    "title": "ƯU ĐÃI THUÊ COMBO",
+    "desc": "Giảm đến 30% khi thuê set cặp đôi hoặc thuê từ 3 bộ trở lên."
+  },
+  "van-anh": {
+    "title": "BST VẠN ẢNH",
+    "desc": "Nét giao thoa giữa ánh sáng và tơ lụa truyền thống."
+  },
+  "phien-van": {
+    "title": "BST PHIẾN VÂN",
+    "desc": "Lấy cảm hứng từ áng mây bảng lảng nơi hiên nhà cổ."
+  }
 };
 
 const NETDUYEN_BLOGS = [
   {
-    id: "blog-1",
-    title: "PHIẾN VÂN – KHI MÂY TRỜI HÓA THÀNH TÀ ÁO",
-    date: "15 Tháng 09, 2026",
-    author: "NÉT DUYÊN",
-    image: "https://dingdangvietnam.com/cdn/shop/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315&width=940",
-    excerpt: "Lấy cảm hứng từ những áng mây bảng lảng nơi hiên nhà cổ, bộ sưu tập Áo Dài Phiến Vân mang đến phom dáng suông phóng khoáng kết hợp chất liệu tơ sống và thêu tay tinh xảo.",
-    content: "<p>Lấy cảm hứng từ những áng mây bảng lảng nơi hiên nhà cổ, bộ sưu tập <strong>Phiến Vân</strong> là lời thủ thỉ dịu dàng của NÉT DUYÊN dành cho mùa lễ hội năm nay.</p><p>Mỗi thiết kế như Áo Dài Tiên Sa, Áo Dài Thư Hiên hay Quần Vân Nga đều được chăm chút từ tỷ lệ cổ trụ, đường vạt chéo thêu hoa cho đến sắc độ hồng phấn, xanh thiên thanh và kem ngọc.</p>"
+    "id": "blog-1",
+    "title": "PHIẾN VÂN – KHI MÂY TRỜI HÓA THÀNH TÀ ÁO",
+    "date": "15 Tháng 09, 2026",
+    "author": "NÉT DUYÊN",
+    "image": "https://dingdangvietnam.com/cdn/shop/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315&width=940",
+    "excerpt": "Lấy cảm hứng từ những áng mây bảng lảng nơi hiên nhà cổ, bộ sưu tập Áo Dài Phiến Vân mang đến phom dáng suông phóng khoáng kết hợp chất liệu tơ sống và thêu tay tinh xảo.",
+    "content": "<p>Lấy cảm hứng từ những áng mây bảng lảng nơi hiên nhà cổ, bộ sưu tập <strong>Phiến Vân</strong> là lời thủ thỉ dịu dàng của NÉT DUYÊN dành cho mùa lễ hội năm nay.</p><p>Mỗi thiết kế như Áo Dài Tiên Sa, Áo Dài Thư Hiên hay Quần Vân Nga đều được chăm chút từ tỷ lệ cổ trụ, đường vạt chéo thêu hoa cho đến sắc độ hồng phấn, xanh thiên thanh và kem ngọc.</p>"
   },
   {
-    id: "blog-2",
-    title: "VẠN ẢNH – KHÚC GIAO MÙA RỰC RỠ CÙNG NÉT DUYÊN",
-    date: "02 Tháng 09, 2026",
-    author: "NÉT DUYÊN",
-    image: "https://dingdangvietnam.com/cdn/shop/files/1792233848184_2307592614049898190_2307592614049898190_38c62ffd47c69d192158ed5b3c2f6223.jpg?v=1792234193&width=940",
-    excerpt: "Sự kết hợp giữa bề mặt gấm dệt nổi, tơ tằm óng ả và phom dáng Á Đông đương đại tạo nên hiệu ứng thị giác đa chiều trong từng khung hình.",
-    content: "<p>Trong <strong>Vạn Ảnh</strong>, NÉT DUYÊN khai thác vẻ đẹp của ánh sáng phản chiếu trên bề mặt lụa tơ và gấm thêu hai lớp. Các thiết kế vừa giữ được nét trang nhã truyền thống vừa dễ dàng ứng dụng trong những buổi tiệc trà, dạo phố hay sự kiện trọng đại.</p>"
+    "id": "blog-2",
+    "title": "VẠN ẢNH – KHÚC GIAO MÙA RỰC RỠ CÙNG NÉT DUYÊN",
+    "date": "02 Tháng 09, 2026",
+    "author": "NÉT DUYÊN",
+    "image": "https://dingdangvietnam.com/cdn/shop/files/1792233848184_2307592614049898190_2307592614049898190_38c62ffd47c69d192158ed5b3c2f6223.jpg?v=1792234193&width=940",
+    "excerpt": "Sự kết hợp giữa bề mặt gấm dệt nổi, tơ tằm óng ả và phom dáng Á Đông đương đại tạo nên hiệu ứng thị giác đa chiều trong từng khung hình.",
+    "content": "<p>Trong <strong>Vạn Ảnh</strong>, NÉT DUYÊN khai thác vẻ đẹp của ánh sáng phản chiếu trên bề mặt lụa tơ và gấm thêu hai lớp. Các thiết kế vừa giữ được nét trang nhã truyền thống vừa dễ dàng ứng dụng trong những buổi tiệc trà, dạo phố hay sự kiện trọng đại.</p>"
   },
   {
-    id: "blog-3",
-    title: "HƯỚNG DẪN CHĂM SÓC & BẢO QUẢN ÁO DÀI LỤA TƠ TẰM",
-    date: "20 Tháng 08, 2026",
-    author: "NÉT DUYÊN",
-    image: "https://dingdangvietnam.com/cdn/shop/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844&width=940",
-    excerpt: "Bí quyết giữ phom dáng và độ bóng mượt tự nhiên cho các thiết kế Áo Dài hai lớp, chất liệu Modal, Viscose và Tơ sống cao cấp.",
-    content: "<p>Để giữ cho tà áo dài NÉT DUYÊN luôn mềm mại và bền màu theo thời gian:</p><ul><li>Chỉ giặt khô hoặc giặt tay thật nhẹ nhàng với nước lạnh, không vắt xoắn mạnh.</li><li>Chỉ sử dụng bàn ủi hơi nước ở nhiệt độ thấp, tránh tiếp xúc mặt đế nhiệt trực tiếp lên vùng thêu đính.</li><li>Bảo quản bằng móc treo đệm vai ở nơi thoáng mát, tránh ánh nắng trực tiếp.</li></ul>"
+    "id": "blog-3",
+    "title": "HƯỚNG DẪN CHĂM SÓC & BẢO QUẢN ÁO DÀI LỤA TƠ TẰM",
+    "date": "20 Tháng 08, 2026",
+    "author": "NÉT DUYÊN",
+    "image": "https://dingdangvietnam.com/cdn/shop/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844&width=940",
+    "excerpt": "Bí quyết giữ phom dáng và độ bóng mượt tự nhiên cho các thiết kế Áo Dài hai lớp, chất liệu Modal, Viscose và Tơ sống cao cấp.",
+    "content": "<p>Để giữ cho tà áo dài NÉT DUYÊN luôn mềm mại và bền màu theo thời gian:</p><ul><li>Chỉ giặt khô hoặc giặt tay thật nhẹ nhàng với nước lạnh, không vắt xoắn mạnh.</li><li>Chỉ sử dụng bàn ủi hơi nước ở nhiệt độ thấp, tránh tiếp xúc mặt đế nhiệt trực tiếp lên vùng thêu đính.</li><li>Bảo quản bằng móc treo đệm vai ở nơi thoáng mát, tránh ánh nắng trực tiếp.</li></ul>"
   }
 ];
 
 const NETDUYEN_POLICIES = {
   "privacy-policy": {
-    title: "CHÍNH SÁCH BẢO MẬT",
-    content: "<p><strong>1. Thu thập thông tin cá nhân:</strong> NÉT DUYÊN thu thập họ tên, số điện thoại, địa chỉ email và địa chỉ giao hàng của quý khách nhằm mục đích xử lý đơn hàng và chăm sóc khách hàng hội viên.</p><p><strong>2. Bảo mật thông tin:</strong> Mọi thông tin giao dịch và dữ liệu cá nhân của khách hàng đều được mã hóa và cam kết không chia sẻ cho bên thứ ba ngoài đơn vị vận chuyển phục vụ giao hàng.</p>"
+    "title": "CHÍNH SÁCH BẢO MẬT",
+    "content": "<p><strong>1. Thu thập thông tin cá nhân:</strong> NÉT DUYÊN thu thập họ tên, số điện thoại, địa chỉ email và địa chỉ giao hàng của quý khách nhằm mục đích xử lý đơn hàng và chăm sóc khách hàng hội viên.</p><p><strong>2. Bảo mật thông tin:</strong> Mọi thông tin giao dịch và dữ liệu cá nhân của khách hàng đều được mã hóa và cam kết không chia sẻ cho bên thứ ba ngoài đơn vị vận chuyển phục vụ giao hàng.</p>"
   },
   "exchange-return-policy": {
-    title: "CHÍNH SÁCH ĐỔI TRẢ",
-    content: "<p><strong>1. Điều kiện đổi hàng:</strong> Hỗ trợ đổi size hoặc đổi sản phẩm trong vòng <strong>03 ngày</strong> kể từ khi nhận hàng. Sản phẩm còn nguyên tem mác, chưa qua sử dụng, chưa giặt ủi và không có mùi lạ.</p><p><strong>2. Lưu ý:</strong> Áp dụng đổi 01 lần cho mỗi đơn hàng sang sản phẩm có giá trị bằng hoặc cao hơn. Các sản phẩm trong chương trình Special Deals / Sale Off chỉ hỗ trợ đổi size nếu còn tồn kho.</p>"
+    "title": "CHÍNH SÁCH ĐỔI TRẢ",
+    "content": "<p><strong>1. Điều kiện đổi hàng:</strong> Hỗ trợ đổi size hoặc đổi sản phẩm trong vòng <strong>03 ngày</strong> kể từ khi nhận hàng. Sản phẩm còn nguyên tem mác, chưa qua sử dụng, chưa giặt ủi và không có mùi lạ.</p><p><strong>2. Lưu ý:</strong> Áp dụng đổi 01 lần cho mỗi đơn hàng sang sản phẩm có giá trị bằng hoặc cao hơn. Các sản phẩm trong chương trình Special Deals / Sale Off chỉ hỗ trợ đổi size nếu còn tồn kho.</p>"
   },
   "shipping-policy": {
-    title: "CHÍNH SÁCH VẬN CHUYỂN",
-    content: "<p><strong>1. Thời gian xử lý & giao hàng:</strong> Nội thành Hà Nội & TP.HCM từ 1–2 ngày làm việc; các tỉnh thành khác từ 3–5 ngày làm việc.</p><p><strong>2. Đối với sản phẩm Pre-order:</strong> Thời gian dự kiến gửi hàng từ 5–7 ngày làm việc được ghi chú rõ trên từng biến thể sản phẩm.</p>"
+    "title": "CHÍNH SÁCH VẬN CHUYỂN",
+    "content": "<p><strong>1. Thời gian xử lý & giao hàng:</strong> Nội thành Hà Nội & TP.HCM từ 1–2 ngày làm việc; các tỉnh thành khác từ 3–5 ngày làm việc.</p><p><strong>2. Đối với sản phẩm Pre-order:</strong> Thời gian dự kiến gửi hàng từ 5–7 ngày làm việc được ghi chú rõ trên từng biến thể sản phẩm.</p>"
   },
   "payment-policy": {
-    title: "CHÍNH SÁCH THANH TOÁN",
-    content: "<p><strong>1. Thanh toán khi nhận hàng (COD):</strong> Quý khách thanh toán trực tiếp cho nhân viên giao hàng khi nhận kiện hàng.</p><p><strong>2. Chuyển khoản ngân hàng / Cổng thanh toán trực tuyến:</strong> Hỗ trợ chuyển khoản VietQR, thẻ ATM nội địa và thẻ quốc tế Visa/Mastercard/JCB.</p>"
+    "title": "CHÍNH SÁCH THANH TOÁN",
+    "content": "<p><strong>1. Thanh toán khi nhận hàng (COD):</strong> Quý khách thanh toán trực tiếp cho nhân viên giao hàng khi nhận kiện hàng.</p><p><strong>2. Chuyển khoản ngân hàng / Cổng thanh toán trực tuyến:</strong> Hỗ trợ chuyển khoản VietQR, thẻ ATM nội địa và thẻ quốc tế Visa/Mastercard/JCB.</p>"
+  },
+  "rental-policy": {
+    "title": "QUY TRÌNH & CHÍNH SÁCH THUÊ ÁO DÀI TẠI NÉT DUYÊN",
+    "content": "\n    <div style=\"background:#fbfbfb;border-left:4px solid #111;padding:20px;margin-bottom:26px;border-radius:0 8px 8px 0;\">\n      <h3 style=\"font-size:18px;margin-bottom:8px;color:#111;\">BẢNG CAM KẾT DỊCH VỤ CHO THUÊ TRANG PHỤC NÉT DUYÊN</h3>\n      <p style=\"margin:0;color:#555;\">\"Giữ nét Việt, trọn nét duyên.\" — Mọi bộ trang phục Áo Dài, Áo Cưới Cặp và Cổ Phục tại Nét Duyên đều được giặt hấp diệt khuẩn chuẩn studio, ủi phẳng tinh tươm và hỗ trợ chỉnh sửa số đo vừa vặn nhất cho quý khách.</p>\n    </div>\n\n    <h2 style=\"font-size:20px;font-weight:600;margin:30px 0 16px;color:#111;\">1. QUY TRÌNH THUÊ 4 BƯỚC ĐƠN GIẢN</h2>\n    <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-bottom:30px;\">\n      <div style=\"border:1px solid #ebebeb;padding:20px;border-radius:8px;background:#fff;\">\n        <div style=\"font-size:24px;font-weight:700;color:#c92a2a;margin-bottom:6px;\">01</div>\n        <h4 style=\"font-size:15px;font-weight:600;margin-bottom:6px;\">CHỌN MẪU & LỊCH</h4>\n        <p style=\"font-size:13px;color:#666;margin:0;\">Chọn mẫu áo dài yêu thích trên website, chọn ngày nhận áo và ngày trả áo phù hợp với sự kiện của bạn.</p>\n      </div>\n      <div style=\"border:1px solid #ebebeb;padding:20px;border-radius:8px;background:#fff;\">\n        <div style=\"font-size:24px;font-weight:700;color:#c92a2a;margin-bottom:6px;\">02</div>\n        <h4 style=\"font-size:15px;font-weight:600;margin-bottom:6px;\">THANH TOÁN & ĐẶT CỌC</h4>\n        <p style=\"font-size:13px;color:#666;margin:0;\">Thanh toán tiền thuê và đặt cọc bảo đảm trang phục qua Chuyển khoản VietQR, COD hoặc tại showroom.</p>\n      </div>\n      <div style=\"border:1px solid #ebebeb;padding:20px;border-radius:8px;background:#fff;\">\n        <div style=\"font-size:24px;font-weight:700;color:#c92a2a;margin-bottom:6px;\">03</div>\n        <h4 style=\"font-size:15px;font-weight:600;margin-bottom:6px;\">NHẬN ĐỒ & TỎA SÁNG</h4>\n        <p style=\"font-size:13px;color:#666;margin:0;\">Nét Duyên giao trang phục tận nơi trước 1 ngày hoặc bạn ghé showroom nhận trực tiếp để sẵn sàng cho ngày vui.</p>\n      </div>\n      <div style=\"border:1px solid #ebebeb;padding:20px;border-radius:8px;background:#fff;\">\n        <div style=\"font-size:24px;font-weight:700;color:#c92a2a;margin-bottom:6px;\">04</div>\n        <h4 style=\"font-size:15px;font-weight:600;margin-bottom:6px;\">TRẢ ĐỒ & HOÀN CỌC 100%</h4>\n        <p style=\"font-size:13px;color:#666;margin:0;\">Gửi trả trang phục nguyên vẹn, Nét Duyên hoàn trả ngay 100% tiền cọc vào tài khoản ngân hàng trong 2 giờ.</p>\n      </div>\n    </div>\n\n    <h2 style=\"font-size:20px;font-weight:600;margin:30px 0 16px;color:#111;\">2. THỜI GIAN THUÊ & PHỤ THU NGÀY THÊM</h2>\n    <ul style=\"list-style:disc;padding-left:22px;margin-bottom:20px;\">\n      <li><strong>Gói tiêu chuẩn:</strong> Áp dụng thời gian <strong>3 ngày 2 đêm</strong> (Ví dụ: Nhận thứ Sáu - Trả Chủ Nhật).</li>\n      <li><strong>Thuê thêm ngày:</strong> Phụ thu nhẹ chỉ <strong>50.000₫ / ngày</strong> đối với Áo dài truyền thống và <strong>100.000₫ / ngày</strong> đối với Áo cưới cặp / Cổ phục.</li>\n      <li><strong>Thời gian giao sớm:</strong> Nét Duyên hỗ trợ giao đồ từ chiều ngày hôm trước để khách yên tâm chuẩn bị mà không tính thêm phí.</li>\n    </ul>\n\n    <h2 style=\"font-size:20px;font-weight:600;margin:30px 0 16px;color:#111;\">3. CHÍNH SÁCH ĐẶT CỌC & HOÀN CỌC MINH BẠCH</h2>\n    <p>Khách hàng có thể lựa chọn 1 trong 2 hình thức cọc:</p>\n    <ul style=\"list-style:disc;padding-left:22px;margin-bottom:20px;\">\n      <li><strong>Hình thức 1 (Chuyển khoản / Tiền mặt):</strong> Đặt cọc số tiền cọc tương ứng theo từng sản phẩm (từ 500.000₫ – 1.800.000₫). Số tiền này được ghi rõ trên phiếu thuê và hoàn lại 100% khi trả đồ.</li>\n      <li><strong>Hình thức 2 (Căn cước công dân gắn chip):</strong> Áp dụng khi khách đến trực tiếp Showroom nhận áo dài.</li>\n    </ul>\n\n    <h2 style=\"font-size:20px;font-weight:600;margin:30px 0 16px;color:#111;\">4. CAM KẾT BẢO QUẢN & HỖ TRỢ SỐ ĐO</h2>\n    <p>Khách hàng chỉ cần mặc và chụp ảnh đẹp, <strong>không cần phải giặt ủi trước khi trả</strong>. Mọi chi phí giặt hấp diệt khuẩn chuyên dụng do Nét Duyên tài trợ hoàn toàn.</p>\n  "
   }
 };
 
-
-
-
-// Brand backward-compatible aliases
+// Backward compatibility aliases
 const DINGDANG_PRODUCTS = NETDUYEN_PRODUCTS;
 const DINGDANG_COLLECTIONS = NETDUYEN_COLLECTIONS;
 const DINGDANG_BLOGS = NETDUYEN_BLOGS;

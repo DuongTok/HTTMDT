@@ -2086,3 +2086,273 @@ button, input, select, textarea {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
+/* ==========================================================================
+   RENTAL SERVICE ENHANCEMENTS — NÉT DUYÊN (styles.css)
+   ========================================================================== */
+.badge-rental-card {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #111111;
+  color: #ffffff;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border-radius: 4px;
+  z-index: 5;
+  text-transform: uppercase;
+}
+
+.card-rent-meta {
+  font-size: 11.5px;
+  color: #777777;
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+}
+
+.rental-pricing-box {
+  background: #faf8f5;
+  border: 1px solid #ebd9b8;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin: 16px 0 20px;
+}
+
+.rent-main-price {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.rent-badge {
+  background: #b8860b;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 3px;
+  letter-spacing: 0.08em;
+}
+
+.rent-number {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1;
+}
+
+.rent-duration {
+  font-size: 13px;
+  color: #666666;
+  font-weight: 500;
+}
+
+.rent-sub-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12.5px;
+  color: #555555;
+  border-top: 1px dashed #dedede;
+  padding-top: 8px;
+}
+
+.rental-schedule-box {
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 20px;
+}
+
+.schedule-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #111111;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+}
+
+.schedule-dates-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.schedule-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.schedule-field label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #555555;
+}
+
+.schedule-date-input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-family: inherit;
+  outline: none;
+  background: #fafafa;
+  color: #111111;
+  transition: border-color 0.2s;
+}
+
+.schedule-date-input:focus {
+  border-color: #111111;
+  background: #ffffff;
+}
+
+.schedule-arrow {
+  font-size: 16px;
+  color: #888888;
+  margin-top: 18px;
+}
+
+.schedule-summary-tag {
+  background: #f0f7f0;
+  color: #2b8a3e;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+}
+
+.rental-addons-box {
+  background: #fdfdfd;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 20px;
+}
+
+.addon-title {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 10px;
+}
+
+.addon-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #333333;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.addon-checkbox input {
+  width: 16px;
+  height: 16px;
+  accent-color: #111111;
+  cursor: pointer;
+}
+
+.addon-free-perk {
+  font-size: 12px;
+  color: #2b8a3e;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.rental-calc-breakdown {
+  background: #f9f9f9;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.calc-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.calc-total {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 8px;
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 14.5px;
+}
+
+.deposit-guarantee-note {
+  font-size: 11.5px;
+  color: #666666;
+  font-style: italic;
+  margin-top: 8px;
+  line-height: 1.4;
+}
+
+.btn-rent-main {
+  width: 100%;
+  background: #111111;
+  color: #ffffff;
+  border: none;
+  padding: 15px 24px;
+  border-radius: 6px;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-rent-main:hover {
+  background: #333333;
+}
+
+.btn-buy-secondary {
+  width: 100%;
+  background: #ffffff;
+  color: #555555;
+  border: 1px solid #cccccc;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-buy-secondary:hover {
+  border-color: #111111;
+  color: #111111;
+}
+
+.cart-rental-meta {
+  font-size: 12px;
+  color: #555555;
+  margin: 4px 0;
+  background: #f8f9fa;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
