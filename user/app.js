@@ -1,14 +1,97 @@
 /* ==========================================================================
    NÉT DUYÊN — DỊCH VỤ CHO THUÊ ÁO DÀI & CỔ PHỤC CAO CẤP
    Slogan: "Giữ nét Việt, trọn nét duyên."
+   Full Version: Interactive PDP, Image Switching, Reviews, Clickwrap, Promo & Rewards
    ========================================================================== */
 
 const STORAGE_KEYS = {
   CART: "ddvn_cart_v1",
   USER: "ddvn_user_v1",
   ORDERS: "ddvn_orders_v1",
-  CUSTOM_PRODUCTS: "netduyen_custom_products_v1"
+  CUSTOM_PRODUCTS: "netduyen_custom_products_v1",
+  REVIEWS: "netduyen_reviews_v1",
+  PROMO_SEEN: "netduyen_promo_closed_v1"
 };
+
+// Default Customer Feedback Data
+const DEFAULT_REVIEWS = [
+  {
+    id: "rev-1",
+    productId: 9300000001,
+    name: "Nguyễn Thảo My",
+    phone: "098***432",
+    date: "28/10/2026",
+    rating: 5,
+    productTitle: "SET ÁO CƯỚI CẶP ĐÔI LONG PHỤNG SUM VẦY",
+    variantRented: "Cô dâu S / Chú rể L (Gói 3 ngày)",
+    comment: "Áo nhận được rất thơm tho, tà áo ủi phẳng lỳ tinh tươm. Mình có nhờ shop bóp nhẹ eo 2cm shop làm rất tỉ mỉ, mặc lên chụp ảnh lễ ăn hỏi ai cũng khen nức nở. Lúc gửi trả đồ xong 30 phút là shop chuyển khoản hoàn lại 100% tiền cọc 1.800.000₫ ngay. Rất uy tín và chuyên nghiệp!",
+    photos: [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197"
+    ],
+    verified: true
+  },
+  {
+    id: "rev-2",
+    productId: 9100000001,
+    name: "Trần Minh Quân",
+    phone: "091***885",
+    date: "26/10/2026",
+    rating: 5,
+    productTitle: "ÁO DÀI NAM LONG VÂN GẤM ĐEN HOÀNG GIA",
+    variantRented: "Size L (Gói 3 ngày 2 đêm)",
+    comment: "Áo form cứng cáp, gấm dệt chỉ vàng sắc nét, mặc dự tiệc cưới bạn thân rất sang trọng và đĩnh đạc. Giao hàng đúng giờ trước sự kiện 1 ngày. Tiền cọc hoàn trả đầy đủ không thiếu 1 đồng. Sẽ tiếp tục ủng hộ Nét Duyên!",
+    photos: [
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg"
+    ],
+    verified: true
+  },
+  {
+    id: "rev-3",
+    productId: 9200000001,
+    name: "Lê Hoàng Yến",
+    phone: "090***619",
+    date: "24/10/2026",
+    rating: 5,
+    productTitle: "CỔ PHỤC ÁO NHẬT BÌNH CUNG ĐÌNH HUẾ",
+    variantRented: "Freesize (Gói 3 ngày kèm Mấn)",
+    comment: "Cổ phục Nhật Bình đẹp xuất sắc từng đường kim thêu hoa văn ngũ phụng, chất vải dày dặn và mấn ngọc đội vừa vặn êm đầu. Nhóm mình chụp ở Hoàng Thành Thăng Long được bao nhiêu người hỏi thuê ở đâu. 10/10 điểm!",
+    photos: [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/M_u_on_Tr_m_Hoa___Kho_c_H_ng_H_2.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05856.jpg?v=1792811197"
+    ],
+    verified: true
+  },
+  {
+    id: "rev-4",
+    productId: 7806504894531,
+    name: "Vũ Thùy Linh",
+    phone: "097***210",
+    date: "22/10/2026",
+    rating: 5,
+    productTitle: "ÁO DÀI THƯ HIÊN - VÁY HAI DÂY DẶM TIÊN",
+    variantRented: "Size M / Lớp Ngoài & Trong",
+    comment: "Chất tơ sống bay bổng, màu sắc nhẹ nhàng đúng chuẩn ảnh chụp trên web. Khi nhận có cả móc treo và túi bọc bảo quản sạch sẽ. Shop hỗ trợ nhiệt tình và hoàn cọc siêu nhanh.",
+    photos: [
+      "https://dingdangvietnam.com/cdn/shop/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315&width=940"
+    ],
+    verified: true
+  }
+];
+
+// Initialize Reviews Store
+function getStoredReviews() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEYS.REVIEWS);
+    if (raw) return JSON.parse(raw);
+  } catch (e) {}
+  localStorage.setItem(STORAGE_KEYS.REVIEWS, JSON.stringify(DEFAULT_REVIEWS));
+  return DEFAULT_REVIEWS;
+}
+
+function saveReviews(revs) {
+  localStorage.setItem(STORAGE_KEYS.REVIEWS, JSON.stringify(revs));
+}
 
 // Đồng bộ sản phẩm từ phân hệ Admin (nếu Admin có cập nhật sản phẩm trong localStorage)
 (function syncAdminProducts() {
@@ -35,7 +118,7 @@ function getFutureDate(daysAhead) {
 
 let state = {
   cart: JSON.parse(localStorage.getItem(STORAGE_KEYS.CART) || "[]"),
-  user: JSON.parse(localStorage.getItem(STORAGE_KEYS.USER) || "null"),
+  user: JSON.parse(localStorage.getItem(STORAGE_KEYS.USER) || '{"name":"KHÁCH HÀNG VIP","email":"khachhang@netduyen.vn","phone":"0363860055","points":150,"vouchers":["NETDUYEN50"]}'),
   orders: JSON.parse(localStorage.getItem(STORAGE_KEYS.ORDERS) || "[]"),
   collectionSlug: "all",
   sortBy: "created-descending",
@@ -50,8 +133,12 @@ let state = {
   pdpAddonMan: false,
   pdpAddonQuat: false,
   pdpAddonGuoc: false,
-  pdpTabMode: "rent", // "rent" or "buy"
-  currentPdpProduct: null
+  pdpTabMode: "rent",
+  currentPdpProduct: null,
+  activePromoCode: null,
+  appliedVoucherDiscount: 0,
+  usePointsDiscount: false,
+  reviewFilter: "all"
 };
 
 // Utilities
@@ -87,14 +174,14 @@ function showToast(msg) {
   clearTimeout(window.__ddToastTimer);
   window.__ddToastTimer = setTimeout(() => {
     toast.classList.remove("show");
-  }, 2600);
+  }, 3000);
 }
 
 function updateAuthTopbar() {
   const el = document.getElementById("topbarAuthText");
   if (!el) return;
   if (state.user) {
-    el.textContent = `Xin chào, ${state.user.name} (Hội viên VIP)`;
+    el.textContent = `Xin chào, ${state.user.name} (${state.user.points || 0} Điểm Duyên)`;
   } else {
     el.textContent = "Đăng nhập / Đăng ký";
   }
@@ -122,7 +209,9 @@ function getCartDepositTotal() {
 }
 
 function getCartGrandTotal() {
-  return getCartRentTotal() + getCartDepositTotal();
+  const base = getCartRentTotal() + getCartDepositTotal();
+  const disc = state.appliedVoucherDiscount || 0;
+  return Math.max(0, base - disc);
 }
 
 function getCartSubtotal() {
@@ -140,7 +229,6 @@ function addToCart(productId, variantId, qty = 1, openDrawer = true, isRental = 
   const rentBase = product.rent_price || 280000;
   const deposit = isRental && !buyMode ? (product.deposit || 500000) : 0;
   
-  // Calculate extra days surcharge if > 3 days
   let extraDaysCost = 0;
   let durationDays = 3;
   if (customOptions.startDate && customOptions.endDate) {
@@ -153,7 +241,6 @@ function addToCart(productId, variantId, qty = 1, openDrawer = true, isRental = 
     }
   }
 
-  // Calculate addons
   const addonsList = customOptions.addons || [];
   let addonsCost = customOptions.addonsCost || 0;
 
@@ -161,6 +248,7 @@ function addToCart(productId, variantId, qty = 1, openDrawer = true, isRental = 
     ? (product.buy_price || 2500000)
     : (rentBase + extraDaysCost + addonsCost);
 
+  const activeImg = customOptions.image || (product.images && product.images[0]) || "";
   const key = `${product.id}_${variant.id}_${buyMode ? "buy" : "rent"}_${customOptions.startDate || ""}_${Date.now()}`;
 
   state.cart.push({
@@ -168,7 +256,7 @@ function addToCart(productId, variantId, qty = 1, openDrawer = true, isRental = 
     productId: product.id,
     handle: product.handle,
     title: product.title,
-    image: (product.images && product.images[0]) || "",
+    image: activeImg,
     variantId: variant.id,
     variantTitle: variant.title || "Tiêu chuẩn",
     isRental: !buyMode,
@@ -248,7 +336,7 @@ function updateCartUI() {
           ${item.title}
         </a>
         <div style="font-size:11.5px;color:#555;margin-bottom:4px;">
-          Size: <strong>${item.variantTitle}</strong> • ${item.isRental ? '<span style="color:#2b8a3e;font-weight:600;">[THUÊ ĐỒ]</span>' : '<span style="color:#d9480f;font-weight:600;">[MUA MỚI]</span>'}
+          Phân loại: <strong>${item.variantTitle}</strong> • ${item.isRental ? '<span style="color:#2b8a3e;font-weight:600;">[THUÊ ĐỒ]</span>' : '<span style="color:#d9480f;font-weight:600;">[MUA MỚI]</span>'}
         </div>
         ${item.isRental ? `
           <div class="cart-rental-meta" style="font-size:11.5px;background:#f8f9fa;padding:4px 6px;border-radius:4px;color:#333;margin-bottom:4px;">
@@ -448,7 +536,7 @@ function renderProductCardHTML(product, isCompact = false) {
 }
 
 /* ==========================================================================
-   INTERACTIVE PDP RENTAL HELPERS
+   INTERACTIVE PDP RENTAL & IMAGE SWITCHING HELPERS
    ========================================================================== */
 function switchPdpMode(mode) {
   state.pdpTabMode = mode;
@@ -553,6 +641,9 @@ function handleRentalAddToCart(productId, checkoutNow = false) {
   if (state.pdpAddonQuat) { addonsList.push("Quạt lụa (+40K)"); addonsCost += 40000; }
   if (state.pdpAddonGuoc) { addonsList.push("Guốc mộc (+45K)"); addonsCost += 45000; }
 
+  const mainImgEl = document.getElementById("pdpMainFeaturedImg");
+  const activeImg = mainImgEl ? mainImgEl.src : (product.images && product.images[0]);
+
   addToCart(
     product.id,
     variant ? variant.id : null,
@@ -564,7 +655,8 @@ function handleRentalAddToCart(productId, checkoutNow = false) {
       startDate: state.pdpStartDate,
       endDate: state.pdpEndDate,
       addons: addonsList,
-      addonsCost: addonsCost
+      addonsCost: addonsCost,
+      image: activeImg
     }
   );
 
@@ -588,6 +680,65 @@ function handleBuyNowDirect(productId) {
     {}
   );
   location.hash = "#checkout";
+}
+
+// SWITCH ACTIVE FEATURED IMAGE IN PDP
+function setPdpActiveImage(imgUrl, thumbIdx) {
+  const mainImg = document.getElementById("pdpMainFeaturedImg");
+  if (!mainImg) return;
+  mainImg.style.opacity = "0.4";
+  setTimeout(() => {
+    mainImg.src = imgUrl;
+    mainImg.style.opacity = "1";
+  }, 120);
+
+  // Update active thumbnail
+  document.querySelectorAll(".pdp-thumb-item").forEach((thumb, idx) => {
+    thumb.classList.toggle("active", idx === thumbIdx);
+  });
+}
+
+function selectPdpOption(productId, optIdx, val) {
+  const product = NETDUYEN_PRODUCTS.find(p => String(p.id) === String(productId));
+  if (!product) return;
+  state.pdpSelectedOptions[optIdx] = val;
+
+  const lbl = document.getElementById(`swatchLabelVal_${optIdx}`);
+  if (lbl) lbl.textContent = val;
+
+  // Re-render active swatches
+  const container = document.getElementById("pdpSwatchesContainer");
+  if (container) {
+    container.innerHTML = (product.options || []).map((opt, idx) => `
+      <div class="pdp-swatch-group">
+        <div class="swatch-label-row">
+          <span>${opt.name}:</span>
+          <strong id="swatchLabelVal_${idx}">${state.pdpSelectedOptions[idx]}</strong>
+        </div>
+        <div class="swatch-list">
+          ${(opt.values || []).map(v => `
+            <div
+              class="bls__option-swatch ${state.pdpSelectedOptions[idx] === v ? "active" : ""}"
+              onclick="selectPdpOption('${product.id}', ${idx}, '${v.replace(/'/g, "\\'")}')"
+            >
+              ${v}
+            </div>
+          `).join("")}
+        </div>
+      </div>
+    `).join("");
+  }
+
+  // INTERACTIVE IMAGE SWITCHING:
+  // When an option is picked (color, type, style), switch to that specific sample image!
+  const opt = product.options && product.options[optIdx];
+  if (opt && opt.values && product.images && product.images.length > 0) {
+    const valIdx = opt.values.indexOf(val);
+    if (valIdx !== -1) {
+      const targetImgIdx = valIdx % product.images.length;
+      setPdpActiveImage(product.images[targetImgIdx], targetImgIdx);
+    }
+  }
 }
 
 /* ==========================================================================
@@ -709,12 +860,11 @@ function renderHomeView() {
       <div class="scrolling-marquee-track">
         <span>NÉT DUYÊN • GIỮ NÉT VIỆT, TRỌN NÉT DUYÊN</span><span>•</span>
         <span>CHO THUÊ ÁO DÀI CAO CẤP</span><span>•</span>
-        <span>HOÀN CỌC 100% NHANH CHÓNG</span><span>•</span>
+        <span>HOÀN CỌC 100% NHANH CHÓNG TRONG 2 GIỜ</span><span>•</span>
         <span>MIỄN PHÍ GIẶT HẤP KHỬ KHUẨN</span><span>•</span>
         <span>HỖ TRỢ CHỈNH SỬA SỐ ĐO MIỄN PHÍ</span><span>•</span>
-        <span>NÉT DUYÊN • GIỮ NÉT VIỆT, TRỌN NÉT DUYÊN</span><span>•</span>
-        <span>CHO THUÊ ÁO DÀI CAO CẤP</span><span>•</span>
-        <span>HOÀN CỌC 100% NHANH CHÓNG</span>
+        <span>TÍCH ĐIỂM DUYÊN ĐỔI VOUCHER</span><span>•</span>
+        <span>NÉT DUYÊN • GIỮ NÉT VIỆT, TRỌN NÉT DUYÊN</span>
       </div>
     </div>
 
@@ -816,7 +966,6 @@ function renderCollectionView(slug) {
   const startIdx = (state.currentPage - 1) * state.perPage;
   const pageItems = allItems.slice(startIdx, startIdx + state.perPage);
 
-  // Pagination buttons
   let pageButtons = "";
   for (let p = 1; p <= totalPages; p++) {
     if (p === 1 || p === totalPages || Math.abs(p - state.currentPage) <= 1) {
@@ -848,7 +997,6 @@ function renderCollectionView(slug) {
 
   const main = document.getElementById("MainContent");
   main.innerHTML = `
-    <!-- Page Heading -->
     <div class="page-heading">
       <div class="container">
         <div class="heading-content">
@@ -869,7 +1017,6 @@ function renderCollectionView(slug) {
       </div>
     </div>
 
-    <!-- Category Switcher Bar -->
     <div class="container-fluid" style="margin-bottom:20px;">
       <div style="display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none;">
         ${categoryPills.map(p => `
@@ -883,10 +1030,8 @@ function renderCollectionView(slug) {
       </div>
     </div>
 
-    <!-- Product Grid Section -->
     <div class="section-collection-product">
       <div class="container-fluid">
-        <!-- Toolbar -->
         <div class="toolbar-products">
           <div class="toolbar-left">
             <div class="grid-mode-switcher">
@@ -915,12 +1060,10 @@ function renderCollectionView(slug) {
           </div>
         </div>
 
-        <!-- Grid Container -->
         <div class="bls__grid bls__grid-mode-${state.viewMode}" id="collectionGrid">
           ${pageItems.map(p => renderProductCardHTML(p)).join("")}
         </div>
 
-        <!-- Pagination -->
         ${totalPages > 1 ? `
           <div class="pagination-wrap">
             <ul class="pagination">
@@ -992,12 +1135,15 @@ function renderProductDetailView(handle) {
 
   const prevProd = NETDUYEN_PRODUCTS[(idx - 1 + NETDUYEN_PRODUCTS.length) % NETDUYEN_PRODUCTS.length];
   const nextProd = NETDUYEN_PRODUCTS[(idx + 1) % NETDUYEN_PRODUCTS.length];
-  const related = NETDUYEN_PRODUCTS.filter(p => p.id !== product.id && p.collections.some(c => product.collections.includes(c))).slice(0, 4);
+  const related = NETDUYEN_PRODUCTS.filter(p => p.id !== product.id && p.collections && p.collections.some(c => product.collections && product.collections.includes(c))).slice(0, 4);
 
   const selectedVariant = getMatchingVariant(product);
   const rentPrice = product.rent_price || 280000;
   const deposit = product.deposit || 500000;
   const buyPrice = product.buy_price || product.price || 2500000;
+
+  const images = product.images && product.images.length > 0 ? product.images : [""];
+  const initialMainImg = images[0];
 
   const main = document.getElementById("MainContent");
   main.innerHTML = `
@@ -1034,15 +1180,30 @@ function renderProductDetailView(handle) {
         </div>
       </div>
 
-      <!-- Main Layout: 65% Gallery / 35% Sticky Info -->
+      <!-- Main Layout: 60% Interactive Gallery / 40% Sticky Info -->
       <div class="pdp-main-layout">
-        <!-- Left Vertical Gallery -->
+        <!-- Left Interactive Gallery with Featured Stage & Thumbnails -->
         <div class="pdp-left-gallery">
-          ${(product.images || []).map((imgUrl, i) => `
-            <div class="pdp-gallery-item" onclick="openImageZoomModal('${imgUrl}', '${product.title.replace(/'/g, "")}')">
-              <img src="${imgUrl}" alt="${product.title} - ${i + 1}" loading="${i < 2 ? "eager" : "lazy"}" />
-            </div>
-          `).join("")}
+          <div class="pdp-stage-wrap" id="pdpMainStageWrap" onclick="openImageZoomModal(document.getElementById('pdpMainFeaturedImg').src, '${product.title.replace(/'/g, "")}')">
+            <img id="pdpMainFeaturedImg" class="pdp-stage-main-img" src="${initialMainImg}" alt="${product.title}" />
+            <div class="pdp-zoom-badge">🔍 Nhấp phóng to ảnh mẫu</div>
+          </div>
+
+          <!-- Thumbnail Row (Clicking switches main image) -->
+          <div class="pdp-thumb-list" id="pdpThumbnailsRow">
+            ${images.map((imgUrl, i) => `
+              <div
+                class="pdp-thumb-item ${i === 0 ? 'active' : ''}"
+                onclick="setPdpActiveImage('${imgUrl}', ${i})"
+                title="Mẫu ảnh ${i + 1}"
+              >
+                <img src="${imgUrl}" alt="${product.title} - ${i + 1}" loading="lazy" />
+              </div>
+            `).join("")}
+          </div>
+          <div style="font-size:12px;color:#777;margin-top:6px;font-style:italic;">
+            * Nhấp vào ảnh thumbnail hoặc chọn phân loại bên phải để xem chi tiết từng mẫu màu & thiết kế.
+          </div>
         </div>
 
         <!-- Right Sticky Information -->
@@ -1056,7 +1217,7 @@ function renderProductDetailView(handle) {
               <span>✓</span>
               <div>
                 <div style="font-weight:700;">Ưu đãi Hội viên VIP NÉT DUYÊN kích hoạt</div>
-                <div style="font-size:12px;">Tài khoản ${state.user.name} được giảm 5% giá thuê khi thanh toán.</div>
+                <div style="font-size:12px;">Tài khoản ${state.user.name} (${state.user.points || 0} Điểm Duyên) được giảm 5% khi thanh toán.</div>
               </div>
             </div>
           ` : `
@@ -1064,7 +1225,7 @@ function renderProductDetailView(handle) {
               <span>🔒</span>
               <div>
                 <div class="member-price-title">Ưu đãi Hội viên NÉT DUYÊN</div>
-                <div style="font-size:12px;color:#495057;">Đăng nhập tài khoản để nhận ưu đãi giảm 5% mọi đơn thuê.</div>
+                <div style="font-size:12px;color:#495057;">Đăng nhập tài khoản để tích điểm đổi voucher và giảm 5% mọi đơn thuê.</div>
                 <a href="#account" class="member-login-button">Đăng nhập ngay</a>
               </div>
             </div>
@@ -1093,7 +1254,6 @@ function renderProductDetailView(handle) {
 
           <!-- OPTION 1: RENTAL BOX -->
           <div id="pdpRentSection">
-            <!-- Rental Pricing Box -->
             <div class="rental-pricing-box">
               <div class="rent-price-headline">
                 <span class="rent-main-amount">${formatVND(rentPrice)}</span>
@@ -1105,7 +1265,7 @@ function renderProductDetailView(handle) {
               </div>
             </div>
 
-            <!-- Variant Swatches -->
+            <!-- Variant Swatches with Dynamic Image Switch on Click -->
             <div id="pdpSwatchesContainer" style="margin-bottom:18px;">
               ${(product.options || []).map((opt, optIdx) => `
                 <div class="pdp-swatch-group">
@@ -1211,7 +1371,7 @@ function renderProductDetailView(handle) {
                 <span id="calcTotalPayment" style="color:#c92a2a;">${formatVND(rentPrice + deposit)}</span>
               </div>
               <div class="deposit-guarantee-note">
-                * Lưu ý: Tiền cọc ${formatVND(deposit)} là khoản bảo đảm trang phục, sẽ được Nét Duyên hoàn trả 100% vào tài khoản của bạn ngay khi shop nhận lại đồ nguyên vẹn.
+                * Tiền cọc ${formatVND(deposit)} là khoản bảo đảm trang phục, sẽ được Nét Duyên hoàn trả 100% vào tài khoản của bạn ngay khi shop nhận lại đồ nguyên vẹn.
               </div>
             </div>
 
@@ -1276,26 +1436,64 @@ function renderProductDetailView(handle) {
                 ${product.body_html || "<p>Chất liệu cao cấp, phom dáng chuẩn mực truyền thống Việt Nam.</p>"}
               </div>
             </div>
-
-            <div class="pdp-accordion-item">
-              <button type="button" class="pdp-accordion-header" onclick="this.parentElement.classList.toggle('active')">
-                <span>Cam kết vệ sinh & Bảo quản</span>
-                <span>+</span>
-              </button>
-              <div class="pdp-accordion-body">
-                <p style="font-size:13px;line-height:1.6;margin:0;">
-                  - 100% trang phục được giặt hấp khử khuẩn chuyên dụng sau mỗi lượt thuê.<br/>
-                  - Khách hàng không cần phải giặt ủi trước khi gửi trả đồ.<br/>
-                  - Tặng kèm móc treo và túi bọc vải bảo vệ chống bụi suốt thời gian sử dụng.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
+      <!-- CUSTOMER REVIEWS & FEEDBACK SECTION -->
+      <section class="pdp-reviews-section" id="pdpReviewsSection">
+        <div class="bls__section-header" style="text-align:left;margin-bottom:20px;">
+          <h2 class="bls__section-heading" style="font-size:22px;">ĐÁNH GIÁ & FEEDBACK TỪ KHÁCH THUÊ THỰC TẾ</h2>
+          <p class="bls__section-des">Hình ảnh thật 100% từ khách hàng đã trải nghiệm dịch vụ thuê áo dài NÉT DUYÊN</p>
+        </div>
+
+        <!-- Rating Summary Card -->
+        <div class="reviews-header-card">
+          <div class="rating-score-box">
+            <div class="rating-big-num">4.9</div>
+            <div class="rating-stars-gold">★★★★★</div>
+            <div style="font-size:12.5px;color:#666;">Dựa trên <strong>48 đánh giá</strong></div>
+          </div>
+          <div class="rating-bars-wrap">
+            <div class="rating-bar-row">
+              <span>5 sao</span>
+              <div class="rating-bar-track"><div class="rating-bar-fill" style="width:92%;"></div></div>
+              <span>92%</span>
+            </div>
+            <div class="rating-bar-row">
+              <span>4 sao</span>
+              <div class="rating-bar-track"><div class="rating-bar-fill" style="width:8%;"></div></div>
+              <span>8%</span>
+            </div>
+            <div class="rating-bar-row">
+              <span>3 sao</span>
+              <div class="rating-bar-track"><div class="rating-bar-fill" style="width:0%;"></div></div>
+              <span>0%</span>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn-open-review" onclick="openWriteReviewModal('${product.id}')">
+              ✍️ Viết đánh giá (+50 Điểm Duyên)
+            </button>
+          </div>
+        </div>
+
+        <!-- Reviews Filter Bar -->
+        <div class="reviews-filter-bar">
+          <button type="button" class="review-filter-btn ${state.reviewFilter === 'all' ? 'active' : ''}" onclick="setReviewFilter('all')">Tất cả (48)</button>
+          <button type="button" class="review-filter-btn ${state.reviewFilter === 'photo' ? 'active' : ''}" onclick="setReviewFilter('photo')">Có hình ảnh (26)</button>
+          <button type="button" class="review-filter-btn ${state.reviewFilter === '5star' ? 'active' : ''}" onclick="setReviewFilter('5star')">5 Sao (44)</button>
+          <button type="button" class="review-filter-btn ${state.reviewFilter === '4star' ? 'active' : ''}" onclick="setReviewFilter('4star')">4 Sao (4)</button>
+        </div>
+
+        <!-- Reviews List -->
+        <div class="reviews-list" id="pdpReviewsListContainer">
+          ${renderReviewsListHTML(product.id)}
+        </div>
+      </section>
+
       <!-- Related Products Recommendations -->
-      <section class="bls__section" style="padding-top:20px;">
+      <section class="bls__section" style="padding-top:40px;">
         <div class="bls__section-header">
           <h2 class="bls__section-heading" style="font-size:22px;">NÉT DUYÊN GỢI Ý CHO BẠN</h2>
         </div>
@@ -1305,12 +1503,12 @@ function renderProductDetailView(handle) {
       </section>
     </div>
 
-    <!-- Sticky Bottom Add-to-Cart Bar -->
+    <!-- Sticky Bottom Bar -->
     <div id="bls__sticky-addcart" class="bls__sticky-addcart">
       <div class="container sticky-addcart-inner">
         <div class="sticky-addcart-product">
           <div class="sticky-addcart-img">
-            <img src="${(product.images && product.images[0]) || ''}" alt="${product.title}" />
+            <img src="${initialMainImg}" alt="${product.title}" />
           </div>
           <div>
             <div style="font-weight:600;color:#111;font-size:14px;">${product.title}</div>
@@ -1327,6 +1525,157 @@ function renderProductDetailView(handle) {
   `;
 }
 
+function renderReviewsListHTML(productId) {
+  const allRevs = getStoredReviews();
+  let filtered = allRevs;
+  if (state.reviewFilter === "photo") {
+    filtered = allRevs.filter(r => r.photos && r.photos.length > 0);
+  } else if (state.reviewFilter === "5star") {
+    filtered = allRevs.filter(r => r.rating === 5);
+  } else if (state.reviewFilter === "4star") {
+    filtered = allRevs.filter(r => r.rating === 4);
+  }
+
+  if (filtered.length === 0) {
+    return `<div style="padding:20px;text-align:center;color:#666;">Chưa có đánh giá nào phù hợp với bộ lọc.</div>`;
+  }
+
+  return filtered.map(r => {
+    const starStr = "★".repeat(r.rating) + "☆".repeat(Math.max(0, 5 - r.rating));
+    const firstLetter = (r.name || "K").charAt(0).toUpperCase();
+    return `
+      <div class="review-item-card">
+        <div class="review-customer-header">
+          <div class="review-customer-info">
+            <div class="review-avatar">${firstLetter}</div>
+            <div>
+              <div style="font-weight:700;font-size:13.5px;color:#111;">
+                ${r.name}
+                ${r.verified ? '<span class="review-verified-badge">✓ Đã thuê đồ tại Nét Duyên</span>' : ''}
+              </div>
+              <div style="font-size:11.5px;color:#888;">Gói thuê: ${r.variantRented || 'Gói 3 ngày'} • Ngày đăng: ${r.date}</div>
+            </div>
+          </div>
+          <div class="rating-stars-gold" style="font-size:15px;margin:0;">${starStr}</div>
+        </div>
+        <div class="review-text">${r.comment}</div>
+        ${r.photos && r.photos.length > 0 ? `
+          <div class="review-photos-grid">
+            ${r.photos.map(pUrl => `
+              <img
+                src="${pUrl}"
+                alt="Ảnh feedback khách hàng Nét Duyên"
+                class="review-photo-thumb"
+                onclick="openImageZoomModal('${pUrl}', 'Feedback thực tế từ khách hàng ${r.name}')"
+                loading="lazy"
+              />
+            `).join("")}
+          </div>
+        ` : ""}
+      </div>
+    `;
+  }).join("");
+}
+
+function setReviewFilter(filterType) {
+  state.reviewFilter = filterType;
+  const container = document.getElementById("pdpReviewsListContainer");
+  if (container && state.currentPdpProduct) {
+    container.innerHTML = renderReviewsListHTML(state.currentPdpProduct.id);
+  }
+  document.querySelectorAll(".review-filter-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.textContent.toLowerCase().includes(filterType.toLowerCase()) || (filterType === 'all' && btn.textContent.includes('Tất cả')));
+  });
+}
+
+function openWriteReviewModal(productId) {
+  const box = document.getElementById("ddModalBox");
+  const content = document.getElementById("ddModalContent");
+  const backdrop = document.getElementById("ddModalBackdrop");
+  if (!box || !content || !backdrop) return;
+
+  const product = NETDUYEN_PRODUCTS.find(p => String(p.id) === String(productId)) || state.currentPdpProduct;
+
+  box.style.maxWidth = "520px";
+  content.innerHTML = `
+    <div style="padding:10px;">
+      <h3 style="font-size:18px;font-weight:700;color:#111;margin-bottom:6px;">GỬI ĐÁNH GIÁ & FEEDBACK</h3>
+      <p style="font-size:12.5px;color:#666;margin-bottom:16px;">
+        Chia sẻ cảm nhận thực tế về chất vải, phom dáng và dịch vụ thuê để nhận ngay <strong>+50 Điểm Duyên</strong> đổi voucher.
+      </p>
+
+      <form onsubmit="handleReviewSubmit(event, '${product ? product.id : ''}')">
+        <div class="form-group" style="margin-bottom:12px;">
+          <label style="font-size:12.5px;font-weight:600;display:block;margin-bottom:4px;">Bạn chấm điểm trang phục mấy sao? *</label>
+          <select id="reviewRatingInput" class="form-input" style="font-weight:700;color:#f59f00;">
+            <option value="5">★★★★★ - 5 Sao (Cực kỳ hài lòng, áo đẹp thơm, hoàn cọc nhanh)</option>
+            <option value="4">★★★★☆ - 4 Sao (Hài lòng, áo vừa vặn)</option>
+            <option value="3">★★★☆☆ - 3 Sao (Bình thường)</option>
+          </select>
+        </div>
+
+        <div class="form-group" style="margin-bottom:12px;">
+          <label style="font-size:12.5px;font-weight:600;display:block;margin-bottom:4px;">Họ và tên của bạn *</label>
+          <input type="text" id="reviewNameInput" class="form-input" required value="${state.user ? state.user.name : ''}" placeholder="Nhập họ tên của bạn" />
+        </div>
+
+        <div class="form-group" style="margin-bottom:12px;">
+          <label style="font-size:12.5px;font-weight:600;display:block;margin-bottom:4px;">Số điện thoại (để xác thực đã thuê đồ) *</label>
+          <input type="tel" id="reviewPhoneInput" class="form-input" required value="${state.user ? state.user.phone || '' : ''}" placeholder="Số điện thoại của bạn (sẽ ẩn 3 số cuối)" />
+        </div>
+
+        <div class="form-group" style="margin-bottom:16px;">
+          <label style="font-size:12.5px;font-weight:600;display:block;margin-bottom:4px;">Cảm nhận chi tiết của bạn *</label>
+          <textarea id="reviewCommentInput" class="form-input" rows="4" required placeholder="Áo mặc lên tôn dáng không? Phom áo và chất liệu thế nào? Shop hoàn trả tiền cọc có nhanh chóng không?"></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width:100%;padding:13px;font-weight:700;">GỬI ĐÁNH GIÁ NGAY (+50 ĐIỂM DUYÊN)</button>
+      </form>
+    </div>
+  `;
+  backdrop.classList.add("open");
+}
+
+function handleReviewSubmit(e, productId) {
+  e.preventDefault();
+  const name = document.getElementById("reviewNameInput").value.trim();
+  const phone = document.getElementById("reviewPhoneInput").value.trim();
+  const rating = parseInt(document.getElementById("reviewRatingInput").value, 10) || 5;
+  const comment = document.getElementById("reviewCommentInput").value.trim();
+
+  const revs = getStoredReviews();
+  const newRev = {
+    id: "rev-" + Date.now(),
+    productId: productId || 0,
+    name: name,
+    phone: phone.slice(0, 3) + "***" + phone.slice(-3),
+    date: new Date().toLocaleDateString("vi-VN"),
+    rating: rating,
+    productTitle: state.currentPdpProduct ? state.currentPdpProduct.title : "Áo Dài Nét Duyên",
+    variantRented: "Gói thuê 3 ngày (Đã hoàn cọc)",
+    comment: comment,
+    photos: state.currentPdpProduct && state.currentPdpProduct.images ? [state.currentPdpProduct.images[0]] : [],
+    verified: true
+  };
+
+  revs.unshift(newRev);
+  saveReviews(revs);
+
+  // Award 50 points to user
+  if (state.user) {
+    state.user.points = (state.user.points || 0) + 50;
+    saveUser();
+  }
+
+  closeDdModal();
+  showToast("🎉 Cảm ơn bạn! Đánh giá đã được đăng và bạn nhận được +50 Điểm Duyên!");
+
+  const container = document.getElementById("pdpReviewsListContainer");
+  if (container) {
+    container.innerHTML = renderReviewsListHTML(productId);
+  }
+}
+
 function getMatchingVariant(product) {
   if (!product.variants || product.variants.length === 0) return null;
   const opt0 = state.pdpSelectedOptions[0];
@@ -1337,38 +1686,6 @@ function getMatchingVariant(product) {
     return true;
   });
   return found || product.variants[0];
-}
-
-function selectPdpOption(productId, optIdx, val) {
-  const product = NETDUYEN_PRODUCTS.find(p => String(p.id) === String(productId));
-  if (!product) return;
-  state.pdpSelectedOptions[optIdx] = val;
-
-  const lbl = document.getElementById(`swatchLabelVal_${optIdx}`);
-  if (lbl) lbl.textContent = val;
-
-  // Re-render active swatches
-  const container = document.getElementById("pdpSwatchesContainer");
-  if (container) {
-    container.innerHTML = (product.options || []).map((opt, idx) => `
-      <div class="pdp-swatch-group">
-        <div class="swatch-label-row">
-          <span>${opt.name}:</span>
-          <strong id="swatchLabelVal_${idx}">${state.pdpSelectedOptions[idx]}</strong>
-        </div>
-        <div class="swatch-list">
-          ${(opt.values || []).map(v => `
-            <div
-              class="bls__option-swatch ${state.pdpSelectedOptions[idx] === v ? "active" : ""}"
-              onclick="selectPdpOption('${product.id}', ${idx}, '${v.replace(/'/g, "\\'")}')"
-            >
-              ${v}
-            </div>
-          `).join("")}
-        </div>
-      </div>
-    `).join("");
-  }
 }
 
 /* ==========================================================================
@@ -1418,7 +1735,7 @@ function renderCartPage() {
                   <img src="${item.image}" alt="${item.title}" style="width:70px;height:94px;object-fit:cover;border-radius:4px;" />
                   <div>
                     <a href="#products/${item.handle}" style="font-weight:600;color:#111;text-transform:uppercase;text-decoration:none;">${item.title}</a>
-                    <div style="font-size:12px;color:#666;margin-top:4px;">Size: ${item.variantTitle}</div>
+                    <div style="font-size:12px;color:#666;margin-top:4px;">Size / Phân loại: ${item.variantTitle}</div>
                     <div style="font-size:11px;color:${item.isRental ? '#2b8a3e' : '#d9480f'};font-weight:600;margin-top:2px;">
                       ${item.isRental ? '[THUÊ TRANG PHỤC]' : '[MUA MAY MỚI]'}
                     </div>
@@ -1491,7 +1808,8 @@ function renderCheckoutPage() {
   const rentTotal = getCartRentTotal();
   const depTotal = getCartDepositTotal();
   const memberDiscount = state.user ? Math.round(rentTotal * 0.05) : 0;
-  const grandTotal = rentTotal + depTotal - memberDiscount;
+  const voucherDiscount = state.appliedVoucherDiscount || 0;
+  const grandTotal = Math.max(0, rentTotal + depTotal - memberDiscount - voucherDiscount);
 
   main.innerHTML = `
     <div class="container" style="padding:40px 15px 80px;">
@@ -1499,27 +1817,27 @@ function renderCheckoutPage() {
         <h1 class="heading-title">THANH TOÁN & ĐẶT CỌC GIỮ LỊCH</h1>
       </div>
       <div style="display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:flex-start;">
-        <!-- Left: Customer and Delivery Form -->
+        <!-- Left: Customer Form and Clickwrap -->
         <form onsubmit="handleCheckoutSubmit(event)" style="border:1px solid #ebebeb;padding:28px;border-radius:8px;background:#fff;">
           <h3 style="font-size:16px;font-weight:700;color:#111;margin-bottom:18px;text-transform:uppercase;">1. Thông tin người thuê trang phục</h3>
           <div class="form-group">
-            <label>Họ và tên *</label>
-            <input type="text" id="chkName" class="form-input" required value="${state.user ? state.user.name : ""}" placeholder="Nhập họ và tên người thuê" />
+            <label>Họ và tên người thuê *</label>
+            <input type="text" id="chkName" class="form-input" required value="${state.user ? state.user.name : ""}" placeholder="Nhập họ và tên" />
           </div>
           <div class="form-group">
             <label>Số điện thoại (có Zalo) *</label>
-            <input type="tel" id="chkPhone" class="form-input" required value="${state.user ? state.user.phone || "" : ""}" placeholder="Số điện thoại để shop gọi hẹn giờ giao đồ" />
+            <input type="tel" id="chkPhone" class="form-input" required value="${state.user ? state.user.phone || "" : ""}" placeholder="Số điện thoại nhận hẹn giờ giao đồ" />
           </div>
           <div class="form-group">
-            <label>Email</label>
-            <input type="email" id="chkEmail" class="form-input" value="${state.user ? state.user.email : ""}" placeholder="Email nhận biên lai và lịch hoàn cọc" />
+            <label>Email nhận biên lai hoàn cọc</label>
+            <input type="email" id="chkEmail" class="form-input" value="${state.user ? state.user.email : ""}" placeholder="Email của bạn" />
           </div>
           <div class="form-group">
-            <label>Địa chỉ nhận đồ chi tiết *</label>
+            <label>Địa chỉ nhận trang phục tận nơi *</label>
             <input type="text" id="chkAddress" class="form-input" required placeholder="Số nhà, tên đường, Phường/Xã, Quận/Huyện, Tỉnh/Thành phố" />
           </div>
 
-          <h3 style="font-size:16px;font-weight:700;color:#111;margin:24px 0 16px;text-transform:uppercase;">2. Thông số để Nét Duyên hỗ trợ vừa in</h3>
+          <h3 style="font-size:16px;font-weight:700;color:#111;margin:24px 0 16px;text-transform:uppercase;">2. Thông số để Nét Duyên chỉnh eo tà vừa in</h3>
           <div class="form-group">
             <label>Ghi chú số đo người mặc (Chiều cao, Cân nặng, Vòng eo)</label>
             <input type="text" id="chkMeasurements" class="form-input" placeholder="Ví dụ: Nữ 1m62, 48kg, eo 66cm (Thợ may sẽ căn chỉnh trước khi giao)" />
@@ -1537,19 +1855,43 @@ function renderCheckoutPage() {
               <option value="STORE">Nhận áo & Cọc trực tiếp tại Showroom Nét Duyên</option>
             </select>
           </div>
-          <button type="submit" class="btn-primary" style="width:100%;margin-top:14px;padding:15px;font-size:15px;">
+
+          <!-- 4. CLICKWRAP AGREEMENT & LEGAL ELECTRONIC SIGNATURE -->
+          <div class="clickwrap-agreement-box">
+            <label class="clickwrap-checkbox-label">
+              <input type="checkbox" id="chkAgreeContract" required onchange="handleClickwrapChange()" />
+              <span>
+                Tôi xác nhận đã đọc, hiểu rõ và đồng ý với các điều khoản trong 
+                <a href="javascript:void(0)" onclick="openContractModal()" class="contract-link">
+                  Hợp đồng cho thuê trang phục & Quy chế hoàn trả tiền cọc
+                </a> 
+                của NÉT DUYÊN. Tôi xác nhận việc tích chọn này có giá trị pháp lý như Chữ ký điện tử của tôi.
+              </span>
+            </label>
+            <div class="electronic-signature-note">
+              <span class="sig-badge">CHỨNG THỰC ĐIỆN TỬ</span>
+              <span>Giao kết được mã hóa và lưu trữ cùng Mã đơn hàng theo Luật Giao dịch điện tử.</span>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            id="btnSubmitCheckout"
+            class="btn-primary"
+            style="width:100%;margin-top:14px;padding:15px;font-size:15px;font-weight:700;"
+          >
             Hoàn tất đặt lịch thuê (${formatVND(grandTotal)})
           </button>
         </form>
 
-        <!-- Right: Order Summary -->
+        <!-- Right: Order Summary & Voucher / Reward Points -->
         <div style="border:1px solid #ebebeb;padding:26px;background:#fafafa;border-radius:8px;">
           <h3 style="font-size:16px;font-weight:700;color:#111;margin-bottom:18px;text-transform:uppercase;">Tóm tắt đơn thuê (${getCartTotalCount()})</h3>
           ${state.cart.map(item => `
             <div style="display:flex;justify-content:space-between;gap:12px;margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #ebebeb;font-size:13px;">
               <div>
                 <div style="color:#111;font-weight:600;">${item.title} × ${item.qty}</div>
-                <div style="color:#666;font-size:11.5px;margin-top:2px;">Size: ${item.variantTitle}</div>
+                <div style="color:#666;font-size:11.5px;margin-top:2px;">Phân loại: ${item.variantTitle}</div>
                 ${item.isRental ? `
                   <div style="color:#2b8a3e;font-size:11px;margin-top:2px;">📅 ${item.startDate} ➔ ${item.endDate}</div>
                   <div style="color:#888;font-size:11px;">Cọc: ${formatVND(item.deposit)} (Hoàn lại)</div>
@@ -1560,6 +1902,21 @@ function renderCheckoutPage() {
               </div>
             </div>
           `).join("")}
+
+          <!-- Voucher & Loyalty Points Box -->
+          <div class="checkout-points-apply">
+            <label style="font-size:12.5px;font-weight:700;color:#111;display:block;margin-bottom:6px;">MÃ GIẢM GIÁ / VOUCHER:</label>
+            <div style="display:flex;gap:6px;margin-bottom:10px;">
+              <input type="text" id="voucherCodeInput" class="form-input" style="padding:8px 10px;text-transform:uppercase;" placeholder="Nhập mã (VD: NETDUYEN50)" value="${state.activePromoCode || ''}" />
+              <button type="button" class="btn-primary" style="padding:0 14px;font-size:12px;" onclick="applyVoucherCode()">Áp dụng</button>
+            </div>
+            ${state.user ? `
+              <label style="display:flex;align-items:center;gap:8px;font-size:12.5px;color:#b8621b;font-weight:600;cursor:pointer;">
+                <input type="checkbox" id="chkUseRewardPoints" ${state.usePointsDiscount ? 'checked' : ''} onchange="toggleUsePoints(this.checked)" />
+                <span>Dùng ${state.user.points || 0} Điểm Duyên tích lũy (Giảm ${formatVND((state.user.points || 0) * 500)})</span>
+              </label>
+            ` : ""}
+          </div>
 
           <div style="display:flex;justify-content:space-between;margin-bottom:8px;font-size:13.5px;">
             <span>Tiền thuê & Dịch vụ:</span>
@@ -1573,6 +1930,12 @@ function renderCheckoutPage() {
             <div style="display:flex;justify-content:space-between;margin-bottom:8px;font-size:13.5px;color:#2b8a3e;">
               <span>Ưu đãi Hội viên VIP (-5% thuê):</span>
               <span>−${formatVND(memberDiscount)}</span>
+            </div>
+          ` : ""}
+          ${voucherDiscount > 0 ? `
+            <div style="display:flex;justify-content:space-between;margin-bottom:8px;font-size:13.5px;color:#c92a2a;font-weight:600;">
+              <span>Giảm giá Voucher / Điểm Duyên:</span>
+              <span>−${formatVND(voucherDiscount)}</span>
             </div>
           ` : ""}
           <div style="display:flex;justify-content:space-between;margin-bottom:8px;font-size:13.5px;">
@@ -1592,12 +1955,70 @@ function renderCheckoutPage() {
   `;
 }
 
+function handleClickwrapChange() {
+  const chk = document.getElementById("chkAgreeContract");
+  const btn = document.getElementById("btnSubmitCheckout");
+  if (btn && chk) {
+    btn.style.opacity = chk.checked ? "1" : "0.7";
+  }
+}
+
+function applyVoucherCode() {
+  const inp = document.getElementById("voucherCodeInput");
+  if (!inp) return;
+  const code = inp.value.trim().toUpperCase();
+  if (code === "NETDUYEN50" || code === "DUYEN50K") {
+    state.activePromoCode = code;
+    state.appliedVoucherDiscount = 50000;
+    showToast("🎉 Đã áp dụng mã giảm giá 50.000₫ thành công!");
+    renderCheckoutPage();
+  } else if (code === "DUYEN100K") {
+    state.activePromoCode = code;
+    state.appliedVoucherDiscount = 100000;
+    showToast("🎉 Đã áp dụng mã giảm giá 100.000₫ thành công!");
+    renderCheckoutPage();
+  } else if (code === "DUYEN200K") {
+    state.activePromoCode = code;
+    state.appliedVoucherDiscount = 200000;
+    showToast("🎉 Đã áp dụng mã giảm giá 200.000₫ thành công!");
+    renderCheckoutPage();
+  } else {
+    showToast("⚠️ Mã giảm giá không hợp lệ hoặc đã hết hạn!");
+  }
+}
+
+function toggleUsePoints(isUse) {
+  state.usePointsDiscount = isUse;
+  if (isUse && state.user && state.user.points) {
+    state.appliedVoucherDiscount = (state.user.points || 0) * 500;
+    showToast(`Đã áp dụng ${state.user.points} Điểm Duyên giảm ${formatVND(state.appliedVoucherDiscount)}!`);
+  } else {
+    state.appliedVoucherDiscount = 0;
+  }
+  renderCheckoutPage();
+}
+
 function handleCheckoutSubmit(e) {
   e.preventDefault();
+
+  const agreeChk = document.getElementById("chkAgreeContract");
+  if (!agreeChk || !agreeChk.checked) {
+    showToast("⚠️ BẮT BUỘC: Bạn phải tick đồng ý Hợp đồng thuê trang phục trước khi đặt hàng!");
+    if (agreeChk) {
+      agreeChk.focus();
+      agreeChk.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    return;
+  }
+
   const rentTotal = getCartRentTotal();
   const depTotal = getCartDepositTotal();
   const memberDiscount = state.user ? Math.round(rentTotal * 0.05) : 0;
-  const grandTotal = rentTotal + depTotal - memberDiscount;
+  const voucherDiscount = state.appliedVoucherDiscount || 0;
+  const grandTotal = Math.max(0, rentTotal + depTotal - memberDiscount - voucherDiscount);
+
+  // Loyalty Points Earned: 1 point per 10,000 VND of rent
+  const earnedPoints = Math.max(10, Math.floor(rentTotal / 10000));
 
   const order = {
     id: "ND-" + Math.floor(100000 + Math.random() * 900000),
@@ -1613,20 +2034,36 @@ function handleCheckoutSubmit(e) {
     rentTotal: rentTotal,
     depositTotal: depTotal,
     total: grandTotal,
+    pointsEarned: earnedPoints,
+    clickwrapAgreed: true,
+    agreedAt: new Date().toISOString(),
+    contractCode: "HDDT-" + Math.floor(100000 + Math.random() * 900000),
     status: "Chờ xác nhận & chuẩn bị áo",
     rentalStatus: "Đang giữ đồ (Chờ hoàn cọc)"
   };
 
+  // Credit points to user account
+  if (state.user) {
+    if (state.usePointsDiscount) {
+      state.user.points = 0; // consumed
+    }
+    state.user.points = (state.user.points || 0) + earnedPoints;
+    saveUser();
+  }
+
   state.orders.unshift(order);
   saveOrders();
   state.cart = [];
+  state.appliedVoucherDiscount = 0;
+  state.usePointsDiscount = false;
   saveCart();
-  showToast(`Đặt lịch thuê thành công! Mã đơn: ${order.id}`);
+
+  showToast(`🎉 Đặt lịch thuê thành công! Mã đơn: ${order.id} (+ ${earnedPoints} Điểm Duyên)`);
   location.hash = "#account";
 }
 
 /* ==========================================================================
-   VIEW 5: CUSTOMER ACCOUNT & ORDERS (#account)
+   VIEW 5: CUSTOMER ACCOUNT, ORDERS & LOYALTY REWARDS (#account)
    ========================================================================== */
 function renderAccountView() {
   document.title = "Tài khoản hội viên – NÉT DUYÊN";
@@ -1638,7 +2075,7 @@ function renderAccountView() {
         <div class="auth-box">
           <h2>ĐĂNG NHẬP HỘI VIÊN</h2>
           <p style="font-size:13px;color:#666;margin-bottom:18px;text-align:center;">
-            Đăng nhập để theo dõi lịch sử thuê áo dài, tiến độ hoàn cọc và nhận ưu đãi giảm 5%.
+            Đăng nhập để theo dõi lịch sử thuê áo dài, tiến độ hoàn cọc và tích lũy Điểm Duyên đổi voucher.
           </p>
           <form onsubmit="handleAuthLogin(event)">
             <div class="form-group">
@@ -1653,7 +2090,7 @@ function renderAccountView() {
           </form>
           <div style="text-align:center;margin-top:16px;padding-top:16px;border-top:1px solid #ebebeb;">
             <p style="font-size:13px;margin-bottom:12px;">Chưa có tài khoản?</p>
-            <button type="button" class="btn-secondary" style="width:100%;" onclick="renderRegisterBox()">Tạo tài khoản Hội viên VIP</button>
+            <button type="button" class="btn-secondary" style="width:100%;" onclick="renderRegisterBox()">Tạo tài khoản Hội viên VIP (+100 Điểm)</button>
           </div>
         </div>
       </div>
@@ -1661,11 +2098,13 @@ function renderAccountView() {
     return;
   }
 
+  const userPoints = state.user.points || 0;
+
   main.innerHTML = `
     <div class="container" style="padding:40px 15px 80px;">
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:30px;padding-bottom:20px;border-bottom:1px solid #ebebeb;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid #ebebeb;">
         <div>
-          <h1 style="font-size:24px;font-weight:700;color:#111;text-transform:uppercase;">TÀI KHOẢN HỘI VIÊN</h1>
+          <h1 style="font-size:24px;font-weight:700;color:#111;text-transform:uppercase;">TÀI KHOẢN HỘI VIÊN NÉT DUYÊN</h1>
           <p style="font-size:13.5px;color:#555;margin:4px 0 0;">
             Xin chào <strong>${state.user.name}</strong> (${state.user.email}) — <span style="color:#2b8a3e;font-weight:600;">Hội viên VIP (-5% mọi đơn thuê)</span>
           </p>
@@ -1673,7 +2112,77 @@ function renderAccountView() {
         <button type="button" class="btn-secondary" onclick="handleLogout()">Đăng xuất</button>
       </div>
 
-      <h3 style="font-size:17px;font-weight:700;color:#111;margin-bottom:16px;text-transform:uppercase;">Lịch sử thuê áo & Đơn hàng (${state.orders.length})</h3>
+      <!-- LOYALTY REWARDS CARD (TÍCH ĐIỂM DUYÊN) -->
+      <div class="loyalty-card-box">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;">
+          <div>
+            <div style="font-size:12px;font-weight:700;letter-spacing:0.08em;color:#b8621b;text-transform:uppercase;">VÍ ĐIỂM THƯỞNG NÉT DUYÊN REWARDS</div>
+            <div class="loyalty-points-counter">
+              <span>✨ ${userPoints}</span>
+              <span style="font-size:16px;font-weight:600;color:#555;">Điểm Duyên</span>
+            </div>
+            <div style="font-size:12.5px;color:#666;margin-top:4px;">
+              Tương đương giá trị giảm trừ: <strong style="color:#b8621b;">${formatVND(userPoints * 500)}</strong> (Cứ 10.000₫ tiền thuê tích 1 điểm).
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn-primary" style="padding:10px 18px;font-size:13px;" onclick="location.hash='#collections/all'">
+              Thuê thêm tích điểm
+            </button>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;border-top:1px dashed #dec2a6;padding-top:14px;">
+          <div style="font-size:13px;font-weight:700;color:#111;margin-bottom:8px;">ĐỔI VOUCHER GIẢM GIÁ 1-CLICK:</div>
+          <div class="loyalty-reward-grid">
+            <div class="voucher-item-box">
+              <div style="font-weight:800;font-size:16px;color:#c92a2a;">VOUCHER 50.000₫</div>
+              <div style="font-size:11.5px;color:#666;margin:4px 0 10px;">Cần 100 Điểm Duyên</div>
+              <button
+                type="button"
+                class="btn-secondary"
+                style="padding:6px 12px;font-size:11.5px;width:100%;"
+                ${userPoints < 100 ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}
+                onclick="redeemVoucher(100, 50000, 'DUYEN50K')"
+              >
+                ${userPoints >= 100 ? 'Đổi voucher ngay' : 'Chưa đủ điểm'}
+              </button>
+            </div>
+
+            <div class="voucher-item-box">
+              <div style="font-weight:800;font-size:16px;color:#c92a2a;">VOUCHER 100.000₫</div>
+              <div style="font-size:11.5px;color:#666;margin:4px 0 10px;">Cần 200 Điểm Duyên</div>
+              <button
+                type="button"
+                class="btn-secondary"
+                style="padding:6px 12px;font-size:11.5px;width:100%;"
+                ${userPoints < 200 ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}
+                onclick="redeemVoucher(200, 100000, 'DUYEN100K')"
+              >
+                ${userPoints >= 200 ? 'Đổi voucher ngay' : 'Chưa đủ điểm'}
+              </button>
+            </div>
+
+            <div class="voucher-item-box">
+              <div style="font-weight:800;font-size:16px;color:#c92a2a;">VOUCHER 200.000₫</div>
+              <div style="font-size:11.5px;color:#666;margin:4px 0 10px;">Cần 350 Điểm Duyên</div>
+              <button
+                type="button"
+                class="btn-secondary"
+                style="padding:6px 12px;font-size:11.5px;width:100%;"
+                ${userPoints < 350 ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}
+                onclick="redeemVoucher(350, 200000, 'DUYEN200K')"
+              >
+                ${userPoints >= 350 ? 'Đổi voucher ngay' : 'Chưa đủ điểm'}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="font-size:17px;font-weight:700;color:#111;margin-bottom:16px;text-transform:uppercase;">
+        Lịch sử thuê áo & Giao kết điện tử (${state.orders.length})
+      </h3>
       ${state.orders.length === 0 ? `
         <div style="padding:30px;border:1px solid #ebebeb;border-radius:8px;text-align:center;color:#666;">
           <p style="margin-bottom:16px;">Bạn chưa có lịch thuê áo dài nào.</p>
@@ -1689,6 +2198,7 @@ function renderAccountView() {
               <th>Tiền thuê</th>
               <th>Cọc đảm bảo</th>
               <th>Tổng tiền</th>
+              <th>Xác thực HĐ</th>
               <th>Trạng thái cọc</th>
               <th>Trạng thái đơn</th>
             </tr>
@@ -1710,6 +2220,11 @@ function renderAccountView() {
                 <td style="font-weight:600;color:#d9480f;">${formatVND(o.depositTotal || 0)}</td>
                 <td style="font-weight:700;color:#c92a2a;">${formatVND(o.total)}</td>
                 <td>
+                  <span style="background:#f1f3f5;color:#495057;padding:3px 6px;border-radius:3px;font-size:10.5px;font-weight:700;" title="Đã ký giao kết điện tử">
+                    ✓ ${o.contractCode || "ĐÃ KÝ HĐ"}
+                  </span>
+                </td>
+                <td>
                   <span style="background:#fff9db;color:#d9480f;padding:4px 8px;border-radius:4px;font-size:11.5px;font-weight:600;">
                     ${o.rentalStatus || "Đang giữ đồ"}
                   </span>
@@ -1728,12 +2243,29 @@ function renderAccountView() {
   `;
 }
 
+function redeemVoucher(cost, discount, code) {
+  if (!state.user || (state.user.points || 0) < cost) {
+    showToast("⚠️ Bạn chưa đủ Điểm Duyên để đổi mã này!");
+    return;
+  }
+  state.user.points -= cost;
+  if (!state.user.vouchers) state.user.vouchers = [];
+  state.user.vouchers.push(code);
+  saveUser();
+  state.activePromoCode = code;
+  showToast(`🎉 Đổi thành công mã ${code} (Giảm ${formatVND(discount)})! Mã đã được lưu vào giỏ hàng.`);
+  renderAccountView();
+}
+
 function renderRegisterBox() {
   const main = document.getElementById("MainContent");
   main.innerHTML = `
     <div class="container">
       <div class="auth-box">
         <h2>ĐĂNG KÝ HỘI VIÊN VIP</h2>
+        <p style="font-size:13px;color:#2b8a3e;font-weight:600;margin-bottom:16px;text-align:center;">
+          🎁 Nhận ngay 100 Điểm Duyên (trị giá 50.000₫) khi đăng ký hôm nay!
+        </p>
         <form onsubmit="handleAuthRegister(event)">
           <div class="form-group">
             <label>Họ và tên *</label>
@@ -1751,7 +2283,7 @@ function renderRegisterBox() {
             <label>Mật khẩu *</label>
             <input type="password" id="regPass" class="form-input" required placeholder="Mật khẩu" />
           </div>
-          <button type="submit" class="btn-primary" style="width:100%;margin-bottom:12px;">Đăng ký ngay</button>
+          <button type="submit" class="btn-primary" style="width:100%;margin-bottom:12px;">Đăng ký ngay & Nhận 100 Điểm</button>
         </form>
         <div style="text-align:center;margin-top:16px;">
           <button type="button" class="btn-secondary" style="width:100%;" onclick="renderAccountView()">Quay lại Đăng nhập</button>
@@ -1767,7 +2299,9 @@ function handleAuthLogin(e) {
   state.user = {
     name: email.split("@")[0].toUpperCase() || "Khách Hàng VIP",
     email: email,
-    phone: "0363860055"
+    phone: "0363860055",
+    points: 150,
+    vouchers: ["NETDUYEN50"]
   };
   saveUser();
   showToast(`Đăng nhập thành công! Chào mừng ${state.user.name}`);
@@ -1779,10 +2313,12 @@ function handleAuthRegister(e) {
   state.user = {
     name: document.getElementById("regName").value.trim(),
     phone: document.getElementById("regPhone").value.trim(),
-    email: document.getElementById("regEmail").value.trim()
+    email: document.getElementById("regEmail").value.trim(),
+    points: 100, // Welcome gift
+    vouchers: ["NETDUYEN50"]
   };
   saveUser();
-  showToast(`Đăng ký thành công! Chào mừng ${state.user.name}`);
+  showToast(`🎉 Đăng ký thành công! Bạn nhận được 100 Điểm Duyên chào mừng!`);
   renderAccountView();
 }
 
@@ -1879,7 +2415,7 @@ function renderPolicyView(slug) {
 }
 
 /* ==========================================================================
-   MODALS: SIZE GUIDE & IMAGE ZOOM
+   MODALS: SIZE GUIDE, IMAGE ZOOM, CONTRACT MODAL
    ========================================================================== */
 function openSizeGuideModal() {
   const box = document.getElementById("ddModalBox");
@@ -1956,11 +2492,94 @@ function openImageZoomModal(imgUrl, title) {
   backdrop.classList.add("open");
 }
 
+function openContractModal() {
+  const box = document.getElementById("ddModalBox");
+  const content = document.getElementById("ddModalContent");
+  const backdrop = document.getElementById("ddModalBackdrop");
+  if (!box || !content || !backdrop) return;
+
+  box.style.maxWidth = "680px";
+  content.innerHTML = `
+    <div style="padding:15px;max-height:80vh;overflow-y:auto;font-size:13.5px;line-height:1.7;color:#333;">
+      <div style="text-align:center;margin-bottom:18px;border-bottom:1px solid #e0e0e0;padding-bottom:14px;">
+        <div style="font-size:11px;font-weight:700;color:#666;letter-spacing:0.06em;">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</div>
+        <div style="font-size:11px;color:#666;margin-bottom:8px;">Độc lập - Tự do - Hạnh phúc</div>
+        <h2 style="font-size:18px;font-weight:800;color:#111;margin:6px 0;">HỢP ĐỒNG CHO THUÊ TRANG PHỤC & BIÊN BẢN ĐẶT CỌC ĐIỆN TỬ</h2>
+        <div style="font-size:11.5px;color:#c92a2a;font-weight:600;">Mã hợp đồng: HDDT-NETDUYEN-2026</div>
+      </div>
+
+      <p><strong>BÊN CHO THUÊ (BÊN A):</strong> NÉT DUYÊN TRADITIONAL COSTUMES<br/>
+      Hotline: 0363 860 055 | Email: contact@netduyen.vn<br/>
+      Địa chỉ Showroom: Hệ thống phân phối Nét Duyên toàn quốc.</p>
+
+      <p><strong>BÊN THUÊ (BÊN B):</strong> Khách hàng đặt đơn thuê trực tuyến trên website <em>netduyen.vercel.app</em> theo thông tin đăng ký tại bước Thanh toán.</p>
+
+      <h4 style="font-size:14px;font-weight:700;color:#111;margin:16px 0 6px;">ĐIỀU 1: ĐỐI TƯỢNG HỢP ĐỒNG & THỜI HẠN THUÊ</h4>
+      <p>- Bên A đồng ý cho Bên B thuê trang phục (Áo Dài/Cổ Phục/Phụ kiện) theo danh mục đơn hàng.<br/>
+      - Thời hạn thuê tiêu chuẩn: <strong>03 ngày 02 đêm</strong> tính từ ngày nhận trang phục đến ngày giao trả đồ.<br/>
+      - Nếu Bên B muốn gia hạn, phụ phí là 50.000₫/ngày (Áo dài đơn) hoặc 100.000₫/ngày (Áo cưới cặp/Cổ phục).</p>
+
+      <h4 style="font-size:14px;font-weight:700;color:#111;margin:16px 0 6px;">ĐIỀU 2: TIỀN ĐẶT CỌC & CAM KẾT HOÀN TRẢ 100%</h4>
+      <p>- Khoản tiền đặt cọc tương ứng với từng sản phẩm được ghi nhận trên hệ thống và tách bạch trong hóa đơn thanh toán.<br/>
+      - <strong>Cam kết hoàn cọc 100%:</strong> Bên A cam kết hoàn trả đầy đủ 100% khoản cọc vào tài khoản ngân hàng của Bên B trong vòng <strong>02 giờ làm việc</strong> kể từ khi nhận lại trang phục nguyên vẹn.</p>
+
+      <h4 style="font-size:14px;font-weight:700;color:#111;margin:16px 0 6px;">ĐIỀU 3: TRÁCH NHIỆM BẢO QUẢN & GIẶT HẤP</h4>
+      <p>- 100% chi phí giặt hấp diệt khuẩn và ủi phẳng chuẩn studio do Bên A tài trợ.<br/>
+      - Bên B <strong>tuyệt đối không tự ý giặt bằng máy giặt gia đình hoặc sử dụng chất tẩy mạnh</strong>.<br/>
+      - Trường hợp rách nát, cháy xém hoặc ố màu không thể phục hồi, Bên B chịu phí khắc phục theo giá trị may mới.</p>
+
+      <h4 style="font-size:14px;font-weight:700;color:#111;margin:16px 0 6px;">ĐIỀU 4: HIỆU LỰC GIAO KẾT ĐIỆN TỬ</h4>
+      <p>- Hợp đồng này được xác lập bằng phương thức điện tử tuân thủ Luật Giao dịch điện tử số 20/2023/QH15 và Nghị định 52/2013/NĐ-CP.<br/>
+      - Thao tác tick chọn <em>"Tôi đã đọc, hiểu và đồng ý"</em> của Bên B có giá trị pháp lý ràng buộc tương đương chữ ký tay.</p>
+
+      <div style="text-align:center;margin-top:20px;padding-top:14px;border-top:1px solid #e0e0e0;">
+        <button type="button" class="btn-primary" style="padding:12px 28px;font-weight:700;" onclick="acceptContractFromModal()">
+          ✓ TÔI ĐÃ HIỂU VÀ ĐỒNG Ý KÝ KẾT ĐIỆN TỬ
+        </button>
+      </div>
+    </div>
+  `;
+  backdrop.classList.add("open");
+}
+
+function acceptContractFromModal() {
+  const chk = document.getElementById("chkAgreeContract");
+  if (chk) {
+    chk.checked = true;
+    handleClickwrapChange();
+  }
+  closeDdModal();
+  showToast("✓ Đã xác thực Chữ ký điện tử cho Hợp đồng thuê trang phục!");
+}
+
 function closeDdModal() {
   const backdrop = document.getElementById("ddModalBackdrop");
   if (backdrop) backdrop.classList.remove("open");
 }
 const closeDDModal = closeDdModal;
+
+/* ==========================================================================
+   WELCOME PROMO POPUP & FLOATING GIFT
+   ========================================================================== */
+function openPromoPopup() {
+  const popup = document.getElementById("promoPopupBackdrop");
+  if (popup) popup.classList.add("open");
+}
+
+function closePromoPopup(dontShowAgain = false) {
+  const popup = document.getElementById("promoPopupBackdrop");
+  if (popup) popup.classList.remove("open");
+  if (dontShowAgain) {
+    sessionStorage.setItem(STORAGE_KEYS.PROMO_SEEN, "true");
+  }
+}
+
+function copyPromoCode(code) {
+  navigator.clipboard.writeText(code).catch(() => {});
+  state.activePromoCode = code;
+  state.appliedVoucherDiscount = 50000;
+  showToast(`🎉 Đã sao chép mã ${code}! Đã tự động áp dụng giảm 50.000₫ tại giỏ hàng.`);
+}
 
 /* ==========================================================================
    LIVE CHAT WIDGET
@@ -2001,6 +2620,14 @@ function handleRoute() {
 
   if (hash === "#home" || hash === "#/" || hash === "") {
     renderHomeView();
+    // Trigger welcome promo popup once per session after 1.2s
+    if (!sessionStorage.getItem(STORAGE_KEYS.PROMO_SEEN)) {
+      setTimeout(() => {
+        if (location.hash === "#home" || location.hash === "#/" || !location.hash) {
+          openPromoPopup();
+        }
+      }, 1200);
+    }
   } else if (hash.startsWith("#collections/")) {
     const slug = hash.replace("#collections/", "").split("?")[0] || "all";
     if (slug !== state.collectionSlug) state.currentPage = 1;

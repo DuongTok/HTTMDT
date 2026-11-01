@@ -355,6 +355,44 @@
     <span id="ddToastText">Đã thêm vào giỏ hàng!</span>
   </div>
 
+  <!-- 10. FLOATING GIFT PROMO BUTTON & WELCOME POPUP -->
+  <div class="promo-floating-gift-btn" onclick="openPromoPopup()" title="Xem ưu đãi hôm nay">
+    <span>🎁</span> <span>Ưu đãi hôm nay</span>
+  </div>
+
+  <div class="promo-popup-backdrop" id="promoPopupBackdrop" onclick="if(event.target===this)closePromoPopup()">
+    <div class="promo-popup-card">
+      <button type="button" class="promo-popup-close-btn" onclick="closePromoPopup()">&times;</button>
+      <div class="promo-popup-header-banner">
+        <span style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:#d4af37;background:rgba(212,175,55,0.15);padding:3px 10px;border-radius:12px;">ĐẶC QUYỀN HÔM NAY</span>
+        <h2 style="font-size:22px;font-weight:800;margin:10px 0 6px;line-height:1.3;">ƯU ĐÃI THUÊ ÁO DÀI NÉT DUYÊN</h2>
+        <p style="font-size:13px;color:#ccc;margin:0;">Giảm ngay 50.000₫ cho đơn thuê đầu tiên hoặc tặng kèm set mấn phụ kiện</p>
+      </div>
+      <div style="padding:22px 24px 26px;">
+        <div class="promo-voucher-box">
+          <div>
+            <div style="font-size:11px;color:#666;font-weight:600;">MÃ GIẢM GIÁ 50.000₫:</div>
+            <div class="promo-voucher-code" id="promovoucherText">NETDUYEN50</div>
+          </div>
+          <button type="button" class="btn-copy-code" onclick="copyPromoCode('NETDUYEN50')">Sao chép mã</button>
+        </div>
+        <ul style="font-size:12.5px;color:#555;padding-left:18px;margin-bottom:20px;line-height:1.7;">
+          <li>Áp dụng cho tất cả mẫu Áo Dài Nữ, Nam, Cổ Phục và Áo Cưới Cặp.</li>
+          <li>Miễn phí 100% chi phí giặt hấp chuẩn studio và khử khuẩn.</li>
+          <li>Hoàn trả 100% tiền cọc nhanh chóng trong 2 giờ khi nhận lại đồ.</li>
+        </ul>
+        <button type="button" class="btn-primary" style="width:100%;padding:14px;font-size:14px;font-weight:700;" onclick="closePromoPopup(); location.hash='#collections/all'">
+          KHÁM PHÁ BỘ SƯU TẬP MỚI NGAY
+        </button>
+        <div style="text-align:center;margin-top:12px;">
+          <button type="button" class="btn-reset" style="font-size:12px;color:#888;text-decoration:underline;" onclick="closePromoPopup(true)">
+            Không hiển thị lại trong hôm nay
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
