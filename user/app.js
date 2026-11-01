@@ -2658,14 +2658,100 @@ window.addEventListener("click", () => {
   if (box) box.classList.remove("open");
 });
 
-window.addEventListener("scroll", () => {
+/* ==========================================================================
+   NAVIGATION BAR COLLAPSE & AUTO-HIDE CONTROLS
+   ========================================================================== */
+function toggleNavManualCollapse() {
   const hdr = document.getElementById("page-header");
-  if (hdr) {
-    hdr.classList.toggle("is-sticky", window.scrollY > 50);
+  const btn = document.getElementById("navCollapseToggleBtn");
+  if (!hdr) return;
+  const isCollapsed = hdr.classList.toggle("is-collapsed");
+  if (btn) {
+    btn.innerHTML = isCollapsed ? "<span>⌄ Hiện menu</span>" : "<span>⌃ Thu gọn</span>";
+    btn.title = isCollapsed ? "Mở rộng thanh menu điều hướng" : "Thu gọn menu để tăng diện tích hiển thị";
   }
-});
+  localStorage.setItem("netduyen_nav_collapsed", isCollapsed ? "true" : "false");
+  showToast(isCollapsed ? "Đã thu gọn menu để tối ưu không gian xem áo dài." : "Đã mở lại đầy đủ thanh menu điều hướng.");
+}
+
+function dismissFloatingGift(e) {
+  if (e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+  const wrap = document.getElementById("promoFloatingWrap");
+  if (wrap) {
+    wrap.classList.add("hidden");
+    setTimeout(() => {
+      wrap.style.display = "none";
+    }, 250);
+  }
+  localStorage.setItem("netduyen_hide_promo_pill", "true");
+  showToast("Đã ẩn nút ưu đãi hôm nay. Bạn có thể mở lại trong danh mục Ưu Đãi.");
+}
+
+function initHeaderAndPillState() {
+  // Restore collapsed header state if previously set
+  if (localStorage.getItem("netduyen_nav_collapsed") === "true") {
+    const hdr = document.getElementById("page-header");
+    const btn = document.getElementById("navCollapseToggleBtn");
+    if (hdr) hdr.classList.add("is-collapsed");
+    if (btn) {
+      btn.innerHTML = "<span>⌄ Hiện menu</span>";
+      btn.title = "Mở rộng thanh menu điều hướng";
+    }
+  }
+
+  // Restore dismissed promo floating pill state
+  if (localStorage.getItem("netduyen_hide_promo_pill") === "true") {
+    const wrap = document.getElementById("promoFloatingWrap");
+    if (wrap) wrap.style.display = "none";
+  }
+}
+
+// Expose to window for inline HTML onclick handlers
+if (typeof window !== "undefined") {
+  window.toggleNavManualCollapse = toggleNavManualCollapse;
+  window.dismissFloatingGift = dismissFloatingGift;
+  window.initHeaderAndPillState = initHeaderAndPillState;
+}
+
+let lastScrollY = typeof window !== "undefined" ? (window.scrollY || 0) : 0;
+let scrollTicking = false;
+
+window.addEventListener("scroll", () => {
+  if (!scrollTicking) {
+    window.requestAnimationFrame(() => {
+      const currentScrollY = window.scrollY || 0;
+      const hdr = document.getElementById("page-header");
+      const topbar = document.getElementById("shopify-section-top-bar");
+
+      if (hdr) {
+        hdr.classList.toggle("is-sticky", currentScrollY > 50);
+
+        // Smart auto-hide: scroll down hides navigation; scroll up reveals navigation
+        if (currentScrollY > 120 && currentScrollY - lastScrollY > 6) {
+          // Scrolling down
+          hdr.classList.add("header-hidden");
+          if (topbar) topbar.classList.add("topbar-hidden");
+        } else if (lastScrollY - currentScrollY > 6 || currentScrollY <= 60) {
+          // Scrolling up or near top
+          hdr.classList.remove("header-hidden");
+          if (currentScrollY <= 60 && topbar) {
+            topbar.classList.remove("topbar-hidden");
+          }
+        }
+      }
+
+      lastScrollY = Math.max(0, currentScrollY);
+      scrollTicking = false;
+    });
+    scrollTicking = true;
+  }
+}, { passive: true });
 
 document.addEventListener("DOMContentLoaded", () => {
+  initHeaderAndPillState();
   updateCartUI();
   updateAuthTopbar();
   handleRoute();

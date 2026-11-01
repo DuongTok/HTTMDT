@@ -138,8 +138,13 @@
           </nav>
         </div>
 
-        <!-- Right Icons (Search, Account, Minicart) -->
+        <!-- Right Icons (Search, Account, Minicart & Nav Collapse Toggle) -->
         <div class="col-header-right">
+          <!-- Toggle Collapse / Expand Nav Button -->
+          <button type="button" class="btn-reset nav-collapse-toggle-btn" id="navCollapseToggleBtn" onclick="toggleNavManualCollapse()" title="Thu gọn / Mở rộng menu điều hướng">
+            <span>⌃ Thu gọn</span>
+          </button>
+
           <!-- Search button -->
           <button class="btn-reset header-icon" onclick="openSearchPopup()" aria-label="Tìm kiếm" title="Tìm kiếm">
             <svg width="17" height="17" viewBox="0 0 17 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -355,9 +360,12 @@
     <span id="ddToastText">Đã thêm vào giỏ hàng!</span>
   </div>
 
-  <!-- 10. FLOATING GIFT PROMO BUTTON & WELCOME POPUP -->
-  <div class="promo-floating-gift-btn" onclick="openPromoPopup()" title="Xem ưu đãi hôm nay">
-    <span>🎁</span> <span>Ưu đãi hôm nay</span>
+  <!-- 10. FLOATING GIFT PROMO BUTTON & WELCOME POPUP (DISMISSIBLE) -->
+  <div class="promo-floating-gift-wrap" id="promoFloatingWrap">
+    <div class="promo-floating-gift-btn" onclick="openPromoPopup()" title="Xem ưu đãi hôm nay">
+      <span>🎁</span> <span>Ưu đãi hôm nay</span>
+    </div>
+    <button type="button" class="promo-floating-dismiss-btn" onclick="dismissFloatingGift(event)" title="Ẩn nút này">&times;</button>
   </div>
 
   <div class="promo-popup-backdrop" id="promoPopupBackdrop" onclick="if(event.target===this)closePromoPopup()">

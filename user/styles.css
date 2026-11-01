@@ -2818,9 +2818,9 @@ button, input, select, textarea {
 }
 
 .promo-floating-gift-btn {
-  position: fixed;
-  bottom: 24px;
-  left: 24px;
+  position: relative;
+  bottom: auto;
+  left: auto;
   background: #111111;
   color: #ffffff;
   padding: 10px 18px;
@@ -2890,4 +2890,118 @@ button, input, select, textarea {
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 18px;
+}
+
+
+/* ==========================================================================
+   SLIM NAVIGATION, AUTO-HIDE ON SCROLL & COLLAPSE CONTROLS
+   ========================================================================== */
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, min-height 0.25s ease;
+  will-change: transform;
+}
+
+.page-header.header-hidden {
+  transform: translateY(-100%);
+  box-shadow: none;
+}
+
+.topbar {
+  transition: transform 0.3s ease, opacity 0.3s ease, max-height 0.3s ease;
+  max-height: 50px;
+}
+
+.topbar.topbar-hidden {
+  opacity: 0;
+  transform: translateY(-100%);
+  max-height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.header-middle {
+  min-height: 56px;
+  transition: min-height 0.25s ease, padding 0.2s ease;
+}
+
+.page-header.is-sticky .header-middle {
+  min-height: 50px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.page-header.is-sticky .brand-logo-slogan {
+  display: none;
+}
+
+.page-header.is-collapsed .col-header-center {
+  display: none;
+}
+
+.page-header.is-collapsed .header-middle {
+  min-height: 44px;
+}
+
+.nav-collapse-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #f5f5f5;
+  border: 1px solid #e2e2e2;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #555555;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: all 0.2s ease;
+}
+
+.nav-collapse-toggle-btn:hover {
+  background: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
+/* Floating promo dismiss wrapper */
+.promo-floating-gift-wrap {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 998;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.promo-floating-gift-wrap.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+}
+
+.promo-floating-dismiss-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(17, 17, 17, 0.85);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.promo-floating-dismiss-btn:hover {
+  background: #c92a2a;
+  transform: scale(1.1);
 }

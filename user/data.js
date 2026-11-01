@@ -1,25 +1,269 @@
 // ==========================================================================
 // CƠ SỞ DỮ LIỆU SẢN PHẨM CHO THUÊ — NÉT DUYÊN (data.js)
 // Slogan: "Giữ nét Việt, trọn nét duyên."
-// Đa dạng nguồn: Dingdang, La Hang Design, Quyên Nguyễn Bridal, Cổ Phục Cung Đình, Phụ kiện
+// Catalog tuyển chọn 100% chuẩn Áo Dài, Áo Cưới Cặp, Cổ Phục & Phụ Kiện
 // ==========================================================================
 
-let NETDUYEN_PRODUCTS = [
+var NETDUYEN_PRODUCTS = [
   {
-    "id": 9300000001,
-    "handle": "set-ao-cuoi-cap-song-hy-long-phung",
-    "title": "SET ÁO CƯỚI CẶP ĐÔI LONG PHỤNG SUM VẦY (2 ÁO)",
+    "id": 9400000011,
+    "handle": "set-phu-kien-co-phuc-man-nhung-quat-lua-kieng-bac",
+    "title": "COMBO PHỤ KIỆN HOÀNG CUNG (MẤN NGỌC + QUẠT LỤA + KIỀNG BẠC)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Cưới Cặp",
-    "rent_price": 850000,
-    "deposit": 1800000,
-    "price": 5800000,
-    "compare_at_price": 6800000,
+    "product_type": "Phụ kiện",
+    "rent_price": 120000,
+    "deposit": 400000,
+    "buy_price": 1150000,
+    "price": 120000,
+    "compare_at_price": 1400000,
     "images": [
-      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
-      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197"
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/AodaiBachNgocHoaPhung_aokhoacAnhMai_3.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05824.jpg?v=1792811197"
     ],
     "options": [
+      {
+        "name": "Màu Sắc Mấn Đi Kèm",
+        "values": [
+          "Đỏ Nhung Hoàng Gia",
+          "Kem Bạch Ngọc",
+          "Xanh Cung Đình"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 940111,
+        "title": "Đỏ Nhung Hoàng Gia",
+        "option1": "Đỏ Nhung Hoàng Gia",
+        "price": 120000,
+        "available": true
+      },
+      {
+        "id": 940112,
+        "title": "Kem Bạch Ngọc",
+        "option1": "Kem Bạch Ngọc",
+        "price": 120000,
+        "available": true
+      },
+      {
+        "id": 940113,
+        "title": "Xanh Cung Đình",
+        "option1": "Xanh Cung Đình",
+        "price": 120000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "phu-kien",
+      "all"
+    ],
+    "body_html": "<p>Trọn bộ 3 phụ kiện đỉnh cao nâng tầm trang phục Áo Dài và Cổ Phục. Mấn nhung đính ngọc trai tinh xảo, quạt lụa tròn thủy mặc cổ phong và kiềng bạc chạm hoa mai truyền thống.</p>"
+  },
+  {
+    "id": 9100000013,
+    "handle": "ao-dai-nam-ngu-than-lap-linh-lua-to-tam",
+    "title": "ÁO DÀI NAM NGŨ THÂN LẬP LĨNH LỤA TƠ TẰM HÀ ĐÔNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Dài Nam",
+    "rent_price": 410000,
+    "deposit": 900000,
+    "buy_price": 2800000,
+    "price": 410000,
+    "compare_at_price": 3300000,
+    "images": [
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/10_MRL08522-logo-900x1350.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/9_MRL08394-logo-900x1350.jpg",
+      "https://quyennguyen.vn/wp-content/uploads/2026/10/8_MRL08309-logo-900x1350.jpg"
+    ],
+    "options": [
+      {
+        "name": "Màu Sắc Áo Nam",
+        "values": [
+          "Xanh Cổ Vịt Sang Trọng",
+          "Đỏ Đô Chú Rể",
+          "Gấm Đen Quý Phái"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 910131,
+        "title": "Xanh Cổ Vịt Sang Trọng / M",
+        "option1": "Xanh Cổ Vịt Sang Trọng",
+        "price": 410000,
+        "available": true
+      },
+      {
+        "id": 910132,
+        "title": "Đỏ Đô Chú Rể / L",
+        "option1": "Đỏ Đô Chú Rể",
+        "price": 410000,
+        "available": true
+      },
+      {
+        "id": 910133,
+        "title": "Gấm Đen Quý Phái / XL",
+        "option1": "Gấm Đen Quý Phái",
+        "price": 410000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-dai-nam",
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Phom dáng áo dài ngũ thân truyền thống với 5 thân áo và 5 hạt khuy kim loại cài chéo bên phải, tượng trưng cho Ngũ Thường (Nhân, Lễ, Nghĩa, Trí, Tín). Đĩnh đạc và tôn nghiêm.</p>"
+  },
+  {
+    "id": 9200000012,
+    "handle": "co-phuc-ao-tac-tay-thung-xanh-thien-thanh-lua-to",
+    "title": "ÁO TẤC TAY THỤNG QUÝ TỘC SẮC XANH THIÊN THANH",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Cổ Phục",
+    "rent_price": 520000,
+    "deposit": 1100000,
+    "buy_price": 3600000,
+    "price": 520000,
+    "compare_at_price": 4200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/M_u_on_Tr_m_Hoa___Kho_c_H_ng_H_2.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/M_u_on_Tr_m_Hoa___Kho_c_H_ng_H_1.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Phân Loại Màu",
+        "values": [
+          "Xanh Thiên Thanh",
+          "Hồng Sa Cát"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 920121,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "price": 520000,
+        "available": true
+      },
+      {
+        "id": 920122,
+        "title": "Hồng Sa Cát / M",
+        "option1": "Hồng Sa Cát",
+        "price": 520000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "co-phuc",
+      "all"
+    ],
+    "body_html": "<p>Áo Tấc tay thụng tay rộng bồng bềnh, chất liệu lụa tơ sa cát thoáng nhẹ, tôn lên phong thái đoan trang đài các của thiếu nữ thời xưa.</p>"
+  },
+  {
+    "id": 9200000011,
+    "handle": "co-phuc-nhat-binh-hoang-hau-vang-chinh-sac",
+    "title": "CỔ PHỤC ÁO NHẬT BÌNH CHÍNH SẮC HOÀNG HẬU TRIỀU NGUYỄN",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Cổ Phục",
+    "rent_price": 650000,
+    "deposit": 1500000,
+    "buy_price": 4800000,
+    "price": 650000,
+    "compare_at_price": 5800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05858.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05856.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05829.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Bản Màu Cổ Phục",
+        "values": [
+          "Vàng Hoàng Triều Chính Sắc",
+          "Đỏ Hỷ Sự Cung Đình",
+          "Xanh Thiên Thanh Ngũ Phúc"
+        ]
+      },
+      {
+        "name": "Kích Thước",
+        "values": [
+          "Freesize (45-65kg)"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 920111,
+        "title": "Vàng Hoàng Triều Chính Sắc / Freesize",
+        "option1": "Vàng Hoàng Triều Chính Sắc",
+        "price": 650000,
+        "available": true
+      },
+      {
+        "id": 920112,
+        "title": "Đỏ Hỷ Sự Cung Đình / Freesize",
+        "option1": "Đỏ Hỷ Sự Cung Đình",
+        "price": 650000,
+        "available": true
+      },
+      {
+        "id": 920113,
+        "title": "Xanh Thiên Thanh Ngũ Phúc / Freesize",
+        "option1": "Xanh Thiên Thanh Ngũ Phúc",
+        "price": 650000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "co-phuc",
+      "all",
+      "special-deals"
+    ],
+    "body_html": "<p>Tái bản nguyên mẫu Áo Nhật Bình triều Nguyễn với hoa văn ngũ sắc, cổ viền thêu phượng và dải ngũ hành cát tường. Trọn gói thuê kèm mấn nhung đính ngọc và quạt lụa tròn.</p>"
+  },
+  {
+    "id": 9300000012,
+    "handle": "set-ao-cuoi-cap-uyen-uong-giao-hoa-trang-tinh-khoi",
+    "title": "SET ÁO CƯỚI CẶP UYÊN ƯƠNG BẠCH HẠC LIÊN HOA (TRẮNG KEM)",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 820000,
+    "deposit": 1600000,
+    "buy_price": 5600000,
+    "price": 820000,
+    "compare_at_price": 6500000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/AodaiBachNgocHoaPhung_aokhoacAnhMai_3.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/AodaiBachNgocHoaPhung_aokhoacAnhMai_1.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05856.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Màu Sắc",
+        "values": [
+          "Trắng Sữa Ánh Mai",
+          "Kem Ngà Thêu Hoa Sen"
+        ]
+      },
       {
         "name": "Size Cô Dâu",
         "values": [
@@ -39,15 +283,17 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 930001,
-        "title": "Cô dâu S / Chú rể L",
-        "price": 850000,
+        "id": 930121,
+        "title": "Trắng Sữa Ánh Mai / S / L",
+        "option1": "Trắng Sữa Ánh Mai",
+        "price": 820000,
         "available": true
       },
       {
-        "id": 930002,
-        "title": "Cô dâu M / Chú rể XL",
-        "price": 850000,
+        "id": 930122,
+        "title": "Kem Ngà Thêu Hoa Sen / M / XL",
+        "option1": "Kem Ngà Thêu Hoa Sen",
+        "price": 820000,
         "available": true
       }
     ],
@@ -55,7 +301,186 @@ let NETDUYEN_PRODUCTS = [
       "ao-cuoi-cap",
       "all"
     ],
-    "body_html": "<p>Bộ đôi áo dài cưới cô dâu & chú rể thêu tay rồng phượng đồng điệu. Cô dâu dáng suông tà kép lộng lẫy, chú rể phom đứng kiên nghị uy dũng.</p>"
+    "body_html": "<p>Chất liệu lụa satin phối tơ sống cao cấp nhập khẩu, sắc trắng kem thanh tao thuần khiết cho buổi lễ thành hôn trang trọng.</p>"
+  },
+  {
+    "id": 9300000011,
+    "handle": "set-ao-cuoi-cap-song-hy-lam-mon-do-vang",
+    "title": "SET ÁO CƯỚI CẶP ĐÔI SONG HỶ LÂM MÔN THÊU TAY HOÀNG KIM",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 880000,
+    "deposit": 1800000,
+    "buy_price": 6200000,
+    "price": 880000,
+    "compare_at_price": 7200000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05626.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05629.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Bản Phối Màu",
+        "values": [
+          "Đỏ Hoàng Gia Thêu Rồng Phượng",
+          "Trắng Bạch Ngọc Điểm Kim",
+          "Hồng Hỷ Ăn Hỏi"
+        ]
+      },
+      {
+        "name": "Size Cô Dâu",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Size Chú Rể",
+        "values": [
+          "M",
+          "L",
+          "XL",
+          "XXL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 930111,
+        "title": "Đỏ Hoàng Gia Thêu Rồng Phượng / S / L",
+        "option1": "Đỏ Hoàng Gia Thêu Rồng Phượng",
+        "option2": "S",
+        "price": 880000,
+        "available": true
+      },
+      {
+        "id": 930112,
+        "title": "Trắng Bạch Ngọc Điểm Kim / M / XL",
+        "option1": "Trắng Bạch Ngọc Điểm Kim",
+        "option2": "M",
+        "price": 880000,
+        "available": true
+      },
+      {
+        "id": 930113,
+        "title": "Hồng Hỷ Ăn Hỏi / S / M",
+        "option1": "Hồng Hỷ Ăn Hỏi",
+        "option2": "S",
+        "price": 880000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "all",
+      "special-deals"
+    ],
+    "body_html": "<p>Bộ đôi trang phục cưới cặp biểu trưng cho tình duyên son sắt trăm năm. Cô dâu dáng suông tà kép lộng lẫy thêu phượng hoàng ánh mai, chú rể dáng đứng kiên nghị thêu song long uy dũng. Miễn phí giặt hấp diệt khuẩn và chỉnh số đo trước khi giao.</p>"
+  },
+  {
+    "id": 9300000001,
+    "handle": "set-ao-cuoi-cap-song-hy-long-phung",
+    "title": "SET ÁO CƯỚI CẶP ĐÔI LONG PHỤNG SUM VẦY (2 ÁO)",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Áo Cưới Cặp",
+    "rent_price": 850000,
+    "deposit": 1800000,
+    "price": 5800000,
+    "compare_at_price": 6800000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
+      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197"
+    ],
+    "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
+        "name": "Size Cô Dâu",
+        "values": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      {
+        "name": "Size Chú Rể",
+        "values": [
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 11,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
+        "price": 850000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 12,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
+        "price": 850000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 13,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 850000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 14,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 850000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 15,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 850000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 16,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 850000,
+        "image_index": 1,
+        "available": true
+      }
+    ],
+    "collections": [
+      "ao-cuoi-cap",
+      "all"
+    ],
+    "body_html": "<p>Bộ đôi áo dài cưới cô dâu & chú rể thêu tay rồng phượng đồng điệu. Cô dâu dáng suông tà kép lộng lẫy, chú rể phom đứng kiên nghị uy dũng.</p>",
+    "buy_price": 6800000
   },
   {
     "id": 9300000002,
@@ -73,6 +498,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size Cô Dâu",
         "values": [
           "S",
@@ -91,15 +523,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 930003,
-        "title": "Cô dâu S / Chú rể L",
+        "id": 21,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 780000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 930004,
-        "title": "Cô dâu M / Chú rể L",
+        "id": 22,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 780000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 23,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 780000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 24,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 780000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 25,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 780000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 26,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 780000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -107,7 +581,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-cuoi-cap",
       "all"
     ],
-    "body_html": "<p>Sắc trắng kem tinh khiết điểm xuyết họa tiết hoa phụng ánh mai hoàng gia, trọn vẹn nét thanh tú hiện đại cho ngày chung đôi.</p>"
+    "body_html": "<p>Sắc trắng kem tinh khiết điểm xuyết họa tiết hoa phụng ánh mai hoàng gia, trọn vẹn nét thanh tú hiện đại cho ngày chung đôi.</p>",
+    "buy_price": 6240000
   },
   {
     "id": 9500000000,
@@ -134,6 +609,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -144,21 +628,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500001,
-        "title": "S",
+        "id": 1,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500002,
-        "title": "M",
+        "id": 2,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500003,
-        "title": "L",
+        "id": 3,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 4,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 10,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 12,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -167,7 +741,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Lụa Phấn & khoác Mẫu Đơn Phượng Long và Đoạn Phấn & khoác Đơn Long Phượng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Lụa Phấn & khoác Mẫu Đơn Phượng Long và Đoạn Phấn & khoác Đơn Long Phượng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 3600000
   },
   {
     "id": 9500000001,
@@ -197,6 +772,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -207,21 +791,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500011,
-        "title": "S",
+        "id": 11,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500012,
-        "title": "M",
+        "id": 12,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500013,
-        "title": "L",
+        "id": 13,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 510000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 14,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 15,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 16,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 17,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 18,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 19,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -230,7 +904,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hồng Ngân & Khoác Châu Đào</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hồng Ngân & Khoác Châu Đào</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4080000
   },
   {
     "id": 9500000002,
@@ -261,6 +936,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -271,21 +955,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500021,
-        "title": "S",
+        "id": 21,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500022,
-        "title": "M",
+        "id": 22,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500023,
-        "title": "L",
+        "id": 23,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 570000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 24,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 25,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 26,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 27,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 29,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 210,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 211,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 212,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -294,7 +1068,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Mẫu Đơn Trăm Hoa &  Khoác Hồng Hỷ</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Mẫu Đơn Trăm Hoa &  Khoác Hồng Hỷ</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4560000
   },
   {
     "id": 9500000003,
@@ -317,6 +1092,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -327,21 +1111,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500031,
-        "title": "S",
+        "id": 31,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500032,
-        "title": "M",
+        "id": 32,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500033,
-        "title": "L",
+        "id": 33,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 630000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 34,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 35,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 36,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 37,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 38,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 39,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 310,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 311,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 312,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -350,7 +1224,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Tường Oanh & Khoác Mẫu Đơn Phuợng Long</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Tường Oanh & Khoác Mẫu Đơn Phuợng Long</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5040000
   },
   {
     "id": 9500000004,
@@ -376,6 +1251,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -386,21 +1270,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500041,
-        "title": "S",
+        "id": 41,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500042,
-        "title": "M",
+        "id": 42,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500043,
-        "title": "L",
+        "id": 43,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 690000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 44,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 45,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 46,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 47,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 48,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 49,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 410,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 411,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 412,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -409,7 +1383,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hồng Điệp & Khoác Thuỷ Tinh</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hồng Điệp & Khoác Thuỷ Tinh</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5520000
   },
   {
     "id": 9500000005,
@@ -435,6 +1410,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -445,21 +1429,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500051,
-        "title": "S",
+        "id": 51,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500052,
-        "title": "M",
+        "id": 52,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500053,
-        "title": "L",
+        "id": 53,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 54,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 55,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 56,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 57,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 58,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 59,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -468,7 +1542,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Bụt Trầm & Khoác Đào Ánh</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Bụt Trầm & Khoác Đào Ánh</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 3600000
   },
   {
     "id": 9500000006,
@@ -492,6 +1567,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -502,21 +1586,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500061,
-        "title": "S",
+        "id": 61,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500062,
-        "title": "M",
+        "id": 62,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500063,
-        "title": "L",
+        "id": 63,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 510000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 64,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 65,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 66,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 67,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 68,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 69,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 610,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 611,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 612,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -525,7 +1699,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hoa Thuỷ Tinh & Khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hoa Thuỷ Tinh & Khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4080000
   },
   {
     "id": 9500000007,
@@ -551,6 +1726,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -561,21 +1745,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500071,
-        "title": "S",
+        "id": 71,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500072,
-        "title": "M",
+        "id": 72,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500073,
-        "title": "L",
+        "id": 73,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 570000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 74,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 75,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 76,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 77,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 78,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 79,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -584,7 +1858,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Lụa Phấn & Áo khoác Hạnh Sa & Áo khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Lụa Phấn & Áo khoác Hạnh Sa & Áo khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4560000
   },
   {
     "id": 9500000008,
@@ -605,6 +1880,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -615,21 +1899,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500081,
-        "title": "S",
+        "id": 81,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500082,
-        "title": "M",
+        "id": 82,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500083,
-        "title": "L",
+        "id": 83,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 630000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 84,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 85,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 86,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 87,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 88,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 89,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 810,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 811,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 812,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -638,7 +2012,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Phù Dung Hoa Ly</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Phù Dung Hoa Ly</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5040000
   },
   {
     "id": 9500000009,
@@ -658,6 +2033,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -668,21 +2052,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500091,
-        "title": "S",
+        "id": 91,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500092,
-        "title": "M",
+        "id": 92,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500093,
-        "title": "L",
+        "id": 93,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 690000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 94,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 95,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 96,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 97,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 99,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -691,7 +2165,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hoa Đoàn Viên</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Hoa Đoàn Viên</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5520000
   },
   {
     "id": 9500000010,
@@ -710,6 +2185,14 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -720,21 +2203,84 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500101,
-        "title": "S",
+        "id": 101,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500102,
-        "title": "M",
+        "id": 102,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500103,
-        "title": "L",
+        "id": 103,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 104,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 105,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 106,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 107,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 108,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 109,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
         "available": true
       }
     ],
@@ -743,7 +2289,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Cúc Rồng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Cúc Rồng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 3600000
   },
   {
     "id": 9500000011,
@@ -763,6 +2310,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -773,21 +2329,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500111,
-        "title": "S",
+        "id": 111,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500112,
-        "title": "M",
+        "id": 112,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500113,
-        "title": "L",
+        "id": 113,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 510000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 114,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 115,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 116,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 117,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 118,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 119,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -796,7 +2442,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Nhũ Ánh Kim Vàng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Nhũ Ánh Kim Vàng</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4080000
   },
   {
     "id": 9500000012,
@@ -816,6 +2463,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -826,21 +2482,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500121,
-        "title": "S",
+        "id": 121,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500122,
-        "title": "M",
+        "id": 122,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500123,
-        "title": "L",
+        "id": 123,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 570000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 124,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 125,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 126,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 127,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 128,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 129,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1210,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1211,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1212,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -849,7 +2595,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Vỹ Dậu</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Vỹ Dậu</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4560000
   },
   {
     "id": 9500000013,
@@ -867,6 +2614,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -877,21 +2631,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500131,
-        "title": "S",
+        "id": 131,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500132,
-        "title": "M",
+        "id": 132,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500133,
-        "title": "L",
+        "id": 133,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 630000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 134,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 135,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 136,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -900,7 +2690,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Trúc Nhạn</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Trúc Nhạn</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5040000
   },
   {
     "id": 9500000014,
@@ -922,6 +2713,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -932,21 +2732,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500141,
-        "title": "S",
+        "id": 141,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500142,
-        "title": "M",
+        "id": 142,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500143,
-        "title": "L",
+        "id": 143,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 690000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 144,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 145,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 146,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 147,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 148,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 149,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1410,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1411,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1412,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -955,7 +2845,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Sườn xám Linh San</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Sườn xám Linh San</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5520000
   },
   {
     "id": 9500000015,
@@ -979,6 +2870,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -989,21 +2889,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500151,
-        "title": "S",
+        "id": 151,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500152,
-        "title": "M",
+        "id": 152,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500153,
-        "title": "L",
+        "id": 153,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 154,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 155,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 156,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 157,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 158,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 159,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -1012,7 +3002,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Linh & áo khoác Bạch Nhật</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Linh & áo khoác Bạch Nhật</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 3600000
   },
   {
     "id": 9500000016,
@@ -1036,6 +3027,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1046,21 +3046,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500161,
-        "title": "S",
+        "id": 161,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500162,
-        "title": "M",
+        "id": 162,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 510000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500163,
-        "title": "L",
+        "id": 163,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 510000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 164,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 165,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 166,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 167,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 168,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 169,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1610,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1611,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 510000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1612,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 510000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -1069,7 +3159,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Ý Vy & áo khoác Thư Nguyệt</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Ý Vy & áo khoác Thư Nguyệt</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4080000
   },
   {
     "id": 9500000017,
@@ -1096,6 +3187,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1106,21 +3206,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500171,
-        "title": "S",
+        "id": 171,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500172,
-        "title": "M",
+        "id": 172,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 570000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500173,
-        "title": "L",
+        "id": 173,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 570000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 174,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 175,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 176,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 177,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 178,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 179,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 570000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 570000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -1129,7 +3319,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Hỷ Viên & áo khoác Hạc Hồng Hỷ</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Hỷ Viên & áo khoác Hạc Hồng Hỷ</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 4560000
   },
   {
     "id": 9500000018,
@@ -1148,6 +3339,14 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1158,21 +3357,84 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500181,
-        "title": "S",
+        "id": 181,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500182,
-        "title": "M",
+        "id": 182,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 630000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500183,
-        "title": "L",
+        "id": 183,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 630000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 184,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 185,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 186,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 187,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 188,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 630000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 189,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 630000,
+        "image_index": 2,
         "available": true
       }
     ],
@@ -1181,7 +3443,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Khang</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Khang</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5040000
   },
   {
     "id": 9500000019,
@@ -1211,6 +3474,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1221,21 +3493,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 9500191,
-        "title": "S",
+        "id": 191,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500192,
-        "title": "M",
+        "id": 192,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 690000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 9500193,
-        "title": "L",
+        "id": 193,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 690000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 194,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 195,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 196,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 197,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 198,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 199,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -1244,7 +3606,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Ngọc Hoa Phụng & áo khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>"
+    "body_html": "<p>Mẫu Áo Dài cưới thiết kế cao cấp độc quyền <strong>Áo dài Bạch Ngọc Hoa Phụng & áo khoác Ánh Mai</strong>, kết hợp kỹ thuật thêu tay và chất liệu tơ tằm thượng hạng. Cho thuê trọn gói 3 ngày kèm mấn đội đầu.</p>",
+    "buy_price": 5520000
   },
   {
     "id": 9100000001,
@@ -1262,6 +3625,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "M",
@@ -1273,21 +3643,75 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910001,
-        "title": "M",
+        "id": 11,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910002,
-        "title": "L",
+        "id": 12,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910003,
-        "title": "XL",
+        "id": 13,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
         "price": 350000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 14,
+        "title": "Hồng Phấn Sa Cát / XXL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XXL",
+        "price": 350000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 15,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 16,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 17,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 18,
+        "title": "Xanh Thiên Thanh / XXL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XXL",
+        "price": 350000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -1295,14 +3719,15 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai-nam",
       "all"
     ],
-    "body_html": "<p>Áo Dài Nam cách tân dệt gấm họa tiết Long Vân quyền quý, form đứng nam tính, tôn dáng vai rộng. Thích hợp cho chú rể, chụp ảnh Tết và sự kiện trọng đại.</p>"
+    "body_html": "<p>Áo Dài Nam cách tân dệt gấm họa tiết Long Vân quyền quý, form đứng nam tính, tôn dáng vai rộng. Thích hợp cho chú rể, chụp ảnh Tết và sự kiện trọng đại.</p>",
+    "buy_price": 2800000
   },
   {
     "id": 9100000002,
     "handle": "ao-dai-nam-ngu-than-xanh-thien-thanh",
     "title": "ÁO DÀI NAM NGŨ THÂN XANH THIÊN THANH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Dài Nam",
+    "product_type": "Cổ Phục",
     "rent_price": 380000,
     "deposit": 800000,
     "price": 2600000,
@@ -1313,6 +3738,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "M",
@@ -1323,15 +3755,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910004,
-        "title": "M",
+        "id": 21,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 380000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910005,
-        "title": "L",
+        "id": 22,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 380000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 23,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 380000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 24,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 380000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 25,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 380000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 26,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 380000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -1340,14 +3814,15 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Thiết kế Ngũ Thân lập lĩnh truyền thống dành cho nam, chất liệu lụa dệt nổi thoáng mát, cổ cao trang nghiêm đĩnh đạc.</p>"
+    "body_html": "<p>Thiết kế Ngũ Thân lập lĩnh truyền thống dành cho nam, chất liệu lụa dệt nổi thoáng mát, cổ cao trang nghiêm đĩnh đạc.</p>",
+    "buy_price": 3040000
   },
   {
     "id": 9100000003,
     "handle": "ao-dai-nam-chu-re-song-hy-do",
     "title": "ÁO DÀI NAM CHÚ RỂ ĐỎ SONG HỶ THÊU TAY",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Dài Nam",
+    "product_type": "Áo Cưới Cặp",
     "rent_price": 420000,
     "deposit": 900000,
     "price": 2950000,
@@ -1357,6 +3832,13 @@ let NETDUYEN_PRODUCTS = [
       "https://quyennguyen.vn/wp-content/uploads/2026/10/7_MRL08235-logo-900x1350.jpg"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -1369,15 +3851,75 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910006,
-        "title": "M",
+        "id": 31,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 420000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910007,
-        "title": "L",
+        "id": 32,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 420000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 33,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 420000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 34,
+        "title": "Hồng Phấn Sa Cát / XXL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XXL",
+        "price": 420000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 35,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 420000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 36,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 420000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 37,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 420000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 38,
+        "title": "Xanh Thiên Thanh / XXL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XXL",
+        "price": 420000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -1386,14 +3928,15 @@ let NETDUYEN_PRODUCTS = [
       "ao-cuoi-cap",
       "all"
     ],
-    "body_html": "<p>Sắc đỏ may mắn cho ngày cưới hỏi, họa tiết Song Hỷ và Phụng Lân thêu chỉ kim tuyến thủ công sắc sảo.</p>"
+    "body_html": "<p>Sắc đỏ may mắn cho ngày cưới hỏi, họa tiết Song Hỷ và Phụng Lân thêu chỉ kim tuyến thủ công sắc sảo.</p>",
+    "buy_price": 3360000
   },
   {
     "id": 9100000004,
     "handle": "ao-dai-nam-gam-trang-bach-hac",
     "title": "ÁO DÀI NAM GẤM TRẮNG BẠCH HẠC THANH CAO",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Dài Nam",
+    "product_type": "Áo Cưới Cặp",
     "rent_price": 360000,
     "deposit": 700000,
     "price": 2350000,
@@ -1403,6 +3946,13 @@ let NETDUYEN_PRODUCTS = [
       "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -1414,15 +3964,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910008,
-        "title": "M",
+        "id": 41,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 360000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910009,
-        "title": "L",
+        "id": 42,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 360000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 43,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 360000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 44,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 45,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 46,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 360000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -1431,14 +4023,15 @@ let NETDUYEN_PRODUCTS = [
       "ao-cuoi-cap",
       "all"
     ],
-    "body_html": "<p>Gam màu trắng kem nhã nhặn, chất liệu gấm taffeta cao cấp dệt họa tiết hạc ngậm sen thanh tao lịch lãm.</p>"
+    "body_html": "<p>Gam màu trắng kem nhã nhặn, chất liệu gấm taffeta cao cấp dệt họa tiết hạc ngậm sen thanh tao lịch lãm.</p>",
+    "buy_price": 2880000
   },
   {
     "id": 9200000001,
     "handle": "co-phuc-nhat-binh-cung-dinh-hoa-phuong",
     "title": "CỔ PHỤC ÁO NHẬT BÌNH CUNG ĐÌNH HUẾ THÊU PHƯỢNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Cổ Phục",
+    "product_type": "Áo Cưới Cặp",
     "rent_price": 550000,
     "deposit": 1200000,
     "price": 3800000,
@@ -1449,6 +4042,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "Freesize (S-L)"
@@ -1457,9 +4057,21 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 920001,
-        "title": "Freesize",
+        "id": 11,
+        "title": "Hồng Phấn Sa Cát / Freesize (S-L)",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "Freesize (S-L)",
         "price": 550000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 12,
+        "title": "Xanh Thiên Thanh / Freesize (S-L)",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "Freesize (S-L)",
+        "price": 550000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -1468,7 +4080,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-cuoi-cap",
       "all"
     ],
-    "body_html": "<p>Tái hiện trang phục Nhật Bình thời Nguyễn lộng lẫy với hoa văn ngũ phúc, cổ yếm thêu phượng hoàng và ngũ sắc cát tường. Phù hợp lễ cưới truyền thống, chụp ảnh nghệ thuật và ngoại cảnh cung đình.</p>"
+    "body_html": "<p>Tái hiện trang phục Nhật Bình thời Nguyễn lộng lẫy với hoa văn ngũ phúc, cổ yếm thêu phượng hoàng và ngũ sắc cát tường. Phù hợp lễ cưới truyền thống, chụp ảnh nghệ thuật và ngoại cảnh cung đình.</p>",
+    "buy_price": 4400000
   },
   {
     "id": 9200000002,
@@ -1486,6 +4099,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1496,15 +4116,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 920002,
-        "title": "S",
+        "id": 21,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 480000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 920003,
-        "title": "M",
+        "id": 22,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 480000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 23,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 480000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 24,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 480000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 25,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 480000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 26,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 480000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -1512,7 +4174,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Áo Tấc tay thụng bồng bềnh, chất liệu lụa sa cát phối tơ sống mềm nhẹ, bay bổng trong từng bước chuyển động.</p>"
+    "body_html": "<p>Áo Tấc tay thụng bồng bềnh, chất liệu lụa sa cát phối tơ sống mềm nhẹ, bay bổng trong từng bước chuyển động.</p>",
+    "buy_price": 3840000
   },
   {
     "id": 9200000003,
@@ -1530,6 +4193,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1540,15 +4210,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 920004,
-        "title": "S",
+        "id": 31,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 920005,
-        "title": "M",
+        "id": 32,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 33,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 34,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 35,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 36,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -1556,14 +4268,15 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Phom dáng Ngũ Thân tay chẽn quý phái, chất gấm dệt hoa văn thời Nguyễn sang trọng và uy nghi.</p>"
+    "body_html": "<p>Phom dáng Ngũ Thân tay chẽn quý phái, chất gấm dệt hoa văn thời Nguyễn sang trọng và uy nghi.</p>",
+    "buy_price": 3600000
   },
   {
     "id": 7806520393795,
     "handle": "ao-dai-tien-sa",
     "title": "ÁO DÀI TIÊN SA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T16:48:55+07:00",
     "published_at": "2026-09-09T18:38:50+07:00",
     "price": 300000,
@@ -1580,6 +4293,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1590,33 +4312,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 43696408264771,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-AD95-PK-S",
+        "id": 3937951,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 300000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43696408297539,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-AD95-PK-M",
+        "id": 3937952,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 300000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43696408330307,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-AD95-PK-L",
+        "id": 3937953,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 300000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3937954,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 300000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3937955,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 300000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3937956,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 300000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3937957,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 300000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3937958,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 300000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3937959,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 300000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 39379510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 300000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 39379511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 300000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 39379512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 300000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -1625,7 +4425,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p><span>CHI TIẾT ÁO DÀI<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
@@ -1636,9 +4437,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806504894531,
     "handle": "ao-dai-thư-hien-vay-hai-day-dặm-tien-1",
-    "title": "ÁO DÀI THƯ HIÊN - VÁY HAI DÂY DẶM TIÊN",
+    "title": "ÁO DÀI THƯ HIÊN (VÁY HAI DÂY DẶM TIÊN)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T16:41:47+07:00",
     "published_at": "2026-09-09T18:38:48+07:00",
     "price": 240000,
@@ -1734,7 +4535,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT LỚP TRONG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n",
@@ -1745,9 +4547,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806488707139,
     "handle": "quần-van-nga-5",
-    "title": "QUẦN VÂN NGA",
+    "title": "SET ÁO DÀI LỤA & QUẦN VÂN NGA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T16:34:31+07:00",
     "published_at": "2026-09-09T18:38:45+07:00",
     "price": 140000,
@@ -1761,6 +4563,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -1771,33 +4582,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 43696371269699,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-TS47-PK-S",
+        "id": 7071391,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 140000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43696371368003,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-TS47-PK-M",
+        "id": 7071392,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 140000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43696371466307,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-TS47-PK-L",
+        "id": 7071393,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 140000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7071394,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 140000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7071395,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 140000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7071396,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 140000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7071397,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 140000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7071398,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 140000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7071399,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 140000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 70713910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 140000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70713911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 140000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70713912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 140000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -1807,7 +4696,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
@@ -1818,9 +4708,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806470717507,
     "handle": "ao-dai-la-yen-ao-dai-thư-hien-vay-hai-day-dặm-tien",
-    "title": "ÁO DÀI LA YÊN - ÁO DÀI THƯ HIÊN - VÁY HAI DÂY DẶM TIÊN",
+    "title": "ÁO DÀI LA YÊN (ÁO DÀI THƯ HIÊN & VÁY HAI DÂY DẶM TIÊN)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T16:27:17+07:00",
     "published_at": "2026-09-09T18:38:45+07:00",
     "price": 240000,
@@ -1948,7 +4838,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO DÀI LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT LỚP TRONG CÙNG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -1959,9 +4850,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806383882307,
     "handle": "ao-dai-thư-hien-vay-hai-day-dặm-tien",
-    "title": "ÁO DÀI THƯ HIÊN - VÁY HAI DÂY DẶM TIÊN",
+    "title": "ÁO DÀI THƯ HIÊN (VÁY HAI DÂY DẶM TIÊN)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T16:04:40+07:00",
     "published_at": "2026-09-09T18:38:42+07:00",
     "price": 240000,
@@ -2059,7 +4950,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "\n<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT LỚP TRONG<br>- Dáng váy suông<br>- Phần ngực có phần cắt chéo<br>- Viền cổ và hai dây đính ren hoa nổi<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Hoa nổi: 66,2% nylon, 34,8 % spndex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n",
@@ -2070,9 +4962,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806340333635,
     "handle": "ao-dai-la-yen-ao-dai-khau-manh-ao-thương-am",
-    "title": "ÁO DÀI LA YÊN - ÁO DÀI KHÂU MANH - ÁO THƯƠNG ÂM",
+    "title": "ÁO DÀI LA YÊN (ÁO DÀI KHÂU MANH & ÁO THƯƠNG ÂM)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:55:59+07:00",
     "published_at": "2026-09-09T18:38:41+07:00",
     "price": 240000,
@@ -2202,7 +5094,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT ÁO LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Ren đắp: 100% Polyester<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG CÙNG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -2213,9 +5106,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806300061763,
     "handle": "ao-dai-khau-manh-ao-thương-am",
-    "title": "ÁO DÀI KHÂU MANH - ÁO THƯƠNG ÂM",
+    "title": "ÁO DÀI KHÂU MANH (ÁO THƯƠNG ÂM)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:47:35+07:00",
     "published_at": "2026-09-09T18:38:39+07:00",
     "price": 300000,
@@ -2312,7 +5205,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "\n<colgroup><col width=\"351\"></colgroup>\n<tbody>\n<tr>\n<td rowspan=\"2\" colspan=\"1\">\n<div>CHI TIẾT ÁO LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Ren đắp: 100% Polyester<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren<br><br>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</div>\n</td>\n</tr>\n<tr></tr>\n</tbody>\n",
@@ -2323,9 +5217,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806239080515,
     "handle": "quần-van-nga-2",
-    "title": "QUẦN VÂN NGA",
+    "title": "SET ÁO DÀI LỤA & QUẦN VÂN NGA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:31:42+07:00",
     "published_at": "2026-09-09T18:38:36+07:00",
     "price": 180000,
@@ -2342,6 +5236,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -2352,33 +5255,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 43695388033091,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-TS47-WHT-S",
+        "id": 805151,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43695388065859,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-TS47-WHT-M",
+        "id": 805152,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43695388098627,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-TS47-WHT-L",
+        "id": 805153,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 805154,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 805155,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 805156,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 805157,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 805158,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 805159,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8051510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 8051511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 8051512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -2388,7 +5369,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
@@ -2401,7 +5383,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "yếm-van-vu-1",
     "title": "YẾM VÂN VŨ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:30:16+07:00",
     "published_at": "2026-09-09T18:38:35+07:00",
     "price": 110000,
@@ -2418,6 +5400,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -2428,33 +5419,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 43695373058115,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-SH454-BR-S",
+        "id": 1992351,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 110000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43695373123651,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-SH454-BR-M",
+        "id": 1992352,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 110000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43695373189187,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-SH454-BR-L",
+        "id": 1992353,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 110000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1992354,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 110000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1992355,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 110000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1992356,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 110000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1992357,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 110000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1992358,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 110000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1992359,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 110000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 19923510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 110000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 19923511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 110000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 19923512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 110000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -2463,7 +5532,8 @@ let NETDUYEN_PRODUCTS = [
       "dong-dao",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span>CHI TIẾT<br>- Chất liệu: 85%Acetate, 15%Nylon<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
@@ -2474,9 +5544,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806221877315,
     "handle": "ao-dai-thư-hien-ao-thương-am-1",
-    "title": "ÁO DÀI THƯ HIÊN - ÁO THƯƠNG ÂM",
+    "title": "ÁO DÀI THƯ HIÊN (ÁO THƯƠNG ÂM)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:27:23+07:00",
     "published_at": "2026-09-09T18:38:34+07:00",
     "price": 240000,
@@ -2575,7 +5645,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>",
@@ -2586,9 +5657,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806210244675,
     "handle": "quần-van-nga-1",
-    "title": "QUẦN VÂN NGA",
+    "title": "SET ÁO DÀI LỤA & QUẦN VÂN NGA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:24:16+07:00",
     "published_at": "2026-09-09T18:38:34+07:00",
     "price": 180000,
@@ -2605,6 +5676,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -2615,33 +5695,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 43695350382659,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-TS47-WHT-S",
+        "id": 2446751,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43695350448195,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-TS47-WHT-M",
+        "id": 2446752,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43695350513731,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-TS47-WHT-L",
+        "id": 2446753,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2446754,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2446755,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2446756,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2446757,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2446758,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2446759,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 24467510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 24467511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 24467512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -2651,7 +5809,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
@@ -2662,9 +5821,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806197989443,
     "handle": "ao-dai-thư-hien-ao-thương-am",
-    "title": "ÁO DÀI THƯ HIÊN - ÁO THƯƠNG ÂM",
+    "title": "ÁO DÀI THƯ HIÊN (ÁO THƯƠNG ÂM)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:21:48+07:00",
     "published_at": "2026-09-09T18:38:33+07:00",
     "price": 240000,
@@ -2763,7 +5922,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO LỚP TRONG<br>- Dáng áo suông ngắn<br>- Không cổ<br>- Tay ren</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -2774,9 +5934,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7806164566083,
     "handle": "ao-dai-la-yen-ao-dai-tien-sa",
-    "title": "ÁO DÀI LA YÊN - ÁO DÀI TIÊN SA",
+    "title": "ÁO DÀI LA YÊN (ÁO DÀI TIÊN SA)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T15:12:13+07:00",
     "published_at": "2026-09-09T18:38:30+07:00",
     "price": 240000,
@@ -2875,7 +6035,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT ÁO DÀI LỚP NGOÀI<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 85%Acetate,15%Nylon<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHI TIẾT ÁO DÀI LỚP TRONG<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -2888,7 +6049,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "tien-sa",
     "title": "ÁO DÀI TIÊN SA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-19T17:53:20+07:00",
     "published_at": "2026-09-09T18:38:28+07:00",
     "price": 300000,
@@ -2905,6 +6066,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -2915,33 +6085,111 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 43691688230979,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-AD95-WHT-S",
+        "id": 7040031,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 300000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43691688263747,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-AD95-WHT-M",
+        "id": 7040032,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 300000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 43691688296515,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-AD95-WHT-L",
+        "id": 7040033,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 300000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7040034,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 300000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7040035,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 300000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7040036,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 300000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7040037,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 300000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7040038,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 300000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7040039,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 300000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 70400310,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 300000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70400311,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 300000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70400312,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 300000,
+        "image_index": 3,
         "available": true
       }
     ],
@@ -2950,7 +6198,8 @@ let NETDUYEN_PRODUCTS = [
       "phien-van",
       "van-anh",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span>CHI TIẾT ÁO DÀI<br>- Dáng áo suông <br>- Cổ trụ, thêu hoa vạt chéo<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp<br><br>CHẤT LIỆU<br>- 33% Modal, 29% Vicose, 18% Polyester, 20% Acetate<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
@@ -2961,9 +6210,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7568386588739,
     "handle": "ao-dai-copy-6",
-    "title": "ÁO DÀI HOA HƯƠNG - ÁO DÀI HỘI CÁT",
+    "title": "ÁO DÀI HOA HƯƠNG (ÁO DÀI HỘI CÁT)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-08T10:37:27+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
     "price": 250000,
@@ -3078,7 +6327,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -3089,9 +6339,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7568172122179,
     "handle": "ao-dai-copy-5",
-    "title": "ÁO DÀI DIỆU MÂY - ÁO DÀI MÃN ĐƯỜNG",
+    "title": "ÁO DÀI DIỆU MÂY (ÁO DÀI MÃN ĐƯỜNG)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-08T10:12:09+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
     "price": 350000,
@@ -3185,7 +6435,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -3196,9 +6447,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7568170352707,
     "handle": "ao-dai-copy-copy",
-    "title": "ÁO DÀI Ý ĐÀO - ÁO DÀI HỘI CÁT",
+    "title": "ÁO DÀI Ý ĐÀO (ÁO DÀI HỘI CÁT)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-08T10:12:01+07:00",
     "published_at": "2026-01-08T14:43:48+07:00",
     "price": 550000,
@@ -3291,7 +6542,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ tròn<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ Nhật<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu nhẹ, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -3302,9 +6554,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7568168058947,
     "handle": "ao-dai-copy-4",
-    "title": "ÁO DÀI NÉT LIỄU - ÁO DÀI MÃN ĐƯỜNG",
+    "title": "ÁO DÀI NÉT LIỄU (ÁO DÀI MÃN ĐƯỜNG)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-08T10:08:16+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
     "price": 550000,
@@ -3397,7 +6649,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT ÁO DÀI LỚP NGOÀI</span></span></span></span></h4>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Kiểu áo sơ mi  </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Cổ tròn </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có cúc đóng phía trước </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo một lớp</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Tơ Nhật </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ co giãn: Co ít </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ nhiều dặm: Vải có độ thoải mái, khách hàng nên thêm sản phẩm hỗ trợ</span></span></span></span></p>\n<h4><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT ÁO DÀI TRỌNG</span></span></span></span></h4>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Kiểu áo sơ mi  </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Cổ trụ </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có cúc đóng phía trước </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo một lớp</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Lụa lông công </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ co giãn: Co ít </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Độ nhiều Phúc: Vải không xuyên Phúc</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ diệt khô </span></span></span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ nén hơi nước</span></span></span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span></span></span></p>",
@@ -3410,7 +6663,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-6",
     "title": "ÁO DÀI CÂU VÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-08T10:07:16+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
     "price": 550000,
@@ -3504,7 +6757,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ tròn<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ Nhật<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -3515,9 +6769,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7567749840963,
     "handle": "ao-dai-5",
-    "title": "ÁO DÀI ÁNH MÂY - ÁO DÀI DIÊN HÀ",
+    "title": "ÁO DÀI ÁNH MÂY (ÁO DÀI DIÊN HÀ)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T19:34:08+07:00",
     "published_at": "2026-01-08T14:43:45+07:00",
     "price": 350000,
@@ -3613,7 +6867,8 @@ let NETDUYEN_PRODUCTS = [
       "set-mien-y",
       "ma-may",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -3626,7 +6881,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-4",
     "title": "ÁO DÀI ÁNH MÂY",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T19:23:22+07:00",
     "published_at": "2026-01-08T14:43:44+07:00",
     "price": 350000,
@@ -3752,7 +7007,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>Thiết kế bao gồm 3 sản phẩm:</h3>\n<p>Áo dài ren kim sa lớp ngoài<br>Áo dài tơ lớp trong <br>Váy lót hai dây <br> <br>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu vàng cốm – xanh lá - nâu</p>\n<p>CHẤT LIỆU<br>- Áo dài lớp ngoài: Ren kim sa<br>- Áo dài lớp trong: Tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
@@ -3765,7 +7021,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-duật-van-copy",
     "title": "ÁO DÀI THANH THANH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T19:05:14+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
     "price": 250000,
@@ -3890,7 +7146,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4>Thiết kế bao gồm 3 sản phẩm:</h4>\n<p>Áo dài tơ lớp ngoài cùng <br>Áo dài tơ lớp trong <br>Váy trong hai dây </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br></p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
@@ -3901,9 +7158,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7567743647811,
     "handle": "ao-dai-copy-3",
-    "title": "ÁO DÀI THONG DONG - ÁO DÀI HỘI CÁT",
+    "title": "ÁO DÀI THONG DONG (ÁO DÀI HỘI CÁT)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T18:57:43+07:00",
     "published_at": "2026-01-08T14:43:48+07:00",
     "price": 250000,
@@ -4017,7 +7274,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -4028,9 +7286,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7567743352899,
     "handle": "ao-dai-3",
-    "title": "ÁO DÀI MIÊN MAN - ÁO DÀI DIÊN HÀ",
+    "title": "ÁO DÀI MIÊN MAN (ÁO DÀI DIÊN HÀ)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T18:55:54+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
     "price": 250000,
@@ -4147,7 +7405,8 @@ let NETDUYEN_PRODUCTS = [
       "set-mien-y",
       "ma-may",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4>CHI TIẾT ÁO DÀI LỚP NGOÀI</h4>\n<p>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Tơ mềm, ít co giãn<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<h4>CHI TIẾT ÁO DÀI LỚP TRONG</h4>\n<p>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng\"</p>",
@@ -4158,9 +7417,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7567740108867,
     "handle": "ao-dai-2",
-    "title": "ÁO DÀI MÂY NGÀN - ÁO DÀI BẢO MÂY",
+    "title": "ÁO DÀI MÂY NGÀN (ÁO DÀI BẢO MÂY)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T18:47:05+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
     "price": 290000,
@@ -4254,7 +7513,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Áo dài lớp trong </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Thiết kế in họa tiết độc bản NÉT DUYÊN</p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Tơ mềm<br>- Áo dài lớp trong: Tơ <br>Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng nên thêm sản phẩm hỗ trợ</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -4267,7 +7527,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-copy-2",
     "title": "ÁO DÀI NHẬT CHIÊU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T18:27:27+07:00",
     "published_at": "2026-01-08T14:43:48+07:00",
     "price": 590000,
@@ -4362,7 +7622,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Váy lót hai dây</p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT SẢN PHẨM </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế 2 lớp phối hợp tinh tế </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Đường áo ngug, cổ trụ </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có hàng cúc đóng phía trước </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế nút thắt một bên tạo điểm nhấn mềm mại </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Màu sắc tổng thể: phối màu đỏ - cam</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo lớp ngoài: lụa lông công </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Váy lót: lụa </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">độ xuyên nhiều: vải tương đối xuyên nhiều, cần phân kèm váy lót </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ tẩy khô </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ ủi hơi nước</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span></p>\n<p> </p>",
@@ -4375,7 +7636,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-1",
     "title": "ÁO DÀI NGHÊNH PHÚC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T18:22:58+07:00",
     "published_at": "2026-01-08T14:43:47+07:00",
     "price": 590000,
@@ -4472,7 +7733,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p>Áo dài lớp ngoài<br>Váy lót hai dây</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Thiết kế nút thắt một bên tạo điểm nhấn mềm mại<br>- Màu sắc tổng thể: phối màu kem – đỏ</p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Lụa lông công<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
@@ -4485,7 +7747,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-copy-1",
     "title": "ÁO DÀI HỘI CÁT",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T18:14:13+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
     "price": 310000,
@@ -4498,6 +7760,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -4508,40 +7779,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42866449317955,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD86-CAM-S",
+        "id": 197791,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 310000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42866449350723,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD86-CAM-M",
+        "id": 197792,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 310000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42866449383491,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD86-CAM-L",
+        "id": 197793,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 310000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 197794,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 197795,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 197796,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 197797,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 197798,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 197799,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1977910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1977911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1977912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>",
@@ -4554,7 +7904,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-copy",
     "title": "ÁO DÀI MÃN ĐƯỜNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T17:30:26+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
     "price": 310000,
@@ -4567,6 +7917,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -4577,40 +7936,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42866439848003,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD86-KEM-S",
+        "id": 718111,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 310000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42866439880771,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD86-KEM-M",
+        "id": 718112,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 310000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42866439913539,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD86-KEM-L",
+        "id": 718113,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 310000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 718114,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 718115,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 718116,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 718117,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 718118,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 718119,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7181110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 7181111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 7181112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ trụ<br>- Có khóa kéo phía sau<br>- Áo dài một lớp</p>\n<p>CHẤT LIỆU<br>- Lụa lông <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<br></p>",
@@ -4623,7 +8061,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai",
     "title": "ÁO DÀI HỶ LAI",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-01-07T17:29:40+07:00",
     "published_at": "2026-01-08T14:43:46+07:00",
     "price": 310000,
@@ -4717,7 +8155,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4>Thiết kế bao gồm 2 sản phẩm:</h4>\n<p><br>Áo dài lớp ngoài<br>Váy lót hai dây </p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu kem – </p>\n<p>CHẤT LIỆU<br>- Áo lớp ngoài: Ren kim sa<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -4730,7 +8169,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tu-tam-xanh-dam",
     "title": "ÁO DÀI TÚ TÂM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-12-04T15:56:36+07:00",
     "published_at": "2025-12-04T21:11:38+07:00",
     "price": 250000,
@@ -4743,6 +8182,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -4753,40 +8201,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42773320564803,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD82-XANHDAM-S",
+        "id": 3091871,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42773320597571,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD82-XANHDAM-M",
+        "id": 3091872,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42773320630339,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD82-XANHDAM-L",
+        "id": 3091873,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3091874,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3091875,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3091876,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3091877,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3091878,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3091879,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 30918710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 30918711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 30918712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -4799,7 +8326,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tu-tam-xanh-la",
     "title": "ÁO DÀI TÚ TÂM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-12-04T15:54:51+07:00",
     "published_at": "2025-12-04T21:11:38+07:00",
     "price": 250000,
@@ -5016,7 +8543,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5029,7 +8557,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tu-tam-hong",
     "title": "ÁO DÀI TÚ TÂM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-12-04T15:49:37+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
     "price": 250000,
@@ -5092,7 +8620,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5105,7 +8634,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tu-tam-trang",
     "title": "ÁO DÀI TÚ TÂM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-12-04T15:48:15+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
     "price": 250000,
@@ -5118,6 +8647,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -5128,40 +8666,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42773314535491,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD82-TRANG-S",
+        "id": 8018591,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42773314568259,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD82-TRANG-M",
+        "id": 8018592,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42773314601027,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD82-TRANG-L",
+        "id": 8018593,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 8018594,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8018595,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8018596,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8018597,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8018598,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8018599,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 80185910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 80185911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 80185912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5174,7 +8791,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tu-tam-den",
     "title": "ÁO DÀI TÚ TÂM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-12-04T15:47:01+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
     "price": 250000,
@@ -5187,6 +8804,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -5197,40 +8823,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42773314207811,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD82-DEN-S",
+        "id": 7035551,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42773314240579,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD82-DEN-M",
+        "id": 7035552,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42773314273347,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD82-DEN-L",
+        "id": 7035553,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7035554,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7035555,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7035556,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7035557,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7035558,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7035559,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 70355510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70355511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70355512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5243,7 +8948,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tu-tam-do",
     "title": "ÁO DÀI TÚ TÂM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-12-04T15:46:40+07:00",
     "published_at": "2025-12-04T21:11:40+07:00",
     "price": 250000,
@@ -5257,6 +8962,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -5267,40 +8981,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42773313814595,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD82-DO-S",
+        "id": 6052511,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
-      },
-      {
-        "id": 42773313847363,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD82-DO-M",
-        "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42773313880131,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD82-DO-L",
+        "id": 6052512,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6052513,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6052514,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6052515,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6052516,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6052517,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6052518,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6052519,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 60525110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 60525111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 60525112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>TẶNG 1 MẤN HỌA TIẾT TƯƠNG ỨNG KHI MUA SET ÁO DÀI TÚ TÂM</h3>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5313,7 +9106,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad83",
     "title": "ÁO DÀI HOÀNG KIM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T14:00:22+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
     "price": 450000,
@@ -5328,6 +9121,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5339,50 +9141,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697982640195,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD83-NAU-XS",
+        "id": 2817951,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982672963,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD83-NAU-S",
+        "id": 2817952,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982705731,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD83-NAU-M",
+        "id": 2817953,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982738499,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD83-NAU-L",
+        "id": 2817954,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2817955,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2817956,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2817957,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2817958,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2817959,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28179510,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28179511,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28179512,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28179513,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28179514,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28179515,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28179516,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5395,7 +9302,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad80-copy-1",
     "title": "ÁO DÀI TỬ THUYÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T13:58:36+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
     "price": 450000,
@@ -5408,6 +9315,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5419,50 +9335,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697982345283,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD80-NAU-XS",
+        "id": 851871,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982378051,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD80-NAU-S",
+        "id": 851872,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982410819,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD80-NAU-M",
+        "id": 851873,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982443587,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD80-NAU-L",
+        "id": 851874,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 851875,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 851876,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 851877,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 851878,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 851879,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8518710,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8518711,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8518712,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8518713,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 8518714,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 8518715,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 8518716,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5475,7 +9496,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad80-1",
     "title": "ÁO DÀI TIỂU CÁT",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T13:57:09+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
     "price": 450000,
@@ -5490,6 +9511,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5501,50 +9531,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697982181443,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD80-HONGCAM-XS",
+        "id": 196511,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982214211,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD80-HONGCAM-S",
+        "id": 196512,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982246979,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD80-HONGCAM-M",
+        "id": 196513,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697982279747,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD80-HONGCAM-L",
+        "id": 196514,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 196515,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 196516,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 196517,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 196518,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 196519,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1965110,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1965111,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1965112,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1965113,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1965114,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1965115,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1965116,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5557,7 +9692,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad80-copy",
     "title": "ÁO DÀI LƯƠNG THÌ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T13:55:34+07:00",
     "published_at": "2025-11-12T10:01:27+07:00",
     "price": 450000,
@@ -5571,6 +9706,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5582,50 +9726,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697981886531,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD80-HONGNHAT-XS",
+        "id": 9213471,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697981919299,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD80-HONGNHAT-S",
+        "id": 9213472,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697981952067,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD80-HONGNHAT-M",
+        "id": 9213473,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697981984835,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD80-HONGNHAT-L",
+        "id": 9213474,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9213475,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9213476,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9213477,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9213478,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9213479,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 92134710,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 92134711,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 92134712,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 92134713,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 92134714,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 92134715,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 92134716,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5638,7 +9887,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad78-copy-2",
     "title": "ÁO DÀI ĐÔNG MAI",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:54:21+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
     "price": 350000,
@@ -5654,6 +9903,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5665,50 +9923,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697677799491,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD78-XANHTHAN-XS",
+        "id": 9852191,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697677832259,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD78-XANHTHAN-S",
+        "id": 9852192,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697677865027,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD78-XANHTHAN-M",
+        "id": 9852193,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697677897795,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD78-XANHTHAN-L",
+        "id": 9852194,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9852195,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9852196,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9852197,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9852198,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9852199,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98521910,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98521911,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98521912,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98521913,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 98521914,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 98521915,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 98521916,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5721,7 +10084,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad78-1",
     "title": "ÁO DÀI HIỂU YÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:51:17+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
     "price": 350000,
@@ -5735,6 +10098,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5746,50 +10118,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697670230083,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD78-HONGHOATO-XS",
+        "id": 1671711,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697670262851,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD78-HONGHOATO-S",
+        "id": 1671712,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697670295619,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD78-HONGHOATO-M",
+        "id": 1671713,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697670328387,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD78-HONGHOATO-L",
+        "id": 1671714,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1671715,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1671716,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1671717,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1671718,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1671719,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 16717110,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 16717111,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 16717112,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 16717113,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 16717114,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 16717115,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 16717116,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5802,7 +10279,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad78-copy-1",
     "title": "ÁO DÀI BÍCH GIẢN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:48:11+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
     "price": 350000,
@@ -5816,6 +10293,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5827,50 +10313,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697655451715,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD78-XANHNGOC-XS",
+        "id": 3830431,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697655484483,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD78-XANHNGOC-S",
+        "id": 3830432,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697655517251,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD78-XANHNGOC-M",
+        "id": 3830433,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697655550019,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD78-XANHNGOC-L",
+        "id": 3830434,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3830435,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3830436,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3830437,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3830438,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3830439,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 38304310,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 38304311,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 38304312,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 38304313,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 38304314,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 38304315,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 38304316,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5883,7 +10474,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad78-copy",
     "title": "ÁO DÀI BẠCH HOÀI",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:47:48+07:00",
     "published_at": "2025-11-12T10:01:30+07:00",
     "price": 350000,
@@ -5897,6 +10488,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5908,50 +10508,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697653649475,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD78-KEM-XS",
+        "id": 9898271,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697653682243,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD78-KEM-S",
+        "id": 9898272,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697653715011,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD78-KEM-M",
+        "id": 9898273,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697653747779,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD78-KEM-L",
+        "id": 9898274,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9898275,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9898276,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9898277,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9898278,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9898279,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98982710,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98982711,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98982712,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 98982713,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 98982714,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 98982715,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 98982716,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -5964,7 +10669,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad78",
     "title": "ÁO DÀI HUÂN CA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:45:48+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
     "price": 350000,
@@ -5977,6 +10682,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -5988,50 +10702,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697647652931,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD78-HONGNHAT-XS",
+        "id": 9084831,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697647685699,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD78-HONGNHAT-S",
+        "id": 9084832,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697647718467,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD78-HONGNHAT-M",
+        "id": 9084833,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697647751235,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD78-HONGNHAT-L",
+        "id": 9084834,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9084835,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9084836,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9084837,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9084838,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9084839,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90848310,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90848311,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90848312,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90848313,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 90848314,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 90848315,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 90848316,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa kim sa </p>\n<p>CHẤT LIỆU<br>- Sequin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ��ng ánh sáng</p>",
@@ -6044,7 +10863,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad66-2",
     "title": "ÁO DÀI HUYỀN VI",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:42:32+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
     "price": 290000,
@@ -6059,6 +10878,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -6070,50 +10898,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697642606659,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD66.01-HONG-XS",
+        "id": 6632991,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697642639427,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD66.01-HONG-S",
+        "id": 6632992,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697642672195,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD66.01-HONG-M",
+        "id": 6632993,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697642704963,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD66.01-HONG-L",
+        "id": 6632994,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6632995,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6632996,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6632997,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6632998,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6632999,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 66329910,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 66329911,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 66329912,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 66329913,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 66329914,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 66329915,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 66329916,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót tơ óng</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -6126,7 +11059,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad66-01",
     "title": "ÁO DÀI HẠ TRÚC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:39:10+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
     "price": 290000,
@@ -6139,6 +11072,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -6150,50 +11092,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697635889219,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD66.01-XANH-XS",
+        "id": 1232031,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697635921987,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD66.01-XANH-S",
+        "id": 1232032,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697635954755,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD66.01-XANH-M",
+        "id": 1232033,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697635987523,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD66.01-XANH-L",
+        "id": 1232034,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1232035,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1232036,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1232037,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1232038,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1232039,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 12320310,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 12320311,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 12320312,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 12320313,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 12320314,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 12320315,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 12320316,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -6206,7 +11253,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad80",
     "title": "ÁO DÀI CHI LAN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-11-11T11:36:47+07:00",
     "published_at": "2025-11-12T10:01:31+07:00",
     "price": 450000,
@@ -6220,6 +11267,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -6231,50 +11287,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42697628450883,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD80-TIM-XS",
+        "id": 5175711,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
-      },
-      {
-        "id": 42697628483651,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD80-TIM-S",
-        "price": 450000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42697628516419,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD80-TIM-M",
+        "id": 5175712,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42697628549187,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD80-TIM-L",
+        "id": 5175713,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 5175714,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 5175715,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5175716,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5175717,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5175718,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5175719,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 51757110,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 51757111,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 51757112,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 51757113,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 51757114,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 51757115,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 51757116,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo loe dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót kim sa hồng</p>\n<p>CHẤT LIỆU<br>- Tơ nhung<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -6287,7 +11448,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-khả-san-copy",
     "title": "ÁO DÀI KHẢ SAN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-12T21:56:21+07:00",
     "published_at": "2025-09-12T22:01:55+07:00",
     "price": 350000,
@@ -6400,7 +11561,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ dập nổi màu xanh dương<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh dương </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
@@ -6413,7 +11575,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68-7",
     "title": "ÁO DÀI TƠ DDAD68",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-10T14:37:42+07:00",
     "published_at": "2025-09-10T14:37:57+07:00",
     "price": 200000,
@@ -6568,7 +11730,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu xanh than<br>Áo dài tơ lớp ngoài cùng màu tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh than – tím nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -6581,7 +11744,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad67",
     "title": "ÁO DÀI YÊN NHIÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:49:11+07:00",
     "published_at": "2025-09-10T14:05:10+07:00",
     "price": 250000,
@@ -6595,6 +11758,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -6606,50 +11778,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644700430403,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD67-KEM-XS",
+        "id": 2807071,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560522354755,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD67-KEM-S",
+        "id": 2807072,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560522387523,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD67-KEM-M",
+        "id": 2807073,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560522420291,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD67-KEM-L",
+        "id": 2807074,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2807075,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2807076,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2807077,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2807078,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2807079,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28070710,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28070711,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28070712,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28070713,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28070714,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28070715,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28070716,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ áo tròn<br>- Không có tay <br>- Có cúc đóng phía sau<br>- Áo hai lớp<br>- Lớp lót latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br>CHĂM SÓC</span></p>",
@@ -6662,7 +11939,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad66-1",
     "title": "ÁO DÀI PHẤN TRANG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:46:20+07:00",
     "published_at": "2025-09-10T14:05:10+07:00",
     "price": 350000,
@@ -6676,6 +11953,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -6687,50 +11973,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644700495939,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD66-HONGCAM-XS",
+        "id": 2479391,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560522256451,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD66-HONGCAM-S",
+        "id": 2479392,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560522289219,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD66-HONGCAM-M",
+        "id": 2479393,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560522321987,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD66-HONGCAM-L",
+        "id": 2479394,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2479395,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2479396,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2479397,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2479398,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2479399,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 24793910,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 24793911,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 24793912,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 24793913,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 24793914,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 24793915,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 24793916,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -6743,7 +12134,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad66",
     "title": "ÁO DÀI PHONG TƯ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:43:26+07:00",
     "published_at": "2025-09-10T14:05:10+07:00",
     "price": 350000,
@@ -6758,6 +12149,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -6769,50 +12169,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644700561475,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD66-XANHDUONG-XS",
+        "id": 1168671,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560521961539,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD66-XANHDUONG-S",
+        "id": 1168672,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560521994307,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD66-XANHDUONG-M",
+        "id": 1168673,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42560522027075,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD66-XANHDUONG-L",
+        "id": 1168674,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1168675,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1168676,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1168677,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1168678,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1168679,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 11686710,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 11686711,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 11686712,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 11686713,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11686714,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11686715,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11686716,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -6825,7 +12330,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68-9",
     "title": "ÁO DÀI TƠ VÂN MỘNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:27:52+07:00",
     "published_at": "2025-09-10T14:05:11+07:00",
     "price": 200000,
@@ -6982,7 +12487,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây xanh cổ vịt<br>Áo dài tơ dập nổi lớp trong tím nhạt<br>Áo dài tơ lớp ngoài tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – xanh lá</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -6995,7 +12501,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad64-3",
     "title": "ÁO DÀI TÚ SẮC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:27:36+07:00",
     "published_at": "2025-09-10T14:05:12+07:00",
     "price": 350000,
@@ -7109,7 +12615,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu xanh cổ vị<br>Áo dài tơ dập nổi lớp ngoài cùng màu tím nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – xanh than – tím nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài: tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -7122,7 +12629,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68-6",
     "title": "ÁO DÀI TƠ DUẬT VÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:19:35+07:00",
     "published_at": "2025-09-10T14:05:12+07:00",
     "price": 200000,
@@ -7278,7 +12785,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h4>Thiết kế bao gồm 3 sản phẩm:</h4>\n<p>Áo dài tơ lớp ngoài cùng màu xanh dương<br>Áo dài tơ lớp trong màu hồng nhạt<br>Váy trong hai dây màu kem</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng nhạt – xanh dương</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>\n<p> </p>",
@@ -7291,7 +12799,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68-5",
     "title": "ÁO DÀI TƠ DIỆP VÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:14:28+07:00",
     "published_at": "2025-09-10T14:05:12+07:00",
     "price": 200000,
@@ -7447,7 +12955,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu hồng sen<br>Áo dài tơ lớp ngoài màu xanh lá</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – xanh lá</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp;amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -7460,7 +12969,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68-4",
     "title": "ÁO DÀI TƠ TRI VÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:11:56+07:00",
     "published_at": "2025-09-10T14:05:15+07:00",
     "price": 200000,
@@ -7615,7 +13124,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu kem<br>Áo dài tơ lớp trong màu hồng sen<br>Áo dài tơ lớp ngoài cùng màu hồng nhạt</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối màu kem – hồng sen – hồng nhạt</p>\n<p><br>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -7628,7 +13138,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68-3",
     "title": "ÁO DÀI TƠ VÂN HẠ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-09T11:07:53+07:00",
     "published_at": "2025-09-10T14:05:16+07:00",
     "price": 200000,
@@ -7784,7 +13294,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu xanh cổ vịt<br>Áo dài tơ lớp trong xanh cổ vịt<br>Áo dài tơ lớp ngoài cùng màu xanh than</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay dài<br>- Có hàng cúc dọc phía trước<br>- Màu sắc tổng thể: phối xanh cổ vịt – xanh cổ vịt – xanh than</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -7797,7 +13308,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad66-copy-1",
     "title": "ÁO DÀI XƯỚC YÊU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:51:14+07:00",
     "published_at": "2025-09-04T12:52:31+07:00",
     "price": 350000,
@@ -7811,6 +13322,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -7822,50 +13342,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644695711811,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD66-HONGNHAT-XS",
+        "id": 6949791,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42551238328387,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD66-HONGNHAT-S",
+        "id": 6949792,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42551238361155,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD66-HONGNHAT-M",
+        "id": 6949793,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42551238393923,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD66-HONGNHAT-L",
+        "id": 6949794,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6949795,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6949796,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6949797,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6949798,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6949799,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 69497910,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 69497911,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 69497912,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 69497913,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 69497914,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 69497915,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 69497916,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Lụa hoa nhỏ phối kim sa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -7878,7 +13503,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad64-2",
     "title": "ÁO DÀI NGUYỆT MẠO",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:45:22+07:00",
     "published_at": "2025-09-04T12:45:38+07:00",
     "price": 350000,
@@ -7992,7 +13617,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi lớp ngoài cùng màu vàng<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – vàng </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
@@ -8005,7 +13631,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad66-copy",
     "title": "ÁO DÀI PHONG TƯ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:40:29+07:00",
     "published_at": "2025-09-04T12:42:04+07:00",
     "price": 200000,
@@ -8119,7 +13745,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3><br></h3>\n<h3>Thiết kế bao gồm 2 sản phẩm:</h3>\n<p>Áo dài lụa dập nổi màu xanh dương<br>Áo dài tơ trong lớp ngoài cùng màu tím nhạt<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối xanh dương – tím nhạt </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
@@ -8132,7 +13759,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad64-01-copy",
     "title": "ÁO DÀI THANH VÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:35:34+07:00",
     "published_at": "2025-09-04T12:39:10+07:00",
     "price": 200000,
@@ -8288,7 +13915,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>Thiết kế bao gồm 3 sản phẩm:</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi màu vàng<br>Áo dài tơ lớp ngoài cùng màu xanh dương</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – vàng – xanh dương</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
@@ -8301,7 +13929,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad65",
     "title": "ÁO DÀI NGỌC TRÁC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:34:38+07:00",
     "published_at": "2025-09-04T12:36:32+07:00",
     "price": 450000,
@@ -8316,6 +13944,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -8327,50 +13964,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644696039491,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD65-NAU-XS",
+        "id": 3070111,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42550318497859,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD65-NAU-S",
+        "id": 3070112,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42550318530627,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD65-NAU-M",
+        "id": 3070113,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42550318563395,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD65-NAU-L",
+        "id": 3070114,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3070115,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3070116,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3070117,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3070118,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3070119,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 30701110,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 30701111,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 30701112,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 30701113,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 30701114,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 30701115,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 30701116,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp</p>\n<p>CHẤT LIỆU<br>- Ren kim sa phối lụa lông công<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -8383,7 +14125,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad64-1",
     "title": "ÁO DÀI TƠ VÂN VỤ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:29:05+07:00",
     "published_at": "2025-09-04T12:29:25+07:00",
     "price": 200000,
@@ -8536,7 +14278,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Thiết kế bao gồm 3 sản phẩm:</span></span></h3>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Váy trong hai dây màu đỏ </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Áo dài tơ dập nổi màu xanh dương </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Áo dài tơ lớp ngoài Áo cùng màu xanh dương</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHI TIẾT SẢN PHẨM </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Thiết kế 3 lớp phân phối tinh tế </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Đường áo tàog, cổ trụ, áo dài </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Có hàng cúc đóng phía trước </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Màu sắc tổng thể: phối màu đỏ – xanh dương – xanh dương</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHẤT LIỆU </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Váy lót: Tơ óng </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Độ xuyên nhiều: vải tương đối xuyên cắt, cần phối kèm váy lót </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">CHĂM SÓC </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ sạch khô </span></span><br><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">- Chỉ hơi nước nước</span></span></p>\n<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">* Sản phẩm màu sắc có thể chênh lệch đậm/nhạt hơn nên thực tế làm hiệu ứng sáng</span></span><span data-sheets-root=\"1\"></span></p>",
@@ -8549,7 +14292,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68",
     "title": "ÁO DÀI DIỆP VÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:24:02+07:00",
     "published_at": "2025-09-04T12:24:09+07:00",
     "price": 200000,
@@ -8706,7 +14449,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 3 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi màu xanh lá<br>Áo dài tơ lớp ngoài cùng màu xanh lá</p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 3 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – xanh lá – xanh lá</p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
@@ -8719,7 +14463,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad64-01",
     "title": "ÁO DÀI HOA DUNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:23:40+07:00",
     "published_at": "2025-09-04T12:23:47+07:00",
     "price": 350000,
@@ -8834,7 +14578,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Váy trong hai dây màu vàng cốm<br>Áo dài tơ dập nổi lớp ngoài cùng màu xanh lá<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối vàng cốm – xanh lá </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
@@ -8847,7 +14592,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tơ-ddad68-1",
     "title": "ÁO DÀI VÂN TƯỜNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-09-04T12:15:13+07:00",
     "published_at": "2025-09-04T12:15:24+07:00",
     "price": 200000,
@@ -8962,7 +14707,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<h3>\n<span style=\"font-size: 1rem;\">Thiết kế bao gồm 2 sản phẩm:</span><br>\n</h3>\n<p>Áo dài lụa dập nổi màu hồng nhạt<br>Áo dài tơ trong lớp ngoài cùng màu hồng sen<br></p>\n<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế 2 lớp phối hợp tinh tế<br>- Dáng áo suông, cổ trụ, tay áo dài<br>- Có hàng cúc đóng phía trước<br>- Màu sắc tổng thể: phối hồng nhạt – hồng sen </p>\n<p>CHẤT LIỆU<br>- Áo dài (lớp trong &amp; ngoài ): tơ mềm, ít co giãn<br>- Váy lót: Tơ óng<br>Độ xuyên thấu: vải tương đối xuyên thấu, cần phối kèm váy lót<br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng<span data-sheets-root=\"1\"></span></p>",
@@ -8975,7 +14721,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-thi-1",
     "title": "ÁO DÀI XUÂN THÌ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-04-05T14:14:10+07:00",
     "published_at": "2025-04-05T14:14:10+07:00",
     "price": 180000,
@@ -8989,6 +14735,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -9000,50 +14755,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42207840403523,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD12-ĐỎ-XS",
+        "id": 3985311,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42207840436291,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD12-ĐỎ-S",
+        "id": 3985312,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42207840469059,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD12-ĐỎ-M",
+        "id": 3985313,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42207840501827,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD12-ĐỎ-L",
+        "id": 3985314,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 180000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3985315,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3985316,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3985317,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3985318,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3985319,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 39853110,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 39853111,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 39853112,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 39853113,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 39853114,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 39853115,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 39853116,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
@@ -9056,7 +14916,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ngu-phuc-2",
     "title": "ÁO DÀI NGŨ PHÚC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-04-03T12:08:24+07:00",
     "published_at": "2025-04-03T12:08:24+07:00",
     "price": 160000,
@@ -9070,6 +14930,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9080,40 +14949,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42200220205123,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD23-HONG-S",
+        "id": 1045151,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42200220237891,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD23-HONG-M",
+        "id": 1045152,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42200220270659,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD23-HONG-L",
+        "id": 1045153,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1045154,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1045155,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1045156,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1045157,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1045158,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1045159,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 10451510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 10451511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 10451512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
@@ -9126,7 +15074,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad18",
     "title": "ÁO DÀI DDAD18",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-04-03T11:57:38+07:00",
     "published_at": "2025-04-03T11:57:38+07:00",
     "price": 160000,
@@ -9140,6 +15088,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9150,40 +15107,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42200215748675,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD18-DEN-S",
+        "id": 2853151,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42200215781443,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD18-DEN-M",
+        "id": 2853152,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42200215814211,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD18-DEN-L",
+        "id": 2853153,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2853154,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2853155,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2853156,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2853157,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2853158,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2853159,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 28531510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28531511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 28531512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>ÁO DÀI KHÔNG BAO GỒM QUẦN</p>",
@@ -9196,7 +15232,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad05-02",
     "title": "ÁO DÀI DDAD05.02",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-04-03T11:30:39+07:00",
     "published_at": "2025-04-03T11:30:38+07:00",
     "price": 160000,
@@ -9211,6 +15247,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9221,40 +15266,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42200197693507,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD05.02-KEM-S",
+        "id": 5000351,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42200197726275,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD05.02-KEM-M",
+        "id": 5000352,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42200197759043,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD05.02-KEM-L",
+        "id": 5000353,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 5000354,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5000355,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5000356,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5000357,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5000358,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5000359,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 50003510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 50003511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 50003512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
@@ -9267,7 +15391,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad12-01",
     "title": "ÁO DÀI DDAD12.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-04-02T16:25:07+07:00",
     "published_at": "2025-04-02T16:25:07+07:00",
     "price": 330000,
@@ -9281,6 +15405,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9291,40 +15424,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42198339846211,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD12.01-HONG-S",
+        "id": 270111,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 330000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42198339878979,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD12.01-HONG-M",
+        "id": 270112,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 330000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42198339911747,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD12.01-HONG-L",
+        "id": 270113,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 330000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 270114,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 330000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 270115,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 330000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 270116,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 330000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 270117,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 330000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 270118,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 330000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 270119,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 330000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2701110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 330000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 2701111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 330000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 2701112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 330000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT SẢN PHẨM<br>- Thiết kế độc quyền từ NÉT DUYÊN<br>- Đường may tỉ mỉ, phom dáng tôn nét thanh lịch Á Đông<br><br>CHẤT LIỆU & CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô<br>- Chỉ ủi hơi nước ở nhiệt độ thấp</p>",
@@ -9337,7 +15549,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-phương-nam-1",
     "title": "ÁO DÀI PHƯƠNG NAM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-02-18T10:54:19+07:00",
     "published_at": "2025-03-03T14:46:17+07:00",
     "price": 290000,
@@ -9353,6 +15565,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9363,40 +15584,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42130869125187,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD39.01-DO-S",
+        "id": 4250271,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42130869157955,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD39.01-DO-M",
+        "id": 4250272,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42130869190723,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD39.01-DO-L",
+        "id": 4250273,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 4250274,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4250275,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4250276,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4250277,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4250278,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4250279,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 42502710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 42502711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 42502712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG KÈM ÁO NGOÀI VÀ QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
@@ -9409,7 +15709,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-phương-nam",
     "title": "ÁO DÀI PHƯƠNG NAM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-02-18T10:47:47+07:00",
     "published_at": "2025-03-03T14:46:26+07:00",
     "price": 290000,
@@ -9426,6 +15726,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9436,40 +15745,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42130871550019,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD39.01-XANHCOVIT-S",
+        "id": 1301151,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42130871582787,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD39.01-XANHCOVIT-M",
+        "id": 1301152,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42130871615555,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD39.01-XANHCOVIT-L",
+        "id": 1301153,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1301154,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1301155,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1301156,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1301157,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1301158,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1301159,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 13011510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 13011511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 13011512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG KÈM ÁO NGOÀI VÀ QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
@@ -9482,7 +15870,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-cẩm-phương-2",
     "title": "ÁO DÀI CẨM PHƯƠNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-02-18T10:41:00+07:00",
     "published_at": "2025-03-03T14:46:37+07:00",
     "price": 360000,
@@ -9497,6 +15885,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9507,40 +15904,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42113187905603,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD39-HONG-S",
+        "id": 4747551,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42113187938371,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD39-HONG-M",
+        "id": 4747552,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42113187971139,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD39-HONG-L",
+        "id": 4747553,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 4747554,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4747555,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4747556,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4747557,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4747558,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4747559,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 47475510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 47475511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 47475512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>",
@@ -9553,7 +16029,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-cẩm-phương-1",
     "title": "ÁO DÀI CẨM PHƯƠNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-02-18T10:39:38+07:00",
     "published_at": "2025-03-03T14:46:48+07:00",
     "price": 360000,
@@ -9567,6 +16043,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -9578,50 +16063,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644700069955,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DD-7374735343683-XS",
+        "id": 3436831,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42113187643459,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD39-TRANGKEM-S",
+        "id": 3436832,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42113187676227,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD39-TRANGKEM-M",
+        "id": 3436833,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42113187708995,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD39-TRANGKEM-L",
+        "id": 3436834,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3436835,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3436836,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3436837,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3436838,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3436839,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 34368310,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 34368311,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 34368312,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 34368313,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 34368314,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 34368315,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 34368316,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>",
@@ -9634,7 +16224,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-cẩm-phương",
     "title": "ÁO DÀI CẨM PHƯƠNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-02-18T10:38:02+07:00",
     "published_at": "2025-03-03T14:46:57+07:00",
     "price": 360000,
@@ -9651,6 +16241,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9661,40 +16260,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42113187283011,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD39-DOCAMDAT-S",
+        "id": 2126111,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42113187315779,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD39-DOCAMDAT-M",
+        "id": 2126112,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42113187348547,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD39-DOCAMDAT-L",
+        "id": 2126113,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 360000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2126114,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2126115,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2126116,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2126117,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2126118,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2126119,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 21261110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 21261111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 21261112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo một lớp</p>\n<p>CHẤT LIỆU<br>- Gấm hồ điệp thêu hoa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>\n<div id=\"input_line_0\"><span class=\"\" data-mention=\"- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải\" id=\"input_part_0\">- Do tính chất vải có cấu tạo đặc biệt khuyến nghị khách hàng nền giặt khô, không giặt nước, không vắt vò mạnh vải</span></div>\n<div id=\"input_line_1\"><span class=\"\" data-mention=\"- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form\" id=\"input_part_0\">- Dùng bàn là nhiệt là tốt nhất nếu có là hơi nước khách hàng nên đặt cách một lớp vải khác để giữ được nguyên form</span></div>\n<div id=\"input_line_2\"><span class=\"\" data-mention=\"- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu\" id=\"input_part_0\">- Khi là bằng bàn là hơi hãy hạn chế xì hơi ra quá nhiều không là kỹ vào hình thêu </span></div>\n<div id=\"input_line_3\"><span class=\"\" data-mention=\"- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm\" id=\"input_part_0\">- Tránh tác dụng nhiệt trực tiếp lên bề mặt nhiều lần để giữ được tuổi thọ của sản phẩm</span></div>",
@@ -9707,7 +16385,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-y",
     "title": "ÁO DÀI XUÂN Ý",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-01-20T11:51:44+07:00",
     "published_at": "2025-01-20T15:37:08+07:00",
     "price": 350000,
@@ -9722,6 +16400,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9732,40 +16419,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42050923888707,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD62-DO-S",
+        "id": 2029471,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42050923921475,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD62-DO-M",
+        "id": 2029472,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42050923954243,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD62-DO-L",
+        "id": 2029473,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2029474,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2029475,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2029476,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2029477,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2029478,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2029479,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 20294710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 20294711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 20294712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM PRE-ORDER </p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Lưới hạt cườm phối ruby<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -9778,7 +16544,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ddad64",
     "title": "ÁO DÀI DIÊN NIÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-01-18T16:45:09+07:00",
     "published_at": "2025-01-20T15:31:52+07:00",
     "price": 330000,
@@ -9794,6 +16560,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9804,40 +16579,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42050929950787,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD64-XANH-S",
+        "id": 9304351,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 330000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42050929983555,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD64-XANH-M",
+        "id": 9304352,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 330000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42050930016323,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD64-XANH-L",
+        "id": 9304353,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 330000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9304354,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 330000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9304355,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 330000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9304356,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 330000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9304357,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 330000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9304358,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 330000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9304359,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 330000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 93043510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 330000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 93043511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 330000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 93043512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 330000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><br></p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có cúc đóng phía trước<br>- Áo hai lớp<br>- Lớp lót lụa latin đen</p>\n<p>CHẤT LIỆU<br>- Tơ nến in họa tiết độc bản phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -9850,7 +16704,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ddad62",
     "title": "ÁO DÀI XUÂN Ý",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-01-18T16:10:57+07:00",
     "published_at": "2025-01-20T15:25:09+07:00",
     "price": 350000,
@@ -9865,6 +16719,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9875,40 +16738,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42048766279747,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD62-KEM-S",
+        "id": 4231071,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42048766312515,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD62-KEM-M",
+        "id": 4231072,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42048766345283,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD62-KEM-L",
+        "id": 4231073,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 4231074,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4231075,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4231076,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4231077,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4231078,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4231079,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 42310710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 42310711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 42310712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM PRE-ORDER </p>\n<p>CHI TIẾT<br>- Dáng áo suông <br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Voan đính kết hạt cườm phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -9921,7 +16863,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-ca-1",
     "title": "ÁO DÀI XUÂN CA HỒNG NHẠT",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-30T11:41:28+07:00",
     "published_at": "2024-12-30T11:41:28+07:00",
     "price": 170000,
@@ -9935,6 +16877,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -9945,40 +16896,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42018411282499,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25.01-HONGNHAT-S",
+        "id": 2957471,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018411315267,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25.01-HONGNHAT-M",
+        "id": 2957472,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018411348035,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25.01-HONGNHAT-L",
+        "id": 2957473,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2957474,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2957475,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2957476,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2957477,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2957478,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2957479,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 29574710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 29574711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 29574712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p> </p>",
@@ -9991,7 +17021,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-hồ-diệp",
     "title": "ÁO DÀI HỒ ĐIỆP",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-30T11:35:21+07:00",
     "published_at": "2024-12-30T11:35:21+07:00",
     "price": 220000,
@@ -10004,6 +17034,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -10015,50 +17054,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644705050691,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DD-7354196131907-XS",
+        "id": 1319071,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 220000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018410266691,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD60.01-HONG-S",
+        "id": 1319072,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 220000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018410299459,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD60.01-HONG-M",
+        "id": 1319073,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 220000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018410332227,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD60.01-HONG-L",
+        "id": 1319074,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 220000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1319075,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1319076,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1319077,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1319078,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1319079,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 220000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 13190710,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 220000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 13190711,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 220000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 13190712,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 13190713,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 220000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 13190714,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 220000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 13190715,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 220000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 13190716,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin </p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết bướm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
@@ -10071,7 +17215,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-ca",
     "title": "ÁO DÀI XUÂN CA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-30T11:30:18+07:00",
     "published_at": "2024-12-30T11:30:18+07:00",
     "price": 170000,
@@ -10084,6 +17228,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -10095,50 +17248,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644707180611,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DD-7354195902531-XS",
+        "id": 9025311,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018409054275,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25.01-TRANG-S",
+        "id": 9025312,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018409087043,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25.01-TRANG-M",
+        "id": 9025313,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42018409119811,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25.01-TRANG-L",
+        "id": 9025314,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9025315,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9025316,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9025317,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9025318,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9025319,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90253110,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90253111,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90253112,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 90253113,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 90253114,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 90253115,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 90253116,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC</p>",
@@ -10151,7 +17409,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-hồ-diệp-2",
     "title": "ÁO DÀI HỒ ĐIỆP",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-02T14:54:05+07:00",
     "published_at": "2024-12-02T17:14:06+07:00",
     "price": 220000,
@@ -10164,6 +17422,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10174,40 +17441,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41974315515971,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD59-HONG-S",
+        "id": 4219551,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 220000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974315548739,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD59-HONG-M",
+        "id": 4219552,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 220000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974315581507,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD59-HONG-L",
+        "id": 4219553,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 220000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 4219554,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4219555,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4219556,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4219557,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 220000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4219558,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 220000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4219559,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 42195510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 220000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 42195511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 220000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 42195512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin </p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
@@ -10220,7 +17566,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-ca-9",
     "title": "ÁO DÀI XUÂN CA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-02T14:48:15+07:00",
     "published_at": "2024-12-02T17:15:16+07:00",
     "price": 170000,
@@ -10237,6 +17583,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10247,40 +17602,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41984628883523,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25.01-XANHNGOC-S",
+        "id": 8976671,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 170000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 41984628916291,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25.01-XANHNGOC-M",
+        "id": 8976672,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41984628949059,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25.01-XANHNGOC-L",
+        "id": 8976673,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 8976674,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8976675,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8976676,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8976677,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8976678,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8976679,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 89766710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 89766711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 89766712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
@@ -10293,7 +17727,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-ca-8",
     "title": "ÁO DÀI XUÂN CA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-02T14:45:19+07:00",
     "published_at": "2024-12-02T17:14:48+07:00",
     "price": 170000,
@@ -10307,6 +17741,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10317,40 +17760,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41974305095747,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25.01-HONGTIM-S",
+        "id": 2423071,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974305161283,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25.01-HONGTIM-M",
+        "id": 2423072,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974305226819,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25.01-HONGTIM-L",
+        "id": 2423073,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2423074,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2423075,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2423076,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2423077,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2423078,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2423079,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 24230710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 24230711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 24230712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
@@ -10363,7 +17885,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-ca-7",
     "title": "ÁO DÀI XUÂN CA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-02T14:44:41+07:00",
     "published_at": "2024-12-02T17:17:17+07:00",
     "price": 170000,
@@ -10377,6 +17899,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10387,40 +17918,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41974304604227,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25.01-DO-S",
+        "id": 1112351,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974304636995,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25.01-DO-M",
+        "id": 1112352,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974304669763,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25.01-DO-L",
+        "id": 1112353,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1112354,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1112355,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1112356,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1112357,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1112358,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1112359,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 11123510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11123511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11123512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>",
@@ -10433,7 +18043,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-ca-6",
     "title": "ÁO DÀI XUÂN CA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-02T14:42:03+07:00",
     "published_at": "2024-12-02T17:17:00+07:00",
     "price": 170000,
@@ -10446,6 +18056,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10456,40 +18075,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41974303588419,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25.01-DEN-S",
+        "id": 8490911,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974303621187,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25.01-DEN-M",
+        "id": 8490912,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41974303653955,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25.01-DEN-L",
+        "id": 8490913,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 8490914,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8490915,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8490916,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8490917,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8490918,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8490919,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 84909110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 84909111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 84909112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ in họa tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
@@ -10502,7 +18200,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-bach-hoa-2",
     "title": "ÁO DÀI BÁCH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-12-02T14:35:15+07:00",
     "published_at": "2024-12-02T17:16:39+07:00",
     "price": 200000,
@@ -10661,7 +18359,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông<br>- Cổ trụ<br>- Tay áo lỡ<br>- Có khóa kéo phía sau<br>- Áo hai lớp<br>- Lớp lót latin</p>\n<p>CHẤT LIỆU<br>- Tơ thêu hoạ tiết<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p><br></p>",
@@ -10674,7 +18373,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad38-2",
     "title": "ÁO DÀI DDAD38",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-20T15:28:02+07:00",
     "published_at": "2024-11-20T15:28:02+07:00",
     "price": 430000,
@@ -10688,6 +18387,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10698,40 +18406,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41941734883395,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD38-KEM-S",
+        "id": 1311,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941734916163,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD38-KEM-M",
+        "id": 1312,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941734948931,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD38-KEM-L",
+        "id": 1313,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1314,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1315,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1316,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1317,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1318,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1319,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 13110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 13111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 13112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông <br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
@@ -10744,7 +18531,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad38-1",
     "title": "ÁO DÀI DDAD38",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-20T15:10:01+07:00",
     "published_at": "2024-11-20T15:10:01+07:00",
     "price": 430000,
@@ -10760,6 +18547,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10770,40 +18566,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41941619015747,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD38-DEN-S",
+        "id": 9380511,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941619048515,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD38-DEN-M",
+        "id": 9380512,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941619081283,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD38-DEN-L",
+        "id": 9380513,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9380514,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9380515,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9380516,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9380517,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9380518,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9380519,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 93805110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 93805111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 93805112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông rộng<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
@@ -10816,7 +18691,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad32-1",
     "title": "ÁO DÀI DDAD32",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-20T14:58:54+07:00",
     "published_at": "2024-11-20T14:58:54+07:00",
     "price": 190000,
@@ -10830,6 +18705,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10840,40 +18724,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41941546762307,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD38-DEN-S",
+        "id": 2352671,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941546795075,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD38-DEN-M",
+        "id": 2352672,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941546827843,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD38-DEN-L",
+        "id": 2352673,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2352674,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2352675,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2352676,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2352677,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2352678,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2352679,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 23526710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 23526711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 23526712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Áo dáng suông nhẹ<br>- Cổ áo chéo<br>- Tay áo dài<br>- Có hàng nơ buộc,cúc cài, cúc đóng phía trước<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở</p>\n<p><br></p>",
@@ -10886,7 +18849,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad37-1",
     "title": "ÁO DÀI MAI",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-20T14:50:13+07:00",
     "published_at": "2024-11-20T14:50:13+07:00",
     "price": 190000,
@@ -10901,6 +18864,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10911,40 +18883,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41941492269123,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD37-VANG-S",
+        "id": 1550751,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 190000,
-        "compare_at_price": 1850000,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941492301891,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD37-VANG-M",
+        "id": 1550752,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 190000,
-        "compare_at_price": 1850000,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941492334659,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD37-VANG-L",
+        "id": 1550753,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 190000,
-        "compare_at_price": 1850000,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1550754,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1550755,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1550756,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1550757,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1550758,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1550759,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 15507510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 15507511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 15507512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Không có tay<br>- Có khóa kéo sau lưng<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
@@ -10957,7 +19008,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad21-1",
     "title": "ÁO DÀI DDAD21.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-20T14:46:55+07:00",
     "published_at": "2024-11-20T14:46:55+07:00",
     "price": 290000,
@@ -10972,6 +19023,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -10982,40 +19042,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41941476147267,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD21.01-TIM-S",
+        "id": 1720351,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 290000,
-        "compare_at_price": 2900000,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941476180035,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD21.01-TIM-M",
+        "id": 1720352,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 290000,
-        "compare_at_price": 2900000,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941476212803,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD21.01-TIM-L",
+        "id": 1720353,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 290000,
-        "compare_at_price": 2900000,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1720354,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1720355,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1720356,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1720357,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1720358,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1720359,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 17203510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 17203511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 17203512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ yếm buộc dây sau<br>- Không có tay<br>- Không có lót</p>\n<p>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ, tránh bị hở</p>\n<p><br></p>",
@@ -11028,7 +19167,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad41",
     "title": "ÁO DÀI HỒNG HẠC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-20T14:29:35+07:00",
     "published_at": "2024-11-20T14:29:35+07:00",
     "price": 450000,
@@ -11042,6 +19181,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11052,40 +19200,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41941372665923,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD41-HONG-S",
+        "id": 6997791,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 450000,
-        "compare_at_price": 4450000,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941372698691,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD41-HONG-M",
+        "id": 6997792,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 450000,
-        "compare_at_price": 4450000,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41941372731459,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD41-HONG-L",
+        "id": 6997793,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 450000,
-        "compare_at_price": 4450000,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6997794,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6997795,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6997796,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6997797,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6997798,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6997799,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 69977910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 69977911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 69977912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 450000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<p>CHI TIẾT<br>- Dạng áo suông <br>- Cổ tàu<br>- Tay áo dài<br>- Có khóa kéo phía sau<br>- Lót lụa latin</p>\n<p>CHẤT LIỆU<br>- Gấm phối latin<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu</p>\n<p><br></p>",
@@ -11098,7 +19325,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad09-01",
     "title": "ÁO DÀI DDAD09.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T16:37:07+07:00",
     "published_at": "2024-11-08T16:37:07+07:00",
     "price": 160000,
@@ -11111,6 +19338,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11121,40 +19357,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41922740355139,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD09.01-XANHCOVIT-S",
+        "id": 6256031,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922740387907,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD09.01-XANHCOVIT-M",
+        "id": 6256032,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922740420675,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD09.01-XANHCOVIT-L",
+        "id": 6256033,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6256034,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6256035,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6256036,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6256037,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6256038,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6256039,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 62560310,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 62560311,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 62560312,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tròn<br>- Không có tay <br>- Có cúc đóng sau lưng<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
@@ -11167,7 +19482,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad22-01",
     "title": "ÁO DÀI DDAD22.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T16:19:29+07:00",
     "published_at": "2024-11-08T16:19:29+07:00",
     "price": 160000,
@@ -11180,6 +19495,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "XS",
@@ -11191,50 +19515,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42644710785091,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DD-7331264069699-XS",
+        "id": 696991,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
-      },
-      {
-        "id": 41922723905603,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD22.01-HONG-S",
-        "price": 160000,
-        "compare_at_price": null,
-        "available": false
-      },
-      {
-        "id": 41922723938371,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD22.01-HONG-M",
-        "price": 160000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 41922723971139,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD22.01-HONG-L",
+        "id": 696992,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 696993,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 696994,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 696995,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 696996,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 696997,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 696998,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 696999,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6969910,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6969911,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6969912,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6969913,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 6969914,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 6969915,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 6969916,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Váy ôm body<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
@@ -11247,7 +19676,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad05-05",
     "title": "ÁO DÀI ĐỖ QUYÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T16:15:49+07:00",
     "published_at": "2024-11-08T16:15:49+07:00",
     "price": 170000,
@@ -11261,6 +19690,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11271,40 +19709,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41922722496579,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD05.05-HONGSEN-S",
+        "id": 7092511,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922722529347,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD05.05-HONGSEN-M",
+        "id": 7092512,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922722562115,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD05.05-HONGSEN-L",
+        "id": 7092513,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 170000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7092514,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7092515,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7092516,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7092517,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7092518,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7092519,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 70925110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70925111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 70925112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 170000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đóng, móc cài phía trước<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br>CHĂM SÓC<br></span></p>",
@@ -11317,7 +19834,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad21-01",
     "title": "ÁO DÀI DDAD21.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T16:12:04+07:00",
     "published_at": "2024-11-08T16:12:04+07:00",
     "price": 290000,
@@ -11330,6 +19847,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11340,40 +19866,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41922718564419,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD21.01-HONG-S",
+        "id": 8245151,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922718597187,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD21.01-HONG-M",
+        "id": 8245152,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 290000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922718629955,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD21.01-HONG-L",
+        "id": 8245153,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 290000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 8245154,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8245155,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8245156,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8245157,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8245158,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8245159,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 82451510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 82451511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 290000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 82451512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 290000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span>Áo </span><span class=\"html-span xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1hl2dhg x16tdsg8 x1vvkbs\"><a class=\"html-a xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1hl2dhg x16tdsg8 x1vvkbs\" tabindex=\"-1\"></a></span><span>dài được tạo nên từ những thước vải tơ vân hạc ẩn hiện trong từng nếp áo bay. Cổ áo được cách điệu tựa dải yếm thương nhớ năm xưa, tôn nên cần cổ cao thon nhỏ. Lớp vải xếp nhún bay bổng tựa dải lụa vắt ngang trời xanh sáng ngời và rực rỡ.</span></p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ yếm buộc dây sau<br>- Không có tay<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ, tránh bị hở<br><br> </span></p>",
@@ -11386,7 +19991,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad38",
     "title": "ÁO DÀI DDAD38",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T16:02:57+07:00",
     "published_at": "2024-11-08T16:02:57+07:00",
     "price": 430000,
@@ -11400,6 +20005,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11410,40 +20024,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41922708504643,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD38-DEN-S",
+        "id": 9578911,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922708537411,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD38-DEN-M",
+        "id": 9578912,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922708570179,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD38-DEN-L",
+        "id": 9578913,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 430000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9578914,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9578915,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9578916,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9578917,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9578918,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9578919,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 95789110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 95789111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 95789112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\"><span>Áo dài truyền thống duyên dáng với những chi tiết truyền thống tinh tế, từ cổ áo cao e ấp đến đường chiết eo nhẹ nhàng tôn lên vẻ đẹp yêu kiều, hài hòa với tay áo mềm mại phất phơ trong gió thu, vừa tạo nét uyển chuyển, vừa giúp che đi những khuyết điểm nhỏ trên cơ thể.</span></span></p>\n<p><span data-sheets-root=\"1\"><span>SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dạng áo suông rộng<br>- Cổ tàu<br>- Tay áo dài<br>- Có hàng cúc đòng phía trước<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm <br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
@@ -11456,7 +20149,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad09",
     "title": "ÁO DÀI DDAD09",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T15:59:56+07:00",
     "published_at": "2024-11-08T15:59:56+07:00",
     "price": 160000,
@@ -11470,6 +20163,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11480,40 +20182,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41922706079811,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD09-KEM-S",
+        "id": 1059231,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922706112579,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD09-KEM-M",
+        "id": 1059232,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922706145347,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD09-KEM-L",
+        "id": 1059233,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1059234,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1059235,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1059236,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1059237,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1059238,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1059239,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 10592310,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 10592311,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 10592312,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tròn<br>- Không có tay <br>- Cúc đóng sau lưng<br>- Lót lụa latin<br><br>CHẤT LIỆU<br>- Gấm<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br></span></p>",
@@ -11526,7 +20307,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad32",
     "title": "ÁO DÀI DDAD32",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T15:50:28+07:00",
     "published_at": "2024-11-08T15:50:28+07:00",
     "price": 190000,
@@ -11539,6 +20320,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11549,40 +20339,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41922699952195,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD32-XANHCOVIT-S",
+        "id": 7477791,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 190000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 41922699984963,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD32-XANHCOVIT-M",
+        "id": 7477792,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922700017731,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD32-XANHCOVIT-L",
+        "id": 7477793,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7477794,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7477795,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7477796,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7477797,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7477798,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7477799,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 74777910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 74777911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 74777912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Áo dáng suông nhẹ<br>- Cổ áo chéo<br>- Tay áo dài<br>- Có hàng nơ buộc,cúc cài, cúc đóng phía trước<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở<br></span></p>",
@@ -11595,7 +20464,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad37",
     "title": "ÁO DÀI MAI",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T15:36:01+07:00",
     "published_at": "2024-11-08T15:36:01+07:00",
     "price": 190000,
@@ -11608,6 +20477,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11618,40 +20496,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41922697658435,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD37-VANG-S",
+        "id": 3568671,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922697691203,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD37-VANG-M",
+        "id": 3568672,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41922697723971,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD37-VANG-L",
+        "id": 3568673,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 190000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3568674,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3568675,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3568676,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3568677,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3568678,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3568679,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 35686710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 35686711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 35686712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 190000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SẢN PHẨM KHÔNG BAO GỒM QUẦN</p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Dáng áo suông nhẹ<br>- Cổ tàu<br>- Không có tay<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Lụa<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu<br><br></span></p>",
@@ -11664,7 +20621,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad26-02",
     "title": "ÁO DÀI DDAD26.02",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-11-08T15:31:15+07:00",
     "published_at": "2024-11-08T15:31:15+07:00",
     "price": 210000,
@@ -11727,7 +20684,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p><span>Áo dài ĐING ĐANG đem tới một sắc hồng dịu dàng, như một cánh hoa thanh tao, dịu nhẹ mà vẫn đậm sức cuốn hút. Được tạo nên từ chất liệu tơ lạnh cao cấp, từng đường nét trên tà áo dài khéo léo tôn lên nét thanh thoát, mềm mại của giai nhân, tựa như hơi thở mùa xuân lướt qua phố phường hiện đại mà vẫn phảng phất nét hoài cổ.</span></p>\n<p><span>SẢN PHẨM KHÔNG BAO GỒM QUẦN</span></p>\n<style type=\"text/css\"><!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}--></style>\n<p><span data-sheets-root=\"1\">CHI TIẾT<br>- Áo dài dáng suông<br>- Cổ tàu<br>- Tay áo dài<br>- Có khóa kéo sau lưng<br>- Không có lót<br><br>CHẤT LIỆU<br>- Tơ lạnh<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải có độ xuyên thấu tương đối, khách hàng có thể mặc thêm sản phẩm hỗ trợ tránh bị hở<br></span></p>",
@@ -11740,7 +20698,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad26-2",
     "title": "ÁO DÀI  DDAD26.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-09-01T16:23:31+07:00",
     "published_at": "2024-09-01T16:23:31+07:00",
     "price": 280000,
@@ -11757,6 +20715,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11767,40 +20734,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41765773672515,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD26.01-HONGSEN-S",
+        "id": 1116831,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765773705283,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD26.01-HONGSEN-M",
+        "id": 1116832,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765773738051,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD26.01-HONGSEN-L",
+        "id": 1116833,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1116834,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1116835,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1116836,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1116837,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1116838,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1116839,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 11168310,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11168311,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11168312,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>",
@@ -11813,7 +20859,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad26-1",
     "title": "ÁO DÀI DDAD26.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-09-01T16:17:44+07:00",
     "published_at": "2024-09-01T16:17:44+07:00",
     "price": 280000,
@@ -11827,6 +20873,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11837,40 +20892,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41765773246531,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD26.01-COM-S",
+        "id": 133791,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765773279299,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD26.01-COM-M",
+        "id": 133792,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765773312067,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD26.01-COM-L",
+        "id": 133793,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 133794,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 133795,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 133796,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 133797,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 133798,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 133799,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1337910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1337911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 1337912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>KHÔNG KÈM QUẦN</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>",
@@ -11883,7 +21017,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ddad26-01",
     "title": "ÁO DÀI DDAD26.01",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-09-01T15:43:18+07:00",
     "published_at": "2024-09-01T15:43:18+07:00",
     "price": 280000,
@@ -11899,6 +21033,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -11909,40 +21052,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41765770526787,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD26.01-HONG-S",
+        "id": 5715871,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765770559555,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD26.01-HONG-M",
+        "id": 5715872,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765770592323,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD26.01-HONG-L",
+        "id": 5715873,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 280000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 5715874,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5715875,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5715876,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5715877,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5715878,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5715879,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 57158710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 57158711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 57158712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 280000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>KHÔNG KÈM QUẦN</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Tơ in họa tiết độc bản</li>\n<li>Lót lụa latin</li>\n</ul>\n<p> </p>",
@@ -11955,7 +21177,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-thuy-tien",
     "title": "ÁO DÀI THÙY TIÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-31T23:50:06+07:00",
     "published_at": "2024-08-31T23:50:06+07:00",
     "price": 200000,
@@ -11965,6 +21187,13 @@ let NETDUYEN_PRODUCTS = [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK9568_Newsize1.webp?v=1725122912"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -11976,40 +21205,65 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41765190697027,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD22-KEM-S",
+        "id": 7448991,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765190729795,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD22-KEM-M",
+        "id": 7448992,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41765190762563,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD22-KEM-L",
+        "id": 7448993,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7448994,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7448995,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7448996,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Áo ôm boddy</li>\n<li>Có khóa kéo sau lưng</li>\n<li>Lụa</li>\n</ul>",
@@ -12022,7 +21276,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-vinh-hoa-6",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:31:00+07:00",
     "published_at": "2024-08-30T16:31:00+07:00",
     "price": 160000,
@@ -12036,6 +21290,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12046,40 +21309,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762910011459,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-COM-S",
+        "id": 808991,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762910044227,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-COM-M",
+        "id": 808992,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762910076995,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-COM-L",
+        "id": 808993,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 808994,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 808995,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 808996,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 808997,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 808998,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 808999,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8089910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 8089911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 8089912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12092,7 +21434,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-vinh-hoa-5",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:29:42+07:00",
     "published_at": "2024-08-30T16:29:42+07:00",
     "price": 160000,
@@ -12106,6 +21448,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12116,40 +21467,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762905948227,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-KEM-S",
+        "id": 3927711,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762905980995,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-KEM-M",
+        "id": 3927712,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762906013763,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-KEM-L",
+        "id": 3927713,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3927714,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3927715,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3927716,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3927717,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3927718,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3927719,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 39277110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 39277111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 39277112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12162,7 +21592,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-vinh-hoa-4",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:28:04+07:00",
     "published_at": "2024-08-30T16:28:04+07:00",
     "price": 160000,
@@ -12178,6 +21608,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12188,40 +21627,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762904735811,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-XANH-S",
+        "id": 6391071,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762904768579,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-XANH-M",
+        "id": 6391072,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762904801347,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-XANH-L",
+        "id": 6391073,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6391074,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6391075,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6391076,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6391077,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6391078,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6391079,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 63910710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 63910711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 63910712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p> </p>\n<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12234,7 +21752,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-vinh-hoa-3",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:26:22+07:00",
     "published_at": "2024-08-30T16:26:22+07:00",
     "price": 160000,
@@ -12250,6 +21768,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12260,40 +21787,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762903785539,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-DO-S",
+        "id": 8526751,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762903818307,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-DO-M",
+        "id": 8526752,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762903851075,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-DO-L",
+        "id": 8526753,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 8526754,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8526755,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8526756,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8526757,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8526758,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8526759,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 85267510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 85267511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 85267512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12306,7 +21912,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-vinh-hoa-2",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:24:36+07:00",
     "published_at": "2024-08-30T16:24:36+07:00",
     "price": 160000,
@@ -12320,6 +21926,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12330,40 +21945,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762902769731,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-TIM-S",
+        "id": 334751,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762902802499,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-TIM-M",
+        "id": 334752,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762902835267,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-TIM-L",
+        "id": 334753,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 334754,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 334755,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 334756,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 334757,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 334758,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 334759,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3347510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 3347511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 3347512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12376,7 +22070,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-vinh-hoa-1",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:23:02+07:00",
     "published_at": "2024-08-30T16:23:02+07:00",
     "price": 160000,
@@ -12390,6 +22084,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12400,40 +22103,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762901721155,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-DEN-S",
+        "id": 1159711,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762901753923,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-DEN-M",
+        "id": 1159712,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762901786691,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-DEN-L",
+        "id": 1159713,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1159714,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1159715,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1159716,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1159717,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1159718,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 1159719,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 11597110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11597111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 11597112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12446,7 +22228,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-vinh-hoa",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:22:45+07:00",
     "published_at": "2024-08-30T16:22:45+07:00",
     "price": 160000,
@@ -12460,6 +22242,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12470,40 +22261,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762901491779,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-HONGDAM-S",
+        "id": 9521311,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762901524547,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-HONGDAM-M",
+        "id": 9521312,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762901557315,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-HONGDAM-L",
+        "id": 9521313,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9521314,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9521315,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9521316,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9521317,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9521318,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9521319,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 95213110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 95213111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 95213112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12516,7 +22386,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ngu-phuc-1",
     "title": "ÁO DÀI NGŨ PHÚC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:20:40+07:00",
     "published_at": "2024-08-30T16:20:40+07:00",
     "price": 160000,
@@ -12531,6 +22401,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12541,40 +22420,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762900181059,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD23-XANH-S",
+        "id": 8380191,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762900213827,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD23-XANH-M",
+        "id": 8380192,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762900246595,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD23-XANH-L",
+        "id": 8380193,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 8380194,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8380195,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8380196,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8380197,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8380198,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8380199,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 83801910,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 83801911,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 83801912,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tròn</li>\n<li>Tay áo dài</li>\n<li>Phom áo suông nhẹ</li>\n<li>Tơ in học tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12587,7 +22545,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-ngu-phuc",
     "title": "ÁO DÀI VINH HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T16:02:58+07:00",
     "published_at": "2024-08-30T16:02:58+07:00",
     "price": 160000,
@@ -12602,6 +22560,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12612,40 +22579,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762881503299,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD25-HONG-S",
+        "id": 7296671,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762881536067,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD25-HONG-M",
+        "id": 7296672,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762881568835,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD25-HONG-L",
+        "id": 7296673,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7296674,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7296675,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7296676,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7296677,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7296678,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 7296679,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 72966710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 72966711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 72966712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay áo lỡ</li>\n<li>Phôm áo suông nhẹ</li>\n<li>Có khóa kéo phía sau</li>\n<li>Áo hai lớp, tơ in họa tiết độc bản lót lục ngọc trai</li>\n</ul>",
@@ -12658,7 +22704,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-thược-dược",
     "title": "ÁO DÀI THƯỢC DƯỢC",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T13:16:44+07:00",
     "published_at": "2024-08-30T13:16:44+07:00",
     "price": 200000,
@@ -12674,6 +22720,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12684,40 +22739,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762633023555,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-7296842661955-S",
+        "id": 6619551,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762633056323,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-7296842661955-M",
+        "id": 6619552,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762633089091,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-7296842661955-L",
+        "id": 6619553,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6619554,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6619555,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6619556,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6619557,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6619558,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6619559,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 66195510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 66195511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 66195512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Phom áo dài dáng ngũ thân </span></li>\n<li><span>Dáng áo suông rộng </span></li>\n<li><span>Phối cùng áo 2 dây lụa </span></li>\n<li><span>Tơ in họa tiết độc bản</span></li>\n</ul>",
@@ -12730,7 +22864,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tử-linh-lan",
     "title": "ÁO DÀI TỬ LINH LAN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T12:06:20+07:00",
     "published_at": "2024-08-30T12:06:20+07:00",
     "price": 200000,
@@ -12745,6 +22879,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12755,40 +22898,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762419867715,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-7296753827907-S",
+        "id": 8279071,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762419900483,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-7296753827907-M",
+        "id": 8279072,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762419933251,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-7296753827907-L",
+        "id": 8279073,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 8279074,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8279075,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8279076,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 8279077,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8279078,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 8279079,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 82790710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 82790711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 82790712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Cổ tàu</span></li>\n<li><span>Phom dáng xuông rộng </span></li>\n<li><span>Chất liệu gấm mặc mềm mại thoải mái</span></li>\n</ul>",
@@ -12801,7 +23023,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tầm-xuan-3",
     "title": "ÁO DÀI TẦM XUÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T11:42:26+07:00",
     "published_at": "2024-08-30T11:42:26+07:00",
     "price": 400000,
@@ -12818,6 +23040,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12828,40 +23059,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762387427395,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD10.05-TIM-S",
+        "id": 4993951,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 400000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 41762387460163,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD10.05-TIM-M",
+        "id": 4993952,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 400000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 41762387492931,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD10.05-TIM-L",
+        "id": 4993953,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 400000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 4993954,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4993955,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4993956,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4993957,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4993958,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4993959,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 49939510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 49939511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 49939512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 3,
         "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
@@ -12874,7 +23184,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tầm-xuan-2",
     "title": "ÁO DÀI TẦM XUÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T11:40:56+07:00",
     "published_at": "2024-08-30T11:40:56+07:00",
     "price": 400000,
@@ -12888,6 +23198,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12898,40 +23217,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762381922371,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD10.05-HONG-S",
+        "id": 5005471,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762381955139,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD10.05-HONG-M",
+        "id": 5005472,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762381987907,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD10.05-HONG-L",
+        "id": 5005473,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 5005474,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5005475,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5005476,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5005477,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5005478,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5005479,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 50054710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 50054711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 50054712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
@@ -12944,7 +23342,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tầm-xuan-1",
     "title": "ÁO DÀI TẦM XUÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T11:37:59+07:00",
     "published_at": "2024-08-30T11:37:59+07:00",
     "price": 400000,
@@ -12960,6 +23358,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -12970,40 +23377,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762377990211,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD10.05-HONGSEN-S",
+        "id": 926751,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762378022979,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD10.05-HONGSEN-M",
+        "id": 926752,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762378055747,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD10.05-HONGSEN-L",
+        "id": 926753,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 926754,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 926755,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 926756,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 926757,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 926758,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 926759,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 9267510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 9267511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 9267512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
@@ -13016,7 +23502,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-tầm-xuan",
     "title": "ÁO DÀI TẦM XUÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-30T11:30:05+07:00",
     "published_at": "2024-08-30T11:30:05+07:00",
     "price": 400000,
@@ -13031,6 +23517,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -13041,40 +23536,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41762367209539,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD10.05-XANH-S",
+        "id": 6724511,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762367242307,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD10.05-XANH-M",
+        "id": 6724512,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41762367275075,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD10.05-XANH-L",
+        "id": 6724513,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 400000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 6724514,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6724515,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6724516,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 6724517,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6724518,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 6724519,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 67245110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 67245111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 67245112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 400000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>\n<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li><span>Tay áo lỡ</span></li>\n<li><span>Phom dáng áo dài ôm nhẹ với đường nhấn ngực </span></li>\n<li><span>Chiết 2 ly sau lưng</span></li>\n<li><span>Gấm</span></li>\n</ul>",
@@ -13087,7 +23661,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-xuan-thi",
     "title": "ÁO DÀI XUÂN THÌ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-27T23:13:57+07:00",
     "published_at": "2024-08-27T23:13:57+07:00",
     "price": 180000,
@@ -13103,6 +23677,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -13114,50 +23697,155 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41754840039491,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD12-HONG-S",
+        "id": 9554591,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 180000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41754840072259,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD12-HONG-M",
+        "id": 9554592,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 180000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41754840105027,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD12-HONG-L",
+        "id": 9554593,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 180000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 42200148181059,
-        "title": "XS",
-        "option1": "XS",
-        "option2": null,
-        "sku": "DDAD12-HONG-XS",
+        "id": 9554594,
+        "title": "Hồng Phấn Sa Cát / XS",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XS",
         "price": 180000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9554595,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9554596,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9554597,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9554598,
+        "title": "Xanh Thiên Thanh / XS",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XS",
+        "price": 180000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 9554599,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 95545910,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 95545911,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 95545912,
+        "title": "Kem Bạch Ngọc / XS",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "XS",
+        "price": 180000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 95545913,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 95545914,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 95545915,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 95545916,
+        "title": "Đỏ Ruby Hoàng Kim / XS",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "XS",
+        "price": 180000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>(KHÔNG KÈM QUẦN)</p>",
@@ -13170,7 +23858,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-lấm-tấm-copy",
     "title": "ÁO DÀI LẤM TẤM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-27T23:09:13+07:00",
     "published_at": "2024-08-27T23:09:12+07:00",
     "price": 160000,
@@ -13185,6 +23873,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -13195,40 +23892,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41754833485891,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD10-XANH-S",
+        "id": 3656351,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41754833518659,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD10-XANH-M",
+        "id": 3656352,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41754833551427,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD10-XANH-L",
+        "id": 3656353,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3656354,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3656355,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3656356,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3656357,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3656358,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 3656359,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 36563510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 36563511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 36563512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>",
@@ -13241,7 +24017,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-lấm-tấm",
     "title": "ÁO DÀI LẤM TẤM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-27T23:08:25+07:00",
     "published_at": "2024-08-27T23:08:25+07:00",
     "price": 160000,
@@ -13256,6 +24032,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -13266,40 +24051,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41754833256515,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD10-HONG-S",
+        "id": 2673311,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41754833289283,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD10-HONG-M",
+        "id": 2673312,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41754833322051,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD10-HONG-L",
+        "id": 2673313,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 160000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2673314,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2673315,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2673316,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2673317,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2673318,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2673319,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 26733110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 26733111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 26733112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 160000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p><span style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>",
@@ -13312,7 +24176,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-bach-dản",
     "title": "ÁO DÀI BÁCH ĐẢN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-26T00:14:26+07:00",
     "published_at": "2024-08-26T00:14:26+07:00",
     "price": 250000,
@@ -13325,6 +24189,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -13335,40 +24208,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41750246817859,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD28-XANH-S",
+        "id": 537631,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41750246850627,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD28-XANH-M",
+        "id": 537632,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41750246883395,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD28-XANH-L",
+        "id": 537633,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 250000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 537634,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 537635,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 537636,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 537637,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 537638,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 537639,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5376310,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 5376311,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 5376312,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>SIZE</p>\n<ul>\n<li>S/M/L</li>\n</ul>\n<p>CHẤT LIỆU</p>\n<ul>\n<li>Cổ tàu</li>\n<li>Tay chẽn</li>\n<li>Áo dài ngũ thân</li>\n<li>Tơ in họa tiết độc bản</li>\n<li><span>Độ co giãn: Co giãn ít </span></li>\n<li><span>Độ xuyên thấu: Vải không xuyên thấu</span></li>\n</ul>",
@@ -13381,7 +24333,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-thien-chương",
     "title": "ÁO DÀI THIÊN CHƯƠNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-25T23:52:12+07:00",
     "published_at": "2024-08-25T23:52:12+07:00",
     "price": 420000,
@@ -13396,6 +24348,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -13406,40 +24367,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41750222995523,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD21-XANHDUONG-S",
+        "id": 4176671,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 420000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41750223028291,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD21-XANHDUONG-M",
+        "id": 4176672,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 420000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41750223061059,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD21-XANHDUONG-L",
+        "id": 4176673,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 420000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 4176674,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 420000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4176675,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 420000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4176676,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 420000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 4176677,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 420000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4176678,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 420000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 4176679,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 420000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 41766710,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 420000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 41766711,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 420000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 41766712,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 420000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p><span style=\"color: rgb(255, 42, 0);\" data-mce-style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">SIZE</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">S/M/L</span></li>\n</ul>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">CHẤT LIỆU</span></p>\n<ul>\n<li>Cổ yếm</li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Lớp vải xếp nhún phía trước</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Độ co giãn: Co giãn ít</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Độ xuyên thấy: Không xuyên thấu</span></li>\n</ul>",
@@ -13452,7 +24492,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-dai-lưỡng-long",
     "title": "ÁO DÀI LƯỠNG LONG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2024-08-25T23:48:38+07:00",
     "published_at": "2024-08-25T23:48:38+07:00",
     "price": 310000,
@@ -13467,6 +24507,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -13477,40 +24526,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 41750202351683,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDAD24-DO-S",
+        "id": 5329311,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 310000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41750202384451,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDAD24-DO-M",
+        "id": 5329312,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 310000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
       },
       {
-        "id": 41750202417219,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDAD24-DO-L",
+        "id": 5329313,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 310000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 5329314,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5329315,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5329316,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 5329317,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5329318,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 5329319,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 53293110,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 53293111,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 53293112,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 310000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "ao-dai",
       "dong-dao",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span style=\"color: rgb(255, 42, 0);\" data-mce-style=\"color: rgb(255, 42, 0);\"><strong>(KHÔNG KÈM QUẦN)</strong></span></p>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">SIZE</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">S/M/L</span></li>\n</ul>\n<p><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">CHẤT LIỆU</span></p>\n<ul>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Áo hai dây</span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span>Độ co giãn: Co giãn ít </span></span></li>\n<li><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\"><span>Độ xuyên thấu: Vải không xuyên thấu</span></span></li>\n</ul>",
@@ -13521,9 +24649,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15426489942083,
     "handle": "quan-mien-luu-xanh-co-vit",
-    "title": "QUẦN MIÊN LƯU",
+    "title": "SET ÁO DÀI LỤA & QUẦN MIÊN LƯU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Pants",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T17:07:40+07:00",
     "published_at": "2026-10-20T19:18:43+07:00",
     "price": 130000,
@@ -13712,7 +24840,8 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "set-mien-y",
       "ma-may",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải </p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -13723,9 +24852,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15426485321795,
     "handle": "quan-mien-luu-tim",
-    "title": "QUẦN MIÊN LƯU",
+    "title": "SET ÁO DÀI LỤA & QUẦN MIÊN LƯU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Pants",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T17:04:32+07:00",
     "published_at": "2026-10-20T19:18:42+07:00",
     "price": 130000,
@@ -13914,7 +25043,8 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "set-mien-y",
       "ma-may",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -13925,9 +25055,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15426480832579,
     "handle": "quan-mien-luu-xanh-mint",
-    "title": "QUẦN MIÊN LƯU",
+    "title": "SET ÁO DÀI LỤA & QUẦN MIÊN LƯU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Pants",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T17:02:48+07:00",
     "published_at": "2026-10-20T19:18:41+07:00",
     "price": 130000,
@@ -14116,7 +25246,8 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "set-mien-y",
       "ma-may",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải </p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -14127,9 +25258,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15426473525315,
     "handle": "quan-mien-luu-hong-nhat",
-    "title": "QUẦN MIÊN LƯU",
+    "title": "SET ÁO DÀI LỤA & QUẦN MIÊN LƯU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Pants",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T17:00:30+07:00",
     "published_at": "2026-10-20T19:18:41+07:00",
     "price": 130000,
@@ -14318,7 +25449,8 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "set-mien-y",
       "ma-may",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -14329,9 +25461,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15426448719939,
     "handle": "quan-mien-luu-hong-dam",
-    "title": "QUẦN MIÊN LƯU",
+    "title": "SET ÁO DÀI LỤA & QUẦN MIÊN LƯU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Pants",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T16:52:27+07:00",
     "published_at": "2026-10-20T19:18:40+07:00",
     "price": 130000,
@@ -14520,7 +25652,8 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "set-mien-y",
       "ma-may",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- Chất liệu: 50% Silk, 50% Viscose<br>- Quần mặc được 2 mặt<br>- Quần ống rộng dáng suông<br>- Cạp cao, có chi tiết xếp ly ở hông<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -14533,7 +25666,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-moc-y-xanh-co-vit",
     "title": "ÁO MỘC Ý",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T16:48:45+07:00",
     "published_at": "2026-10-20T19:18:39+07:00",
     "price": 140000,
@@ -14719,7 +25852,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -14732,7 +25866,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-moc-y-tim",
     "title": "ÁO MỘC Ý",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T16:42:23+07:00",
     "published_at": "2026-10-20T19:18:38+07:00",
     "price": 140000,
@@ -14918,7 +26052,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -14931,7 +26066,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-moc-y-xanh-mint",
     "title": "ÁO MỘC Ý",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T16:40:00+07:00",
     "published_at": "2026-10-20T19:18:37+07:00",
     "price": 140000,
@@ -15117,7 +26252,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -15130,7 +26266,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-moc-y-hong-nhat",
     "title": "ÁO MỘC Ý",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T16:37:27+07:00",
     "published_at": "2026-10-20T19:18:36+07:00",
     "price": 140000,
@@ -15316,7 +26452,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -15329,7 +26466,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-moc-y-hong-dam",
     "title": "ÁO MỘC Ý",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-20T16:30:06+07:00",
     "published_at": "2026-10-20T19:18:35+07:00",
     "price": 140000,
@@ -15515,7 +26652,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p> - Chất liệu: 50% Silk, 50% Viscose<br>- Áo dáng suông, form rộng<br>- Tay dài, tay áo rộng, cổ tròn<br>- Nẹp áo chạy dọc chính giữa thân trước, đồng màu với viền cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p><em>* Giá bán không bao gồm phụ kiện kèm theo.</em></p>",
@@ -15526,9 +26664,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 7359907299395,
     "handle": "ddcv47",
-    "title": "CHÂN VÁY DDCV47",
+    "title": "SET ÁO DÀI CÁCH TÂN PHỐI DDCV47",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2025-01-16T10:38:26+07:00",
     "published_at": "2026-10-20T18:35:07+07:00",
     "price": 200000,
@@ -15543,6 +26681,15 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh",
+          "Kem Bạch Ngọc",
+          "Đỏ Ruby Hoàng Kim"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -15553,40 +26700,119 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 42045217833027,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DDCV47-HONG-S",
+        "id": 2993951,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
-      },
-      {
-        "id": 42045217865795,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DDCV47-HONG-M",
-        "price": 200000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 42045217898563,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DDCV47-HONG-L",
+        "id": 2993952,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 200000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2993953,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 2993954,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2993955,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2993956,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 2993957,
+        "title": "Kem Bạch Ngọc / S",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2993958,
+        "title": "Kem Bạch Ngọc / M",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 2993959,
+        "title": "Kem Bạch Ngọc / L",
+        "option1": "Kem Bạch Ngọc",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 2,
+        "available": true
+      },
+      {
+        "id": 29939510,
+        "title": "Đỏ Ruby Hoàng Kim / S",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "S",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 29939511,
+        "title": "Đỏ Ruby Hoàng Kim / M",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "M",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
+      },
+      {
+        "id": 29939512,
+        "title": "Đỏ Ruby Hoàng Kim / L",
+        "option1": "Đỏ Ruby Hoàng Kim",
+        "option2": "L",
+        "price": 200000,
+        "image_index": 3,
+        "available": true
       }
     ],
     "collections": [
       "dam-1",
       "chan-vay",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Yếm ôm nhẹ vào thân<br>- Cổ yếm xếp nhún<br>- Có khóa kéo và dây thắt phía sau<br>- Yếm hai lớp, <br>- Lót tafta</p>\n<p>CHẤT LIỆU<br>- Tơ thêu họa iết phối tafta<br>- Độ co giãn: co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở</p>\n<p>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -15599,7 +26825,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "hoa-thien-dai-huu-xanh",
     "title": "HỎA THIÊN ĐẠI HỮU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-15T17:26:44+07:00",
     "published_at": "2026-10-15T17:43:23+07:00",
     "price": 70000,
@@ -15654,7 +26880,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>Mô tả: </p>\n<p>Bật lửa xăng<br>Chất liệu chính: Da bò thật và hợp kim<br>Kích thước: 5 x 3.8 x 1.2cm </p>\n<p>Sản phẩm bật lửa khi nhận sẽ bao gồm 7 viên đá lửa, 1 dây bấc, 1 hộp, 1 bật lửa đã chọn.<br>Lưu ý:</p>\n<p>Khi vận chuyển sản phẩm bật lửa sẽ không được để xăng, vui lòng sử dụng xăng thơm ( xăng Zippo ) để refill và tránh giảm tuổi thọ của sản phẩm, <br></p>",
@@ -15667,7 +26894,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "hoa-thien-dai-huu-do",
     "title": "HỎA THIÊN ĐẠI HỮU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-15T17:26:33+07:00",
     "published_at": "2026-10-15T17:40:49+07:00",
     "price": 70000,
@@ -15722,7 +26949,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>Mô tả: </p>\n<p>Bật lửa xăng<br>Chất liệu chính: Da bò thật và hợp kim<br>Kích thước: 5 x 3.8 x 1.2cm </p>\n<p>Sản phẩm bật lửa khi nhận sẽ bao gồm 7 viên đá lửa, 1 dây bấc, 1 hộp, 1 bật lửa đã chọn.<br>Lưu ý:</p>\n<p>Khi vận chuyển sản phẩm bật lửa sẽ không được để xăng, vui lòng sử dụng xăng thơm ( xăng Zippo ) để refill và tránh giảm tuổi thọ của sản phẩm, <br></p>",
@@ -15735,7 +26963,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "kep-toc-lam-duyen-xanh-duong",
     "title": "KẸP TÓC LÀM DUYÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Hair clip",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-13T19:06:19+07:00",
     "published_at": "2026-10-13T19:07:37+07:00",
     "price": 20000,
@@ -15815,7 +27043,8 @@ let NETDUYEN_PRODUCTS = [
       "accessories",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
@@ -15828,7 +27057,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "kep-toc-lam-duyen-hong-nhat",
     "title": "KẸP TÓC LÀM DUYÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Hair clip",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-13T19:04:11+07:00",
     "published_at": "2026-10-13T19:06:08+07:00",
     "price": 20000,
@@ -15910,7 +27139,8 @@ let NETDUYEN_PRODUCTS = [
       "accessories",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
@@ -15923,7 +27153,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "kep-toc-lam-duyen-xanh-com",
     "title": "KẸP TÓC LÀM DUYÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Hair clip",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-13T19:00:34+07:00",
     "published_at": "2026-10-13T19:02:50+07:00",
     "price": 20000,
@@ -16005,7 +27235,8 @@ let NETDUYEN_PRODUCTS = [
       "accessories",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
@@ -16018,7 +27249,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "kep-toc-lam-duyen-do",
     "title": "KẸP TÓC LÀM DUYÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Hair clip",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-13T18:52:28+07:00",
     "published_at": "2026-10-13T18:54:49+07:00",
     "price": 20000,
@@ -16101,7 +27332,8 @@ let NETDUYEN_PRODUCTS = [
       "accessories",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>Phụ kiện được đính kết thủ công, có thể phối linh hoạt với các set đồ và kiểu tóc đa dạng.</p>\n<p>- Màu sắc: kem, đỏ, xanh cốm, xanh dương, hồng nhạt<br>- Chất liệu: dây vải, hạt cườm, kẹp kim loại</p>",
@@ -16114,7 +27346,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "dam-luu-anh-cam",
     "title": "ĐẦM LƯU ẢNH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "dress",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-13T11:16:34+07:00",
     "published_at": "2026-10-13T11:19:33+07:00",
     "price": 280000,
@@ -16210,7 +27442,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "dam-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Đầm cổ tàu, tay ngắn <br>- Dáng ôm thân trên, chiết eo <br>- 2 bên hông sử dụng thêm lớp vải tạo độ phồng và bồng bềnh<br>- Phần chân váy xoè rộng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -16223,7 +27456,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "dam-thanh-mien-trang",
     "title": "ĐẦM THANH MIÊN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "dress",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-13T11:08:35+07:00",
     "published_at": "2026-10-13T11:10:20+07:00",
     "price": 230000,
@@ -16321,7 +27554,8 @@ let NETDUYEN_PRODUCTS = [
       "dam-1",
       "set-mien-y",
       "ma-may",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Không kèm hoa đính tại cổ <br>- Đầm cổ tàu, tay ngắn<br>- Dáng ôm thân trên, chiết eo<br>- Phần chân váy xoè chữ A<br>- Khoá kéo dọc sau lưng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị\"</p>",
@@ -16334,7 +27568,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "nen-thom-chichanh",
     "title": "NẾN THƠM CHICHANH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Candle",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T19:26:44+07:00",
     "published_at": "2026-10-12T19:31:26+07:00",
     "price": 70000,
@@ -16415,7 +27649,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>THÀNH PHẦN MÙI: <br>- 1. Oolong Tea - Hương trà thanh dịu, hơi rang nhẹ, ấm và sâu.<br>- 2. White Tea - Trong trẻo, mềm mại, thanh sạch và tinh tế.<br>- 3. Neroli - Hương hoa cam xanh, tươi sáng, hơi the nhẹ và thanh tao.<br>- 4. Orange Blossom - Hoa cam ngọt dịu, mềm mại, tươi mát và nữ tính.<br>- 5. Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và lưu hương.</p>\n<p>*Tổng thể: Thanh trà · Hoa cam · Gỗ ấm</p>\n<p><strong>ChiChanh - \"Chi chi chành chành\"</strong></p>\n<p>\"Chi chi chành chành\" luôn mang cái duyên của những khoảnh khắc chợt mở rồi chợt khép, <br>từng đã nằm trong tay mà thoắt cái đã hóa thành xa vắng. <br>Cái bắt rơi đất đôi khi thấy ấy, khi soi vào đời người, lại thành một nỗi cảm hoài về bao lần đổi khác. <br>Cành cũ xa vắng, người quen thành lạ, một lần ngoảnh bước cũng đủ khiến lỗi xưa rẽ ngả. <br>Mỗi điều cũ đến rồi đi, mong manh như mộng ảnh, nhưng mỗi lần biến chuyển lại âm thầm để lại một nét hằn trong ký ức.</p>\n<p>ChiChanh không níu giữ vẻ nguyên vẹn của thuở ban đầu, mà nâng niu nét đẹp được bồi nền sau những lần chao nghiêng, được mất. <br>Có những điều phải đi qua xa cách mới biết từng quý giá, <br>có những nếp nghĩ phải trải qua và va vấp mới trở nên sâu sắc.<br> Sau bao phen đổi dời, lòng người dần biết điều gì đáng giữ lại, điều gì nên nhẹ bớt trôi đi, <br>để giữ muôn lớp vật đổi sao dời, vẫn còn một dáng riêng âm thầm ở lại, <br>được năm tháng dung dưỡng mà càng trở nên đằm sâu, khó thể phai mờ.</p>",
@@ -16428,7 +27663,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "nen-thom-tatavon",
     "title": "NẾN THƠM TATAVON",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Candle",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T19:24:37+07:00",
     "published_at": "2026-10-12T19:31:25+07:00",
     "price": 70000,
@@ -16509,7 +27744,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>THÀNH PHẦN MÙI:</p>\n<p>- Pink Pepper — Tiêu hồng cay nhẹ, tươi sáng, tạo điểm nhấn thanh và hơi nồng.<br>- Orange — Cam mọng nước, tươi mát, mang sắc citrus sáng và ngọt dịu.<br>- Musk — Xạ hương mềm, sạch và mịn, tạo cảm giác gần gũi trên da.<br>- Metallic — Sắc kim loại lạnh, sạch và hiện đại, tạo hiệu ứng sắc nét, độc đáo.<br>- Vanilla — Vanilla ngọt ấm, béo mịn, làm tổng thể trở nên mềm mại và quyến rũ hơn.<br>- Sandalwood — Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Citrus tươi · Cay nhẹ · Kim loại lạnh · Vanilla ấm · Gỗ mượt</p>\n<p><strong>TATAVON - \"Tập tâm vòng, tay không tay có\"</strong></p>\n<p>Nhớ về “Tập tâm vòng, tay không tay có” là nhớ về bàn tay khum kín một điều bé nhỏ, càng chưa tò càng khiến lòng người thêm nôn nao. <br>Cái duyên của trò chơi xưa nằm ở chính khoảng chờ mong ấy, <br>một vật nhỏ nhòa mà hóa thành điều đáng quý, một khoảnh khắc trao qua mà gieo xuống miền nhớ cả một đời rất lâu. <br>Bởi người đi qua bao phen đầy vơi, càng trân trọng những tháng tháng rơi rụng gìn giữ lại từng trải những bàn tay âm thầm thấm sâu, <br>nhẹ nhàng mà khó thể phai nhòa.</p>\n<p>TataVon gom nhặt những dư ảnh tưởng đã xa, để từng mảnh thương nhớ lắng lại trong vẻ hương thơm, <br>nơi những mảnh ký ức đã xa bỗng hiện về lấp lánh. <br>Một lời ru cũ, một nếp nhà quen, vạt nắng bên thềm, làn khói bếp chiều hay bóng người từng ngồi yên trong một buổi rất xa. <br>Tất cả mang manh như một mảnh nhớ đã từng mong manh, lặng lẽ dung dưỡng nên phần sâu kín nhất của mỗi người. <br>Để rồi khi mọi xao động dần lắng xuống, điều còn lại sau cùng vẫn là những gì đã thầm vào lòng quá đỗi tự nhiên. <br>Chẳng cần gọi tên, chẳng cần phô bày, mà vẫn đủ sức giữ nguyên một vùng ký ức ấm áp qua năm tháng.</p>",
@@ -16522,7 +27758,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "nen-thom-bayla",
     "title": "NẾN THƠM BAYLA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Candle",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T19:22:44+07:00",
     "published_at": "2026-10-12T19:31:24+07:00",
     "price": 70000,
@@ -16603,7 +27839,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>THÀNH PHẦN MÙI: <br>- Bergamot — Cam bergamot tươi sáng, thanh mát, pha chút the nhẹ và xanh.<br>- Lily — Hoa huệ thanh sạch, mềm mại, mang sắc hoa nhẹ và tinh tế.<br>- Black Tea — Trà đen đậm, hơi khô, ấm và có chiều sâu.<br>- White Sage — Xô thơm trắng thanh sạch, khô nhẹ, thảo mộc và hơi xanh.<br>- Clove — Đinh hương cay ấm, nồng nhẹ, tạo điểm nhấn gia vị.<br>- Patchouli — Hoắc hương trầm, đất nhẹ, hơi khô và mang sắc thái cổ điển.<br>- Pinewood — Gỗ thông xanh, khô thoáng, mang cảm giác tự nhiên và trong lành.<br>- Sandalwood — Đàn hương ấm mượt, mềm và trầm, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Thanh citrus · Trà khô · Thảo mộc · Gia vị ấm · Gỗ trầm.</p>\n<p><strong>BAYLA - \"Con cò bay là bay la\"</strong></p>\n<p>“Con cò bay là bay la” gọi một cánh bay chao nghiêng giữa khoảng trời diệu vợi, <br>lúc thấp thoáng trên đồng, lúc khuất mờ nơi cuối gió, mềm mại mà chẳng lạc phương. <br>Cái dáng bay là lời nhủ chỉ nương theo chiều gió ấy, <br>ngẫm kỹ lại mang theo biết bao dư vị của một đời người đã đi qua nhiều phen đổi dời - Không còn khép tấp trước những ngã rẽ, <br>cũng chẳng mãi miết níu giữ điều đã qua, chỉ thong dong tìm lấy nhịp riêng giữa trời rộng đất dài, <br>để mỗi chuyển động đều mang theo một chút tình thơm trời đất.</p>\n<p>BAYLA chắt lấy cái ý vị phiêu diêu ấy để ươm vào một tầng hương, <br>nâng niu vẻ đẹp của quãng đời khi lòng người đã đủ sâu để biết thả mà không buông, nhẹ mà không hời hợt, tự do mà chẳng lạc mình. <br>Sau những tháng năm từng chao nghiêng vì được mất, con người dần học cách để lòng rộng hơn, bước chân khoan hơn, <br>và nhìn mỗi biến chuyển bằng một sự dịu dàng đã được nâng thành văn bồi. <br>Như cánh cò bay là giữa trời xa, càng đi qua nhiều đổi dời, càng thêm mềm dáng, <br>con người rồi cũng hiểu rằng tự tại chẳng phải là đời không còn vướng bận, mà là giữa muôn điều níu giữ, <br>vẫn biết cách giữ gìn cho lòng mình một khoảng không thanh thản.</p>",
@@ -16616,7 +27853,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "nen-thom-zungzang",
     "title": "NẾN THƠM ZUNGZANG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Candle",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T19:15:46+07:00",
     "published_at": "2026-10-12T19:31:24+07:00",
     "price": 70000,
@@ -16697,7 +27934,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>THÀNH PHẦN MÙI:<br>- Citrus - Sắc cam chanh tươi sáng, thanh mát, mở đầu đầy sức sống.<br>- Night Blooming Jasmine Tea - Hoa nhài nở đêm hòa cùng hương trà thanh dịu, mang nét tinh tế và thư thái.<br>- Lavender - Lavender mềm mại, sạch và nhẹ nhàng, cân bằng tầng hoa.<br>- Musk - Xạ hương mịn màng, tạo cảm giác sạch sẽ và gần gũi trên da.<br>- Melon - Dưa lưới mọng nước, mang sắc thái ngọt thanh và tươi mát.<br>- Sandalwood - Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho dư hương.</p>\n<p>*Tổng thể: Tươi mát · Hoa trà · Dịu sạch · Gỗ ấm</p>\n<p><strong>ZungZang - \"Dung dăng dung dẻ\"</strong></p>\n<p>\"Dung dăng dung dẻ, dắt trẻ đi chơi” vốn là câu hát của những bàn tay tìm đến nhau, <br>của bước chân trước nương bước chân sau mà nên một quãng đường có bạn. <br>Từ thuở còn thơ cho đến khi khôn lớn, đời người cũng được vun bồi bởi những lần tương ngộ như thế. <br>Có người ghé qua như một thoáng gió, có người ở lại thành mỗi thân quen, <br>có người chỉ sánh bước một đoạn mà dư âm vẫn vẩn vất trong lòng.</p>\n<p>ZungZang se lại cái tình của những lần tay nắm tay, để những cuộc gặp gỡ đã qua vẫn còn lưu một chút hơi ấm trong miền nhớ, <br>như muốn lưu lại bóng dáng của những lần gặp gỡ đã âm thầm bồi đắp nên mỗi người. <br>Một lời từng nghe, một nếp quen từng nhớ, một bóng hình từng thương đều có thể lắng lại thành miền ký ức dịu dàng. <br>Để sau bao lần gặp gỡ và chia xa, ta dần nên hình từ chính những điều đã từng trao gửi, từng đón nhận, từng lưu luyến trong nhau.</p>",
@@ -16710,7 +27948,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "nen-thom-nuna",
     "title": "NẾN THƠM NUNA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Candle",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T19:11:37+07:00",
     "published_at": "2026-10-12T19:31:23+07:00",
     "price": 70000,
@@ -16791,7 +28029,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>THÀNH PHẦN MÙI: <br>- Ylang Ylang - Hương Ngọc Lan Tây mềm mại, quyến rũ, phảng phất sắc thái kem mịn và ngọt dịu.<br>- Tibetan Rose - Hoa hồng thanh tao, trong trẻo, mang nét dịu dàng và tinh tế.<br>- Pear - Lê mọng nước, tươi sáng, thanh ngọt, tạo nên điểm mở đầu trẻ trung.<br>- Freesia Herbal Tea - Sắc hoa lan Nam Phi hòa quyện cùng hơi thở trà thảo mộc, thanh mát và nhẹ nhàng.<br>- Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và dư âm lưu luyến cho tổng thể.</p>\n<p>*Tổng thể: Thanh ngọt · Hoa mềm · Trà thảo mộc · Gỗ ấm</p>\n<p><strong>NuNa - \"Nu na nu nóng\"</strong></p>\n<p>Nhớ về “Na nu na nóng” là nhớ về một thuở đầu đời còn trong ngần, ngồi kề nhau mà ngẩn ngơ ca hát,  một nét nắng đầu hiên hay một tiếng chim gọi ngô ngơ cũng đủ làm lòng trẻ nhỏ xốn xao, vui sướng.  Những năm tháng ấy vốn nhẹ nhàng như sương mai, non tơ như lộc biếc, mọi điều vừa chạm mắt đều mang theo vẻ tươi rói,  ngọt lành của những lần đầu tiên.</p>\n<p>NuNa đem nỗi cảm hoài ấy ký thác vào một tầng hương, ủ giữ phần thơ dại chưa vướng chuyện được mất,  chưa biết giấu kín vui buồn, chỉ biết rộng lòng đón lấy muôn điều mới mẻ.  Dẫu mai sau có đi qua bao lớp nắng mưa, nét hồn nhiên thuở ấy vẫn lặng lẽ neo lại nơi sâu thẳm,  dung dưỡng một khoảng ký ức trong veo, để chỉ một thoáng hương khẽ chạm cũng đủ lay thức cả quãng đời son trẻ,  tưởng đã xa mà vẫn còn nguyên nét thương mến.</p>",
@@ -16804,7 +28043,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-sh376-f1",
     "title": "ÁO SH376-F1",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Waistcoat",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-12T18:15:04+07:00",
     "published_at": "2026-10-12T18:26:21+07:00",
     "price": 260000,
@@ -16814,6 +28053,13 @@ let NETDUYEN_PRODUCTS = [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5019.jpg?v=1791803720"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -16825,41 +28071,66 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 67689362391107,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-SH376-F1-GRN-S",
+        "id": 1182751,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 260000,
-        "compare_at_price": 2850000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 67689362423875,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-SH376-F1-GRN-M",
+        "id": 1182752,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 260000,
-        "compare_at_price": 2850000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 67689362456643,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-SH376-F1-GRN-L",
+        "id": 1182753,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 260000,
-        "compare_at_price": 2850000,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1182754,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 260000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1182755,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 260000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1182756,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 260000,
+        "image_index": 1,
+        "available": true
       }
     ],
     "collections": [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- Chất liệu: Tweed <br>- Áo gile dáng dài, cổ trụ<br>- Thiết kế vạt chéo với ba khuy tết. <br>- Hai bên eo có dây buộc tạo điểm nhấn <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
@@ -16872,7 +28143,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-vs11-f1",
     "title": "ÁO VS11-F1",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Blazer",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-12T18:12:22+07:00",
     "published_at": "2026-10-12T18:26:20+07:00",
     "price": 690000,
@@ -16883,6 +28154,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "S",
@@ -16893,40 +28171,65 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 67678217371715,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-VS11-F1-GRN-S",
+        "id": 1556511,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 690000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 67678217404483,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-VS11-F1-GRN-M",
+        "id": 1556512,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 690000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 67678217437251,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-VS11-F1-GRN-L",
+        "id": 1556513,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 690000,
-        "compare_at_price": null,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 1556514,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1556515,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 1556516,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 690000,
+        "image_index": 1,
+        "available": true
       }
     ],
     "collections": [
       "ao-1",
       "ao-khoac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- Chất liệu: Tweed <br>- Áo khoác cổ trụ, tay dài, chiết eo xoè nhé <br>- Dây nơ ren thắt tại eo<br>- Điểm nhấn khuy tết ở cổ <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
@@ -16937,9 +28240,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15413151727683,
     "handle": "quần-ts71-f3",
-    "title": "QUẦN TS71-F3",
+    "title": "SET ÁO DÀI LỤA & QUẦN TS71-F3",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Trousers",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-12T18:03:18+07:00",
     "published_at": "2026-10-12T18:26:20+07:00",
     "price": 220000,
@@ -16949,6 +28252,13 @@ let NETDUYEN_PRODUCTS = [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5007.jpg?v=1791803018"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -16960,41 +28270,66 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 67678185586755,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-TS71-F3-NVY-S",
+        "id": 7276831,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 220000,
-        "compare_at_price": 2500000,
-        "available": false
-      },
-      {
-        "id": 67678185619523,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-TS71-F3-NVY-M",
-        "price": 220000,
-        "compare_at_price": 2500000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 67678185652291,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-TS71-F3-NVY-L",
+        "id": 7276832,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 220000,
-        "compare_at_price": 2500000,
-        "available": false
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7276833,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 7276834,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7276835,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 7276836,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 220000,
+        "image_index": 1,
+        "available": true
       }
     ],
     "collections": [
       "quan",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- Chất liệu: Tweed<br>- Quần cạp cao, ống rộng dáng cong<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
@@ -17007,7 +28342,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-sh297-f1",
     "title": "ÁO SH297-F1",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Coat",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-12T17:55:52+07:00",
     "published_at": "2026-10-12T18:26:19+07:00",
     "price": 260000,
@@ -17018,6 +28353,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "Freesize"
@@ -17026,20 +28368,29 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 67678174773315,
-        "title": "Freesize",
-        "option1": "Freesize",
-        "option2": null,
-        "sku": "DD-SH297-F1-NVY-FREESIZE",
+        "id": 9153951,
+        "title": "Hồng Phấn Sa Cát / Freesize",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "Freesize",
         "price": 260000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 9153952,
+        "title": "Xanh Thiên Thanh / Freesize",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "Freesize",
+        "price": 260000,
+        "image_index": 1,
         "available": true
       }
     ],
     "collections": [
       "ao-1",
       "ao-khoac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- Chất liệu: Tweed<br>- Áo khoác cổ chữ V, hai vạt áo chéo chồng lên nhau<br>- Có dây thắt tại eo<br>- Tay rộng, cổ và tay áo viền ren<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>",
@@ -17052,7 +28403,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "tinh-dau-nuna",
     "title": "TINH DẦU NUNA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Essential Oil",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T18:02:31+07:00",
     "published_at": "2026-10-12T16:45:17+07:00",
     "price": 60000,
@@ -17129,7 +28480,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>THÀNH PHẦN MÙI: <br>- Ylang Ylang - Hương Ngọc Lan Tây mềm mại, quyến rũ, phảng phất sắc thái kem mịn và ngọt dịu.<br>- Tibetan Rose - Hoa hồng thanh tao, trong trẻo, mang nét dịu dàng và tinh tế.<br>- Pear - Lê mọng nước, tươi sáng, thanh ngọt, tạo nên điểm mở đầu trẻ trung.<br>- Freesia Herbal Tea - Sắc hoa lan Nam Phi hòa quyện cùng hơi thở trà thảo mộc, thanh mát và nhẹ nhàng.<br>- Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và dư âm lưu luyến cho tổng thể.</p>\n<p>*Tổng thể: Thanh ngọt · Hoa mềm · Trà thảo mộc · Gỗ ấm</p>\n<p><strong>NuNa - \"Nu na nu nóng\"</strong></p>\n<p>Nhớ về “Na nu na nóng” là nhớ về một thuở đầu đời còn trong ngần, ngồi kề nhau mà ngẩn ngơ ca hát,  một nét nắng đầu hiên hay một tiếng chim gọi ngô ngơ cũng đủ làm lòng trẻ nhỏ xốn xao, vui sướng.  Những năm tháng ấy vốn nhẹ nhàng như sương mai, non tơ như lộc biếc, mọi điều vừa chạm mắt đều mang theo vẻ tươi rói,  ngọt lành của những lần đầu tiên.</p>\n<p>NuNa đem nỗi cảm hoài ấy ký thác vào một tầng hương, ủ giữ phần thơ dại chưa vướng chuyện được mất,  chưa biết giấu kín vui buồn, chỉ biết rộng lòng đón lấy muôn điều mới mẻ.  Dẫu mai sau có đi qua bao lớp nắng mưa, nét hồn nhiên thuở ấy vẫn lặng lẽ neo lại nơi sâu thẳm,  dung dưỡng một khoảng ký ức trong veo, để chỉ một thoáng hương khẽ chạm cũng đủ lay thức cả quãng đời son trẻ,  tưởng đã xa mà vẫn còn nguyên nét thương mến.</p>",
@@ -17142,7 +28494,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "tinh-dau-zungzang",
     "title": "TINH DẦU ZUNGZANG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Essential Oil",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T18:14:24+07:00",
     "published_at": "2026-10-12T16:45:12+07:00",
     "price": 50000,
@@ -17219,7 +28571,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>THÀNH PHẦN MÙI:<br>- Citrus - Sắc cam chanh tươi sáng, thanh mát, mở đầu đầy sức sống.<br>- Night Blooming Jasmine Tea - Hoa nhài nở đêm hòa cùng hương trà thanh dịu, mang nét tinh tế và thư thái.<br>- Lavender - Lavender mềm mại, sạch và nhẹ nhàng, cân bằng tầng hoa.<br>- Musk - Xạ hương mịn màng, tạo cảm giác sạch sẽ và gần gũi trên da.<br>- Melon - Dưa lưới mọng nước, mang sắc thái ngọt thanh và tươi mát.<br>- Sandalwood - Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho dư hương.</p>\n<p>*Tổng thể: Tươi mát · Hoa trà · Dịu sạch · Gỗ ấm</p>\n<p><strong>ZungZang - \"Dung dăng dung dẻ\"</strong></p>\n<p>\"Dung dăng dung dẻ, dắt trẻ đi chơi” vốn là câu hát của những bàn tay tìm đến nhau, <br>của bước chân trước nương bước chân sau mà nên một quãng đường có bạn. <br>Từ thuở còn thơ cho đến khi khôn lớn, đời người cũng được vun bồi bởi những lần tương ngộ như thế. <br>Có người ghé qua như một thoáng gió, có người ở lại thành mỗi thân quen, <br>có người chỉ sánh bước một đoạn mà dư âm vẫn vẩn vất trong lòng.</p>\n<p>ZungZang se lại cái tình của những lần tay nắm tay, để những cuộc gặp gỡ đã qua vẫn còn lưu một chút hơi ấm trong miền nhớ, <br>như muốn lưu lại bóng dáng của những lần gặp gỡ đã âm thầm bồi đắp nên mỗi người. <br>Một lời từng nghe, một nếp quen từng nhớ, một bóng hình từng thương đều có thể lắng lại thành miền ký ức dịu dàng. <br>Để sau bao lần gặp gỡ và chia xa, ta dần nên hình từ chính những điều đã từng trao gửi, từng đón nhận, từng lưu luyến trong nhau.</p>",
@@ -17232,7 +28585,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "tinh-dau-chichanh",
     "title": "TINH DẦU CHICHANH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Essential Oil",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T18:26:23+07:00",
     "published_at": "2026-10-12T16:45:07+07:00",
     "price": 60000,
@@ -17309,7 +28662,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>THÀNH PHẦN MÙI: <br>- 1. Oolong Tea - Hương trà thanh dịu, hơi rang nhẹ, ấm và sâu.<br>- 2. White Tea - Trong trẻo, mềm mại, thanh sạch và tinh tế.<br>- 3. Neroli - Hương hoa cam xanh, tươi sáng, hơi the nhẹ và thanh tao.<br>- 4. Orange Blossom - Hoa cam ngọt dịu, mềm mại, tươi mát và nữ tính.<br>- 5. Sandalwood - Đàn hương ấm mượt, trầm dịu, tạo chiều sâu và lưu hương.</p>\n<p>*Tổng thể: Thanh trà · Hoa cam · Gỗ ấm</p>\n<p><strong>ChiChanh - \"Chi chi chành chành\"</strong></p>\n<p>\"Chi chi chành chành\" luôn mang cái duyên của những khoảnh khắc chợt mở rồi chợt khép, <br>từng đã nằm trong tay mà thoắt cái đã hóa thành xa vắng. <br>Cái bắt rơi đất đôi khi thấy ấy, khi soi vào đời người, lại thành một nỗi cảm hoài về bao lần đổi khác. <br>Cành cũ xa vắng, người quen thành lạ, một lần ngoảnh bước cũng đủ khiến lỗi xưa rẽ ngả. <br>Mỗi điều cũ đến rồi đi, mong manh như mộng ảnh, nhưng mỗi lần biến chuyển lại âm thầm để lại một nét hằn trong ký ức.</p>\n<p>ChiChanh không níu giữ vẻ nguyên vẹn của thuở ban đầu, mà nâng niu nét đẹp được bồi nền sau những lần chao nghiêng, được mất. <br>Có những điều phải đi qua xa cách mới biết từng quý giá, <br>có những nếp nghĩ phải trải qua và va vấp mới trở nên sâu sắc.<br> Sau bao phen đổi dời, lòng người dần biết điều gì đáng giữ lại, điều gì nên nhẹ bớt trôi đi, <br>để giữ muôn lớp vật đổi sao dời, vẫn còn một dáng riêng âm thầm ở lại, <br>được năm tháng dung dưỡng mà càng trở nên đằm sâu, khó thể phai mờ.</p>",
@@ -17322,7 +28676,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "tinh-dau-bayla",
     "title": "TINH DẦU BAYLA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Essential Oil",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T19:02:53+07:00",
     "published_at": "2026-10-12T16:45:00+07:00",
     "price": 50000,
@@ -17399,7 +28753,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>THÀNH PHẦN MÙI: <br>- Bergamot — Cam bergamot tươi sáng, thanh mát, pha chút the nhẹ và xanh.<br>- Lily — Hoa huệ thanh sạch, mềm mại, mang sắc hoa nhẹ và tinh tế.<br>- Black Tea — Trà đen đậm, hơi khô, ấm và có chiều sâu.<br>- White Sage — Xô thơm trắng thanh sạch, khô nhẹ, thảo mộc và hơi xanh.<br>- Clove — Đinh hương cay ấm, nồng nhẹ, tạo điểm nhấn gia vị.<br>- Patchouli — Hoắc hương trầm, đất nhẹ, hơi khô và mang sắc thái cổ điển.<br>- Pinewood — Gỗ thông xanh, khô thoáng, mang cảm giác tự nhiên và trong lành.<br>- Sandalwood — Đàn hương ấm mượt, mềm và trầm, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Thanh citrus · Trà khô · Thảo mộc · Gia vị ấm · Gỗ trầm.</p>\n<p><strong>BAYLA - \"Con cò bay là bay la\"</strong></p>\n<p>“Con cò bay là bay la” gọi một cánh bay chao nghiêng giữa khoảng trời diệu vợi, <br>lúc thấp thoáng trên đồng, lúc khuất mờ nơi cuối gió, mềm mại mà chẳng lạc phương. <br>Cái dáng bay là lời nhủ chỉ nương theo chiều gió ấy, <br>ngẫm kỹ lại mang theo biết bao dư vị của một đời người đã đi qua nhiều phen đổi dời - Không còn khép tấp trước những ngã rẽ, <br>cũng chẳng mãi miết níu giữ điều đã qua, chỉ thong dong tìm lấy nhịp riêng giữa trời rộng đất dài, <br>để mỗi chuyển động đều mang theo một chút tình thơm trời đất.</p>\n<p>BAYLA chắt lấy cái ý vị phiêu diêu ấy để ươm vào một tầng hương, <br>nâng niu vẻ đẹp của quãng đời khi lòng người đã đủ sâu để biết thả mà không buông, nhẹ mà không hời hợt, tự do mà chẳng lạc mình. <br>Sau những tháng năm từng chao nghiêng vì được mất, con người dần học cách để lòng rộng hơn, bước chân khoan hơn, <br>và nhìn mỗi biến chuyển bằng một sự dịu dàng đã được nâng thành văn bồi. <br>Như cánh cò bay là giữa trời xa, càng đi qua nhiều đổi dời, càng thêm mềm dáng, <br>con người rồi cũng hiểu rằng tự tại chẳng phải là đời không còn vướng bận, mà là giữa muôn điều níu giữ, <br>vẫn biết cách giữ gìn cho lòng mình một khoảng không thanh thản.</p>",
@@ -17412,7 +28767,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "tinh-dau-tatavon",
     "title": "TINH DẦU TATAVON",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Essential Oil",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T19:07:27+07:00",
     "published_at": "2026-10-12T16:44:54+07:00",
     "price": 60000,
@@ -17489,7 +28844,8 @@ let NETDUYEN_PRODUCTS = [
       "gifts",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>THÀNH PHẦN MÙI:</p>\n<p>- Pink Pepper — Tiêu hồng cay nhẹ, tươi sáng, tạo điểm nhấn thanh và hơi nồng.<br>- Orange — Cam mọng nước, tươi mát, mang sắc citrus sáng và ngọt dịu.<br>- Musk — Xạ hương mềm, sạch và mịn, tạo cảm giác gần gũi trên da.<br>- Metallic — Sắc kim loại lạnh, sạch và hiện đại, tạo hiệu ứng sắc nét, độc đáo.<br>- Vanilla — Vanilla ngọt ấm, béo mịn, làm tổng thể trở nên mềm mại và quyến rũ hơn.<br>- Sandalwood — Đàn hương ấm, mượt và trầm dịu, tạo chiều sâu cho lớp hương cuối.</p>\n<p>*Tổng thể: Citrus tươi · Cay nhẹ · Kim loại lạnh · Vanilla ấm · Gỗ mượt</p>\n<p><strong>TATAVON - \"Tập tâm vòng, tay không tay có\"</strong></p>\n<p>Nhớ về “Tập tâm vòng, tay không tay có” là nhớ về bàn tay khum kín một điều bé nhỏ, càng chưa tò càng khiến lòng người thêm nôn nao. <br>Cái duyên của trò chơi xưa nằm ở chính khoảng chờ mong ấy, <br>một vật nhỏ nhòa mà hóa thành điều đáng quý, một khoảnh khắc trao qua mà gieo xuống miền nhớ cả một đời rất lâu. <br>Bởi người đi qua bao phen đầy vơi, càng trân trọng những tháng tháng rơi rụng gìn giữ lại từng trải những bàn tay âm thầm thấm sâu, <br>nhẹ nhàng mà khó thể phai nhòa.</p>\n<p>TataVon gom nhặt những dư ảnh tưởng đã xa, để từng mảnh thương nhớ lắng lại trong vẻ hương thơm, <br>nơi những mảnh ký ức đã xa bỗng hiện về lấp lánh. <br>Một lời ru cũ, một nếp nhà quen, vạt nắng bên thềm, làn khói bếp chiều hay bóng người từng ngồi yên trong một buổi rất xa. <br>Tất cả mang manh như một mảnh nhớ đã từng mong manh, lặng lẽ dung dưỡng nên phần sâu kín nhất của mỗi người. <br>Để rồi khi mọi xao động dần lắng xuống, điều còn lại sau cùng vẫn là những gì đã thầm vào lòng quá đỗi tự nhiên. <br>Chẳng cần gọi tên, chẳng cần phô bày, mà vẫn đủ sức giữ nguyên một vùng ký ức ấm áp qua năm tháng.</p>",
@@ -17500,9 +28856,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15409609375811,
     "handle": "quan-amlinh",
-    "title": "QUẦN ÂM LĨNH",
+    "title": "SET ÁO DÀI LỤA & QUẦN ÂM LĨNH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-09T16:49:58+07:00",
     "published_at": "2026-10-09T16:52:53+07:00",
     "price": 250000,
@@ -17512,6 +28868,13 @@ let NETDUYEN_PRODUCTS = [
       "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/Quan_am_linh_3D_mat_sau.jpg?v=1791537296"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -17523,39 +28886,64 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 67662293073987,
-        "title": "S",
-        "option1": "S",
-        "option2": null,
-        "sku": "DD-TS82-BLK-S",
+        "id": 3758111,
+        "title": "Hồng Phấn Sa Cát / S",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "S",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 67662293106755,
-        "title": "M",
-        "option1": "M",
-        "option2": null,
-        "sku": "DD-TS82-BLK-M",
+        "id": 3758112,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 67662293139523,
-        "title": "L",
-        "option1": "L",
-        "option2": null,
-        "sku": "DD-TS82-BLK-L",
+        "id": 3758113,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 250000,
-        "compare_at_price": null,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 3758114,
+        "title": "Xanh Thiên Thanh / S",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "S",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3758115,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 250000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 3758116,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 250000,
+        "image_index": 1,
         "available": true
       }
     ],
     "collections": [
       "quan",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng, xếp ly <br>- Có khuy đóng cúc <br>- Ống quần bo nhẹ ở gấu<br><br>CHẤT LIỆU<br>- Tơ lông công: 100% tơ tằm<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>\n<p><br></p>",
@@ -17566,9 +28954,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15409251319875,
     "handle": "quan-van-nga-hongdat",
-    "title": "QUẦN VÂN NGA",
+    "title": "SET ÁO DÀI LỤA & QUẦN VÂN NGA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-09T14:31:45+07:00",
     "published_at": "2026-10-09T14:33:10+07:00",
     "price": 140000,
@@ -17629,7 +29017,8 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "phien-van",
       "van-anh",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>\n<p><br></p>",
@@ -17640,9 +29029,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15409221730371,
     "handle": "quan-van-nga-hong",
-    "title": "QUẦN VÂN NGA",
+    "title": "SET ÁO DÀI LỤA & QUẦN VÂN NGA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-09T14:21:49+07:00",
     "published_at": "2026-10-09T14:23:29+07:00",
     "price": 180000,
@@ -17703,7 +29092,8 @@ let NETDUYEN_PRODUCTS = [
       "quan",
       "phien-van",
       "van-anh",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p><span>CHI TIẾT<br>- Quần dáng rộng<br>- Quần hai lớp<br><br>CHẤT LIỆU<br>- Tơ lạnh: 100% Polyester<br>- Lót latin: 96% Polyester, 4% Spendex<br>- Độ co giãn: Co giãn ít<br>- Độ xuyên thấu: Vải không xuyên thấu, không hở<br><br>CHĂM SÓC<br>- Chỉ giặt khô<br>- Chỉ ủi hơi nước<br><br>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</span></p>",
@@ -17716,7 +29106,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-giao-anh",
     "title": "ÁO GIAO ẢNH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-09T11:25:15+07:00",
     "published_at": "2026-10-09T11:26:39+07:00",
     "price": 310000,
@@ -17811,7 +29201,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>ÁO GIAO ẢNH <br>- 85% Acetate, 15% Nylon <br>- Áo cổ tàu, tay hến <br>- Có hàng nơ chéo <br>- Có thiết kế dúm tại eo, phần gấu xoè rộng <br>- Chất liệu có độ bóng nhẹ khi di chuyển</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -17822,9 +29213,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15408940515395,
     "handle": "chan-vay-truong-van-nau",
-    "title": "CHÂN VÁY TRƯỜNG VÂN",
+    "title": "SET ÁO DÀI CÁCH TÂN PHỐI TRƯỜNG VÂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Skirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-09T11:14:19+07:00",
     "published_at": "2026-10-09T11:16:45+07:00",
     "price": 320000,
@@ -17916,7 +29307,8 @@ let NETDUYEN_PRODUCTS = [
     "collections": [
       "dam-1",
       "chan-vay",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- 85% Acetate, 15% Nylon<br>- Chân váy xếp ly, xoè rộng, 4 lớp<br>- Khóa kéo sau lưng<br>- Chất liệu có độ bóng nhẹ khi di chuyển<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -17929,7 +29321,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "yem-mong-hoa-kem",
     "title": "YẾM MỘNG HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-09T10:28:20+07:00",
     "published_at": "2026-10-09T10:39:50+07:00",
     "price": 90000,
@@ -17983,7 +29375,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- 100% Tơ tằm<br>- Yếm có dây buộc cổ và buộc sau lưng <br>- Hoạ tiết in độc bản <br>- Phần vải hai bên sườn được cắt tỉa tạo độ bay, bồng bềnh<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -17996,7 +29389,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-tam-hoa-den",
     "title": "ÁO TÂM HOA",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T18:35:06+07:00",
     "published_at": "2026-10-08T18:35:59+07:00",
     "price": 130000,
@@ -18092,7 +29485,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- 100% Tơ tằm<br>- Áo yếm cổ tròn <br>- Hoa văn chìm<br>- Viền gấu áo cắt vạt chữ V, viền bản to <br>- Hàng khuy dọc sau lưng <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -18103,9 +29497,9 @@ let NETDUYEN_PRODUCTS = [
   {
     "id": 15408045457475,
     "handle": "quan-du-kem",
-    "title": "QUẦN DU",
+    "title": "SET ÁO DÀI LỤA & QUẦN DU",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Pants",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T18:30:16+07:00",
     "published_at": "2026-10-08T18:33:10+07:00",
     "price": 240000,
@@ -18200,7 +29594,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "quan",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>- 100% Polyester<br>- Quần ống rộng<br>- Hai dây tà ở một bên hông, có thể buộc lại hoặc thả tự do<br>- Khoá kéo bên sườn<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -18213,7 +29608,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-hoa-anh-nau",
     "title": "ÁO HOA ẢNH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T17:14:23+07:00",
     "published_at": "2026-10-08T17:18:59+07:00",
     "price": 170000,
@@ -18309,7 +29704,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>- 100% Polyester<br>- Dáng áo quây, thân trên ôm, chiết eo<br>- Phần ngực áo được thiết kế có đường lượn kín đáo<br>- Hai tà bên xếp ly, rủ, tạo độ phồng<br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -18322,7 +29718,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-ngoc-anh",
     "title": "ÁO NGỌC ẢNH",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Shirt",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-08T15:04:04+07:00",
     "published_at": "2026-10-08T15:08:45+07:00",
     "price": 150000,
@@ -18416,7 +29812,8 @@ let NETDUYEN_PRODUCTS = [
     ],
     "collections": [
       "ao-1",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>ÁO NGỌC ẢNH (BÊN NGOÀI)<br>- 100% Polyester<br>- Áo quây chiết eo <br>- Hoạ tiết được thêu đính tỉ mỉ<br>- Từ eo xuống gấu xoè rộng tôn dáng <br>- Khoá kéo sau lưng <br>- Giặt tay hoặc giặt khô, không giặt máy<br>- Chỉ dùng bàn ủi hơi nước để là phẳng, tránh nhiệt trực tiếp lên bề mặt vải</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng và màn hình hiển thị</p>",
@@ -18429,7 +29826,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-nha-doan-vang",
     "title": "ÁO NHÃ ĐOAN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-06T10:35:19+07:00",
     "published_at": "2026-10-06T10:47:20+07:00",
     "price": 90000,
@@ -18589,7 +29986,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -18602,7 +30000,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-nha-doan-kem",
     "title": "ÁO NHÃ ĐOAN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-06T10:35:10+07:00",
     "published_at": "2026-10-06T10:47:19+07:00",
     "price": 90000,
@@ -18762,7 +30160,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -18775,7 +30174,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-nha-doan-xanh",
     "title": "ÁO NHÃ ĐOAN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-06T10:34:58+07:00",
     "published_at": "2026-10-06T10:47:18+07:00",
     "price": 90000,
@@ -18933,7 +30332,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -18946,7 +30346,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-nha-doan-hong",
     "title": "ÁO NHÃ ĐOAN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-06T10:30:53+07:00",
     "published_at": "2026-10-06T10:47:17+07:00",
     "price": 90000,
@@ -19106,7 +30506,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT<br>- Form rộng<br>- Cổ tàu <br>- Tay dài với cổ tay cài cúc, cúc áo hình hoa, gấu áo bo tròn, vai trễ, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU<br>- 44% Tencel, 44% Rayon, 12% Nylon<br>- Mùng mỏng 0,24m</p>\n<p>CHĂM SÓC<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -19119,7 +30520,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-ha-den",
     "title": "ÁO HẠ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-06T10:05:18+07:00",
     "published_at": "2026-10-06T10:19:31+07:00",
     "price": 90000,
@@ -19179,7 +30580,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -19192,7 +30594,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-ha-hong",
     "title": "ÁO HẠ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-06T09:59:41+07:00",
     "published_at": "2026-10-06T10:19:30+07:00",
     "price": 90000,
@@ -19252,7 +30654,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": false,
     "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -19265,7 +30668,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "ao-ha-kem",
     "title": "ÁO HẠ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "",
+    "product_type": "Áo Dài Nữ",
     "created_at": "2026-10-06T09:59:01+07:00",
     "published_at": "2026-10-06T10:19:29+07:00",
     "price": 90000,
@@ -19326,7 +30729,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-1",
       "special-deals",
       "du-sac",
-      "ao-dai-nu"
+      "ao-dai-nu",
+      "all"
     ],
     "isOriginal": true,
     "body_html": "<p>CHI TIẾT:<br>- Form rộng <br>- Cổ nhọn<br>- Tay dài với cổ tay cài cúc, hàng cúc dọc phía trước, bề mặt vải nhăn dọc, phần cầu vai sau có xếp ly nhún, dài ngang hông<br>- Cài cúc phía trước</p>\n<p>CHẤT LIỆU:<br>- 41% Vải sợi tre, 36% Rayon, 23% Cotton<br>- Mùng: Mùng mỏng 0,26m</p>\n<p>CHĂM SÓC:<br>- Chỉ giặt tay nhẹ nhàng hoặc giặt khô; không giặt máy<br>- Chỉ dùng bàn ủi hơi nước; tránh để nhiệt trực tiếp lên bề mặt vải<br>- Treo ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp</p>\n<p>* Màu sắc sản phẩm có thể chênh lệch đậm/nhạt hơn so với thực tế do hiệu ứng ánh sáng</p>",
@@ -19339,7 +30743,7 @@ let NETDUYEN_PRODUCTS = [
     "handle": "man-nhung-dinh-ngoc-trai-hoang-gia",
     "title": "MẤN NHUNG ĐÍNH NGỌC TRAI THỦ CÔNG",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Phụ Kiện",
+    "product_type": "Phụ kiện",
     "rent_price": 50000,
     "deposit": 150000,
     "price": 350000,
@@ -19377,14 +30781,15 @@ let NETDUYEN_PRODUCTS = [
       "accessories",
       "all"
     ],
-    "body_html": "<p>Mấn đội đầu bọc vải nhung cao cấp đính kết ngọc trai tỉ mỉ, tôn trọn vẹn gương mặt thanh tú của người mặc áo dài.</p>"
+    "body_html": "<p>Mấn đội đầu bọc vải nhung cao cấp đính kết ngọc trai tỉ mỉ, tôn trọn vẹn gương mặt thanh tú của người mặc áo dài.</p>",
+    "buy_price": 400000
   },
   {
     "id": 9400000002,
     "handle": "quat-lua-tron-tranh-thuy-mac-chup-anh",
     "title": "QUẠT LỤA TRÒN THÊU TRANH THỦY MẶC VÀ HOA SEN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Phụ Kiện",
+    "product_type": "Phụ kiện",
     "rent_price": 40000,
     "deposit": 100000,
     "price": 250000,
@@ -19421,14 +30826,15 @@ let NETDUYEN_PRODUCTS = [
       "accessories",
       "all"
     ],
-    "body_html": "<p>Quạt lụa tròn cán gỗ điêu khắc, phụ kiện check-in và chụp ảnh kỷ yếu, lễ Tết không thể thiếu.</p>"
+    "body_html": "<p>Quạt lụa tròn cán gỗ điêu khắc, phụ kiện check-in và chụp ảnh kỷ yếu, lễ Tết không thể thiếu.</p>",
+    "buy_price": 320000
   },
   {
     "id": 9400000003,
     "handle": "guoc-moc-truyen-thong-quai-nhung",
     "title": "GUỐC MỘC TRUYỀN THỐNG QUAI NHUNG ĐỎ",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Phụ Kiện",
+    "product_type": "Phụ kiện",
     "rent_price": 45000,
     "deposit": 120000,
     "price": 280000,
@@ -19466,7 +30872,8 @@ let NETDUYEN_PRODUCTS = [
       "accessories",
       "all"
     ],
-    "body_html": "<p>Guốc mộc đế gỗ xoan gọt dáng thanh thoát, lót êm chân cùng quai nhung mềm mại cổ điển.</p>"
+    "body_html": "<p>Guốc mộc đế gỗ xoan gọt dáng thanh thoát, lót êm chân cùng quai nhung mềm mại cổ điển.</p>",
+    "buy_price": 360000
   },
   {
     "id": 9100000005,
@@ -19484,6 +30891,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "M",
@@ -19495,21 +30909,75 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910010,
-        "title": "M",
+        "id": 51,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 360000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910011,
-        "title": "L",
+        "id": 52,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 360000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910012,
-        "title": "XL",
+        "id": 53,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
         "price": 360000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 54,
+        "title": "Hồng Phấn Sa Cát / XXL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XXL",
+        "price": 360000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 55,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 56,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 57,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 360000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 58,
+        "title": "Xanh Thiên Thanh / XXL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XXL",
+        "price": 360000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19517,14 +30985,15 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai-nam",
       "all"
     ],
-    "body_html": "<p>Phom dáng cách tân đĩnh đạc, chất liệu lụa gấm dệt vân chìm màu xanh ngọc tôn da và toát lên phong thái lịch thiệp của quý ông Việt.</p>"
+    "body_html": "<p>Phom dáng cách tân đĩnh đạc, chất liệu lụa gấm dệt vân chìm màu xanh ngọc tôn da và toát lên phong thái lịch thiệp của quý ông Việt.</p>",
+    "buy_price": 2880000
   },
   {
     "id": 9100000006,
     "handle": "ao-dai-nam-gam-vang-hoang-trieu",
     "title": "ÁO DÀI NAM GẤM VÀNG HOÀNG TRIỀU THÊU TAY",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Dài Nam",
+    "product_type": "Cổ Phục",
     "rent_price": 390000,
     "deposit": 800000,
     "price": 2600000,
@@ -19535,6 +31004,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "M",
@@ -19545,15 +31021,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910013,
-        "title": "M",
+        "id": 61,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 390000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910014,
-        "title": "L",
+        "id": 62,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 390000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 63,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 390000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 64,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 390000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 65,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 390000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 66,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 390000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19562,14 +31080,15 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Lấy cảm hứng từ sắc vàng hoàng gia triều đình Huế, dệt gấm nổi tinh xảo với họa tiết vân mây và rồng cuộn cát tường.</p>"
+    "body_html": "<p>Lấy cảm hứng từ sắc vàng hoàng gia triều đình Huế, dệt gấm nổi tinh xảo với họa tiết vân mây và rồng cuộn cát tường.</p>",
+    "buy_price": 3120000
   },
   {
     "id": 9100000007,
     "handle": "ao-dai-nam-cach-tan-hac-vu-bach-kim",
     "title": "ÁO DÀI NAM CÁCH TÂN HẠC VŨ BẠCH KIM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Dài Nam",
+    "product_type": "Áo Cưới Cặp",
     "rent_price": 370000,
     "deposit": 750000,
     "price": 2500000,
@@ -19580,6 +31099,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "M",
@@ -19590,15 +31116,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910015,
-        "title": "M",
+        "id": 71,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 370000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910016,
-        "title": "L",
+        "id": 72,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 370000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 73,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 370000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 74,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 370000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 75,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 370000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 76,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 370000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19607,14 +31175,15 @@ let NETDUYEN_PRODUCTS = [
       "ao-cuoi-cap",
       "all"
     ],
-    "body_html": "<p>Thiết kế tinh giản hiện đại với họa tiết chim hạc sải cánh trên nền vải taffeta nhập khẩu cao cấp, tôn vinh vẻ đẹp nho nhã.</p>"
+    "body_html": "<p>Thiết kế tinh giản hiện đại với họa tiết chim hạc sải cánh trên nền vải taffeta nhập khẩu cao cấp, tôn vinh vẻ đẹp nho nhã.</p>",
+    "buy_price": 2960000
   },
   {
     "id": 9100000008,
     "handle": "ao-dai-nam-gam-do-song-long-hy-su",
     "title": "ÁO DÀI NAM GẤM ĐỎ SONG LONG HỶ SỰ (CHÚ RỂ)",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Dài Nam",
+    "product_type": "Áo Cưới Cặp",
     "rent_price": 430000,
     "deposit": 900000,
     "price": 2900000,
@@ -19624,6 +31193,13 @@ let NETDUYEN_PRODUCTS = [
       "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05629.jpg?v=1792811197"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -19636,15 +31212,75 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910017,
-        "title": "M",
+        "id": 81,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 430000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910018,
-        "title": "L",
+        "id": 82,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 430000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 83,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 430000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 84,
+        "title": "Hồng Phấn Sa Cát / XXL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XXL",
+        "price": 430000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 85,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 86,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 87,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 430000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 88,
+        "title": "Xanh Thiên Thanh / XXL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XXL",
+        "price": 430000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19653,14 +31289,15 @@ let NETDUYEN_PRODUCTS = [
       "ao-cuoi-cap",
       "all"
     ],
-    "body_html": "<p>Chiếc áo dài cưới hoàn hảo dành riêng cho chú rể trong ngày vu quy. Sắc đỏ gấm hoàng kim mang lời chúc phúc viên mãn lứa đôi.</p>"
+    "body_html": "<p>Chiếc áo dài cưới hoàn hảo dành riêng cho chú rể trong ngày vu quy. Sắc đỏ gấm hoàng kim mang lời chúc phúc viên mãn lứa đôi.</p>",
+    "buy_price": 3440000
   },
   {
     "id": 9100000009,
     "handle": "ao-dai-nam-ngu-than-tay-chenh-reu-phong",
     "title": "ÁO DÀI NAM NGŨ THÂN TAY CHẼN RÊU PHONG CỔ ĐIỂN",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Áo Dài Nam",
+    "product_type": "Cổ Phục",
     "rent_price": 380000,
     "deposit": 800000,
     "price": 2550000,
@@ -19670,6 +31307,13 @@ let NETDUYEN_PRODUCTS = [
       "https://quyennguyen.vn/wp-content/uploads/2026/10/9_MRL08394-logo-900x1350.jpg"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size",
         "values": [
@@ -19681,15 +31325,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910019,
-        "title": "M",
+        "id": 91,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 380000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910020,
-        "title": "L",
+        "id": 92,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 380000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 93,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 380000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 94,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 380000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 95,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 380000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 96,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 380000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19698,7 +31384,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Phom dáng áo dài ngũ thân lập lĩnh 5 khuy cài kim loại cổ, sắc xanh rêu cổ điển thanh lịch, tái hiện trọn vẹn phong độ đấng trượng phu.</p>"
+    "body_html": "<p>Phom dáng áo dài ngũ thân lập lĩnh 5 khuy cài kim loại cổ, sắc xanh rêu cổ điển thanh lịch, tái hiện trọn vẹn phong độ đấng trượng phu.</p>",
+    "buy_price": 3040000
   },
   {
     "id": 9100000010,
@@ -19716,6 +31403,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Size",
         "values": [
           "M",
@@ -19726,15 +31420,57 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 910021,
-        "title": "M",
+        "id": 101,
+        "title": "Hồng Phấn Sa Cát / M",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "M",
         "price": 350000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 910022,
-        "title": "L",
+        "id": 102,
+        "title": "Hồng Phấn Sa Cát / L",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "L",
         "price": 350000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 103,
+        "title": "Hồng Phấn Sa Cát / XL",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "XL",
+        "price": 350000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 104,
+        "title": "Xanh Thiên Thanh / M",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "M",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 105,
+        "title": "Xanh Thiên Thanh / L",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "L",
+        "price": 350000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 106,
+        "title": "Xanh Thiên Thanh / XL",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "XL",
+        "price": 350000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19742,7 +31478,8 @@ let NETDUYEN_PRODUCTS = [
       "ao-dai-nam",
       "all"
     ],
-    "body_html": "<p>Chất gấm dệt hoa văn chữ Thọ chỉ vàng óng ánh trên nền đen tuyền sang trọng, thích hợp mặc trong các nghi lễ gia tiên và tiệc tùng.</p>"
+    "body_html": "<p>Chất gấm dệt hoa văn chữ Thọ chỉ vàng óng ánh trên nền đen tuyền sang trọng, thích hợp mặc trong các nghi lễ gia tiên và tiệc tùng.</p>",
+    "buy_price": 2800000
   },
   {
     "id": 9400000004,
@@ -19760,6 +31497,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Kích thước",
         "values": [
           "Tiêu chuẩn"
@@ -19768,9 +31512,21 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 940004,
-        "title": "Tiêu chuẩn",
+        "id": 41,
+        "title": "Hồng Phấn Sa Cát / Tiêu chuẩn",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "Tiêu chuẩn",
         "price": 70000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 42,
+        "title": "Xanh Thiên Thanh / Tiêu chuẩn",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "Tiêu chuẩn",
+        "price": 70000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19778,7 +31534,8 @@ let NETDUYEN_PRODUCTS = [
       "phu-kien",
       "all"
     ],
-    "body_html": "<p>Kiềng cổ bạc trạm trổ hoa mai truyền thống tinh xảo, phụ kiện không thể thiếu khi diện cùng áo dài cưới hoặc cổ phục Việt Nam.</p>"
+    "body_html": "<p>Kiềng cổ bạc trạm trổ hoa mai truyền thống tinh xảo, phụ kiện không thể thiếu khi diện cùng áo dài cưới hoặc cổ phục Việt Nam.</p>",
+    "buy_price": 560000
   },
   {
     "id": 9400000005,
@@ -19796,6 +31553,13 @@ let NETDUYEN_PRODUCTS = [
     ],
     "options": [
       {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
+      {
         "name": "Kích thước",
         "values": [
           "Tiêu chuẩn"
@@ -19804,9 +31568,21 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 940005,
-        "title": "Tiêu chuẩn",
+        "id": 51,
+        "title": "Hồng Phấn Sa Cát / Tiêu chuẩn",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "Tiêu chuẩn",
         "price": 45000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 52,
+        "title": "Xanh Thiên Thanh / Tiêu chuẩn",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "Tiêu chuẩn",
+        "price": 45000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19814,7 +31590,8 @@ let NETDUYEN_PRODUCTS = [
       "phu-kien",
       "all"
     ],
-    "body_html": "<p>Trâm cài tóc hợp kim mạ vàng đính hạt ngọc trai tự nhiên và tua rua rủ nhẹ, tạo điểm nhấn kiêu sa cho mái tóc búi cô dâu.</p>"
+    "body_html": "<p>Trâm cài tóc hợp kim mạ vàng đính hạt ngọc trai tự nhiên và tua rua rủ nhẹ, tạo điểm nhấn kiêu sa cho mái tóc búi cô dâu.</p>",
+    "buy_price": 360000
   },
   {
     "id": 9400000006,
@@ -19857,14 +31634,15 @@ let NETDUYEN_PRODUCTS = [
       "phu-kien",
       "all"
     ],
-    "body_html": "<p>Túi xách cầm tay dáng tròn thêu hoa sen lụa gấm thủ công, quai ngọc cầm tay trang nhã hoàn hảo phối cùng áo dài.</p>"
+    "body_html": "<p>Túi xách cầm tay dáng tròn thêu hoa sen lụa gấm thủ công, quai ngọc cầm tay trang nhã hoàn hảo phối cùng áo dài.</p>",
+    "buy_price": 440000
   },
   {
     "id": 9400000007,
     "handle": "hai-theu-hoa-cung-dinh-nu",
     "title": "HÀI THÊU HOA CUNG ĐÌNH NỮ ĐẾ MỀM",
     "vendor": "NÉT DUYÊN",
-    "product_type": "Phụ kiện",
+    "product_type": "Cổ Phục",
     "rent_price": 60000,
     "deposit": 200000,
     "price": 520000,
@@ -19874,6 +31652,13 @@ let NETDUYEN_PRODUCTS = [
       "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05626.jpg?v=1792811197"
     ],
     "options": [
+      {
+        "name": "Màu Sắc / Bản Phối",
+        "values": [
+          "Hồng Phấn Sa Cát",
+          "Xanh Thiên Thanh"
+        ]
+      },
       {
         "name": "Size Giày",
         "values": [
@@ -19886,21 +31671,75 @@ let NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 940008,
-        "title": "36",
+        "id": 71,
+        "title": "Hồng Phấn Sa Cát / 36",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "36",
         "price": 60000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 940009,
-        "title": "37",
+        "id": 72,
+        "title": "Hồng Phấn Sa Cát / 37",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "37",
         "price": 60000,
+        "image_index": 0,
         "available": true
       },
       {
-        "id": 940010,
-        "title": "38",
+        "id": 73,
+        "title": "Hồng Phấn Sa Cát / 38",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "38",
         "price": 60000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 74,
+        "title": "Hồng Phấn Sa Cát / 39",
+        "option1": "Hồng Phấn Sa Cát",
+        "option2": "39",
+        "price": 60000,
+        "image_index": 0,
+        "available": true
+      },
+      {
+        "id": 75,
+        "title": "Xanh Thiên Thanh / 36",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "36",
+        "price": 60000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 76,
+        "title": "Xanh Thiên Thanh / 37",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "37",
+        "price": 60000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 77,
+        "title": "Xanh Thiên Thanh / 38",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "38",
+        "price": 60000,
+        "image_index": 1,
+        "available": true
+      },
+      {
+        "id": 78,
+        "title": "Xanh Thiên Thanh / 39",
+        "option1": "Xanh Thiên Thanh",
+        "option2": "39",
+        "price": 60000,
+        "image_index": 1,
         "available": true
       }
     ],
@@ -19909,7 +31748,8 @@ let NETDUYEN_PRODUCTS = [
       "co-phuc",
       "all"
     ],
-    "body_html": "<p>Hài thêu hoa cổ truyền mũi cong nhẹ êm chân, phù hợp đi cùng áo Nhật Bình, Áo Tấc và áo dài cưới truyền thống.</p>"
+    "body_html": "<p>Hài thêu hoa cổ truyền mũi cong nhẹ êm chân, phù hợp đi cùng áo Nhật Bình, Áo Tấc và áo dài cưới truyền thống.</p>",
+    "buy_price": 480000
   }
 ];
 
@@ -20014,3 +31854,10 @@ const DINGDANG_PRODUCTS = NETDUYEN_PRODUCTS;
 const DINGDANG_COLLECTIONS = NETDUYEN_COLLECTIONS;
 const DINGDANG_BLOGS = NETDUYEN_BLOGS;
 const DINGDANG_POLICIES = NETDUYEN_POLICIES;
+
+if (typeof window !== "undefined") {
+  window.NETDUYEN_PRODUCTS = NETDUYEN_PRODUCTS;
+  window.NETDUYEN_COLLECTIONS = NETDUYEN_COLLECTIONS;
+  window.NETDUYEN_BLOGS = NETDUYEN_BLOGS;
+  window.NETDUYEN_POLICIES = NETDUYEN_POLICIES;
+}
