@@ -327,7 +327,7 @@ function updateCartUI() {
           <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
         </svg>
         <span class="empty-des" style="display:block;font-size:15px;font-weight:600;margin-bottom:6px;color:#111;">Giỏ trang phục đang trống</span>
-        <p style="font-size:13px;color:#666;margin-bottom:20px;">Khám phá hơn 220+ mẫu Áo Dài, Áo Cưới Cặp và Cổ Phục đẹp cho sự kiện của bạn.</p>
+        <p style="font-size:13px;color:#666;margin-bottom:20px;">Khám phá hơn 180+ mẫu Áo Dài, Áo Cưới Cặp và Cổ Phục đẹp cho sự kiện của bạn.</p>
         <button type="button" class="btn-primary" onclick="closeMinicart(); location.hash='#collections/all'">
           Khám phá Áo Dài ngay
         </button>
@@ -860,7 +860,7 @@ function renderHomeView() {
           ${hotItems.map(p => renderProductCardHTML(p)).join("")}
         </div>
         <div style="text-align:center;margin-top:34px;">
-          <a href="#collections/all" class="btn-secondary">Khám phá tất cả 220+ mẫu</a>
+          <a href="#collections/all" class="btn-secondary">Khám phá tất cả 180+ mẫu</a>
         </div>
       </div>
     </section>
@@ -997,7 +997,7 @@ function renderCollectionView(slug) {
   }
 
   const categoryPills = [
-    { slug: "all", label: "Tất cả (220+)" },
+    { slug: "all", label: "Tất cả (180+)" },
     { slug: "ao-dai-nu", label: "Áo Dài Nữ" },
     { slug: "ao-dai-nam", label: "Áo Dài Nam" },
     { slug: "ao-cuoi-cap", label: "Áo Cưới Cặp" },
@@ -2069,7 +2069,11 @@ function handleCheckoutSubmit(e) {
   saveCart();
 
   showToast(`🎉 Đặt lịch thuê thành công! Mã đơn: ${order.id} (+ ${earnedPoints} Điểm Duyên)`);
-  location.hash = "#account";
+  if (order.payment === "BANK") {
+    openVietQRModal(order);
+  } else {
+    location.hash = "#account";
+  }
 }
 
 /* ==========================================================================
@@ -2228,7 +2232,14 @@ function renderAccountView() {
                 </td>
                 <td style="font-weight:600;">${formatVND(o.rentTotal || o.total)}</td>
                 <td style="font-weight:600;color:#d9480f;">${formatVND(o.depositTotal || 0)}</td>
-                <td style="font-weight:700;color:#c92a2a;">${formatVND(o.total)}</td>
+                <td style="font-weight:700;color:#c92a2a;">
+                  ${formatVND(o.total)}
+                  ${o.payment === "BANK" ? `
+                    <div style="margin-top:4px;">
+                      <button type="button" class="btn-secondary" style="padding:2px 8px;font-size:11px;" onclick="openVietQRModal(state.orders.find(x => x.id === '${o.id}'))">Xem QR</button>
+                    </div>
+                  ` : ""}
+                </td>
                 <td>
                   <span style="background:#f1f3f5;color:#495057;padding:3px 6px;border-radius:3px;font-size:10.5px;font-weight:700;" title="Đã ký giao kết điện tử">
                     ✓ ${o.contractCode || "ĐÃ KÝ HĐ"}
@@ -2497,6 +2508,47 @@ function openImageZoomModal(imgUrl, title) {
     <div style="text-align:center;">
       <img src="${imgUrl}" alt="${title}" style="max-width:100%;max-height:85vh;object-fit:contain;border-radius:4px;" />
       <div style="font-size:13px;color:#555;margin-top:8px;font-weight:600;">${title}</div>
+    </div>
+  `;
+  backdrop.classList.add("open");
+}
+
+function openVietQRModal(order) {
+  if (!order) return;
+  const backdrop = document.getElementById("ddModalBackdrop");
+  const content = document.getElementById("ddModalContent");
+  const box = document.getElementById("ddModalBox");
+  if (!backdrop || !content || !box) return;
+
+  const qrUrl = `https://img.vietqr.io/image/MB-0363860055-compact2.png?amount=${order.total}&addInfo=NETDUYEN%20${order.id}&accountName=NET%20DUYEN`;
+
+  box.style.maxWidth = "480px";
+  content.innerHTML = `
+    <div style="text-align:center;padding:14px 10px;">
+      <span style="font-size:11px;font-weight:700;color:#2b8a3e;background:#ebfbee;padding:3px 10px;border-radius:12px;text-transform:uppercase;">
+        THANH TOÁN VIETQR TỰ ĐỘNG
+      </span>
+      <h3 style="font-size:18px;font-weight:800;color:#111;margin:10px 0 6px;">QUÉT MÃ VIETQR ĐỂ XÁC NHẬN GIỮ LỊCH</h3>
+      <p style="font-size:12.5px;color:#666;margin-bottom:14px;">
+        Đơn thuê <strong>${order.id}</strong> • Tổng thanh toán: <strong style="color:#c92a2a;font-size:15px;">${formatVND(order.total)}</strong>
+      </p>
+
+      <div style="background:#fff;border:2px dashed #0056b3;border-radius:12px;padding:12px;display:inline-block;margin-bottom:14px;box-shadow:0 4px 14px rgba(0,0,0,0.06);">
+        <img src="${qrUrl}" alt="VietQR Payment" style="width:230px;height:auto;display:block;margin:0 auto;" />
+      </div>
+
+      <div style="background:#f8f9fa;border-radius:8px;padding:12px 14px;font-size:12.5px;text-align:left;line-height:1.8;margin-bottom:16px;">
+        <div><strong>Ngân hàng:</strong> MB Bank (Quân Đội)</div>
+        <div><strong>Số tài khoản:</strong> <span style="font-family:monospace;font-size:14px;font-weight:700;color:#0056b3;">0363860055</span></div>
+        <div><strong>Chủ tài khoản:</strong> NÉT DUYÊN TRADITIONAL</div>
+        <div><strong>Số tiền:</strong> <strong style="color:#c92a2a;">${formatVND(order.total)}</strong></div>
+        <div><strong>Nội dung CK:</strong> <span style="font-family:monospace;font-weight:700;background:#fff3bf;padding:1px 6px;border-radius:3px;">NETDUYEN ${order.id}</span></div>
+      </div>
+
+      <button type="button" class="btn-primary" style="width:100%;padding:12px;font-weight:700;" onclick="closeDdModal(); location.hash='#account';">
+        ✓ TÔI ĐÃ CHUYỂN KHOẢN XONG
+      </button>
+      <div style="font-size:11.5px;color:#888;margin-top:8px;">Hệ thống sẽ tự động xác thực và chuẩn bị trang phục cho bạn.</div>
     </div>
   `;
   backdrop.classList.add("open");

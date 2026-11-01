@@ -17764,6 +17764,11 @@ var NETDUYEN_COLLECTIONS = {
     "handle": "ao-dai-nu",
     "description": "Các thiết kế Áo Dài truyền thống và cách tân thướt tha, chất liệu tơ tằm, gấm hoa và voan tơ cao cấp."
   },
+  "ao-dai": {
+    "title": "BỘ SƯU TẬP ÁO DÀI",
+    "handle": "ao-dai",
+    "description": "Các thiết kế Áo Dài truyền thống và cách tân thướt tha, chất liệu tơ tằm, gấm hoa và voan tơ cao cấp."
+  },
   "ao-cuoi-cap": {
     "title": "ÁO CƯỚI CẶP ĐÔI & HỶ SỰ",
     "handle": "ao-cuoi-cap",
