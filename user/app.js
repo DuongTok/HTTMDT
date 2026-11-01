@@ -26,8 +26,7 @@ const DEFAULT_REVIEWS = [
     variantRented: "Cô dâu S / Chú rể L (Gói 3 ngày)",
     comment: "Áo nhận được rất thơm tho, tà áo ủi phẳng lỳ tinh tươm. Mình có nhờ shop bóp nhẹ eo 2cm shop làm rất tỉ mỉ, mặc lên chụp ảnh lễ ăn hỏi ai cũng khen nức nở. Lúc gửi trả đồ xong 30 phút là shop chuyển khoản hoàn lại 100% tiền cọc 1.800.000₫ ngay. Rất uy tín và chuyên nghiệp!",
     photos: [
-      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
-      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05621.jpg?v=1792811197"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315", "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844"
     ],
     verified: true
   },
@@ -42,7 +41,7 @@ const DEFAULT_REVIEWS = [
     variantRented: "Size L (Gói 3 ngày 2 đêm)",
     comment: "Áo form cứng cáp, gấm dệt chỉ vàng sắc nét, mặc dự tiệc cưới bạn thân rất sang trọng và đĩnh đạc. Giao hàng đúng giờ trước sự kiện 1 ngày. Tiền cọc hoàn trả đầy đủ không thiếu 1 đồng. Sẽ tiếp tục ủng hộ Nét Duyên!",
     photos: [
-      "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265820copy3.jpg?v=1787217874"
     ],
     verified: true
   },
@@ -57,8 +56,7 @@ const DEFAULT_REVIEWS = [
     variantRented: "Freesize (Gói 3 ngày kèm Mấn)",
     comment: "Cổ phục Nhật Bình đẹp xuất sắc từng đường kim thêu hoa văn ngũ phụng, chất vải dày dặn và mấn ngọc đội vừa vặn êm đầu. Nhóm mình chụp ở Hoàng Thành Thăng Long được bao nhiêu người hỏi thuê ở đâu. 10/10 điểm!",
     photos: [
-      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/M_u_on_Tr_m_Hoa___Kho_c_H_ng_H_2.jpg?v=1792811197",
-      "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05856.jpg?v=1792811197"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265701copy4.jpg?v=1787216608", "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0144.jpg?v=1767843482"
     ],
     verified: true
   },
@@ -752,14 +750,14 @@ function renderHomeView() {
   const coPhucItems = NETDUYEN_PRODUCTS.filter(p => p.collections && p.collections.includes("co-phuc")).slice(0, 4);
 
   const museImages = [
-    "https://dingdangvietnam.com/cdn/shop/files/1789725324926_2068560641793806717_2068560641793806717_f11991394279088b902607028da9f4dd.jpg?v=1789726461&width=533",
-    "https://dingdangvietnam.com/cdn/shop/files/1789725646338_2068560641793806717_2068560641793806717_adb99abec3d1ddbe14cffe8523f270b7.jpg?v=1789726461&width=533",
-    "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197",
-    "https://dingdangvietnam.com/cdn/shop/files/1789725487483_2068560641793806717_2068560641793806717_b7560d56d854ef0ab7569c054894a21a.jpg?v=1789726461&width=533",
-    "https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05856.jpg?v=1792811197",
-    "https://dingdangvietnam.com/cdn/shop/files/1789725569214_2068560641793806717_2068560641793806717_85ae82f353d553e51d0392e1fd08f98d.jpg?v=1789726461&width=533",
-    "https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg",
-    "https://dingdangvietnam.com/cdn/shop/files/1789725930167_2068560641793806717_2068560641793806717_ee38a508e3ccd264ed8bd387dd704306.jpg?v=1789726461&width=533"
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315",
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844",
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265820copy3.jpg?v=1787217874",
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265701copy4.jpg?v=1787216608",
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0144.jpg?v=1767843482",
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/092_70290991-cc0e-4e8f-9487-5c27e2c55e22.jpg?v=1767842006",
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0133.jpg?v=1767859673",
+    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/087_1fd57989-3f27-43ef-97b9-4fc67c855f3d.jpg?v=1767841805"
   ];
 
   const main = document.getElementById("MainContent");
@@ -783,19 +781,19 @@ function renderHomeView() {
         </div>
         <div class="collection-list-grid">
           <div class="collection-card" onclick="location.hash='#collections/ao-dai-nu'">
-            <img src="https://dingdangvietnam.com/cdn/shop/files/1792233848184_2307592614049898190_2307592614049898190_38c62ffd47c69d192158ed5b3c2f6223.jpg?v=1792234193&width=900" alt="ÁO DÀI NỮ" />
+            <img src="https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315" alt="ÁO DÀI NỮ" />
             <span class="collection-card-label">ÁO DÀI NỮ</span>
           </div>
           <div class="collection-card" onclick="location.hash='#collections/ao-dai-nam'">
-            <img src="https://quyennguyen.vn/wp-content/uploads/2026/10/12_MRL08847-logo-900x1350.jpg" alt="ÁO DÀI NAM" />
+            <img src="https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265820copy3.jpg?v=1787217874" alt="ÁO DÀI NAM" />
             <span class="collection-card-label">ÁO DÀI NAM</span>
           </div>
           <div class="collection-card" onclick="location.hash='#collections/ao-cuoi-cap'">
-            <img src="https://cdn.shopify.com/s/files/1/0981/5025/2916/files/DSC05782.jpg?v=1792811197" alt="ÁO CƯỚI CẶP" />
+            <img src="https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844" alt="ÁO CƯỚI CẶP" />
             <span class="collection-card-label">ÁO CƯỚI CẶP</span>
           </div>
           <div class="collection-card" onclick="location.hash='#collections/co-phuc'">
-            <img src="https://cdn.shopify.com/s/files/1/0981/5025/2916/files/M_u_on_Tr_m_Hoa___Kho_c_H_ng_H_2.jpg?v=1792811197" alt="CỔ PHỤC VIỆT" />
+            <img src="https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265701copy4.jpg?v=1787216608" alt="CỔ PHỤC VIỆT" />
             <span class="collection-card-label">CỔ PHỤC VIỆT</span>
           </div>
         </div>
