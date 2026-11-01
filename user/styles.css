@@ -178,7 +178,7 @@ button, input, select, textarea {
 .header-middle {
   background: #ffffff;
   border-bottom: 1px solid var(--border-color-base);
-  min-height: 70px;
+  min-height: 52px;
   display: flex;
   align-items: center;
 }
@@ -271,16 +271,20 @@ button, input, select, textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .horizontal-list > li.level0 {
   position: relative;
-  padding: 24px 0;
+  padding: 14px 0;
 }
 
 .horizontal-list > li.level0 > a {
-  font-size: 14px;
+  font-size: 13px;
+  white-space: nowrap;
   font-weight: 400;
   color: #111111;
   text-transform: uppercase;
@@ -2894,14 +2898,14 @@ button, input, select, textarea {
 
 
 /* ==========================================================================
-   SLIM NAVIGATION, AUTO-HIDE ON SCROLL & COLLAPSE CONTROLS
+   SLIM NAVIGATION & SEAMLESS AUTO-HIDE ON SCROLL
    ========================================================================== */
 .page-header {
   position: sticky;
   top: 0;
   z-index: 1000;
   background: #ffffff;
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, min-height 0.25s ease;
+  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
   will-change: transform;
 }
 
@@ -2910,9 +2914,24 @@ button, input, select, textarea {
   box-shadow: none;
 }
 
+.page-header.is-sticky {
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+}
+
+.page-header.is-sticky .header-middle {
+  min-height: 48px;
+}
+
 .topbar {
-  transition: transform 0.3s ease, opacity 0.3s ease, max-height 0.3s ease;
-  max-height: 50px;
+  background: #fafafa;
+  border-bottom: 1px solid #ebebeb;
+  transition: transform 0.28s ease, opacity 0.25s ease, max-height 0.28s ease;
+  max-height: 38px;
+  overflow: hidden;
+}
+
+.topbar__section-inner {
+  min-height: 32px;
 }
 
 .topbar.topbar-hidden {
@@ -2921,84 +2940,74 @@ button, input, select, textarea {
   max-height: 0;
   overflow: hidden;
   pointer-events: none;
+  padding: 0;
 }
 
-.header-middle {
-  min-height: 56px;
-  transition: min-height 0.25s ease, padding 0.2s ease;
-}
-
-.page-header.is-sticky .header-middle {
-  min-height: 50px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-}
-
-.page-header.is-sticky .brand-logo-slogan {
-  display: none;
-}
-
-.page-header.is-collapsed .col-header-center {
-  display: none;
-}
-
-.page-header.is-collapsed .header-middle {
-  min-height: 44px;
-}
-
-.nav-collapse-toggle-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  background: #f5f5f5;
-  border: 1px solid #e2e2e2;
-  border-radius: 14px;
-  padding: 4px 10px;
-  font-size: 11.5px;
-  font-weight: 600;
-  color: #555555;
-  cursor: pointer;
-  margin-right: 8px;
-  transition: all 0.2s ease;
-}
-
-.nav-collapse-toggle-btn:hover {
-  background: #111111;
-  color: #ffffff;
-  border-color: #111111;
-}
-
-/* Floating promo dismiss wrapper */
+/* Floating promo dismissible capsule pill */
 .promo-floating-gift-wrap {
   position: fixed;
-  bottom: 24px;
-  left: 24px;
+  bottom: 20px;
+  left: 20px;
   z-index: 998;
   display: flex;
   align-items: center;
   gap: 6px;
+  background: rgba(17, 17, 17, 0.92);
+  backdrop-filter: blur(8px);
+  padding: 4px 8px 4px 14px;
+  border-radius: 30px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
   transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .promo-floating-gift-wrap.hidden {
   opacity: 0;
   pointer-events: none;
-  transform: translateY(10px);
+  transform: translateY(12px);
+}
+
+.promo-floating-gift-btn {
+  position: static;
+  bottom: auto;
+  left: auto;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  padding: 2px 0;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  box-shadow: none;
+}
+
+.promo-floating-gift-btn:hover {
+  transform: none;
+  box-shadow: none;
+  opacity: 0.92;
 }
 
 .promo-floating-dismiss-btn {
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background: rgba(17, 17, 17, 0.85);
+  background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 13px;
+  border: none;
+  font-size: 14px;
+  line-height: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease;
+  margin-left: 2px;
+  padding: 0;
 }
 
 .promo-floating-dismiss-btn:hover {
