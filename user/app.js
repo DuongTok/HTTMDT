@@ -2520,7 +2520,7 @@ function openContractModal() {
 
       <p><strong>BÊN CHO THUÊ (BÊN A):</strong> NÉT DUYÊN TRADITIONAL COSTUMES<br/>
       Hotline: 0363 860 055 | Email: contact@netduyen.vn<br/>
-      Địa chỉ Showroom: Hệ thống phân phối Nét Duyên toàn quốc.</p>
+      Địa chỉ Showroom: 207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội.</p>
 
       <p><strong>BÊN THUÊ (BÊN B):</strong> Khách hàng đặt đơn thuê trực tuyến trên website <em>netduyen.vercel.app</em> theo thông tin đăng ký tại bước Thanh toán.</p>
 
