@@ -81,7 +81,14 @@ const DEFAULT_REVIEWS = [
 function getStoredReviews() {
   try {
     const raw = localStorage.getItem(STORAGE_KEYS.REVIEWS);
-    if (raw) return JSON.parse(raw);
+    if (raw) {
+      // Invalidate old broken review images cache if present
+      if (raw.includes("0981/5025") || raw.includes("quyennguyen.vn")) {
+        localStorage.setItem(STORAGE_KEYS.REVIEWS, JSON.stringify(DEFAULT_REVIEWS));
+        return DEFAULT_REVIEWS;
+      }
+      return JSON.parse(raw);
+    }
   } catch (e) {}
   localStorage.setItem(STORAGE_KEYS.REVIEWS, JSON.stringify(DEFAULT_REVIEWS));
   return DEFAULT_REVIEWS;
@@ -96,6 +103,11 @@ function saveReviews(revs) {
   try {
     const custom = localStorage.getItem(STORAGE_KEYS.CUSTOM_PRODUCTS);
     if (custom) {
+      // Invalidate old broken cache if present
+      if (custom.includes("0981/5025") || custom.includes("quyennguyen.vn")) {
+        localStorage.removeItem(STORAGE_KEYS.CUSTOM_PRODUCTS);
+        return;
+      }
       const parsed = JSON.parse(custom);
       if (Array.isArray(parsed) && parsed.length > 0) {
         NETDUYEN_PRODUCTS = parsed;
@@ -496,10 +508,10 @@ function renderProductCardHTML(product, isCompact = false) {
           <div class="badge-rental-card">${badgeText}</div>
           <a class="bls__img-url" href="#products/${product.handle}" onclick="closeSearchPopup()">
             <div class="bls__product-main-img">
-              <img src="${img1}" alt="${product.title}" loading="lazy" />
+              <img src="${img1}" alt="${product.title}" loading="lazy" onerror="this.onerror=null;this.src='https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315';" />
             </div>
             <div class="bls__product-hover-img">
-              <img src="${img2}" alt="${product.title}" loading="lazy" />
+              <img src="${img2}" alt="${product.title}" loading="lazy" onerror="this.onerror=null;this.src='https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844';" />
             </div>
           </a>
           <div class="bls__product-action">
@@ -777,7 +789,7 @@ function renderHomeView() {
       <div class="container-fluid">
         <div class="bls__section-header">
           <h2 class="bls__section-heading">DANH MỤC TRANG PHỤC CHO THUÊ</h2>
-          <p class="bls__section-des">Hơn 220+ mẫu trang phục được chăm sóc giặt hấp chuẩn studio</p>
+          <p class="bls__section-des">Hơn 180+ mẫu trang phục được chăm sóc giặt hấp chuẩn studio</p>
         </div>
         <div class="collection-list-grid">
           <div class="collection-card" onclick="location.hash='#collections/ao-dai-nu'">
@@ -908,7 +920,7 @@ function renderHomeView() {
         <div class="muse-gallery-grid">
           ${museImages.map(src => `
             <div class="muse-gallery-item">
-              <img src="${src}" alt="MUSE OF NÉT DUYÊN" loading="lazy" />
+              <img src="${src}" alt="MUSE OF NÉT DUYÊN" loading="lazy" onerror="this.onerror=null;this.src='https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315';" />
             </div>
           `).join("")}
         </div>
@@ -1183,7 +1195,7 @@ function renderProductDetailView(handle) {
         <!-- Left Interactive Gallery with Featured Stage & Thumbnails -->
         <div class="pdp-left-gallery">
           <div class="pdp-stage-wrap" id="pdpMainStageWrap" onclick="openImageZoomModal(document.getElementById('pdpMainFeaturedImg').src, '${product.title.replace(/'/g, "")}')">
-            <img id="pdpMainFeaturedImg" class="pdp-stage-main-img" src="${initialMainImg}" alt="${product.title}" />
+            <img id="pdpMainFeaturedImg" class="pdp-stage-main-img" src="${initialMainImg}" alt="${product.title}" onerror="this.onerror=null;this.src='https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315';" />
             <div class="pdp-zoom-badge">🔍 Nhấp phóng to ảnh mẫu</div>
           </div>
 
@@ -1195,7 +1207,7 @@ function renderProductDetailView(handle) {
                 onclick="setPdpActiveImage('${imgUrl}', ${i})"
                 title="Mẫu ảnh ${i + 1}"
               >
-                <img src="${imgUrl}" alt="${product.title} - ${i + 1}" loading="lazy" />
+                <img src="${imgUrl}" alt="${product.title} - ${i + 1}" loading="lazy" onerror="this.onerror=null;this.src='https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315';" />
               </div>
             `).join("")}
           </div>
