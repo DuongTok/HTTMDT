@@ -6148,19 +6148,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000001,
-    "handle": "phu-kien-m-n-i-u-xo-n-i-g-m-nh-hoa-n-i-3d-ng-c-trai",
-    "title": "MẤN ĐỘI ĐẦU XOẮN ĐÔI GẤM ĐÍNH HOA NỔI 3D & NGỌC TRAI",
+    "handle": "phu-kien-m-n-i-m-trang-t-t-m-cao-c-p",
+    "title": "MẤN ĐIỂM TRANG TƠ TẰM CAO CẤP",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
     "rent_price": 60000,
     "deposit": 120000,
-    "buy_price": 240000,
+    "buy_price": 280000,
     "price": 60000,
     "compare_at_price": 81000,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/ao-dai-truyen-thong-49.jpg?v=1600938220423"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5383.jpg?v=1764848838"
     ],
     "options": [
       {
@@ -6187,19 +6187,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000002,
-    "handle": "phu-kien-m-n-l-i-i-u-th-u-hoa-cung-nh-sang-tr-ng",
-    "title": "MẤN LƯỚI ĐỘI ĐẦU THÊU HOA CUNG ĐÌNH SANG TRỌNG",
+    "handle": "phu-kien-qu-t-c-m-tay-l-l-t-th-u-hoa-th-y-m-c",
+    "title": "QUẠT CẦM TAY LẢ LƯỚT THÊU HOA THỦY MẶC",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 70000,
-    "deposit": 140000,
-    "buy_price": 280000,
-    "price": 70000,
-    "compare_at_price": 94500,
+    "rent_price": 50000,
+    "deposit": 100000,
+    "buy_price": 220000,
+    "price": 50000,
+    "compare_at_price": 67500,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/a33c3267784d8f13d65c8.jpg?v=1631762844550"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5205.jpg?v=1764844702"
     ],
     "options": [
       {
@@ -6214,7 +6214,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000011,
         "title": "Tiêu chuẩn",
-        "price": 70000,
+        "price": 50000,
         "available": true
       }
     ],
@@ -6226,19 +6226,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000003,
-    "handle": "phu-kien-m-n-th-u-hoa-th-c-ng-tinh-x-o",
-    "title": "MẤN THÊU HOA THỦ CÔNG TINH XẢO",
+    "handle": "phu-kien-charm-g-n-qu-t-ng-n-hoa-qu-t-c",
+    "title": "CHARM GẮN QUẠT NGÂN HOA QUÝ TỘC",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 65000,
-    "deposit": 130000,
-    "buy_price": 260000,
-    "price": 65000,
-    "compare_at_price": 87750,
+    "rent_price": 40000,
+    "deposit": 80000,
+    "buy_price": 180000,
+    "price": 40000,
+    "compare_at_price": 54000,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/da1ab055fa7f0d21546e1.jpg?v=1631763233680"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5036copy.jpg?v=1764844873"
     ],
     "options": [
       {
@@ -6253,7 +6253,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000021,
         "title": "Tiêu chuẩn",
-        "price": 65000,
+        "price": 40000,
         "available": true
       }
     ],
@@ -6265,19 +6265,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000004,
-    "handle": "phu-kien-m-n-i-u-xo-n-i-tr-n-thanh-l-ch",
-    "title": "MẤN ĐỘI ĐẦU XOẮN ĐÔI TRƠN THANH LỊCH",
+    "handle": "phu-kien-kh-n-cho-ng-m-nh-m-nh-d-h-i-n-t-duy-n",
+    "title": "KHĂN CHOÀNG MÀNH MÀNH DẠ HỘI NÉT DUYÊN",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 50000,
-    "deposit": 100000,
-    "buy_price": 200000,
-    "price": 50000,
-    "compare_at_price": 67500,
+    "rent_price": 80000,
+    "deposit": 160000,
+    "buy_price": 390000,
+    "price": 80000,
+    "compare_at_price": 108000,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/ao-dai-truyen-thong-44.jpg?v=1600938124630"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107264882copy3.jpg?v=1787136749"
     ],
     "options": [
       {
@@ -6292,7 +6292,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000031,
         "title": "Tiêu chuẩn",
-        "price": 50000,
+        "price": 80000,
         "available": true
       }
     ],
@@ -6304,19 +6304,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000005,
-    "handle": "phu-kien-m-n-n-1-v-ng-v-i-g-m-ho-ng-gia",
-    "title": "MẤN ĐƠN 1 VÒNG VẢI GẤM HOÀNG GIA",
+    "handle": "phu-kien-k-p-t-c-l-m-duy-n-ng-c-trai-c-ba-s-i-g-n",
+    "title": "KẸP TÓC LÀM DUYÊN NGỌC TRAI CÔ BA SÀI GÒN",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 45000,
-    "deposit": 90000,
-    "buy_price": 180000,
-    "price": 45000,
-    "compare_at_price": 60750,
+    "rent_price": 30000,
+    "deposit": 60000,
+    "buy_price": 150000,
+    "price": 30000,
+    "compare_at_price": 40500,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/15-4-c6d790fc-c6b2-4945-9ead-cea2440982fa.jpg?v=1504242197030"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5356pink_8e07b93d-a762-437d-b9c7-0a0dd8cfbbb6.jpg?v=1791893064"
     ],
     "options": [
       {
@@ -6331,7 +6331,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000041,
         "title": "Tiêu chuẩn",
-        "price": 45000,
+        "price": 30000,
         "available": true
       }
     ],
@@ -6343,19 +6343,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000006,
-    "handle": "phu-kien-m-n-n-1-v-ng-v-i-l-a-t-",
-    "title": "MẤN ĐƠN 1 VÒNG VẢI LỤA TƠ ĐỎ ĐÔ",
+    "handle": "phu-kien-k-p-t-c-thanh-tao-th-c-ng-nh-",
+    "title": "KẸP TÓC THANH TAO THỦ CÔNG ĐÍNH ĐÁ",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 45000,
-    "deposit": 90000,
-    "buy_price": 180000,
-    "price": 45000,
-    "compare_at_price": 60750,
+    "rent_price": 30000,
+    "deposit": 60000,
+    "buy_price": 150000,
+    "price": 30000,
+    "compare_at_price": 40500,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/113.jpg?v=1504242197337"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5126copy_9c4e118b-f574-4faa-9a92-78ff80fe146c.jpg?v=1764846790"
     ],
     "options": [
       {
@@ -6370,7 +6370,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000051,
         "title": "Tiêu chuẩn",
-        "price": 45000,
+        "price": 30000,
         "available": true
       }
     ],
@@ -6382,19 +6382,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000007,
-    "handle": "phu-kien-kh-n-ng-nam-truy-n-th-ng-xanh-ng-ti-n-en",
-    "title": "KHĂN ĐỐNG NAM TRUYỀN THỐNG XANH ĐỒNG TIỀN / ĐEN",
+    "handle": "phu-kien-k-p-t-c-m-bi-c-nh-h-t-ng-c-b-ch",
+    "title": "KẸP TÓC MƠ BIẾC ĐÍNH HẠT NGỌC BÍCH",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 50000,
-    "deposit": 100000,
-    "buy_price": 200000,
-    "price": 50000,
-    "compare_at_price": 67500,
+    "rent_price": 30000,
+    "deposit": 60000,
+    "buy_price": 150000,
+    "price": 30000,
+    "compare_at_price": 40500,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/ao-dai-chu-re-2-jpeg-887c0878-943a-4e6a-8158-e928611acee5.jpg?v=1504242196490"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5363_4d515cd3-d184-4856-afa1-ca2587f02fcc.jpg?v=1764846678"
     ],
     "options": [
       {
@@ -6409,7 +6409,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000061,
         "title": "Tiêu chuẩn",
-        "price": 50000,
+        "price": 30000,
         "available": true
       }
     ],
@@ -6421,19 +6421,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000008,
-    "handle": "phu-kien-kh-nh-nh-h-t-hoa-sen-cho-o-d-i-c-i",
-    "title": "KHÁNH ĐÍNH HẠT HOA SEN CHO ÁO DÀI CƯỚI",
+    "handle": "phu-kien-k-p-t-c-t-m-k-t-t-t-m-c-ch-t-n",
+    "title": "KẸP TÓC TÂM KẾT TƠ TẰM CÁCH TÂN",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 60000,
-    "deposit": 120000,
-    "buy_price": 240000,
-    "price": 60000,
-    "compare_at_price": 81000,
+    "rent_price": 30000,
+    "deposit": 60000,
+    "buy_price": 150000,
+    "price": 30000,
+    "compare_at_price": 40500,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/khanh-3.jpg?v=1504242195960"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_4985copy.jpg?v=1764845084"
     ],
     "options": [
       {
@@ -6448,7 +6448,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000071,
         "title": "Tiêu chuẩn",
-        "price": 60000,
+        "price": 30000,
         "available": true
       }
     ],
@@ -6460,19 +6460,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000009,
-    "handle": "phu-kien-kh-nh-k-t-hoa-th-c-ng-cung-nh",
-    "title": "KHÁNH KẾT HOA THỦ CÔNG CUNG ĐÌNH",
+    "handle": "phu-kien-k-p-t-c-l-ng-li-ng-n-t-nh-d-ng-x-a",
+    "title": "KẸP TÓC LÚNG LIẾNG NỮ TÍNH DÁNG XƯA",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 60000,
-    "deposit": 120000,
-    "buy_price": 240000,
-    "price": 60000,
-    "compare_at_price": 81000,
+    "rent_price": 30000,
+    "deposit": 60000,
+    "buy_price": 150000,
+    "price": 30000,
+    "compare_at_price": 40500,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/khanh-1.jpg?v=1504242195707"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/LEK2597_c379af8a-1b8a-4ca7-804e-79f2390b4390.jpg?v=1764847434"
     ],
     "options": [
       {
@@ -6487,7 +6487,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000081,
         "title": "Tiêu chuẩn",
-        "price": 60000,
+        "price": 30000,
         "available": true
       }
     ],
@@ -6499,19 +6499,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000010,
-    "handle": "phu-kien-kh-nh-tr-n-m-v-ng-qu-t-c-n-t-duy-n",
-    "title": "KHÁNH TRƠN MẠ VÀNG QUÝ TỘC NÉT DUYÊN",
+    "handle": "phu-kien-k-p-t-c-y-u-i-u-c-ch-t-n-hi-n-i",
+    "title": "KẸP TÓC YỂU ĐIỆU CÁCH TÂN HIỆN ĐẠI",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 55000,
-    "deposit": 110000,
-    "buy_price": 220000,
-    "price": 55000,
-    "compare_at_price": 74250,
+    "rent_price": 30000,
+    "deposit": 60000,
+    "buy_price": 150000,
+    "price": 30000,
+    "compare_at_price": 40500,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/khanh.jpg?v=1504242196257"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/3f1c8f73bf70135285e7e4d5ffb832a5980387db.jpg?v=1791893528"
     ],
     "options": [
       {
@@ -6526,7 +6526,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000091,
         "title": "Tiêu chuẩn",
-        "price": 55000,
+        "price": 30000,
         "available": true
       }
     ],
@@ -6538,19 +6538,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000011,
-    "handle": "phu-kien-b-ng-th-t-b-m-t-t-m-c-ch-t-n",
-    "title": "BĂNG ĐÔ THẮT BÍM TƠ TẰM CÁCH TÂN",
+    "handle": "phu-kien-t-i-v-i-g-m-th-u-hoa-th-c-ng-n-t-duy-n",
+    "title": "TÚI VẢI GẤM THÊU HOA THỦ CÔNG NÉT DUYÊN",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
     "rent_price": 40000,
     "deposit": 80000,
-    "buy_price": 160000,
+    "buy_price": 190000,
     "price": 40000,
     "compare_at_price": 54000,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/88d1a7b3ed991ac7438811.jpg?v=1631763299997"
+      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/1789545662143_2068560641793806717_2068560641793806717_ed857a1b19a54e07684ff5d0d06ab4c9_3f494925-582f-49a6-82d3-6b7605ffe640.jpg?v=1789551352"
     ],
     "options": [
       {
@@ -6577,19 +6577,19 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000012,
-    "handle": "phu-kien-m-n-xo-n-i-l-a-cao-c-p-d-ng-x-a",
-    "title": "MẤN XOẮN ĐÔI LỤA CAO CẤP DÁNG XƯA",
+    "handle": "phu-kien-b-ng-th-t-b-m-t-t-m-n-t-duy-n",
+    "title": "BĂNG ĐÔ THẮT BÍM TƠ TẰM NÉT DUYÊN",
     "vendor": "NÉT DUYÊN",
     "product_type": "Phụ Kiện",
     "created_at": "2026-08-20T10:00:00+07:00",
     "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 50000,
-    "deposit": 100000,
-    "buy_price": 200000,
-    "price": 50000,
-    "compare_at_price": 67500,
+    "rent_price": 40000,
+    "deposit": 80000,
+    "buy_price": 180000,
+    "price": 40000,
+    "compare_at_price": 54000,
     "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/87-9a5a55a6-d0ba-456e-960d-d0a1ab068579.jpg?v=1504242196777"
+      "https://bizweb.dktcdn.net/100/236/196/products/88d1a7b3ed991ac7438811.jpg?v=1631763299997"
     ],
     "options": [
       {
@@ -6604,7 +6604,7 @@ var NETDUYEN_PRODUCTS = [
       {
         "id": 1400000000111,
         "title": "Tiêu chuẩn",
-        "price": 50000,
+        "price": 40000,
         "available": true
       }
     ],
@@ -6616,6 +6616,84 @@ var NETDUYEN_PRODUCTS = [
   },
   {
     "id": 1400000000013,
+    "handle": "phu-kien-m-n-th-u-hoa-th-c-ng-cung-nh",
+    "title": "MẤN THÊU HOA THỦ CÔNG CUNG ĐÌNH",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ Kiện",
+    "created_at": "2026-08-20T10:00:00+07:00",
+    "published_at": "2026-09-01T10:00:00+07:00",
+    "rent_price": 65000,
+    "deposit": 130000,
+    "buy_price": 290000,
+    "price": 65000,
+    "compare_at_price": 87750,
+    "images": [
+      "https://bizweb.dktcdn.net/100/236/196/products/da1ab055fa7f0d21546e1.jpg?v=1631763233680"
+    ],
+    "options": [
+      {
+        "name": "Màu sắc / Phân loại",
+        "position": 1,
+        "values": [
+          "Tiêu chuẩn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 1400000000121,
+        "title": "Tiêu chuẩn",
+        "price": 65000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "all",
+      "phu-kien"
+    ],
+    "body_html": "<p>Phụ kiện cao cấp được thiết kế riêng giúp hoàn thiện vẻ đẹp trọn vẹn khi diện Áo Dài và Cổ Phục tại NÉT DUYÊN.</p>"
+  },
+  {
+    "id": 1400000000014,
+    "handle": "phu-kien-m-n-l-i-i-u-th-u-hoa-sang-tr-ng",
+    "title": "MẤN LƯỚI ĐỘI ĐẦU THÊU HOA SANG TRỌNG",
+    "vendor": "NÉT DUYÊN",
+    "product_type": "Phụ Kiện",
+    "created_at": "2026-08-20T10:00:00+07:00",
+    "published_at": "2026-09-01T10:00:00+07:00",
+    "rent_price": 70000,
+    "deposit": 140000,
+    "buy_price": 320000,
+    "price": 70000,
+    "compare_at_price": 94500,
+    "images": [
+      "https://bizweb.dktcdn.net/100/236/196/products/a33c3267784d8f13d65c8.jpg?v=1631762844550"
+    ],
+    "options": [
+      {
+        "name": "Màu sắc / Phân loại",
+        "position": 1,
+        "values": [
+          "Tiêu chuẩn"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "id": 1400000000131,
+        "title": "Tiêu chuẩn",
+        "price": 70000,
+        "available": true
+      }
+    ],
+    "collections": [
+      "all",
+      "phu-kien"
+    ],
+    "body_html": "<p>Phụ kiện cao cấp được thiết kế riêng giúp hoàn thiện vẻ đẹp trọn vẹn khi diện Áo Dài và Cổ Phục tại NÉT DUYÊN.</p>"
+  },
+  {
+    "id": 1400000000015,
     "handle": "phu-kien-qu-t-l-a-tr-n-c-m-tay-th-y-m-c-n-t-duy-n",
     "title": "QUẠT LỤA TRÒN CẦM TAY THỦY MẶC NÉT DUYÊN",
     "vendor": "NÉT DUYÊN",
@@ -6624,7 +6702,7 @@ var NETDUYEN_PRODUCTS = [
     "published_at": "2026-09-01T10:00:00+07:00",
     "rent_price": 45000,
     "deposit": 90000,
-    "buy_price": 180000,
+    "buy_price": 200000,
     "price": 45000,
     "compare_at_price": 60750,
     "images": [
@@ -6641,87 +6719,9 @@ var NETDUYEN_PRODUCTS = [
     ],
     "variants": [
       {
-        "id": 1400000000121,
-        "title": "Tiêu chuẩn",
-        "price": 45000,
-        "available": true
-      }
-    ],
-    "collections": [
-      "all",
-      "phu-kien"
-    ],
-    "body_html": "<p>Phụ kiện cao cấp được thiết kế riêng giúp hoàn thiện vẻ đẹp trọn vẹn khi diện Áo Dài và Cổ Phục tại NÉT DUYÊN.</p>"
-  },
-  {
-    "id": 1400000000014,
-    "handle": "phu-kien-k-p-t-c-l-m-duy-n-ng-c-trai-c-ba-s-i-g-n",
-    "title": "KẸP TÓC LÀM DUYÊN NGỌC TRAI CÔ BA SÀI GÒN",
-    "vendor": "NÉT DUYÊN",
-    "product_type": "Phụ Kiện",
-    "created_at": "2026-08-20T10:00:00+07:00",
-    "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 30000,
-    "deposit": 60000,
-    "buy_price": 120000,
-    "price": 30000,
-    "compare_at_price": 40500,
-    "images": [
-      "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DSC_5356pink_8e07b93d-a762-437d-b9c7-0a0dd8cfbbb6.jpg?v=1791893064"
-    ],
-    "options": [
-      {
-        "name": "Màu sắc / Phân loại",
-        "position": 1,
-        "values": [
-          "Tiêu chuẩn"
-        ]
-      }
-    ],
-    "variants": [
-      {
-        "id": 1400000000131,
-        "title": "Tiêu chuẩn",
-        "price": 30000,
-        "available": true
-      }
-    ],
-    "collections": [
-      "all",
-      "phu-kien"
-    ],
-    "body_html": "<p>Phụ kiện cao cấp được thiết kế riêng giúp hoàn thiện vẻ đẹp trọn vẹn khi diện Áo Dài và Cổ Phục tại NÉT DUYÊN.</p>"
-  },
-  {
-    "id": 1400000000015,
-    "handle": "phu-kien-gu-c-m-c-truy-n-th-ng-quai-nhung-",
-    "title": "GUỐC MỘC TRUYỀN THỐNG QUAI NHUNG ĐỎ",
-    "vendor": "NÉT DUYÊN",
-    "product_type": "Phụ Kiện",
-    "created_at": "2026-08-20T10:00:00+07:00",
-    "published_at": "2026-09-01T10:00:00+07:00",
-    "rent_price": 40000,
-    "deposit": 80000,
-    "buy_price": 160000,
-    "price": 40000,
-    "compare_at_price": 54000,
-    "images": [
-      "https://bizweb.dktcdn.net/100/236/196/products/ao-dai-cach-tan-dep-204-jpg-a396e003-312c-4f44-a0b6-e7ff53947f0c.jpg?v=1529554486737"
-    ],
-    "options": [
-      {
-        "name": "Màu sắc / Phân loại",
-        "position": 1,
-        "values": [
-          "Tiêu chuẩn"
-        ]
-      }
-    ],
-    "variants": [
-      {
         "id": 1400000000141,
         "title": "Tiêu chuẩn",
-        "price": 40000,
+        "price": 45000,
         "available": true
       }
     ],
@@ -11549,7 +11549,7 @@ var NETDUYEN_PRODUCTS = [
   {
     "id": 1500062961736,
     "handle": "phap-phuc-lua-hong-kem-theu-hoa-phoi-nut-tau-khong-kem-ao-be",
-    "title": "PHÁP PHỤC LỤA HỒNG SEN THÊU HOA PHỐI NÚT TÀU (KHÔNG KÈM ÁO BÉ)",
+    "title": "PHÁP PHỤC LỤA HỒNG SEN THÊU HOA PHỐI NÚT TÀU",
     "vendor": "NÉT DUYÊN",
     "product_type": "Áo Dài Nữ",
     "created_at": "2026-08-20T10:00:00+07:00",

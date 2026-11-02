@@ -1197,38 +1197,63 @@ button, input, select, textarea {
 }
 
 /* Pagination */
+/* Pagination - strictly horizontal & centered */
+.pagination-wrap,
 .pagination-wrapper {
   margin: 45px 0 60px;
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  clear: both !important;
 }
 
+.pagination,
 .pagination__list {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  flex-wrap: wrap !important;
+}
+
+.pagination li,
+.pagination__list li {
+  display: inline-flex !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .pagination__item {
-  min-width: 38px;
-  height: 38px;
-  padding: 0 12px;
-  border: 1px solid #ebebeb;
-  border-radius: 4px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
+  min-width: 40px;
+  height: 40px;
+  padding: 0 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 13.5px;
+  font-weight: 500;
   color: #111111;
+  background: #ffffff;
   cursor: pointer;
+  text-decoration: none;
+  user-select: none;
   transition: all 0.2s ease;
 }
 
 .pagination__item:hover,
 .pagination__item--current {
-  background: #111111;
-  color: #ffffff;
-  border-color: #111111;
+  background: #111111 !important;
+  color: #ffffff !important;
+  border-color: #111111 !important;
+  font-weight: 600;
 }
 
 /* ==========================================================================
@@ -1998,6 +2023,41 @@ button, input, select, textarea {
 
 .bls__footer-infor a {
   color: #111111;
+}
+
+/* Footer Social Links - Strictly Horizontal in a Row */
+.bls__social-link {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 12px !important;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 16px 0 0 0 !important;
+}
+
+.list-social__item {
+  display: inline-flex !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.list-social__link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #555555;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.list-social__link:hover {
+  color: #111111;
+  transform: translateY(-2px);
 }
 
 .footer-links li {

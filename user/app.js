@@ -980,17 +980,17 @@ function renderCollectionView(slug) {
   for (let p = 1; p <= totalPages; p++) {
     if (p === 1 || p === totalPages || Math.abs(p - state.currentPage) <= 1) {
       pageButtons += `
-        <li>
+        <li style="display:inline-flex;list-style:none;margin:0;">
           <a class="pagination__item ${p === state.currentPage ? "pagination__item--current" : ""}" onclick="changeCollectionPage(${p})">${p}</a>
         </li>
       `;
     } else if (p === state.currentPage - 2 || p === state.currentPage + 2) {
-      pageButtons += `<li><span class="pagination__item" style="border:none;">&hellip;</span></li>`;
+      pageButtons += `<li style="display:inline-flex;list-style:none;margin:0;"><span class="pagination__item" style="border:none;">&hellip;</span></li>`;
     }
   }
   if (state.currentPage < totalPages) {
     pageButtons += `
-      <li>
+      <li style="display:inline-flex;list-style:none;margin:0;">
         <a class="pagination__item" onclick="changeCollectionPage(${state.currentPage + 1})">Trang tiếp</a>
       </li>
     `;
@@ -1076,8 +1076,8 @@ function renderCollectionView(slug) {
         </div>
 
         ${totalPages > 1 ? `
-          <div class="pagination-wrap">
-            <ul class="pagination">
+          <div class="pagination-wrap" style="margin:45px 0 60px;display:flex;justify-content:center;align-items:center;width:100%;">
+            <ul class="pagination" style="display:flex;flex-direction:row;align-items:center;justify-content:center;gap:8px;list-style:none;padding:0;margin:0;flex-wrap:wrap;">
               ${pageButtons}
             </ul>
           </div>
