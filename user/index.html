@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261102_v4" />
+  <link rel="stylesheet" href="styles.css?v=20261102_v6" />
 </head>
 <body>
 
@@ -16,22 +16,25 @@
   <div id="shopify-section-top-bar" class="topbar">
     <div class="container-fluid topbar__section-inner">
       <div class="topbar-left-announcement">
-        <span class="topbar-slogan-text">
-          <span>✨ <strong>NÉT DUYÊN</strong> — Dịch vụ Cho Thuê Áo Dài Thiết Kế, Áo Cưới Cặp &amp; Cổ Phục |</span>
-          <button type="button" class="topbar-promo-btn" onclick="openPromoPopup()" title="Xem mã ưu đãi hôm nay">🎁 Ưu đãi hôm nay: Giảm 50.000₫</button>
-        </span>
+        <a href="javascript:void(0)" onclick="openPromoPopup()" class="topbar-promo-link" title="Bấm nhận mã ưu đãi giảm 50.000₫">
+          <span class="topbar-promo-tag">🎁 ƯU ĐÃI HÔM NAY</span>
+          <span class="topbar-promo-msg topbar-promo-msg-full">Giảm ngay <strong>50.000₫</strong> đơn thuê đầu tiên — Nhập mã: <strong>NETDUYEN50</strong></span>
+          <span class="topbar-promo-msg topbar-promo-msg-short">Giảm 50.000₫ — Mã: <strong>NETDUYEN50</strong></span>
+          <span class="topbar-promo-btn-pill">Bấm nhận mã &rarr;</span>
+        </a>
       </div>
 
       <div class="topbar-right-info" id="topbarRightArea">
         <a href="tel:0363860055" class="topbar-phone-link" title="Hotline đặt lịch &amp; tư vấn">
           <span style="font-size:12px;">📞</span>
-          <span>Hotline:&nbsp;0363&nbsp;860&nbsp;055</span>
+          <span class="phone-label">Hotline:</span>
+          <strong class="phone-number">0363&nbsp;860&nbsp;055</strong>
         </a>
-        <span class="topbar-divider" style="opacity:0.4;">|</span>
+        <span class="topbar-divider">|</span>
         <a href="#pages/rental-policy" class="topbar-nav-link" title="Xem quy trình thuê và hoàn cọc">
           <span>Quy&nbsp;trình&nbsp;thuê&nbsp;&amp;&nbsp;Cọc</span>
         </a>
-        <span class="topbar-divider" style="opacity:0.4;">|</span>
+        <span class="topbar-divider">|</span>
         <a href="#account" id="topbarAuthText" class="topbar-nav-link" title="Tài khoản khách hàng">
           <span>Đăng&nbsp;nhập&nbsp;/&nbsp;Đăng&nbsp;ký</span>
         </a>
@@ -396,7 +399,7 @@
     </div>
   </div>
 
-  <script src="data.js?v=20261102_v4"></script>
-  <script src="app.js?v=20261102_v4"></script>
+  <script src="data.js?v=20261102_v6"></script>
+  <script src="app.js?v=20261102_v6"></script>
 </body>
 </html>

@@ -1,9 +1,8 @@
-// ==========================================================================
-// CƠ SỞ DỮ LIỆU SẢN PHẨM CHO THUÊ — NÉT DUYÊN (data.js)
-// Slogan: "Giữ nét Việt, trọn nét duyên."
-// Catalog tuyển chọn 100% chuẩn Áo Dài, Áo Cưới Cặp, Cổ Phục & Phụ Kiện
-// Toàn bộ hình ảnh đã được xác thực 100% hoạt động (HTTP 200 OK)
-// ==========================================================================
+/* ==========================================================================
+   NÉT DUYÊN — DỮ LIỆU SẢN PHẨM & BỘ SƯU TẬP (185+ MẪU TRANG PHỤC THỰC TẾ)
+   Slogan: "Giữ nét Việt, trọn nét duyên."
+   Hệ thống: Áo Dài Nữ, Áo Dài Nam, Áo Cưới Cặp, Cổ Phục & Phụ Kiện
+   ========================================================================== */
 
 var NETDUYEN_PRODUCTS = [
   {
@@ -4692,7 +4691,6 @@ var NETDUYEN_PRODUCTS = [
     "compare_at_price": 621000,
     "images": [
       "https://vanthieny.com/wp-content/uploads/2025/07/DKv.jpg",
-      "https://vanthieny.com/wp-content/uploads/2025/07/DKv.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/DKv2.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/DKv1.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/DKVc.jpg",
@@ -4759,7 +4757,6 @@ var NETDUYEN_PRODUCTS = [
       "https://vanthieny.com/wp-content/uploads/2025/07/Giao-linh-theu.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/Giao-linh-theu2.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/Giao-linh-theu1.jpg",
-      "https://vanthieny.com/wp-content/uploads/2025/07/Giao-linh-theu.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/Doi-kham-theu-2.jpg"
     ],
     "options": [
@@ -4820,7 +4817,6 @@ var NETDUYEN_PRODUCTS = [
     "price": 540000,
     "compare_at_price": 729000,
     "images": [
-      "https://vanthieny.com/wp-content/uploads/2025/07/Yem.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/Yem.jpg"
     ],
     "options": [
@@ -4883,7 +4879,6 @@ var NETDUYEN_PRODUCTS = [
     "images": [
       "https://vanthieny.com/wp-content/uploads/2025/07/VLDK3.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/VLDKd.jpg",
-      "https://vanthieny.com/wp-content/uploads/2025/07/VLDK3.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/VLDK2.jpg"
     ],
     "options": [
@@ -4944,7 +4939,6 @@ var NETDUYEN_PRODUCTS = [
     "price": 420000,
     "compare_at_price": 567000,
     "images": [
-      "https://vanthieny.com/wp-content/uploads/2025/07/VCNa.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/VCNa.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/VCNc.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/VCNb.jpg"
@@ -5248,7 +5242,6 @@ var NETDUYEN_PRODUCTS = [
     "compare_at_price": 567000,
     "images": [
       "https://vanthieny.com/wp-content/uploads/2025/07/HTHc.jpg",
-      "https://vanthieny.com/wp-content/uploads/2025/07/HTHc.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/HTH3.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/HTH2.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/HTH1.jpg",
@@ -5374,7 +5367,6 @@ var NETDUYEN_PRODUCTS = [
     "price": 500000,
     "compare_at_price": 675000,
     "images": [
-      "https://vanthieny.com/wp-content/uploads/2024/02/GLm3.jpg",
       "https://vanthieny.com/wp-content/uploads/2024/02/GLm3.jpg"
     ],
     "options": [
@@ -5497,8 +5489,7 @@ var NETDUYEN_PRODUCTS = [
     "images": [
       "https://vanthieny.com/wp-content/uploads/2025/07/NT2.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/NT.jpg",
-      "https://vanthieny.com/wp-content/uploads/2025/07/NT1.jpg",
-      "https://vanthieny.com/wp-content/uploads/2025/07/NT2.jpg"
+      "https://vanthieny.com/wp-content/uploads/2025/07/NT1.jpg"
     ],
     "options": [
       {
@@ -6038,7 +6029,6 @@ var NETDUYEN_PRODUCTS = [
     "price": 540000,
     "compare_at_price": 729000,
     "images": [
-      "https://vanthieny.com/wp-content/uploads/2025/07/DK0.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/07/DK0.jpg"
     ],
     "options": [
@@ -6099,7 +6089,6 @@ var NETDUYEN_PRODUCTS = [
     "price": 580000,
     "compare_at_price": 783000,
     "images": [
-      "https://vanthieny.com/wp-content/uploads/2025/06/VL2.jpg",
       "https://vanthieny.com/wp-content/uploads/2025/06/VL2.jpg"
     ],
     "options": [
@@ -11615,123 +11604,9 @@ var NETDUYEN_PRODUCTS = [
   }
 ];
 
-var NETDUYEN_COLLECTIONS = {
-  "all": {
-    "title": "TẤT CẢ SẢN PHẨM CHO THUÊ",
-    "handle": "all",
-    "description": "Bộ sưu tập đầy đủ hơn 180+ mẫu Áo Dài, Áo Cưới Cặp Đôi, Cổ Phục Việt và Phụ Kiện cao cấp tại Nét Duyên."
-  },
-  "ao-dai-nu": {
-    "title": "BỘ SƯU TẬP ÁO DÀI NỮ",
-    "handle": "ao-dai-nu",
-    "description": "Các thiết kế Áo Dài truyền thống và cách tân thướt tha, chất liệu tơ tằm, gấm hoa và voan tơ cao cấp."
-  },
-  "ao-dai": {
-    "title": "BỘ SƯU TẬP ÁO DÀI",
-    "handle": "ao-dai",
-    "description": "Các thiết kế Áo Dài truyền thống và cách tân thướt tha, chất liệu tơ tằm, gấm hoa và voan tơ cao cấp."
-  },
-  "ao-cuoi-cap": {
-    "title": "ÁO CƯỚI CẶP ĐÔI & HỶ SỰ",
-    "handle": "ao-cuoi-cap",
-    "description": "Set Áo Dài cưới cặp đôi Long Phụng Sum Vầy, Bạch Ngọc Hoàng Gia dành riêng cho cô dâu chú rể ngày trọng đại."
-  },
-  "co-phuc": {
-    "title": "CỔ PHỤC VIỆT NAM",
-    "handle": "co-phuc",
-    "description": "Trang phục cung đình triều Nguyễn: Áo Nhật Bình ngũ phụng, Áo Tấc tay thụng quý tộc và Áo Ngũ Thân lập lĩnh."
-  },
-  "ao-dai-nam": {
-    "title": "ÁO DÀI NAM TRUYỀN THỐNG & CÁCH TÂN",
-    "handle": "ao-dai-nam",
-    "description": "Thiết kế đĩnh đạc, form dáng chuẩn mực cho phái mạnh trong các dịp lễ tết, sự kiện cưới hỏi."
-  },
-  "phu-kien": {
-    "title": "PHỤ KIỆN ÁO DÀI CHO THUÊ",
-    "handle": "phu-kien",
-    "description": "Mấn nhung đính ngọc, kiềng bạc chạm khắc, quạt lụa thủ công và guốc mộc phối cùng áo dài."
-  },
-  "dong-dao": {
-    "title": "BỘ SƯU TẬP ĐỒNG DAO",
-    "handle": "dong-dao",
-    "description": "Lấy cảm hứng từ những điệu đồng dao và văn hóa dân gian Việt Nam thuần khiết."
-  },
-  "phien-van": {
-    "title": "BỘ SƯU TẬP PHIẾN VÂN",
-    "handle": "phien-van",
-    "description": "Chất liệu tơ sống dệt nổi họa tiết mây bồng bềnh nhẹ tựa sương mai."
-  },
-  "van-anh": {
-    "title": "BỘ SƯU TẬP VẠN ẢNH",
-    "handle": "van-anh",
-    "description": "Gấm dệt vân đa sắc, sang trọng và quý phái trong từng chi tiết."
-  },
-  "special-deals": {
-    "title": "ƯU ĐÃI THUÊ HÔM NAY",
-    "handle": "special-deals",
-    "description": "Các gói thuê combo áo dài siêu tiết kiệm kèm phụ kiện chỉ có tại Nét Duyên."
-  }
-};
-
-var NETDUYEN_BLOGS = [
-  {
-    "id": 1,
-    "title": "HƯỚNG DẪN CHỌN ÁO DÀI CƯỚI CẶP ĐÔI HOÀN HẢO CHO NGÀY ĂN HỎI",
-    "handle": "huong-dan-chon-ao-dai-cuoi-cap-doi",
-    "author": "NÉT DUYÊN Editorial",
-    "date": "28/10/2026",
-    "image": "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315",
-    "excerpt": "Kinh nghiệm chọn màu sắc, chất liệu và phom dáng áo dài cặp đôi giúp cô dâu chú rể tỏa sáng đồng điệu trong ngày trọng đại.",
-    "content": "<p>Áo dài cưới cặp đôi không chỉ là trang phục truyền thống mà còn là biểu tượng của sự hòa hợp, gắn kết keo sơn của lứa đôi...</p>"
-  },
-  {
-    "id": 2,
-    "title": "NÉT ĐẸP CỔ PHỤC VIỆT: TÌM HIỂU VỀ ÁO NHẬT BÌNH VÀ ÁO TẤC TRIỀU NGUYỄN",
-    "handle": "net-dep-co-phuc-viet-ao-nhat-binh-ao-tac",
-    "author": "NÉT DUYÊN Culture",
-    "date": "25/10/2026",
-    "image": "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265820copy3.jpg?v=1787217874",
-    "excerpt": "Khám phá quy chuẩn hoa văn ngũ phụng, viền cổ Nhật Bình và ý nghĩa tay thụng của áo Tấc trong văn hóa cung đình xưa.",
-    "content": "<p>Cổ phục Việt Nam đang ngày càng được các bạn trẻ yêu mến và lựa chọn cho những bộ ảnh thanh xuân, lễ đính hôn và sự kiện quan trọng...</p>"
-  }
-];
-
-var NETDUYEN_POLICIES = {
-  "privacy-policy": {
-    "title": "CHÍNH SÁCH BẢO MẬT THÔNG TIN",
-    "content": "<p>Nét Duyên cam kết bảo mật tuyệt đối 100% dữ liệu thông tin cá nhân, số điện thoại và địa chỉ giao nhận của quý khách hàng.</p>"
-  },
-  "exchange-return-policy": {
-    "title": "CHÍNH SÁCH ĐỔI TRẢ & BỒI HOÀN",
-    "content": "<p>Hỗ trợ đổi mẫu hoặc đổi size miễn phí trong vòng 24 giờ trước ngày nhận áo nếu kích thước chưa vừa vặn.</p>"
-  },
-  "shipping-policy": {
-    "title": "CHÍNH SÁCH VẬN CHUYỂN GIAO NHẬN",
-    "content": "<p>Giao trang phục tận nơi trước sự kiện 01 ngày để quý khách an tâm chuẩn bị và thử đồ.</p>"
-  },
-  "payment-policy": {
-    "title": "CHÍNH SÁCH THANH TOÁN & ĐẶT CỌC",
-    "content": "<p>Hỗ trợ thanh toán linh hoạt qua Chuyển khoản VietQR, COD hoặc nhận đồ trực tiếp tại Showroom.</p>"
-  },
-  "rental-policy": {
-    "title": "QUY TRÌNH THUÊ ÁO DÀI & HOÀN CỌC 100% TẠI NÉT DUYÊN",
-    "content": "<p>Cam kết hoàn trả 100% khoản tiền cọc bảo đảm vào tài khoản ngân hàng của khách trong vòng 02 giờ sau khi nhận lại đồ.</p>"
-  }
-};
-
-// Aliases
-var DINGDANG_PRODUCTS = NETDUYEN_PRODUCTS;
-var DINGDANG_COLLECTIONS = NETDUYEN_COLLECTIONS;
-var DINGDANG_BLOGS = NETDUYEN_BLOGS;
-var DINGDANG_POLICIES = NETDUYEN_POLICIES;
-
 if (typeof window !== "undefined") {
   window.NETDUYEN_PRODUCTS = NETDUYEN_PRODUCTS;
-  window.NETDUYEN_COLLECTIONS = NETDUYEN_COLLECTIONS;
-  window.NETDUYEN_BLOGS = NETDUYEN_BLOGS;
-  window.NETDUYEN_POLICIES = NETDUYEN_POLICIES;
-  window.DINGDANG_PRODUCTS = NETDUYEN_PRODUCTS;
-  window.DINGDANG_COLLECTIONS = NETDUYEN_COLLECTIONS;
-  window.DINGDANG_BLOGS = NETDUYEN_BLOGS;
-  window.DINGDANG_POLICIES = NETDUYEN_POLICIES;
+}
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { NETDUYEN_PRODUCTS };
 }
