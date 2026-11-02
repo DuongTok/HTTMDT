@@ -16,20 +16,23 @@
   <div id="shopify-section-top-bar" class="topbar">
     <div class="container-fluid topbar__section-inner">
       <div class="topbar-left-announcement">
-        <span class="topbar-slogan-text">✨ <strong>NÉT DUYÊN</strong> — Dịch vụ Cho Thuê Áo Dài Thiết Kế, Áo Cưới Cặp & Cổ Phục | Giữ nét Việt, trọn nét duyên.</span>
+        <span class="topbar-slogan-text">
+          <span>✨ <strong>NÉT DUYÊN</strong> — Dịch vụ Cho Thuê Áo Dài Thiết Kế, Áo Cưới Cặp &amp; Cổ Phục |</span>
+          <button type="button" class="topbar-promo-btn" onclick="openPromoPopup()" title="Xem mã ưu đãi hôm nay">🎁 Ưu đãi hôm nay: Giảm 50.000₫</button>
+        </span>
       </div>
 
       <div class="topbar-right-info" id="topbarRightArea">
-        <a href="tel:0363860055" class="topbar-phone-link" title="Hotline đặt lịch &amp; tư vấn" style="white-space:nowrap;font-weight:600;">
+        <a href="tel:0363860055" class="topbar-phone-link" title="Hotline đặt lịch &amp; tư vấn">
           <span style="font-size:12px;">📞</span>
           <span>Hotline:&nbsp;0363&nbsp;860&nbsp;055</span>
         </a>
         <span class="topbar-divider" style="opacity:0.4;">|</span>
-        <a href="#pages/rental-policy" class="topbar-nav-link" title="Xem quy trình thuê và hoàn cọc" style="white-space:nowrap;">
+        <a href="#pages/rental-policy" class="topbar-nav-link" title="Xem quy trình thuê và hoàn cọc">
           <span>Quy&nbsp;trình&nbsp;thuê&nbsp;&amp;&nbsp;Cọc</span>
         </a>
         <span class="topbar-divider" style="opacity:0.4;">|</span>
-        <a href="#account" id="topbarAuthText" class="topbar-nav-link" title="Tài khoản khách hàng" style="white-space:nowrap;">
+        <a href="#account" id="topbarAuthText" class="topbar-nav-link" title="Tài khoản khách hàng">
           <span>Đăng&nbsp;nhập&nbsp;/&nbsp;Đăng&nbsp;ký</span>
         </a>
       </div>
@@ -359,14 +362,7 @@
     <span id="ddToastText">Đã thêm vào giỏ hàng!</span>
   </div>
 
-  <!-- 10. FLOATING GIFT PROMO BUTTON & WELCOME POPUP (DISMISSIBLE) -->
-  <div class="promo-floating-gift-wrap" id="promoFloatingWrap">
-    <div class="promo-floating-gift-btn" onclick="openPromoPopup()" title="Xem ưu đãi hôm nay">
-      <span>🎁</span> <span>Ưu đãi hôm nay</span>
-    </div>
-    <button type="button" class="promo-floating-dismiss-btn" onclick="dismissFloatingGift(event)" title="Ẩn nút này">&times;</button>
-  </div>
-
+  <!-- 10. WELCOME POPUP & PROMO VOUCHER (OPENS VIA TOPBAR/BUTTON) -->
   <div class="promo-popup-backdrop" id="promoPopupBackdrop" onclick="if(event.target===this)closePromoPopup()">
     <div class="promo-popup-card">
       <button type="button" class="promo-popup-close-btn" onclick="closePromoPopup()">&times;</button>
@@ -400,7 +396,7 @@
     </div>
   </div>
 
-  <script src="data.js?v=20261102_v1"></script>
-  <script src="app.js?v=20261102_v1"></script>
+  <script src="data.js?v=20261102_v3"></script>
+  <script src="app.js?v=20261102_v3"></script>
 </body>
 </html>

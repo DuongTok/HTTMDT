@@ -763,13 +763,13 @@ function renderHomeView() {
 
   const museImages = [
     "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107266017copy3.jpg?v=1787219315",
+    "https://bizweb.dktcdn.net/100/236/196/products/aa0c5d3773ecffb2a6fd17.jpg?v=1763464423807",
+    "https://bizweb.dktcdn.net/100/236/196/products/z7602148610711-3f05b2ecfe7348e8918de4f7398d28dd.jpg?v=1773118680923",
+    "https://vanthieny.com/wp-content/uploads/2025/07/DKv.jpg",
     "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844",
-    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265820copy3.jpg?v=1787217874",
-    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265701copy4.jpg?v=1787216608",
-    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0144.jpg?v=1767843482",
-    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/092_70290991-cc0e-4e8f-9487-5c27e2c55e22.jpg?v=1767842006",
-    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/0133.jpg?v=1767859673",
-    "https://cdn.shopify.com/s/files/1/0604/1947/3475/files/087_1fd57989-3f27-43ef-97b9-4fc67c855f3d.jpg?v=1767841805"
+    "https://bizweb.dktcdn.net/100/236/196/products/41f55fd37108fd56a41914.jpg?v=1763464373300",
+    "https://bizweb.dktcdn.net/100/236/196/products/8226137cec6d6033397c12.jpg?v=1762689249137",
+    "https://vanthieny.com/wp-content/uploads/2025/07/Giao-linh-theu.jpg"
   ];
 
   const main = document.getElementById("MainContent");
@@ -797,15 +797,15 @@ function renderHomeView() {
             <span class="collection-card-label">ÁO DÀI NỮ</span>
           </div>
           <div class="collection-card" onclick="location.hash='#collections/ao-dai-nam'">
-            <img src="https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265820copy3.jpg?v=1787217874" alt="ÁO DÀI NAM" />
+            <img src="https://bizweb.dktcdn.net/100/236/196/products/aa0c5d3773ecffb2a6fd17.jpg?v=1763464423807" alt="ÁO DÀI NAM" />
             <span class="collection-card-label">ÁO DÀI NAM</span>
           </div>
           <div class="collection-card" onclick="location.hash='#collections/ao-cuoi-cap'">
-            <img src="https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265918copy4.jpg?v=1787218844" alt="ÁO CƯỚI CẶP" />
+            <img src="https://bizweb.dktcdn.net/100/236/196/products/z7602148610711-3f05b2ecfe7348e8918de4f7398d28dd.jpg?v=1773118680923" alt="ÁO CƯỚI CẶP" />
             <span class="collection-card-label">ÁO CƯỚI CẶP</span>
           </div>
           <div class="collection-card" onclick="location.hash='#collections/co-phuc'">
-            <img src="https://cdn.shopify.com/s/files/1/0604/1947/3475/files/DINGDANGAODAI0107265701copy4.jpg?v=1787216608" alt="CỔ PHỤC VIỆT" />
+            <img src="https://vanthieny.com/wp-content/uploads/2025/07/DKv.jpg" alt="CỔ PHỤC VIỆT" />
             <span class="collection-card-label">CỔ PHỤC VIỆT</span>
           </div>
         </div>
@@ -1055,17 +1055,18 @@ function renderCollectionView(slug) {
           </div>
 
           <div class="toolbar-sorter">
-            <div class="sort-by-select">
-              <button type="button" class="sort-by-btn" onclick="toggleSortDropdown(event)">
-                <span>Sắp xếp: <strong>${getSortLabel(state.sortBy)}</strong></span>
-                <svg width="10" height="6" viewBox="0 0 10 6" fill="currentColor"><path d="M0 0.5L5 5.5L10 0.5H0Z"/></svg>
-              </button>
-              <div class="sort-by-dropdown" id="sortDropdownBox">
-                <button type="button" onclick="changeSort('price-ascending')">Giá thuê: Thấp đến Cao</button>
-                <button type="button" onclick="changeSort('price-descending')">Giá thuê: Cao đến Thấp</button>
-                <button type="button" onclick="changeSort('created-descending')">Mới cập nhật</button>
-                <button type="button" onclick="changeSort('title-ascending')">Tên: A-Z</button>
-              </div>
+            <label class="sort-by-label" for="collectionSortSelect">Sắp xếp:</label>
+            <div class="sort-select-wrapper">
+              <select id="collectionSortSelect" class="collection-sort-select" onchange="changeSort(this.value)" aria-label="Sắp xếp sản phẩm">
+                <option value="created-descending" ${state.sortBy === "created-descending" ? "selected" : ""}>Mới cập nhật</option>
+                <option value="price-ascending" ${state.sortBy === "price-ascending" ? "selected" : ""}>Giá thuê: Thấp đến Cao</option>
+                <option value="price-descending" ${state.sortBy === "price-descending" ? "selected" : ""}>Giá thuê: Cao đến Thấp</option>
+                <option value="title-ascending" ${state.sortBy === "title-ascending" ? "selected" : ""}>Tên: A - Z</option>
+                <option value="title-descending" ${state.sortBy === "title-descending" ? "selected" : ""}>Tên: Z - A</option>
+              </select>
+              <svg class="sort-select-arrow" width="10" height="6" viewBox="0 0 10 6" fill="currentColor">
+                <path d="M0 0.5L5 5.5L10 0.5H0Z"/>
+              </svg>
             </div>
           </div>
         </div>
@@ -1090,23 +1091,16 @@ function getSortLabel(val) {
   switch (val) {
     case "price-ascending": return "Giá thuê: Thấp đến Cao";
     case "price-descending": return "Giá thuê: Cao đến Thấp";
-    case "title-ascending": return "Tên: A-Z";
+    case "title-ascending": return "Tên: A - Z";
+    case "title-descending": return "Tên: Z - A";
     case "created-descending":
     default: return "Mới cập nhật";
   }
 }
 
-function toggleSortDropdown(e) {
-  e.stopPropagation();
-  const box = document.getElementById("sortDropdownBox");
-  if (box) box.classList.toggle("open");
-}
-
 function changeSort(val) {
   state.sortBy = val;
   state.currentPage = 1;
-  const box = document.getElementById("sortDropdownBox");
-  if (box) box.classList.remove("open");
   renderCollectionView(state.collectionSlug);
 }
 
@@ -2715,10 +2709,6 @@ function handleRoute() {
 }
 
 window.addEventListener("hashchange", handleRoute);
-window.addEventListener("click", () => {
-  const box = document.getElementById("sortDropdownBox");
-  if (box) box.classList.remove("open");
-});
 
 /* ==========================================================================
    FLOATING PROMO PILL & SMART AUTO-HIDE SCROLL
